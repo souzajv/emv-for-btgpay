@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { BrutalCard } from "@/presentation/components/BrutalCard";
+import { QuizLevelCard } from "@/presentation/components/QuizLevelCard";
 import { SectionHead } from "@/presentation/components/SectionHead";
 
 export const metadata: Metadata = {
@@ -10,21 +9,21 @@ export const metadata: Metadata = {
 
 const LEVELS = [
   {
-    id: "junior",
+    id: "junior" as const,
     title: "Júnior",
     desc: "Conceitos base: EMV, chip, CP/CNP, contactless intro.",
   },
   {
-    id: "pleno",
+    id: "pleno" as const,
     title: "Pleno",
     desc: "Kernel, DE 55, CDCVM, PCI e integração SDK.",
   },
   {
-    id: "senior",
+    id: "senior" as const,
     title: "Sênior",
     desc: "Arquitetura, certificação, estorno, observabilidade e riscos.",
   },
-] as const;
+];
 
 export default function QuizPage() {
   return (
@@ -32,21 +31,16 @@ export default function QuizPage() {
       <SectionHead
         tag="QUIZ"
         title="Validar conhecimento"
-        intro="Cada sessão tem 10 perguntas. Você só verá a mesma pergunta novamente após completar todas do nível (50 por nível)."
+        intro="Cada sessão tem 10 perguntas. Você só verá a mesma pergunta novamente após completar todas do nível (50 por nível). Badges mostram quando você estudou pela última vez."
       />
       <div className="space-y-4">
         {LEVELS.map((level) => (
-          <Link key={level.id} href={`/quiz/${level.id}/`}>
-            <BrutalCard className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
-              <div className="min-w-0">
-                <h2 className="text-xl font-bold">{level.title}</h2>
-                <p className="text-sm text-muted mt-1">{level.desc}</p>
-              </div>
-              <span className="font-mono text-xs tracking-widest shrink-0 sm:text-right">
-                10 perguntas →
-              </span>
-            </BrutalCard>
-          </Link>
+          <QuizLevelCard
+            key={level.id}
+            id={level.id}
+            title={level.title}
+            desc={level.desc}
+          />
         ))}
       </div>
     </div>

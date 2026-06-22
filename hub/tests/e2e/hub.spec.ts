@@ -66,7 +66,7 @@ test("module progress is scoped and requires explicit completion", async ({ page
   });
 
   await page.getByRole("link", { name: /Módulo 1: Ambiente seguro/i }).click();
-  await expect(page.getByText(/Material em leitura/i)).toBeVisible();
+  await expect(page.getByText(/Em leitura/i)).toBeVisible();
   await expect(page.getByText(/50%/)).toBeVisible();
   await expect(page.getByText(/Módulo concluído/i)).not.toBeVisible();
 

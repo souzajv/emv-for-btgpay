@@ -1,11 +1,20 @@
-import type { ProgressStore } from "@/domain/ports";
-import type { QuizDeckState, QuizLevel, TrackModule, TrackProgress } from "@/domain/entities";
+import type { HubActivity, HubActivityEntry, QuizDeckState, QuizLevel, TrackModule, TrackProgress } from "@/domain/entities";
 import {
   completeModule,
   emptyTrackProgress,
   normalizeTrackProgress,
   visitModuleChunk,
 } from "@/application/progress/progress";
+import {
+  buildMaterialActivity,
+  buildQuizActivity,
+  buildTrackActivity,
+  HUB_ACTIVITY_KEY,
+  normalizeHubActivity,
+  notifyProgressChange,
+  recordHubActivity,
+} from "@/application/progress/hubActivity";
+import type { ProgressStore } from "@/domain/ports";
 
 const DECK_PREFIX = "emv-hub-deck-";
 const TRACK_PREFIX = "emv-hub-track-";
@@ -33,6 +42,7 @@ export class LocalStorageProgressStore implements ProgressStore {
   saveDeckState(state: QuizDeckState): void {
     if (!this.storage) return;
     this.storage.setItem(`${DECK_PREFIX}${state.level}`, JSON.stringify(state));
+    notifyProgressChange();
   }
 
   getTrackProgress(slug: string): TrackProgress {
@@ -49,6 +59,28 @@ export class LocalStorageProgressStore implements ProgressStore {
   saveTrackProgress(slug: string, progress: TrackProgress): void {
     if (!this.storage) return;
     this.storage.setItem(`${TRACK_PREFIX}${slug}`, JSON.stringify(progress));
+    notifyProgressChange();
+  }
+
+  getHubActivity(): HubActivity {
+    if (!this.storage) return {};
+    const raw = this.storage.getItem(HUB_ACTIVITY_KEY);
+    if (!raw) return {};
+    try {
+      return normalizeHubActivity(JSON.parse(raw));
+    } catch {
+      return {};
+    }
+  }
+
+  saveHubActivity(activity: HubActivity): void {
+    if (!this.storage) return;
+    this.storage.setItem(HUB_ACTIVITY_KEY, JSON.stringify(activity));
+    notifyProgressChange();
+  }
+
+  recordActivity(entry: HubActivityEntry): void {
+    this.saveHubActivity(recordHubActivity(entry));
   }
 
   visitChunkInModule(
@@ -66,6 +98,9 @@ export class LocalStorageProgressStore implements ProgressStore {
       trackProgress: current,
     });
     this.saveTrackProgress(trackSlug, next);
+    this.recordActivity(
+      buildMaterialActivity({ trackSlug, moduleId, chunkId })
+    );
     return next;
   }
 
@@ -77,6 +112,25 @@ export class LocalStorageProgressStore implements ProgressStore {
     const current = this.getTrackProgress(trackSlug);
     const next = completeModule({ moduleId, module, trackProgress: current });
     this.saveTrackProgress(trackSlug, next);
+    this.recordActivity(
+      buildMaterialActivity({
+        trackSlug,
+        moduleId,
+        chunkId: module.chunkIds[0],
+      })
+    );
     return next;
+  }
+
+  recordTrackView(trackSlug: string): void {
+    this.recordActivity(buildTrackActivity(trackSlug));
+  }
+
+  recordQuizView(level: QuizLevel): void {
+    this.recordActivity(buildQuizActivity(level));
+  }
+
+  recordMaterialView(chunkId: string, trackSlug?: string, moduleId?: string): void {
+    this.recordActivity(buildMaterialActivity({ chunkId, trackSlug, moduleId }));
   }
 }

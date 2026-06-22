@@ -4,6 +4,7 @@ import { MarqueeStrip } from "@/presentation/components/MarqueeStrip";
 import { Reveal } from "@/presentation/components/Reveal";
 import { SectionHead } from "@/presentation/components/SectionHead";
 import { TrackProgressCard } from "@/presentation/components/TrackProgressCard";
+import { ContinueLearningBanner } from "@/presentation/components/ContinueLearningBanner";
 
 export default async function HomePage() {
   const tracks = await contentRepo.getAllTracks();
@@ -41,6 +42,9 @@ export default async function HomePage() {
                 FAZER QUIZ
               </BrutalButton>
             </div>
+          </Reveal>
+          <Reveal delay={480}>
+            <ContinueLearningBanner tracks={tracks} />
           </Reveal>
         </div>
       </section>

@@ -75,6 +75,7 @@ export interface QuizDeckState {
 export interface ModuleProgress {
   visitedChunkIds: string[];
   completed: boolean;
+  lastVisitedAt?: string;
 }
 
 export interface HubProgress {
@@ -84,4 +85,21 @@ export interface HubProgress {
 export interface TrackProgress {
   moduleProgress: Record<string, ModuleProgress>;
   lastVisitedModule?: string;
+  lastAccessedAt?: string;
+  lastVisitedChunkId?: string;
+}
+
+export type HubActivityKind = "material" | "quiz" | "track";
+
+export interface HubActivityEntry {
+  kind: HubActivityKind;
+  trackSlug?: string;
+  moduleId?: string;
+  chunkId?: string;
+  quizLevel?: QuizLevel;
+  accessedAt: string;
+}
+
+export interface HubActivity {
+  last?: HubActivityEntry;
 }

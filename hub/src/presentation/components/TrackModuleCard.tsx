@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import type { TrackModule } from "@/domain/entities";
+import { formatAccessLabel } from "@/application/dates/formatAccessLabel";
 import {
   getModulePercent,
   getTargetChunkId,
+  isModuleComplete,
 } from "@/application/progress/progress";
-import { LocalStorageProgressStore } from "@/infrastructure/LocalStorageProgressStore";
+import { useProgressSnapshot } from "@/presentation/hooks/useProgressSnapshot";
+import { AccessBadge } from "./AccessBadge";
 import { BrutalCard } from "./BrutalCard";
 import { ProgressBar } from "./ProgressBar";
 
@@ -29,17 +31,14 @@ export function TrackModuleCard({
   trackSlug,
   chunks,
 }: TrackModuleCardProps) {
-  const [percent, setPercent] = useState(0);
-  const [targetId, setTargetId] = useState("");
-  const [mounted, setMounted] = useState(false);
+  const { mounted, trackProgress } = useProgressSnapshot(trackSlug);
 
-  useEffect(() => {
-    const store = new LocalStorageProgressStore();
-    const progress = store.getTrackProgress(trackSlug);
-    setPercent(getModulePercent(module, progress, module.id));
-    setTargetId(getTargetChunkId(module, progress, module.id));
-    setMounted(true);
-  }, [trackSlug, module]);
+  const progress = trackProgress ?? { moduleProgress: {} };
+  const percent = getModulePercent(module, progress, module.id);
+  const targetId = getTargetChunkId(module, progress, module.id);
+  const completed = isModuleComplete(progress, module.id);
+  const isLastVisited = progress.lastVisitedModule === module.id;
+  const moduleLastAt = progress.moduleProgress[module.id]?.lastVisitedAt;
 
   const chunksParam = module.chunkIds.join(",");
   const sectionsParam =
@@ -55,8 +54,34 @@ export function TrackModuleCard({
       className="block group"
       aria-label={`Módulo ${index + 1}: ${module.title}. Ler ${primaryTitle}`}
     >
-      <BrutalCard className="h-full group-hover:bg-highlight/20 transition-colors cursor-pointer">
-        <div className="font-mono text-xs text-muted">Módulo {index + 1}</div>
+      <BrutalCard
+        className={`h-full group-hover:bg-highlight/20 transition-colors cursor-pointer ${
+          isLastVisited && mounted ? "ring-2 ring-accent ring-offset-2 ring-offset-paper" : ""
+        }`}
+      >
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="font-mono text-xs text-muted">Módulo {index + 1}</div>
+          {mounted && (
+            <div className="flex flex-wrap gap-1.5">
+              {isLastVisited && (
+                <AccessBadge label="Último módulo" variant="last-module" />
+              )}
+              {moduleLastAt && (
+                <AccessBadge
+                  label={formatAccessLabel(moduleLastAt)}
+                  variant="date"
+                  accessedAt={moduleLastAt}
+                />
+              )}
+              {completed && (
+                <AccessBadge label="Concluído" variant="completed" />
+              )}
+              {!completed && percent > 0 && (
+                <AccessBadge label="Em andamento" variant="in-progress" />
+              )}
+            </div>
+          )}
+        </div>
         <h2 className="text-xl font-bold mt-2">{module.title}</h2>
         <p className="text-sm text-muted mt-2">{module.summary}</p>
         {mounted && (

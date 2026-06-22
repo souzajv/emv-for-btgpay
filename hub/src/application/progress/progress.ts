@@ -8,10 +8,29 @@ export function normalizeTrackProgress(raw: unknown): TrackProgress {
   if (!raw || typeof raw !== "object") return emptyTrackProgress();
   const obj = raw as Record<string, unknown>;
   if (obj.moduleProgress && typeof obj.moduleProgress === "object") {
+    const moduleProgress: Record<string, ModuleProgress> = {};
+    for (const [id, value] of Object.entries(
+      obj.moduleProgress as Record<string, unknown>
+    )) {
+      if (!value || typeof value !== "object") continue;
+      const mod = value as Record<string, unknown>;
+      moduleProgress[id] = {
+        visitedChunkIds: Array.isArray(mod.visitedChunkIds)
+          ? (mod.visitedChunkIds as string[])
+          : [],
+        completed: Boolean(mod.completed),
+        lastVisitedAt:
+          typeof mod.lastVisitedAt === "string" ? mod.lastVisitedAt : undefined,
+      };
+    }
     return {
-      moduleProgress: obj.moduleProgress as Record<string, ModuleProgress>,
+      moduleProgress,
       lastVisitedModule:
         typeof obj.lastVisitedModule === "string" ? obj.lastVisitedModule : undefined,
+      lastAccessedAt:
+        typeof obj.lastAccessedAt === "string" ? obj.lastAccessedAt : undefined,
+      lastVisitedChunkId:
+        typeof obj.lastVisitedChunkId === "string" ? obj.lastVisitedChunkId : undefined,
     };
   }
   return emptyTrackProgress();
@@ -91,8 +110,9 @@ export interface VisitModuleChunkInput {
 }
 
 export function visitModuleChunk(input: VisitModuleChunkInput): TrackProgress {
-  const { trackSlug, moduleId, chunkId, module, trackProgress } = input;
+  const { moduleId, chunkId, module, trackProgress } = input;
   const state = getModuleState(trackProgress, moduleId);
+  const now = new Date().toISOString();
   const visitedChunkIds = state.visitedChunkIds.includes(chunkId)
     ? state.visitedChunkIds
     : [...state.visitedChunkIds, chunkId];
@@ -100,12 +120,15 @@ export function visitModuleChunk(input: VisitModuleChunkInput): TrackProgress {
   const next: TrackProgress = {
     ...trackProgress,
     lastVisitedModule: moduleId,
+    lastAccessedAt: now,
+    lastVisitedChunkId: chunkId,
     moduleProgress: {
       ...trackProgress.moduleProgress,
       [moduleId]: {
         ...state,
         visitedChunkIds,
         completed: state.completed,
+        lastVisitedAt: now,
       },
     },
   };
@@ -122,14 +145,18 @@ export interface CompleteModuleInput {
 export function completeModule(input: CompleteModuleInput): TrackProgress {
   const { moduleId, module, trackProgress } = input;
   const state = getModuleState(trackProgress, moduleId);
+  const now = new Date().toISOString();
 
   const next: TrackProgress = {
     ...trackProgress,
+    lastVisitedModule: moduleId,
+    lastAccessedAt: now,
     moduleProgress: {
       ...trackProgress.moduleProgress,
       [moduleId]: {
         visitedChunkIds: [...new Set([...state.visitedChunkIds, ...module.chunkIds])],
         completed: true,
+        lastVisitedAt: now,
       },
     },
   };

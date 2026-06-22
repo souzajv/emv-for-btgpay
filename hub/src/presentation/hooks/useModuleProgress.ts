@@ -64,6 +64,8 @@ export function useModuleProgress(
       setModulePercent(getModulePercent(module, progress, moduleId));
       setModuleCompleted(isModuleComplete(progress, moduleId));
       setShowModuleBar(true);
+    } else {
+      store.recordMaterialView(chunkId, trackSlug, moduleId);
     }
   }, [chunkId, trackContext]);
 
@@ -88,5 +90,6 @@ export function useModuleProgress(
     showModuleBar,
     hasTrackContext,
     handleComplete,
+    ctx,
   };
 }

@@ -30,6 +30,7 @@ export function QuizRunner({ level, questions }: QuizRunnerProps) {
       existingState: store.getDeckState(level),
     });
     store.saveDeckState(newState);
+    store.recordQuizView(level);
     const batchQuestions = questionIds
       .map((id) => questions.find((q) => q.id === id))
       .filter(Boolean) as QuizQuestion[];

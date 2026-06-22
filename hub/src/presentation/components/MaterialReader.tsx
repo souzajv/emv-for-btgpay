@@ -3,14 +3,15 @@
 import { createContext, useContext, type ReactNode } from "react";
 import { BrutalButton } from "./BrutalButton";
 import { ProgressBar } from "./ProgressBar";
+import { AccessBadge } from "./AccessBadge";
+import { formatAccessLabel } from "@/application/dates/formatAccessLabel";
 import {
   useModuleProgress,
   type ModuleProgressContext,
 } from "@/presentation/hooks/useModuleProgress";
 import type { TrackModule } from "@/domain/entities";
 import { getTrackPercent } from "@/application/progress/progress";
-import { LocalStorageProgressStore } from "@/infrastructure/LocalStorageProgressStore";
-import { useEffect, useState } from "react";
+import { useProgressSnapshot } from "@/presentation/hooks/useProgressSnapshot";
 
 type ProgressState = ReturnType<typeof useModuleProgress>;
 
@@ -49,41 +50,53 @@ export function TrackProgressHeader({
   moduleCount,
   modules,
 }: TrackProgressHeaderProps) {
-  const [percent, setPercent] = useState(0);
-  const [mounted, setMounted] = useState(false);
+  const { mounted, trackProgress } = useProgressSnapshot(trackSlug);
 
-  useEffect(() => {
-    const store = new LocalStorageProgressStore();
-    const progress = store.getTrackProgress(trackSlug);
-    setPercent(getTrackPercent(modules, progress));
-    setMounted(true);
-  }, [trackSlug, moduleCount, modules]);
+  if (!mounted || !trackProgress) return null;
 
-  if (!mounted) return null;
+  const percent = getTrackPercent(modules, trackProgress);
+  const lastAt = trackProgress.lastAccessedAt;
 
   return (
-    <div className="mb-10">
+    <div className="mb-10 space-y-3">
+      {lastAt && (
+        <AccessBadge
+          label={`Trilha acessada · ${formatAccessLabel(lastAt)}`}
+          variant="date"
+          accessedAt={lastAt}
+        />
+      )}
       <ProgressBar value={percent} label="Progresso da trilha" />
     </div>
   );
 }
 
 function MaterialReader() {
-  const { visited, modulePercent, moduleCompleted, showModuleBar } =
+  const { visited, modulePercent, moduleCompleted, showModuleBar, ctx } =
     useMaterialProgress();
+  const { trackProgress } = useProgressSnapshot(ctx.trackSlug);
+  const moduleLastAt =
+    ctx.moduleId && trackProgress
+      ? trackProgress.moduleProgress[ctx.moduleId]?.lastVisitedAt
+      : undefined;
 
   return (
     <div className="mb-8 p-4 border-2 border-ink bg-highlight/30 rounded-sm">
-      {visited && !moduleCompleted && (
-        <p className="font-mono text-xs tracking-widest text-muted mb-2">
-          Material em leitura
-        </p>
-      )}
-      {moduleCompleted && (
-        <p className="font-mono text-xs tracking-widest text-success mb-2">
-          Módulo concluído
-        </p>
-      )}
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        {moduleLastAt && (
+          <AccessBadge
+            label={formatAccessLabel(moduleLastAt)}
+            variant="date"
+            accessedAt={moduleLastAt}
+          />
+        )}
+        {visited && !moduleCompleted && (
+          <AccessBadge label="Em leitura" variant="in-progress" />
+        )}
+        {moduleCompleted && (
+          <AccessBadge label="Módulo concluído" variant="completed" />
+        )}
+      </div>
       {showModuleBar && (
         <ProgressBar
           value={modulePercent}
