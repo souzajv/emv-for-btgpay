@@ -1,0 +1,34 @@
+{
+  "id": "track-certificacao",
+  "slug": "certificacao-emv",
+  "title": "Certificação EMV",
+  "description": "Level 1, 2 e 3 — labs, timelines e impacto no produto.",
+  "order": 3,
+  "estimatedMinutes": 55,
+  "modules": [
+    {
+      "id": "mod-l1-l2",
+      "title": "Level 1 e Level 2",
+      "summary": "Físico/NFC e kernel de aplicação.",
+      "chunkIds": ["certificacao-l1-l2"],
+      "sectionAnchorIds": ["level-1-fisico", "level-2-kernel"],
+      "estimatedMinutes": 25
+    },
+    {
+      "id": "mod-l3",
+      "title": "Level 3 e integração",
+      "summary": "Host adquirente, DE 55 e cenários de teste.",
+      "chunkIds": ["certificacao-l1-l2"],
+      "sectionAnchorIds": ["level-3-integracao"],
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "mod-pratica-cert",
+      "title": "Certificação na prática",
+      "summary": "Labs, custos e retestes.",
+      "chunkIds": ["certificacao-niveis-payfelix"],
+      "sectionAnchorIds": ["timeline-certificacao", "labs-aprovados", "custo-complexidade"],
+      "estimatedMinutes": 15
+    }
+  ]
+}

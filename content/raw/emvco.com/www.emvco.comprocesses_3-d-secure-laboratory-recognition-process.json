@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/processes/3-d-secure-laboratory-recognition-process",
+  "method": "fetch",
+  "title": "Laboratory Recognition Process",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Laboratory Recognition Process",
+      "bodyMd": "Step 1 LABORATORY\n\n*   Downloads and signs registration form.\n*   Submits the registration form to EMVCo."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:02:37.696Z",
+  "sourceUrl": "https://www.emvco.com/processes/3-d-secure-laboratory-recognition-process"
+}

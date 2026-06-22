@@ -1,0 +1,49 @@
+{
+  "url": "https://stripe.com/br/resources/more/what-is-address-verification-service",
+  "method": "fetch",
+  "title": "O que é serviço de verificação de endereço (AVS)? | StripeRadar",
+  "sections": [
+    {
+      "anchorId": "o-que-significa-avs",
+      "heading": "O que significa AVS?",
+      "bodyMd": "AVS significa “serviço de verificação de endereço”. Às vezes, também é chamado de “sistema de verificação de endereço”."
+    },
+    {
+      "anchorId": "o-que-e-avs",
+      "heading": "O que é AVS?",
+      "bodyMd": "O AVS é uma ferramenta de verificação de identidade que permite às empresas detectar e prevenir fraudes em transações de cartão de crédito ou débito, verificando se o endereço de cobrança fornecido pelo cliente é o endereço de cobrança registrado no cartão. Empresas nos EUA, Canadá e Reino Unido usam o AVS para minimizar transações fraudulentas e estornos desnecessários."
+    },
+    {
+      "anchorId": "como-funciona-o-servico-de-verificacao-de-endereco",
+      "heading": "Como funciona o serviço de verificação de endereço?",
+      "bodyMd": "Provedores e emissores de processamento de pagamentos (também chamados de bancos emissores) oferecem o AVS como ferramenta para reduzir fraudes com cartões de crédito. O AVS ocorre durante a autorização do cartão na transação com o cliente. Quando um cliente envia um cartão para pagamento durante o checkout, ele informa um endereço de cobrança. Ao aceitar os dados de pagamento, o processador de pagamentos da empresa entra em contato com o banco emissor do cartão para autorizar a compra. Durante a autorização, o emissor verifica algumas coisas:\n\n*   Se a conta tem fundo ou crédito suficiente para cobrir o valor da transação.  \n    \n*   Se o cartão está válido.  \n    \n*   Se o código de verificação do cartão (CVV) corresponde ao informado na transação. (O código de três ou quatro dígitos normalmente localizado no verso do cartão, ao lado da linha de assinatura.)  \n    \n*   Se o endereço de cobrança informado durante o checkout corresponde ao endereço cadastrado no cartão. (Este é o componente “verificação de endereço” do processo de autenticação AVS.)  \n    \n\nNormalmente, o AVS é usado para autenticar a identidade de um titular de cartão para transações sem apresentação do cartão (CNP), como compras online."
+    },
+    {
+      "anchorId": "codigos-avs",
+      "heading": "Códigos AVS",
+      "bodyMd": "Depois de localizar o endereço cadastrado do cartão, o emissor envia à empresa um código de uma letra, chamado código de resposta AVS, por meio do processador de pagamentos. Esses códigos, que variam de rede para rede, informam à empresa como prosseguir com a transação. Estes são os [códigos de resposta de AVS](https://en.wikipedia.org/w/index.php?title=Address_verification_service&_ga=2.97570079.1027215965.1655989706-2008268124.1655989706#AVS_response_codes) possíveis para as quatro principais empresas de cartão de crédito dos EUA."
+    },
+    {
+      "anchorId": "o-que-significa-avs-recusado",
+      "heading": "O que significa “AVS recusado”?",
+      "bodyMd": "“AVS recusado” é uma mensagem que pode aparecer para as empresas ao tentar processar um pagamento com cartão do cliente, ou pode aparecer para o titular do cartão quando ele está tentando fazer uma compra online. A mensagem significa que o emissor se recusou a autorizar uma transação de cartão, normalmente porque o endereço informado não corresponde ao endereço registrado pelo emissor para o titular do cartão. Quando o emissor do cartão confere se os dados fornecidos pelo processador de pagamentos batem com os dados cadastrados do titular do cartão e constata uma discrepância, ele retorna um dos códigos acima, indicando que a transação foi recusada."
+    },
+    {
+      "anchorId": "o-que-e-erro-de-avs",
+      "heading": "O que é erro de AVS?",
+      "bodyMd": "No AVS, ocorre um erro quando o endereço apresentado no checkout com uma compra com cartão de crédito ou débito não corresponde ao endereço registrado pelo emissor para esse cartão. Quando isso ocorre, normalmente a transação é recusada. O termo “erro de AVS” descreve o que acontece durante a autorização que levaria o emissor do cartão a rejeitar a transação."
+    },
+    {
+      "anchorId": "devo-usar-o-avs-na-minha-empresa",
+      "heading": "Devo usar o AVS na minha empresa?",
+      "bodyMd": "O AVS é uma das principais medidas tomadas pelas empresas para evitar fraudes com cartões de crédito e todos os prejuízos que as fraudes podem ter para seus negócios e clientes. A maioria dos processadores de pagamento e emissores de cartão exigem AVS para transações com cartão, por um motivo simples: é uma ferramenta de segurança altamente eficaz no combate às fraudes de cartão de crédito.\n\nApesar das vantagens do AVS, devemos destacar que o sistema não é perfeito. É possível que um cliente forneça dados de faturamento diferentes dos cadastrados do emissor do cartão, mesmo sendo o titular legítimo do cartão. Isso pode acontecer porque ele se mudou para outro endereço e não atualizou o endereço de cobrança no emissor do cartão, ou porque o emissor cometeu um erro ao cadastrar o endereço do cliente. Mesmo com esses problemas, as vantagens do AVS superam em muito as desvantagens para empresas e consumidores."
+    },
+    {
+      "anchorId": "como-comecar-a-usar-o-servico-de-verificacao-de-endereco",
+      "heading": "Como começar a usar o serviço de verificação de endereço",
+      "bodyMd": "Empresas que usam a Stripe para processar pagamentos não precisam fazer mais nada para começar a usar o AVS. A [Stripe usa AVS](https://stripe.com/br/docs/disputes/prevention/verification) enviando ao emissor o CVC, o código postal e o endereço de cobrança para todas as transações com cartão para verificação."
+    }
+  ],
+  "scrapedAt": "2026-06-22T12:59:52.870Z",
+  "sourceUrl": "https://stripe.com/br/resources/more/what-is-address-verification-service"
+}

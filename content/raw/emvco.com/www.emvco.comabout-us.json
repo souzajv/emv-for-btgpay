@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/about-us",
+  "method": "fetch",
+  "title": "Overview of EMVCo",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Overview of EMVCo",
+      "bodyMd": "EMVCo’s work helps make safe, reliable and convenient payments possible anywhere in the world.\n\nAs a global technical body, EMVCo collaborates with industry stakeholders to develop technical specifications and programmes that any party can use to design payment products that will work seamlessly and securely worldwide."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:01:38.371Z",
+  "sourceUrl": "https://www.emvco.com/about-us"
+}

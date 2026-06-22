@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/industry-collaboration",
+  "method": "fetch",
+  "title": "Industry Collaboration",
+  "sections": [
+    {
+      "anchorId": "emvco-associates-subscribers",
+      "heading": "EMVCo Associates & Subscribers",
+      "bodyMd": "Industry stakeholders, including merchants, banks and technology providers, participate as EMVCo [Associates](https://www.emvco.com/industry-collaboration/emvco-associates-subscribers/associates/) and [Subscribers](https://www.emvco.com/industry-collaboration/emvco-associates-subscribers/subscribers/) to contribute their knowledge and expertise to the development of EMV Specifications.\n\n[Learn more](https://www.emvco.com/industry-collaboration/emvco-associates-subscribers/)"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:02:10.249Z",
+  "sourceUrl": "https://www.emvco.com/industry-collaboration"
+}

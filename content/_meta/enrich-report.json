@@ -1,0 +1,66 @@
+[
+  {
+    "id": "btgpay-flutter-pratica",
+    "status": "enriched",
+    "rawFiles": 1,
+    "charsBefore": 735,
+    "charsAfter": 44349,
+    "sections": 3
+  },
+  {
+    "id": "certificacao-l1-l2",
+    "status": "enriched",
+    "rawFiles": 1,
+    "charsBefore": 881,
+    "charsAfter": 4976,
+    "sections": 3
+  },
+  {
+    "id": "certificacao-niveis-payfelix",
+    "status": "enriched",
+    "rawFiles": 2,
+    "charsBefore": 799,
+    "charsAfter": 7927,
+    "sections": 3
+  },
+  {
+    "id": "contactless-tap-mobile",
+    "status": "enriched",
+    "rawFiles": 1,
+    "charsBefore": 900,
+    "charsAfter": 44514,
+    "sections": 3
+  },
+  {
+    "id": "fundamentos-cnp-cp",
+    "status": "enriched",
+    "rawFiles": 1,
+    "charsBefore": 867,
+    "charsAfter": 9000,
+    "sections": 3
+  },
+  {
+    "id": "fundamentos-emv-chip",
+    "status": "enriched",
+    "rawFiles": 1,
+    "charsBefore": 1070,
+    "charsAfter": 1218,
+    "sections": 3
+  },
+  {
+    "id": "seguranca-terminal",
+    "status": "enriched",
+    "rawFiles": 1,
+    "charsBefore": 791,
+    "charsAfter": 75509,
+    "sections": 3
+  },
+  {
+    "id": "tap-to-mobile-guidelines",
+    "status": "enriched",
+    "rawFiles": 1,
+    "charsBefore": 725,
+    "charsAfter": 44339,
+    "sections": 3
+  }
+]

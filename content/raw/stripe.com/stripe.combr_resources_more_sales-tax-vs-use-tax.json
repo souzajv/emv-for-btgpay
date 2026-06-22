@@ -1,0 +1,19 @@
+{
+  "url": "https://stripe.com/br/resources/more/sales-tax-vs-use-tax",
+  "method": "fetch",
+  "title": "Imposto sobre vendas vs. imposto sobre uso | StripeTax",
+  "sections": [
+    {
+      "anchorId": "imposto-sobre-vendas-vs-imposto-sobre-uso",
+      "heading": "Imposto sobre vendas vs. imposto sobre uso",
+      "bodyMd": "O imposto sobre vendas é um tipo de imposto indireto cobrado sobre a venda de determinados bens e serviços nos EUA no ponto de venda. Quase todos os estados dos EUA têm um imposto estadual sobre vendas, e cidades e municípios também podem criar impostos sobre vendas específicos para sua região.\n\nO imposto sobre o uso, também conhecido como imposto sobre o uso do consumidor, é um imposto cobrado sobre o armazenamento, uso ou consumo de um item ou serviço tributável sobre o qual nenhum imposto sobre vendas foi pago. Um exemplo comum de imposto sobre o uso é quando um consumidor faz uma compra em um estado sem imposto sobre vendas ou em um estado onde o item não é tributável, mas usa o bem ou serviço adquirido em um estado onde o imposto sobre vendas seria aplicável. O valor do imposto sobre o uso cobrado geralmente é a mesma alíquota do imposto sobre vendas.\n\nO imposto sobre o uso é pago pelo consumidor diretamente ao departamento de receita estadual competente, por meio do preenchimento de uma declaração de imposto sobre o uso. Em alguns estados, o imposto também pode ser pago incluindo o valor do imposto na declaração de imposto de renda. Como o consumidor precisa calcular e remeter o imposto por conta própria, sua gestão é complexa para os estados e, muitas vezes, não é aplicada com o mesmo rigor do imposto sobre vendas. O imposto sobre o uso foi criado para evitar que certos estados tivessem vantagem competitiva sobre outros estados que teriam que cobrar imposto sobre vendas."
+    },
+    {
+      "anchorId": "um-exemplo-de-imposto-sobre-vendas-vs-imposto-sobre-uso",
+      "heading": "Um exemplo de imposto sobre vendas vs. imposto sobre uso",
+      "bodyMd": "Sua empresa está sediada em Nova York e você vende um item tributável para um cliente em Nova York. Você cobraria imposto sobre vendas nessa transação.\n\nSua empresa está sediada no Oregon (um estado sem imposto sobre vendas em todo o estado) e você faz uma venda para um cliente que pretende usar o item na Dakota do Norte, onde ele estaria sujeito ao imposto sobre vendas. Neste cenário, o cliente deve pagar imposto sobre uso na Dakota do Norte. No entanto, se o item não estiver sujeito ao imposto sobre vendas na Dakota do Norte, nenhum imposto sobre uso seria devido.\n\nEm resumo, impostos sobre vendas e uso referem-se à mesma coisa: um imposto sobre o preço de uma venda que é pago por um cliente, mas recolhido e remetido ao governo pelo vendedor. A maior diferença entre imposto sobre vendas e imposto sobre uso é como ele é contabilizado e quem é responsável por remetê-lo ao governo."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:01:16.311Z",
+  "sourceUrl": "https://stripe.com/br/resources/more/sales-tax-vs-use-tax"
+}

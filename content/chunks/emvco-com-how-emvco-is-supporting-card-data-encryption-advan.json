@@ -1,0 +1,28 @@
+{
+  "id": "emvco-com-how-emvco-is-supporting-card-data-encryption-advan",
+  "sourceUrl": "https://www.emvco.com/knowledge-hub/how-emvco-is-supporting-card-data-encryption-advancements-for-card-personalisation",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "How EMVCo is Supporting Card Data Encryption Advancements for Card Personalisation",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "How EMVCo is Supporting Card Data Encryption Advancements for Card Personalisation",
+      "bodyMd": "_Encryption is the process of encoding data so that it is unintelligible to those who don’t have authorisation (or the ‘key \\[1\\]’) to access and read the information. Encryption protects sensitive data, such as a cardholder’s PIN and card-unique transaction authentication keys, that must be loaded onto a card during ‘personalisation’ prior to issuing the card to the cardholder._\n\n**Michael Ward:** EMVCo plays a supporting role in defining how card and cardholder data are encrypted onto an EMV payment card during personalisation.  The operation is undertaken by approved service providers as it represents a major phase in card production and security is essential.\n\n_In this Q&A post, Michael Ward, Chair of the EMVCo Security Working Group, provides an insight into the role EMVCo plays in protecting card and cardholder data on EMV® payment cards, the benefit this brings to the industry and recent work to incorporate the Advanced Encryption Standard (AES).\n\n**Pontos técnicos:**\n- *Michael Ward:** EMVCo plays a supporting role in defining how card and cardholder data are encrypted onto an EMV payment card during personalisation. The operation is undertaken by approved service providers as it represents a major phase in card production and security is essential.\n- *Why is encryption within the card personalisation process important to EMVCo?**\n- *Michael Ward:** Encryption during card personalisation ensures that card transaction keys and cardholder data are inaccessible to anyone that is not authorised. Personalising the payment card is the start of the EMV security process and needs to be completed precisely and securely. This helps protect PINs and card transaction keys from access by fraudsters who might otherwise use stolen cards or create counterfeit cards.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "**Michael Ward:** EMVCo plays a supporting role in defining how card and cardholder data are encrypted onto an EMV payment card during personalisation. The operation is undertaken by approved service…",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_how-emvco-is-supporting-card-data-encryption-advancements-for-card-personalisation.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:05:20.401Z",
+  "synthesizedAt": "2026-06-22T14:44:21.209Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comknowledge-hub_how-emvco-is-supporting-card-data-encryption-advancements-for-card-personalisation.json"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/approved-evaluated",
+  "method": "fetch",
+  "title": "Approved & Evaluated",
+  "sections": [
+    {
+      "anchorId": "functional-approval",
+      "heading": "Functional Approval",
+      "bodyMd": "EMV functional approval assesses that payment products and solutions meet EMV® Specifications for performance and compatibility.\n\n[Card & Mobile](https://www.emvco.com/approved-products/?type=card_and_mobile) [Acceptance Devices](https://www.emvco.com/approved-products/?type=acceptance_device) [EMV® 3-D Secure](https://www.emvco.com/approved-products/?type=3-d_secure)"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:02:04.527Z",
+  "sourceUrl": "https://www.emvco.com/approved-evaluated"
+}

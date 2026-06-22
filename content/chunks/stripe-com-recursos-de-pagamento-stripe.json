@@ -1,0 +1,30 @@
+{
+  "id": "stripe-com-recursos-de-pagamento-stripe",
+  "sourceUrl": "https://stripe.com/br/resources/more/payments",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Recursos de pagamento | Stripe",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Recursos de pagamento | Stripe",
+      "bodyMd": "[Comece agora](https://dashboard.stripe.com/register)  [Fale com a equipe](/br/contact/sales)\n\nAs contas de comerciante, por outro lado, são usadas para uma única finalidade: reter fundos de uma venda do cliente imediatamente após a conclusão da transação e mover esses fundos para a conta bancária principal da empresa do comerciante.  As contas de comerciante não são usadas para emitir pagamentos (exceto a movimentação de fundos para a conta bancária principal da empresa).\n\nAs contas de comerciante desempenham um papel importante no processo complexo que ocorre depois que um cliente inicia uma transação com cartão de crédito.  No início da transação (o cartão de crédito é passado, inserido ou tocado no ponto de venda, ou as informações do cartão de crédito são inseridas no checkout online), o pagamento é enviado ao processador de cartões de crédito do comerciante, que entra em contato com o banco emissor do cartão de crédito do cliente pela [bandeira de cartão](https://stripe. com/br/resources/more/how-do-credit-card-networks-work).\n\nUm [intermediador de pagamentos](https://stripe. com/br/guides/payfacs), também conhecido como facilitador de pagamentos, é um provedor que estende todas as funções de uma conta de comerciante aos comerciantes sem exigir que eles passem pelo processo de adquirir uma conta própria de comerciante individual.  O intermediador tem uma conta mestra de comerciante que usa para processar pagamentos para todos os \"subcomerciantes\" de sua rede.\n\n**Pontos técnicos:**\n- **Benefícios da Stripe para plataformas e marketplaces:**\n- Seja qual for a estrutura de pagamentos que usam, eles devem ser capazes de expandir.\n- O processo de pagamento é fundamental para a experiência do cliente.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As contas de comerciante, por outro lado, são usadas para uma única finalidade: reter fundos de uma venda do cliente imediatamente após a conclusão da transação e mover esses fundos para a conta bancá…",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-electric-vehicle-open-payments.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T12:59:46.492Z",
+  "synthesizedAt": "2026-06-22T14:44:21.493Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comemv-technologies_emv-electric-vehicle-open-payments.json",
+    "content/raw/stripe.com/stripe.combr_resources_more_accept-payments-online-without-a-merchant-account.json",
+    "content/raw/stripe.com/stripe.combr_resources_more_payments.json"
+  ]
+}

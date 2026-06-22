@@ -1,0 +1,1898 @@
+{
+  "generatedAt": "2026-06-22T14:44:51.302Z",
+  "chunks": [
+    {
+      "id": "btgpay-flutter-pratica",
+      "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+      "checks": 3,
+      "passed": 0,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "camadas-app",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "estados-transacao",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "erros-comuns",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "certificacao-l1-l2",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
+      "checks": 3,
+      "passed": 3,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "certificacao-niveis-payfelix",
+      "sourceRel": "content/raw/payfelix.com/payfelix.comemv-certification-levels.json",
+      "checks": 3,
+      "passed": 0,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "timeline-certificacao",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "labs-aprovados",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "custo-complexidade",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "contactless-tap-mobile",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_mobile.json",
+      "checks": 3,
+      "passed": 2,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "tap-to-mobile",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-about-arman-aygen",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comauthor_arman-aygenemvco-com.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-approved-evaluated",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comapproved-evaluated.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-contact-emvco",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comcontact.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-contact-kernel-approval-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_contact-kernel-approval-process.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-contactless-product-approval-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_contactless-product-approval-process.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-document-search",
+      "sourceRel": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=430",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-3-d-secure",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_3-d-secure.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-emv-contact-chip",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-contactless-chip",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contactless-chip.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-electric-vehicle-open-payments-evop",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-electric-vehicle-open-payments.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-insights",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub-category_emv-insights.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-level-3-testing",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-level-3-testing.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-mobile",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_mobile.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-payment-tokenisation",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_payment-tokenisation.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [
+        {
+          "section": "conteudo-principal",
+          "type": "section_gap_status"
+        }
+      ],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-qr-codes",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_qr-codes.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [
+        {
+          "section": "conteudo-principal",
+          "type": "section_gap_status"
+        }
+      ],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-secure-remote-commerce",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_secure-remote-commerce.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-technologies-2023-priorities",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_emv-technologies-2023-priorities.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emv-technologies",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emvco-associates-subscribers",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration_emvco-associates-subscribers.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-emvco-launches-new-testing-process-to-support-the-",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comnews_emvco-launches-new-testing-process-to-support-the-use-of-taptomobile-devices-for-contactless-payment-acceptance.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-enabling-seamless-and-secure-payments-worldwide",
+      "sourceRel": "https://www.emvco.com/",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-events",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comevents.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-how-emvco-is-supporting-card-data-encryption-advan",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_how-emvco-is-supporting-card-data-encryption-advancements-for-card-personalisation.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-industry-collaboration",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-industry-partners-liaisons",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration_industry-partners-liaisons.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-knowledge-hub",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub-category_emv-insights.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-l3-test-tool-qualification-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_l3-test-tool-qualification-process.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-laboratory-recognition-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_card-mobile-laboratory-recognition-process.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-mobile-cmp-ppse-approval-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_mobile-cmp-ppse-approval-process.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-mobile-level-1-approval-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_mobile-level-1-approval-process.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-news",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comnews.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-overview-of-emvco",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comabout-us.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-product-approval-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_emv-3-d-secure-approval-processes.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-qualification-service-provider",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_qualification-service-provider.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-qualified-test-tools",
+      "sourceRel": "https://www.emvco.com/service-providers?search_bar_keywords=l3&tax%5Bservice-providers_categories%5D%5B57%5D%5B%5D=138,140&type=level_3",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-registered-ids",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comregistered-ids.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-registered",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comregistered-ids.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-test-platform-provider-qualification-and-recogniti",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_test-platform-provider-qualification-and-recognition-process.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-trademark-centre",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comtrademark-centre.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-untitled",
+      "sourceRel": "https://www.emvco.com/wp-content/uploads/2025/10/EMVCo-Approvals_Evaluations_eBook_FINAL-TAGGED.pdf",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-ways-to-participate",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration_ways-to-participate.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [
+        {
+          "section": "conteudo-principal",
+          "type": "section_gap_status"
+        }
+      ],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "emvco-com-wearable-level-1-approval-process",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_wearable-level-1-approval-process.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-what-are-emv-level-1-and-level-2-testing",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-what-are-emv-specifications",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comwhat-are-emv-specifications.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-what-is-emv-level-3-testing",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "emvco-com-why-emv",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comwhy-emv.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [
+        {
+          "section": "conteudo-principal",
+          "type": "section_gap_status"
+        }
+      ],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "fundamentos-cnp-cp",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-are-card-not-present-transactions.json",
+      "checks": 3,
+      "passed": 2,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "liability-shift",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "fundamentos-emv-chip",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
+      "checks": 3,
+      "passed": 3,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "payfelix-com-emv-certification-levels",
+      "sourceRel": "content/raw/payfelix.com/payfelix.comemv-certification-levels.json",
+      "checks": 3,
+      "passed": 0,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "1-level-1-certification-terminal-integration-process-tip",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "2-level-2-certification-kernel-integration-process-kip",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "3-level-3-certification-application-integration-process-aip",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "payfelix-com-how-to-offer-an-emv-payment-solution-on-your-de",
+      "sourceRel": "content/raw/payfelix.com/payfelix.comemv-payment-solution-on-your-devices.json",
+      "checks": 2,
+      "passed": 2,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
+      "sourceRel": "content/raw/pdfs/EMV-Acquirer-and-Terminal-Security-Guidelines-v2.0-1.json",
+      "checks": 486,
+      "passed": 486,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        }
+      ],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "pdfs-emv-issuer-and-application-security-guidelines-v3-0-1",
+      "sourceRel": "content/raw/pdfs/EMV-Issuer-and-Application-Security-Guidelines-v3.0-1.json",
+      "checks": 2112,
+      "passed": 2112,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        }
+      ],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "pdfs-taptomobile-guidelines-v1-1",
+      "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+      "checks": 11,
+      "passed": 11,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        },
+        {
+          "section": "introducao",
+          "type": "section_gap_status"
+        }
+      ],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "seguranca-terminal",
+      "sourceRel": "content/raw/pdfs/EMV-Acquirer-and-Terminal-Security-Guidelines-v2.0-1.json",
+      "checks": 81,
+      "passed": 78,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "ambiente-seguro",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "pci-escopo",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "key-management",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-api-banking-o-que-e-e-como-funciona-stripeconnect",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_api-banking-101.json",
+      "checks": 13,
+      "passed": 10,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "casos-de-uso-e-aplicacoes-de-apis-bancarias",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "acesso-mais-amplo-aos-dados",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-o-stripe-connect-pode-ajudar",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-autorizacao-de-cartao-explicada-como-funciona-e-o",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_card-authorization-explained.json",
+      "checks": 15,
+      "passed": 14,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "como-o-stripe-payments-pode-ajudar",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-cobranca",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_billing.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-como-aceitar-pagamentos-online-sem-uma-conta-de-c",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_accept-payments-online-without-a-merchant-account.json",
+      "checks": 8,
+      "passed": 7,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "como-funcionam-as-contas-de-comerciante",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-como-aumentar-a-receita-de-empresas-stripepayment",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_strategies-enterprise-businesses-can-use-to-increase-revenue.json",
+      "checks": 15,
+      "passed": 15,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-como-constituir-uma-llc-um-guia-para-novas-empres",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_how-to-form-an-llc.json",
+      "checks": 21,
+      "passed": 18,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "1-realize-uma-pesquisa-de-nome-para-a-llc",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "3-registre-um-nome-de-dominio",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "7-cumpra-os-requisitos-de-publicacao-se-exigidos-pelo-estado",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-como-fazer-pesquisa-de-mercado-para-uma-startup-s",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+      "checks": 23,
+      "passed": 23,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-como-solicitar-um-cartao-de-credito-corporativo-s",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_applying-for-corporate-credit-cards-a-guide.json",
+      "checks": 6,
+      "passed": 6,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-como-verificar-se-um-nome-de-empresa-ja-existe-st",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_how-to-check-if-a-business-name-is-taken.json",
+      "checks": 17,
+      "passed": 15,
+      "criticalGaps": 2,
+      "gaps": [
+        {
+          "section": "3-faca-uma-busca-manual-na-internet",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "diferenciacao-de-marca",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-contas-bancarias-empresariais-um-guia-para-empres",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_business-bank-accounts-101.json",
+      "checks": 21,
+      "passed": 13,
+      "criticalGaps": 8,
+      "gaps": [
+        {
+          "section": "tipos-de-contas-bancarias-empresariais",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "conta-bancaria-empresarial-x-conta-de-comerciante",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "1-decida-o-tipo-de-conta-que-voce-quer",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "3-filtre-sua-lista",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "6-reuna-a-documentacao-necessaria",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "7-envie-os-documentos-e-abra-a-conta",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-a-stripe-pode-ajudar",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "compra-de-acoes-da-empresa",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-contas-reserva-por-que-toda-empresa-precisa-de-um",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_reserve-accounts.json",
+      "checks": 5,
+      "passed": 2,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "por-que-as-empresas-precisam-de-reservas-de-caixa",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "qual-deve-ser-o-valor-da-reserva-de-caixa-de-sua-empresa",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-funcionam-as-contas-de-reserva-da-stripe",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-emissao",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_card-issuing-101.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-empresa",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_business-bank-accounts-101.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-estornos-o-que-sao-e-como-as-empresas-podem-preve",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_chargebacks-101.json",
+      "checks": 16,
+      "passed": 14,
+      "criticalGaps": 2,
+      "gaps": [
+        {
+          "section": "formas-de-evitar-estornos",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-o-stripe-radar-pode-ajudar",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-explicacao-sobre-a-receita-mensal-recorrente-mrr-",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+      "checks": 15,
+      "passed": 14,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "how-stripe-can-help",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-explicamos-as-empresas-tipo-c-stripeatlas",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+      "checks": 20,
+      "passed": 16,
+      "criticalGaps": 4,
+      "gaps": [
+        {
+          "section": "empresa-tipo-s-ou-tipo-c-qual-e-a-diferenca",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "empresa-tipo-c-ou-llc-qual-e-a-diferenca",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "tributacao",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-abrir-uma-empresa-tipo-c",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-financas-integradas-x-banco-como-servico-baas-str",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+      "checks": 8,
+      "passed": 8,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-gerenciamento-de-riscos-stripe",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_risk-management.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-gestao-dos-valores",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_money-management.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-guia-sobre-como-usar-links-de-pagamento-para-vend",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+      "checks": 9,
+      "passed": 9,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-guia-sobre-credito-integrado-stripecapital",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-lending-101.json",
+      "checks": 7,
+      "passed": 6,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "credores",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-imposto-sobre-vendas-vs-imposto-sobre-uso-stripet",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_sales-tax-vs-use-tax.json",
+      "checks": 2,
+      "passed": 2,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-mais-recursos-stripe",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more.json",
+      "checks": 1,
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-metricas-de-saas-um-guia-completo-para-acompanhar",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+      "checks": 33,
+      "passed": 33,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-o-que-e-emissao-de-cartoes-o-que-as-empresas-prec",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_card-issuing-101.json",
+      "checks": 7,
+      "passed": 5,
+      "criticalGaps": 2,
+      "gaps": [
+        {
+          "section": "como-os-emissores-e-adquirentes-de-cartoes-se-diferem",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-os-emissores-de-cartoes-trabalham-com-as-empresas",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-o-que-e-imposto-sobre-vendas-stripetax",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+      "checks": 7,
+      "passed": 7,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-o-que-e-reapresentacao-de-estornos-stripepayments",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_representment-explained.json",
+      "checks": 7,
+      "passed": 4,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "quais-comprovantes-sao-necessarios-para-reapresentar-um-estorno",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "o-que-acontece-se-eu-nao-responder-a-um-estorno",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "quais-sao-as-praticas-recomendadas-no-processo-de-reapresentacao-de-estornos",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-o-que-e-servico-de-verificacao-de-endereco-avs-st",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-address-verification-service.json",
+      "checks": 8,
+      "passed": 8,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-o-que-e-uma-corporacao-de-delaware-stripeatlas",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-delaware-corporation.json",
+      "checks": 26,
+      "passed": 23,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "como-constituir-uma-empresa-em-delaware",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "6-faca-uma-assembleia-do-conselho-de-administracao",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "recursos-para-fundadores-que-desejam-registrar-uma-empresa-em-delaware",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-o-que-e-uma-fatura-stripeinvoicing",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-an-invoice.json",
+      "checks": 6,
+      "passed": 3,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "como-enviar-uma-fatura",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-pagar-uma-fatura",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-a-stripe-oferece-suporte-ao-faturamento-para-empresas",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-o-que-sao-cartoes-com-chip-emv-como-o-emv-funcion",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-are-emv-chip-cards.json",
+      "checks": 10,
+      "passed": 9,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "pagamentos-com-cartao-por-chip-emv-sao-seguros",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-o-que-sao-cartoes-virtuais-para-empresas-stripeis",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_virtual-credit-cards-for-businesses-explained.json",
+      "checks": 7,
+      "passed": 4,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "para-que-servem-os-cartoes-virtuais",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "os-cartoes-virtuais-sao-seguros",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-conseguir-um-cartao-virtual-para-sua-empresa",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-o-que-sao-pagamentos-tap-to-pay-e-como-aceita-los",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_tap-to-pay.json",
+      "checks": 10,
+      "passed": 9,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "alta-demanda-dos-consumidores",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-oito-formas-de-reduzir-estornos-para-sua-empresa-",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+      "checks": 13,
+      "passed": 10,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "priorize-a-seguranca-em-pagamentos-online-e-presenciais",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "descricoes-claras-dos-produtos",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "oferecer-testes-gratis-realmente-gratuitos",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-por-que-o-comercio-conversacional-esta-crescendo-",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_conversational-commerce-in-japan.json",
+      "checks": 14,
+      "passed": 14,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-praticas-recomendadas-de-checkout-para-e-commerce",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+      "checks": 7,
+      "passed": 6,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "oferta-de-checkout-em-um-clique",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-quando-faturar-um-cliente-praticas-recomendadas-e",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_when-to-invoice-a-customer.json",
+      "checks": 7,
+      "passed": 4,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "para-que-servem-as-faturas",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "praticas-recomendadas-e-erros-no-envio-de-faturas",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "como-o-stripe-invoicing-pode-ajudar",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-quando-voce-deve-buscar-financiamento-de-serie-a-",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_series-a-funding.json",
+      "checks": 13,
+      "passed": 13,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-reconciliacao-contabil-o-que-e-e-como-fazer-strip",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_accounting-reconciliation-101.json",
+      "checks": 5,
+      "passed": 3,
+      "criticalGaps": 2,
+      "gaps": [
+        {
+          "section": "tipos-de-reconciliacao-contabil",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "por-que-a-reconciliacao-contabil-e-importante-para-as-empresas",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-reconciliacao-de-faturas-tudo-que-as-empresas-dev",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_invoice-reconciliation.json",
+      "checks": 6,
+      "passed": 4,
+      "criticalGaps": 2,
+      "gaps": [
+        {
+          "section": "por-que-a-reconciliacao-de-faturas-e-importante-para-as-empresas",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "reconciliacao-de-faturas-com-a-stripe",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-recursos-de-contabilidade-stripe",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_accounting-reconciliation-101.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-recursos-de-faturamento-stripe",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_invoicing.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-recursos-de-pagamento-stripe",
+      "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-electric-vehicle-open-payments.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-recursos-fiscais-stripe",
+      "sourceRel": "https://stripe.com/br/resources/more/tax",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-recursos-para-formacao-de-empresas-stripe",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_business-formation.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-recursos-para-startups-stripe",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+      "checks": 1,
+      "passed": 1,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-retencao-de-receita-liquida-nrr-para-empresas-de-",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_net-revenue-retention.json",
+      "checks": 11,
+      "passed": 8,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "o-que-e-uma-boa-taxa-de-retencao-de-receita-liquida",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "what-is-a-good-net-revenue-retention-rate",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "how-to-increase-net-revenue-retention",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-transacoes-sem-apresentacao-de-cartao-cnp-stripep",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-are-card-not-present-transactions.json",
+      "checks": 8,
+      "passed": 6,
+      "criticalGaps": 2,
+      "gaps": [
+        {
+          "section": "online",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "por-telefone",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "stripe-com-treze-dicas-essenciais-para-fazer-apresentacoes-a",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_pitching-venture-capitalists.json",
+      "checks": 13,
+      "passed": 13,
+      "criticalGaps": 0,
+      "gaps": [],
+      "warnings": [],
+      "verificationStatus": "pass"
+    },
+    {
+      "id": "stripe-com-um-guia-sobre-o-nexo-do-imposto-sobre-vendas-stri",
+      "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+      "checks": 7,
+      "passed": 6,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "como-a-stripe-pode-ajudar",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "tap-to-mobile-guidelines",
+      "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+      "checks": 3,
+      "passed": 0,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "requisitos-dispositivo",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "ux-pagamento",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "attestation",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    }
+  ],
+  "summary": {
+    "total": 109,
+    "pass": 67,
+    "gaps": 42,
+    "criticalGaps": 88
+  }
+}

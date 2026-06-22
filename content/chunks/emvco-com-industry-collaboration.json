@@ -1,0 +1,31 @@
+{
+  "id": "emvco-com-industry-collaboration",
+  "sourceUrl": "https://www.emvco.com/industry-collaboration",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Industry Collaboration",
+  "sections": [
+    {
+      "anchorId": "emvco-associates-subscribers",
+      "heading": "EMVCo Associates & Subscribers",
+      "bodyMd": "Access draft EMV Specifications and documentation prior to publication.  Interact with EMVCo technical working groups and task forces.\n\nEMVCo works closely with regional and global technical bodies and industry associations.  This collaboration supports the development of specifications and initiatives that improve security and payment experiences around the world.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Access draft EMV Specifications and documentation prior to publication. Interact with EMVCo technical working groups and task forces.",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:02:10.249Z",
+  "synthesizedAt": "2026-06-22T14:44:21.211Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comindustry-collaboration.json",
+    "content/raw/emvco.com/www.emvco.comindustry-collaboration_emvco-associates-subscribers.json",
+    "content/raw/emvco.com/www.emvco.comindustry-collaboration_industry-partners-liaisons.json",
+    "content/raw/emvco.com/www.emvco.comindustry-collaboration_ways-to-participate.json"
+  ]
+}

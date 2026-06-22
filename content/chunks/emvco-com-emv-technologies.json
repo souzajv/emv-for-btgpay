@@ -1,0 +1,38 @@
+{
+  "id": "emvco-com-emv-technologies",
+  "sourceUrl": "https://www.emvco.com/emv-technologies",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "EMV® Technologies",
+  "sections": [
+    {
+      "anchorId": "emv-3-d-secure",
+      "heading": "EMV® 3-D Secure",
+      "bodyMd": "EMV 3DS allows seamless authentication of consumers to prevent card-not-present (CNP) fraud and increase the security of e-commerce payments.\n\nEMVCo has worked to address this challenge through an open payments approach.  The EV Open Payments Use Case document explains how EMV® Secure Remote Commerce (SRC) – which simplifies the digital payment process to help make it more consistent, convenient and secure – can be used to integrate card-based payments at EV charging stations supporting ISO 15118 Plug and Charge.\n\nThe EMV SRC Specifications provide a common baseline for the development of Click to Pay ecommerce payment solutions.  An Application Programming Interface (API) Specification and JavaScript Software Development Kit (SDK) Specification support common integration, while the EMV Secure Remote Commerce – Click to Pay Customer Experience (CX) Guidelines are available to support consistent Click to Pay checkout experiences.\n\n_In 2023, with EMV® Chip as the bedrock technology, EMVCo will continue advancing EMV Specifications to support seamless and secure transactions across in-person, e-commerce and remote channels.  In this post, Arman Aygen, Director of Technology, shares insights on EMVCo’s key technical priorities for 2023.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "EMVCo has worked to address this challenge through an open payments approach. The EV Open Payments Use Case document explains how EMV® Secure Remote Commerce (SRC) – which simplifies the digital payme…",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:01:58.844Z",
+  "synthesizedAt": "2026-06-22T14:44:21.200Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comemv-technologies.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_3-d-secure.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contactless-chip.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_emv-electric-vehicle-open-payments.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_emv-level-3-testing.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_mobile.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_payment-tokenisation.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_qr-codes.json",
+    "content/raw/emvco.com/www.emvco.comemv-technologies_secure-remote-commerce.json",
+    "content/raw/emvco.com/www.emvco.comknowledge-hub_emv-technologies-2023-priorities.json"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "track-btgpay",
+  "slug": "btgpay-pratica",
+  "title": "BtgPay na prática",
+  "description": "Mapeamento para Flutter: estados, SDK, erros e UX de pagamento.",
+  "order": 5,
+  "estimatedMinutes": 35,
+  "modules": [
+    {
+      "id": "mod-camadas",
+      "title": "Arquitetura em camadas",
+      "summary": "UI, casos de uso e SDK nativo.",
+      "chunkIds": ["btgpay-flutter-pratica"],
+      "sectionAnchorIds": ["camadas-app"],
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "mod-estados",
+      "title": "Estados da transação",
+      "summary": "Modelagem reativa e callbacks do kernel.",
+      "chunkIds": ["btgpay-flutter-pratica"],
+      "sectionAnchorIds": ["estados-transacao"],
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "mod-erros-ux",
+      "title": "Erros e UX",
+      "summary": "Timeouts, retry e mensagens ao lojista.",
+      "chunkIds": ["btgpay-flutter-pratica", "tap-to-mobile-guidelines"],
+      "sectionAnchorIds": ["erros-comuns", "ux-pagamento"],
+      "estimatedMinutes": 11
+    }
+  ]
+}

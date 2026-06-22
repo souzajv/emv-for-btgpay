@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/processes/wearable-level-1-approval-process",
+  "method": "fetch",
+  "title": "Wearable Level 1 Approval Process",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Wearable Level 1 Approval Process",
+      "bodyMd": "Mobile Level 1 approval is granted to a wearable product designed to support NFC-based payment (e.g. a watch used for proximity payment). Wearable products follow the same approval process, including prerequisites and fees, as any other mobile product, although some specific criteria may be used for analogue and interoperability.\n\nRefer to the [Mobile L1 approval process description](https://www.emvco.com/processes/mobile-level-1-approval-process/)."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:05:02.573Z",
+  "sourceUrl": "https://www.emvco.com/processes/wearable-level-1-approval-process"
+}

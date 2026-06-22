@@ -1,0 +1,28 @@
+{
+  "id": "emvco-com-ways-to-participate",
+  "sourceUrl": "https://www.emvco.com/industry-collaboration/ways-to-participate",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Ways to Participate",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Ways to Participate",
+      "bodyMd": "Conteúdo sobre **Ways to Participate** conforme documentação EMV aplicável.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "[Jun 23, 2022 ### Ways to Participate ](https://www.emvco.com/industry-collaboration/ways-to-participate/)",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration_ways-to-participate.json",
+        "status": "GAP"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:04:35.602Z",
+  "synthesizedAt": "2026-06-22T14:44:21.242Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comindustry-collaboration_ways-to-participate.json"
+  ]
+}

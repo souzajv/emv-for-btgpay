@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/emv-technologies/secure-remote-commerce",
+  "method": "fetch",
+  "title": "EMV® Secure Remote Commerce",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "EMV® Secure Remote Commerce",
+      "bodyMd": "The EMV SRC Specifications provide a common baseline for the development of Click to Pay ecommerce payment solutions. An Application Programming Interface (API) Specification and JavaScript Software Development Kit (SDK) Specification support common integration, while the EMV Secure Remote Commerce – Click to Pay Customer Experience (CX) Guidelines are available to support consistent Click to Pay checkout experiences.\n\nClick to Pay solutions are created by various industry participants, including global and domestic payment schemes, banks, fintechs and merchants. Consumers enrol in Click to Pay via participating payment card issuers. Once enrolled, a consumer can confidently pay online wherever they see the Click to Pay icon ![](https://www.emvco.com/wp-content/uploads/2022/07/EMV_TECHNOLOGIES_ON-WHITE_emvco-technology-icon_emv-secure-remote-commerce.svg) and expect comparable security and convenience as when making in-store purchases.\n\nEMVCo licenses the Click to Pay icon ![](https://www.emvco.com/wp-content/uploads/2022/07/EMV_TECHNOLOGIES_ON-WHITE_emvco-technology-icon_emv-secure-remote-commerce.svg) to participating merchants and other participants.\n\nClick to Pay solutions based on the EMV SRC Specifications reduce complexity and unwanted friction for e-commerce merchants and consumers. They provide a consistent checkout process which can reduce the potential for exploitation by fraudsters."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:27.245Z",
+  "sourceUrl": "https://www.emvco.com/emv-technologies/secure-remote-commerce"
+}

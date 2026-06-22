@@ -1,0 +1,116 @@
+{
+  "id": "stripe-com-guia-sobre-como-usar-links-de-pagamento-para-vend",
+  "sourceUrl": "https://stripe.com/br/resources/more/payment-links",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Guia sobre como usar links de pagamento para vendas simplificadas | Stripe",
+  "sections": [
+    {
+      "anchorId": "o-que-sao-links-de-pagamento",
+      "heading": "O que são links de pagamento?",
+      "bodyMd": "Um link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra. Os links de pagamento podem ser criados com rapidez e facilidade e acessados por meio de um navegador, uma mensagem de texto, um e-mail ou uma publicação em redes sociais. Eles permitem que as empresas criem uma página de pagamento e compartilhem o link diretamente com os clientes. Os Stripe Payment Links não exigem programação e podem ser compartilhados quantas vezes você quiser em qualquer canal: e-mail, redes sociais e mensagens de texto.\n\nOs links de pagamento podem ser usados por qualquer empresa que deseje possibilitar aos clientes compras online fáceis e diretas.  Se você acha que essa definição parece ampla demais, é porque ela é mesmo: os links de pagamento são usados em vários setores para estimular as compras de praticamente qualquer segmento de consumidores digitais.  O superpoder dos links de pagamento é sua versatilidade, pois você pode usá-los em quase todos os tipos de compra online.\n\nVeja aqui algumas das situações mais comuns em que o uso de links de pagamento pode facilitar as transações para os clientes:\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Um link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra. Os links de pagamento podem ser criados com rapidez…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "quem-usa-os-links-de-pagamento-e-por-que",
+      "heading": "Quem usa os links de pagamento e por quê?",
+      "bodyMd": "Os links de pagamento podem ser usados por qualquer empresa que deseje possibilitar aos clientes compras online fáceis e diretas. Se você acha que essa definição parece ampla demais, é porque ela é mesmo: os links de pagamento são usados em vários setores para estimular as compras de praticamente qualquer segmento de consumidores digitais. O superpoder dos links de pagamento é sua versatilidade, pois você pode usá-los em quase todos os tipos de compra online.\n\nUm link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra.  Os links de pagamento podem ser criados com rapidez e facilidade e acessados por meio de um navegador, uma mensagem de texto, um e-mail ou uma publicação em redes sociais.  Eles permitem que as empresas criem uma página de pagamento e compartilhem o link diretamente com os clientes.\n\nVeja aqui algumas das situações mais comuns em que o uso de links de pagamento pode facilitar as transações para os clientes:\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Um link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra. Os links de pagamento podem ser criados com rapidez…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "stripe-payment-links",
+      "heading": "Stripe Payment Links",
+      "bodyMd": "O [Stripe Payment Links](https://stripe.com/br/payments/payment-links) pode funcionar como componente flexível de uma estrutura de pagamento mais ampla para empresas que aceitam pagamentos em diversos canais online, presenciais ou de ambos os tipos. Além disso, a solução pode funcionar para novas empresas que ainda não têm um site, pois é uma forma rápida e simples de começar as vendas. O Stripe Payment Links aceita [mais de 20 formas de pagamento](https://stripe.com/br/docs/payment-links), inclusive cartões de crédito e débito e carteiras digitais como Apple Pay e Google Pay. [As páginas de pagamento estão disponíveis em mais de 30 idiomas](https://support.stripe.com/questions/supported-languages-for-stripe-checkout-and-payment-links) e são traduzidas automaticamente para o idioma preferencial do cliente, conforme configurado no navegador.\n\nUm link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra.  Os links de pagamento podem ser criados com rapidez e facilidade e acessados por meio de um navegador, uma mensagem de texto, um e-mail ou uma publicação em redes sociais.  Eles permitem que as empresas criem uma página de pagamento e compartilhem o link diretamente com os clientes.\n\nO Stripe Payment Links permite que os usuários adicionem cores personalizadas e outros elementos de suas marcas a suas páginas de pagamento; adicionem políticas e dados para contato da loja; criem códigos QR para links de pagamento e habilitem códigos promocionais, vendas cruzadas e upsells.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Um link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra. Os links de pagamento podem ser criados com rapidez…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-criar-stripe-payment-links",
+      "heading": "Como criar Stripe Payment Links",
+      "bodyMd": "O Stripe Payment Links só está disponível para quem tem uma conta da Stripe. Portanto, se não tiver uma, [você precisará se cadastrar primeiro](https://dashboard.stripe.com/register/payment_links). Depois de se cadastrar na Stripe e entrar na sua conta, vá para o Dashboard. Clique em [Payment Links](https://dashboard.stripe.com/payment-links) e siga estas etapas:\n\nO [Stripe Payment Links](https://stripe. com/br/payments/payment-links) pode funcionar como componente flexível de uma estrutura de pagamento mais ampla para empresas que aceitam pagamentos em diversos canais online, presenciais ou de ambos os tipos.  Além disso, a solução pode funcionar para novas empresas que ainda não têm um site, pois é uma forma rápida e simples de começar as vendas.\n\nPara empresas que querem criar links de pagamento em grande escala, a Stripe permite aos usuários [gerá-los usando uma API](https://stripe. com/br/docs/payment-links/api).\n\nEnviar Stripe Payment Links é como enviar qualquer outro link: basta copiar e colar o link onde quiser compartilhá-lo.  Você pode reutilizar o mesmo link quantas vezes quiser.\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O [Stripe Payment Links](https://stripe.com/br/payments/payment-links) pode funcionar como componente flexível de uma estrutura de pagamento mais ampla para empresas que aceitam pagamentos em diversos…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-enviar-stripe-payment-links",
+      "heading": "Como enviar Stripe Payment Links",
+      "bodyMd": "Enviar Stripe Payment Links é como enviar qualquer outro link: basta copiar e colar o link onde quiser compartilhá-lo. Você pode reutilizar o mesmo link quantas vezes quiser.\n\nO [Stripe Payment Links](https://stripe. com/br/payments/payment-links) pode funcionar como componente flexível de uma estrutura de pagamento mais ampla para empresas que aceitam pagamentos em diversos canais online, presenciais ou de ambos os tipos.  Além disso, a solução pode funcionar para novas empresas que ainda não têm um site, pois é uma forma rápida e simples de começar as vendas.\n\nDepois que enviar os links de pagamento, você poderá [rastrear o desempenho deles no Dashboard](https://dashboard. stripe. com/payments).\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Enviar Stripe Payment Links é como enviar qualquer outro link: basta copiar e colar o link onde quiser compartilhá-lo. Você pode reutilizar o mesmo link quantas vezes quiser.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "rastreamento-de-links-de-pagamento",
+      "heading": "Rastreamento de links de pagamento",
+      "bodyMd": "Depois que enviar os links de pagamento, você poderá [rastrear o desempenho deles no Dashboard](https://dashboard.stripe.com/payments).\n\nUm link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra.  Os links de pagamento podem ser criados com rapidez e facilidade e acessados por meio de um navegador, uma mensagem de texto, um e-mail ou uma publicação em redes sociais.  Eles permitem que as empresas criem uma página de pagamento e compartilhem o link diretamente com os clientes.\n\nOs links de pagamento podem ser usados por qualquer empresa que deseje possibilitar aos clientes compras online fáceis e diretas.  Se você acha que essa definição parece ampla demais, é porque ela é mesmo: os links de pagamento são usados em vários setores para estimular as compras de praticamente qualquer segmento de consumidores digitais.  O superpoder dos links de pagamento é sua versatilidade, pois você pode usá-los em quase todos os tipos de compra online.\n\nVeja aqui algumas das situações mais comuns em que o uso de links de pagamento pode facilitar as transações para os clientes:\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Um link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra. Os links de pagamento podem ser criados com rapidez…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "beneficios-dos-links-de-pagamento",
+      "heading": "Benefícios dos links de pagamento",
+      "bodyMd": "O caráter simples e enxuto dos links de pagamento torna o apelo deles ainda maior para as empresas. É bem provável que, se você disser a uma empresa que ela pode ter acesso a páginas de produtos independentes em que os consumidores podem comprar sem precisar clicar em outras páginas, ela perceberá o potencial imediatamente.\n\nUm link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra.  Os links de pagamento podem ser criados com rapidez e facilidade e acessados por meio de um navegador, uma mensagem de texto, um e-mail ou uma publicação em redes sociais.  Eles permitem que as empresas criem uma página de pagamento e compartilhem o link diretamente com os clientes.\n\nOs links de pagamento podem ser usados por qualquer empresa que deseje possibilitar aos clientes compras online fáceis e diretas.  Se você acha que essa definição parece ampla demais, é porque ela é mesmo: os links de pagamento são usados em vários setores para estimular as compras de praticamente qualquer segmento de consumidores digitais.  O superpoder dos links de pagamento é sua versatilidade, pois você pode usá-los em quase todos os tipos de compra online.\n\nVeja aqui algumas das situações mais comuns em que o uso de links de pagamento pode facilitar as transações para os clientes:\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Um link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra. Os links de pagamento podem ser criados com rapidez…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "tarifas-dos-links-de-pagamento",
+      "heading": "Tarifas dos links de pagamento",
+      "bodyMd": "Os links de pagamento já estão integrados ao modelo de preços da Stripe, ou seja, as empresas não precisam pagar uma tarifa adicional para criar e usá-los para aceitar pagamentos. Se usar links de pagamento em conjunto com outras soluções da Stripe, como o Billing, para pagamentos recorrentes, ou o Stripe Tax, você precisará pagar as tarifas pertinentes aos serviços utilizados, da mesma forma que pagaria por transações fechadas por outros meios. Excetuando isso, o uso de links de pagamento não traz custos extras aos usuários da Stripe.\n\nUm link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra.  Os links de pagamento podem ser criados com rapidez e facilidade e acessados por meio de um navegador, uma mensagem de texto, um e-mail ou uma publicação em redes sociais.  Eles permitem que as empresas criem uma página de pagamento e compartilhem o link diretamente com os clientes.\n\nOs links de pagamento podem ser usados por qualquer empresa que deseje possibilitar aos clientes compras online fáceis e diretas.  Se você acha que essa definição parece ampla demais, é porque ela é mesmo: os links de pagamento são usados em vários setores para estimular as compras de praticamente qualquer segmento de consumidores digitais.  O superpoder dos links de pagamento é sua versatilidade, pois você pode usá-los em quase todos os tipos de compra online.\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os links de pagamento já estão integrados ao modelo de preços da Stripe, ou seja, as empresas não precisam pagar uma tarifa adicional para criar e usá-los para aceitar pagamentos. Se usar links de pag…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "alternativas-aos-links-de-pagamento",
+      "heading": "Alternativas aos links de pagamento",
+      "bodyMd": "Em caso de transações online, a principal alternativa aos links de pagamento é um site compatível com e-commerce. Se tem um site que permite aos clientes fazer compras online e suporte ao processamento de pagamentos, você pode usar links diretos para páginas de produtos e compartilhá-los mais ou menos da mesma forma que compartilharia os links de pagamento. Evidentemente, esses links não funcionam como links de pagamento, mas servem para direcionar tráfego para o site e, com sorte, para o fluxo de checkout.\n\nMas a verdade é que as alternativas acabam ressaltando as vantagens exclusivas dos próprios links de pagamento: nada permite aos clientes agir de forma tão direta e fácil para concluir uma compra online sem precisar passar por um processo mais extenso de checkout.\n\nUm link de pagamento é um URL, um botão ou um código QR que leva os clientes diretamente a uma página exclusiva de checkout para concluir a compra.  Os links de pagamento podem ser criados com rapidez e facilidade e acessados por meio de um navegador, uma mensagem de texto, um e-mail ou uma publicação em redes sociais.  Eles permitem que as empresas criem uma página de pagamento e compartilhem o link diretamente com os clientes.\n\nOs links de pagamento podem ser usados por qualquer empresa que deseje possibilitar aos clientes compras online fáceis e diretas.  Se você acha que essa definição parece ampla demais, é porque ela é mesmo: os links de pagamento são usados em vários setores para estimular as compras de praticamente qualquer segmento de consumidores digitais.  O superpoder dos links de pagamento é sua versatilidade, pois você pode usá-los em quase todos os tipos de compra online.\n\n**Pontos técnicos:**\n- **Você não tem um site.**\n- **Você tem um alto volume de marketing por SMS.**\n- **Você tem clientes em vários segmentos.**\n- **Você está arrecadando recursos ou doações.**\n- **Você precisa aceitar pagamentos presenciais, mas não tem o equipamento.**\n- **Suas vendas evoluem depressa.**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Mas a verdade é que as alternativas acabam ressaltando as vantagens exclusivas dos próprios links de pagamento: nada permite aos clientes agir de forma tão direta e fácil para concluir uma compra onli…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:00:58.289Z",
+  "synthesizedAt": "2026-06-22T14:44:21.391Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_payment-links.json"
+  ]
+}

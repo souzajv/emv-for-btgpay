@@ -1,0 +1,54 @@
+{
+  "id": "btgpay-flutter-pratica",
+  "sourceUrl": "internal://btgpay/synthesis",
+  "sourceType": "web",
+  "category": "btgpay",
+  "title": "BtgPay na prática: visão Flutter",
+  "sections": [
+    {
+      "anchorId": "camadas-app",
+      "heading": "Camadas do app",
+      "bodyMd": "Apresentação (Flutter widgets) Casos de uso (venda, estorno) Gateway de pagamentos (SDK nativo via method channel) Kernel EMV certificado. O time frontend não implementa EMV kernel; implementa estados, navegação, tratamento de erros e observabilidade.",
+      "btgpayNote": "Este conteúdo subsidia decisões técnicas do time BtgPay mobile: integração Flutter, SDK de pagamentos e conformidade com especificações EMV e requisitos do adquirente.",
+      "verification": {
+        "evidence": "Apresentação (Flutter widgets) Casos de uso (venda, estorno) Gateway de pagamentos (SDK nativo via method channel) Kernel EMV certificado. O time frontend não implementa EMV kernel; implementa estados…",
+        "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "estados-transacao",
+      "heading": "Estados da transação",
+      "bodyMd": "Modelar enum de estados: idle, amountEntry, awaitingCard, processing, approved, declined, cancelled, error. Cada transição vem do callback do SDK. UI reativa com Bloc/Riverpod; nunca assumir aprovação antes do callback final.",
+      "btgpayNote": "Este conteúdo subsidia decisões técnicas do time BtgPay mobile: integração Flutter, SDK de pagamentos e conformidade com especificações EMV e requisitos do adquirente.",
+      "verification": {
+        "evidence": "Modelar enum de estados: idle, amountEntry, awaitingCard, processing, approved, declined, cancelled, error. Cada transição vem do callback do SDK. UI reativa com Bloc/Riverpod; nunca assumir aprovação…",
+        "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "erros-comuns",
+      "heading": "Erros comuns no mobile POS",
+      "bodyMd": "Cartão removido cedo, timeout NFC, múltiplos cartões no campo, dispositivo sem NFC, rede indisponível na autorização online, terminal não ativado. Mapear códigos do SDK para mensagens amigáveis em PT-BR e ações sugeridas (tentar novamente, usar outro cartão).",
+      "btgpayNote": "Este conteúdo subsidia decisões técnicas do time BtgPay mobile: integração Flutter, SDK de pagamentos e conformidade com especificações EMV e requisitos do adquirente.",
+      "verification": {
+        "evidence": "Cartão removido cedo, timeout NFC, múltiplos cartões no campo, dispositivo sem NFC, rede indisponível na autorização online, terminal não ativado. Mapear códigos do SDK para mensagens amigáveis em PT-…",
+        "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "alta",
+  "scrapedAt": "2026-06-22T13:57:52.796Z",
+  "enrichedFrom": [
+    "content\\raw\\pdfs\\TapToMobile-Guidelines-v1.1.json"
+  ],
+  "enrichedChars": 44349,
+  "synthesizedAt": "2026-06-22T14:44:21.152Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json"
+  ]
+}

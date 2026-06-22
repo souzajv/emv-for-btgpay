@@ -1,0 +1,14 @@
+{
+  "url": "https://stripe.com/br/resources/more/startups",
+  "method": "fetch",
+  "title": "Recursos para startups | Stripe",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Recursos para startups | Stripe",
+      "bodyMd": "[Comece agora](https://dashboard.stripe.com/register)  [Fale com a equipe](/br/contact/sales) \n\nVeja como criar, apresentar e gerenciar uma startup de sucesso.\n\n![](https://images.stripeassets.com/fzn2n1nzq965/vkuHHSaBRDiPNQMNrfypm/64ac41be3aac547fe97d598248037c5c/image__45_.svg?q=80)\n\nStartups\n\n![](https://images.stripeassets.com/fzn2n1nzq965/jw7X3WATqtmsoEaMNgO5m/5ab0c144349dabe492f15d9d9927aefe/image__44_.svg?q=80)\n\nAcesse uma plataforma completa de pagamento com preços simples e com base no uso ou fale conosco para criarmos um pacote personalizado, específico para sua empresa."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:01:13.923Z",
+  "sourceUrl": "https://stripe.com/br/resources/more/startups"
+}

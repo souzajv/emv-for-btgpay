@@ -1,0 +1,26 @@
+{
+  "id": "emvco-com-document-search",
+  "sourceUrl": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=430",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Document Search",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Document Search",
+      "bodyMd": "No results found. Try adjusting your search or filters.\n\nEsta seção aborda **Document Search** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.\n\nConforme a documentação fonte: Esta seção aborda **Document Search** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.  (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).\n\nConforme a documentação fonte: - Evidência: \"0 Results  Sort by: Sort by  No results found.   Try adjusting your search or filters.  (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Esta seção aborda **Document Search** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.",
+        "sourceRel": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=430",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:04:01.797Z",
+  "synthesizedAt": "2026-06-22T14:44:21.176Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": []
+}

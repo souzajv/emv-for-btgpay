@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/events",
+  "method": "fetch",
+  "title": "Events",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Events",
+      "bodyMd": "Sep 15 2026\n\n#### [EMVCo Functional Lab Meeting](https://www.emvco.com/events/emvco-functional-lab-meeting/)\n\nThis is the meeting notice for the EMVCo Functional Lab Meeting in Bangkok, Thailand. This meeting is open only to EMVCo functional labs and test tool providers. Agenda and pre-read information will be added closer to the meeting.\n\nWatthana, Thailand\n\n[View Event](https://www.emvco.com/events/emvco-functional-lab-meeting/)"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:38.383Z",
+  "sourceUrl": "https://www.emvco.com/events"
+}

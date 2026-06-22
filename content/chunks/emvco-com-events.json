@@ -1,0 +1,28 @@
+{
+  "id": "emvco-com-events",
+  "sourceUrl": "https://www.emvco.com/events",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Events",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Events",
+      "bodyMd": "Conforme a documentação fonte: This is the meeting notice for the EMVCo Functional Lab Meeting in Bangkok, Thailand.  This meeting is open only to EMVCo functional labs and test tool providers. (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "This is the meeting notice for the EMVCo Functional Lab Meeting in Bangkok, Thailand. This meeting is open only to EMVCo functional labs and test tool providers. Agenda and pre-read information will b…",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comevents.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:04:38.383Z",
+  "synthesizedAt": "2026-06-22T14:44:21.207Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comevents.json"
+  ]
+}

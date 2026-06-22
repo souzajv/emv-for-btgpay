@@ -1,0 +1,26 @@
+{
+  "id": "stripe-com-recursos-fiscais-stripe",
+  "sourceUrl": "https://stripe.com/br/resources/more/tax",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Recursos fiscais | Stripe",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Recursos fiscais | Stripe",
+      "bodyMd": "[Comece agora](https://dashboard.stripe.com/register)  [Fale com a equipe](/br/contact/sales)\n\nEsta seção aborda **Recursos fiscais | Stripe** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.\n\nConforme a documentação fonte: Esta seção aborda **Recursos fiscais | Stripe** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.  (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).\n\n- Evidência: \"Esta seção aborda **Recursos fiscais | Stripe** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless. \"\n- Fonte: `https://stripe.\n\n**Pontos técnicos:**\n- Evidência: \"Esta seção aborda **Recursos fiscais | Stripe** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.\"\n- Fonte: `https://stripe.com/br/resources/more/tax`\n- *Extrato estruturado da fonte:**\n- [Comece agora](https://dashboard. stripe.\n- [](https://images. stripeassets. com/fzn2n1nzq965/vkuHHSaBRDiPNQMNrfypm/64ac41be3aac547fe97d598248037c5c/image__45_. svg?\n- [](https://images. stripeassets. com/fzn2n1nzq965/jw7X3WATqtmsoEaMNgO5m/5ab0c144349dabe492f15d9d9927aefe/image__44_. svg?\n- Saiba mais sobre conformidade fiscal, recolhimento de impostos e os diferentes tipos de impostos que podem se aplicar à sua empresa.\n- Evidência: \"[Comece agora](https://dashboard.stripe.com/register)  [Fale com a equipe](/br/contact/sales)\"",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Esta seção aborda **Recursos fiscais | Stripe** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.",
+        "sourceRel": "https://stripe.com/br/resources/more/tax",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:01:23.137Z",
+  "synthesizedAt": "2026-06-22T14:44:21.494Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": []
+}

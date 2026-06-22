@@ -1,0 +1,28 @@
+{
+  "id": "emvco-com-wearable-level-1-approval-process",
+  "sourceUrl": "https://www.emvco.com/processes/wearable-level-1-approval-process",
+  "sourceType": "web",
+  "category": "certificacao",
+  "title": "Wearable Level 1 Approval Process",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Wearable Level 1 Approval Process",
+      "bodyMd": "Mobile Level 1 approval is granted to a wearable product designed to support NFC-based payment (e.g. a watch used for proximity payment). Wearable products follow the same approval process, including prerequisites and fees, as any other mobile product, although some specific criteria may be used for analogue and interoperability.",
+      "btgpayNote": "Certificações L1/L2/L3 e programas de bandeira impactam diretamente o cronograma do POS mobile BtgPay. Alterações no fluxo de pagamento ou no bridge nativo podem exigir reteste em laboratório aprovado.",
+      "verification": {
+        "evidence": "Mobile Level 1 approval is granted to a wearable product designed to support NFC-based payment (e.g. a watch used for proximity payment). Wearable products follow the same approval process, including…",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_wearable-level-1-approval-process.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "alta",
+  "scrapedAt": "2026-06-22T13:05:02.573Z",
+  "synthesizedAt": "2026-06-22T14:44:21.243Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comprocesses_wearable-level-1-approval-process.json"
+  ]
+}

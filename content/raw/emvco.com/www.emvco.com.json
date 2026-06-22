@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/",
+  "method": "fetch",
+  "title": "Enabling Seamless and Secure Payments Worldwide",
+  "sections": [
+    {
+      "anchorId": "emvco-collaborates-with-the-payments-industry",
+      "heading": "EMVCo collaborates with the payments industry",
+      "bodyMd": "Hundreds of banks, merchants, technology providers and other industry stakeholders contribute to the development of EMV Specifications and programmes."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:01:51.771Z",
+  "sourceUrl": "https://www.emvco.com/"
+}

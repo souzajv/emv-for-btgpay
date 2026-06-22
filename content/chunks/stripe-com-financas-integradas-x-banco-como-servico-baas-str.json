@@ -1,0 +1,105 @@
+{
+  "id": "stripe-com-financas-integradas-x-banco-como-servico-baas-str",
+  "sourceUrl": "https://stripe.com/br/resources/more/embedded-finance-vs-banking-as-a-service",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Finanças integradas x banco como serviço (BaaS) | StripeConnect",
+  "sections": [
+    {
+      "anchorId": "o-que-sao-financas-integradas",
+      "heading": "O que são finanças integradas?",
+      "bodyMd": "Finanças integradas são a integração da tecnologia de serviços financeiros em plataformas fora do setor financeiro. Por meio de interfaces de programação de aplicativos (APIs), essas plataformas podem oferecer serviços como pagamentos, empréstimos ou seguros, tornando as transações financeiras parte da experiência do cliente.\n\nOs modelos de finanças integradas e BaaS aceleraram a revolução dos sistemas financeiros tradicionais, operando de maneiras distintas.  Ambos usam APIs para oferecer serviços, mas seus objetivos, públicos-alvo e impacto geral nas transações financeiras divergem.  Veja as diferenças e semelhanças entre os dois.\n\nFinanças integradas injetam serviços financeiros em plataformas com foco em diferentes atividades.  Seja no varejo, reservas de viagens ou redes sociais, as finanças integradas permitem que essas plataformas adicionem recursos bancários, como pagamentos, empréstimos ou seguros.  Essa integração permite que os clientes da plataforma concluam transações financeiras sem sair da plataforma que já usam e conhecem.\n\n**Pontos técnicos:**\n- **Consumidores em geral:** qualquer pessoa que se envolva com uma plataforma pode ser incluída nessa categoria, especialmente quem valoriza fazer tudo no mesmo lugar.\n- **Trabalhadores autônomos:** com soluções de pagamento em tempo real incorporadas às plataformas de trabalho, esses trabalhadores representam outro grupo significativo de clientes.\n- **Pequenos empresários:** as necessidades dos proprietários de [pequenas empresas](https://stripe.com/br/resources/more/10-legal-requirements-for-starting-a-small-business), particularmente aqueles que operam lojas online e precisam de soluções integradas de pagamento ou empréstimo, podem ser atendidas com finanças integradas.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Finanças integradas são a integração da tecnologia de serviços financeiros em plataformas fora do setor financeiro. Por meio de interfaces de programação de aplicativos (APIs), essas plataformas podem…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "o-que-e-banco-como-servico-baas",
+      "heading": "O que é banco como serviço (BaaS)?",
+      "bodyMd": "O BaaS (banking-as-a-service, banco como serviço) é um modelo em que as instituições financeiras fornecem acesso às suas principais funções bancárias por meio de APIs. Isso permite que empresas externas criem seus próprios produtos financeiros sem precisar se tornar bancos. Com APIs, essas empresas criam e implantam serviços como pagamentos, gestão de contas e funções mais complexas, como empréstimos e avaliação de risco. O BaaS está favorecendo experiências bancárias mais modulares e personalizáveis, afetando diretamente a forma como os serviços financeiros são entregues e consumidos.\n\n*   **Entusiastas de fintechs:** o BaaS atrai usuários inovadores, que gostam de experimentar novos produtos financeiros, como novos bancos e robôs de orientação financeira.   \n    \n*   **Pequenas e médias empresas:** empresas que desejam soluções financeiras modulares sem se comprometer com uma única entidade bancária podem ser uma boa opção para o BaaS.   \n    \n*   **Populações desbancarizadas:** o BaaS pode facilitar a entrada e ser mais acessível às populações desbancarizadas do que os serviços financeiros tradicionais.\n\nO BaaS oferece aos empresários um menu de recursos financeiros modulares com APIs.  É como um banco à la carte, onde um terceiro pode escolher quais recursos bancários integrar em sua plataforma.  É um sistema muito útil para [startups fintech](https://stripe.\n\n**Pontos técnicos:**\n- **Entusiastas de fintechs:** o BaaS atrai usuários inovadores, que gostam de experimentar novos produtos financeiros, como novos bancos e robôs de orientação financeira.\n- **Pequenas e médias empresas:** empresas que desejam soluções financeiras modulares sem se comprometer com uma única entidade bancária podem ser uma boa opção para o BaaS.\n- **Populações desbancarizadas:** o BaaS pode facilitar a entrada e ser mais acessível às populações desbancarizadas do que os serviços financeiros tradicionais.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O BaaS (banking-as-a-service, banco como serviço) é um modelo em que as instituições financeiras fornecem acesso às suas principais funções bancárias por meio de APIs. Isso permite que empresas extern…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "financas-integradas-x-banco-como-servico",
+      "heading": "Finanças integradas x banco como serviço",
+      "bodyMd": "Os modelos de finanças integradas e BaaS aceleraram a revolução dos sistemas financeiros tradicionais, operando de maneiras distintas. Ambos usam APIs para oferecer serviços, mas seus objetivos, públicos-alvo e impacto geral nas transações financeiras divergem. Veja as diferenças e semelhanças entre os dois.\n\nOs dois modelos de negócios têm abordagens regulatórias diferentes.  As empresas que implementam finanças integradas geralmente fazem parcerias com instituições financeiras para compartilhar responsabilidades de conformidade, porque a plataforma principal geralmente não tem experiência com a regulamentação financeira.  O BaaS, no entanto, geralmente envolve uma relação mais direta entre a fintech e seus clientes, porque a empresa funciona de certa maneira como um banco.\n\nFinanças integradas são a integração da tecnologia de serviços financeiros em plataformas fora do setor financeiro.  Por meio de interfaces de programação de aplicativos (APIs), essas plataformas podem oferecer serviços como pagamentos, empréstimos ou seguros, tornando as transações financeiras parte da experiência do cliente.\n\nO BaaS (banking-as-a-service, banco como serviço) é um modelo em que as instituições financeiras fornecem acesso às suas principais funções bancárias por meio de APIs.  Isso permite que empresas externas criem seus próprios produtos financeiros sem precisar se tornar bancos.  Com APIs, essas empresas criam e implantam serviços como pagamentos, gestão de contas e funções mais complexas, como empréstimos e avaliação de risco.\n\n**Pontos técnicos:**\n- **Entusiastas de fintechs:** o BaaS atrai usuários inovadores, que gostam de experimentar novos produtos financeiros, como novos bancos e robôs de orientação financeira.\n- **Pequenas e médias empresas:** empresas que desejam soluções financeiras modulares sem se comprometer com uma única entidade bancária podem ser uma boa opção para o BaaS.\n- **Populações desbancarizadas:** o BaaS pode facilitar a entrada e ser mais acessível às populações desbancarizadas do que os serviços financeiros tradicionais.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os dois modelos de negócios têm abordagens regulatórias diferentes. As empresas que implementam finanças integradas geralmente fazem parcerias com instituições financeiras para compartilhar responsabi…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "financas-integradas",
+      "heading": "Finanças integradas",
+      "bodyMd": "Finanças integradas injetam serviços financeiros em plataformas com foco em diferentes atividades. Seja no varejo, reservas de viagens ou redes sociais, as finanças integradas permitem que essas plataformas adicionem recursos bancários, como pagamentos, empréstimos ou seguros. Essa integração permite que os clientes da plataforma concluam transações financeiras sem sair da plataforma que já usam e conhecem. Por exemplo, um aplicativo de carona pode oferecer aos clientes um empréstimo para uma viagem, debitado diretamente de uma conta vinculada ao mesmo aplicativo.\n\nFinanças integradas são a integração da tecnologia de serviços financeiros em plataformas fora do setor financeiro.  Por meio de interfaces de programação de aplicativos (APIs), essas plataformas podem oferecer serviços como pagamentos, empréstimos ou seguros, tornando as transações financeiras parte da experiência do cliente.\n\nOs modelos de finanças integradas e BaaS aceleraram a revolução dos sistemas financeiros tradicionais, operando de maneiras distintas.  Ambos usam APIs para oferecer serviços, mas seus objetivos, públicos-alvo e impacto geral nas transações financeiras divergem.  Veja as diferenças e semelhanças entre os dois.\n\n**Pontos técnicos:**\n- **Consumidores em geral:** qualquer pessoa que se envolva com uma plataforma pode ser incluída nessa categoria, especialmente quem valoriza fazer tudo no mesmo lugar.\n- **Trabalhadores autônomos:** com soluções de pagamento em tempo real incorporadas às plataformas de trabalho, esses trabalhadores representam outro grupo significativo de clientes.\n- **Pequenos empresários:** as necessidades dos proprietários de [pequenas empresas](https://stripe.com/br/resources/more/10-legal-requirements-for-starting-a-small-business), particularmente aqueles que operam lojas online e precisam de soluções integradas de pagamento ou empréstimo, podem ser atendidas com finanças integradas.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Finanças integradas são a integração da tecnologia de serviços financeiros em plataformas fora do setor financeiro. Por meio de interfaces de programação de aplicativos (APIs), essas plataformas podem…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "banco-como-servico",
+      "heading": "Banco como serviço",
+      "bodyMd": "O BaaS oferece aos empresários um menu de recursos financeiros modulares com APIs. É como um banco à la carte, onde um terceiro pode escolher quais recursos bancários integrar em sua plataforma. É um sistema muito útil para [startups fintech](https://stripe.com/br/resources/more/what-are-the-stages-of-a-startup) que desejam lançar rapidamente sem estabelecer uma infraestrutura bancária completa. Por exemplo, uma fintech pode usar o BaaS para permitir que seus clientes criem contas, transfiram valores e invistam no mercado de ações através das APIs de um banco parceiro.\n\nO BaaS (banking-as-a-service, banco como serviço) é um modelo em que as instituições financeiras fornecem acesso às suas principais funções bancárias por meio de APIs.  Isso permite que empresas externas criem seus próprios produtos financeiros sem precisar se tornar bancos.  Com APIs, essas empresas criam e implantam serviços como pagamentos, gestão de contas e funções mais complexas, como empréstimos e avaliação de risco.\n\n*   **Entusiastas de fintechs:** o BaaS atrai usuários inovadores, que gostam de experimentar novos produtos financeiros, como novos bancos e robôs de orientação financeira.   \n    \n*   **Pequenas e médias empresas:** empresas que desejam soluções financeiras modulares sem se comprometer com uma única entidade bancária podem ser uma boa opção para o BaaS.   \n    \n*   **Populações desbancarizadas:** o BaaS pode facilitar a entrada e ser mais acessível às populações desbancarizadas do que os serviços financeiros tradicionais.\n\n**Pontos técnicos:**\n- **Entusiastas de fintechs:** o BaaS atrai usuários inovadores, que gostam de experimentar novos produtos financeiros, como novos bancos e robôs de orientação financeira.\n- **Pequenas e médias empresas:** empresas que desejam soluções financeiras modulares sem se comprometer com uma única entidade bancária podem ser uma boa opção para o BaaS.\n- **Populações desbancarizadas:** o BaaS pode facilitar a entrada e ser mais acessível às populações desbancarizadas do que os serviços financeiros tradicionais.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O BaaS (banking-as-a-service, banco como serviço) é um modelo em que as instituições financeiras fornecem acesso às suas principais funções bancárias por meio de APIs. Isso permite que empresas extern…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "questoes-regulatorias",
+      "heading": "Questões regulatórias",
+      "bodyMd": "Os dois modelos de negócios têm abordagens regulatórias diferentes. As empresas que implementam finanças integradas geralmente fazem parcerias com instituições financeiras para compartilhar responsabilidades de conformidade, porque a plataforma principal geralmente não tem experiência com a regulamentação financeira. O BaaS, no entanto, geralmente envolve uma relação mais direta entre a fintech e seus clientes, porque a empresa funciona de certa maneira como um banco. Portanto, empresas que oferecem BaaS estão sujeitas a mais supervisão regulatória e são obrigadas a obter licenças, fornecer relatórios e manter executivos internos de conformidade.\n\nO BaaS (banking-as-a-service, banco como serviço) é um modelo em que as instituições financeiras fornecem acesso às suas principais funções bancárias por meio de APIs.  Isso permite que empresas externas criem seus próprios produtos financeiros sem precisar se tornar bancos.  Com APIs, essas empresas criam e implantam serviços como pagamentos, gestão de contas e funções mais complexas, como empréstimos e avaliação de risco.\n\nOs modelos financeiros incorporados visam principalmente uma ampla base de clientes, com um forte foco em conveniência e experiências ricas em recursos.  O BaaS tem um público-alvo mais especializado, como clientes insatisfeitos com as opções bancárias tradicionais, que exigem soluções modulares ou estão sub-representados nos sistemas financeiros tradicionais.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os dois modelos de negócios têm abordagens regulatórias diferentes. As empresas que implementam finanças integradas geralmente fazem parcerias com instituições financeiras para compartilhar responsabi…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "dados-e-analises",
+      "heading": "Dados e análises",
+      "bodyMd": "Finanças integradas e BaaS oferecem diferentes tipos de dados para análise. As finanças integradas costumam produzir insights do comportamento do cliente para uma atividade ou setor específico, como varejo ou transporte. As empresas podem usar esses dados para refinar as ofertas de produtos financeiros nesse contexto. O BaaS produz dados financeiros mais gerais, dado seu foco em serviços financeiros autônomos. Esses dados podem ser incrivelmente valiosos, mas faltam os insights contextualizados e específicos que as finanças integradas podem oferecer.\n\nFinanças integradas são a integração da tecnologia de serviços financeiros em plataformas fora do setor financeiro.  Por meio de interfaces de programação de aplicativos (APIs), essas plataformas podem oferecer serviços como pagamentos, empréstimos ou seguros, tornando as transações financeiras parte da experiência do cliente.\n\nO BaaS (banking-as-a-service, banco como serviço) é um modelo em que as instituições financeiras fornecem acesso às suas principais funções bancárias por meio de APIs.  Isso permite que empresas externas criem seus próprios produtos financeiros sem precisar se tornar bancos.  Com APIs, essas empresas criam e implantam serviços como pagamentos, gestão de contas e funções mais complexas, como empréstimos e avaliação de risco.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Finanças integradas e BaaS oferecem diferentes tipos de dados para análise. As finanças integradas costumam produzir insights do comportamento do cliente para uma atividade ou setor específico, como v…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "mercados-alvo",
+      "heading": "Mercados-alvo",
+      "bodyMd": "Ambos os modelos tentam preencher lacunas nas ofertas atuais do mercado, mas cada um é ajustado para diferentes necessidades e preferências do cliente. Em resumo, veja os tipos de clientes que cada modelo tem como principal alvo:\n\nOs modelos de finanças integradas e BaaS aceleraram a revolução dos sistemas financeiros tradicionais, operando de maneiras distintas.  Ambos usam APIs para oferecer serviços, mas seus objetivos, públicos-alvo e impacto geral nas transações financeiras divergem.  Veja as diferenças e semelhanças entre os dois.\n\nOs modelos financeiros incorporados visam principalmente uma ampla base de clientes, com um forte foco em conveniência e experiências ricas em recursos.  O BaaS tem um público-alvo mais especializado, como clientes insatisfeitos com as opções bancárias tradicionais, que exigem soluções modulares ou estão sub-representados nos sistemas financeiros tradicionais.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os modelos de finanças integradas e BaaS aceleraram a revolução dos sistemas financeiros tradicionais, operando de maneiras distintas. Ambos usam APIs para oferecer serviços, mas seus objetivos, públi…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:00:45.856Z",
+  "synthesizedAt": "2026-06-22T14:44:21.384Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_embedded-finance-vs-banking-as-a-service.json"
+  ]
+}

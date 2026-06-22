@@ -1,0 +1,14 @@
+{
+  "url": "https://stripe.com/br/resources/more",
+  "method": "fetch",
+  "title": "Mais recursos | Stripe",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Mais recursos | Stripe",
+      "bodyMd": "[Comece agora](https://dashboard.stripe.com/register)  [Fale com a equipe](/br/contact/sales) \n\nOrientações práticas e visões gerais de conceitos básicos sobre serviços financeiros e pagamentos.\n\nCategorias\n\n1.  [Contabilidade](#contabilidade)\n2.  [Cobrança](#cobranca)\n3.  [Empresa](#empresa)\n4.  [Formação de empresas](#formacao-de-empresas)\n5.  [Faturamento](#faturamento)\n6.  [Emissão](#emissao)\n7.  [Gestão dos valores](#gestao-dos-valores)\n8.  [Pagamentos](#pagamentos)\n9.  [Gerenciamento de riscos](#gerenciamento-de-riscos)\n10.  [Startups](#startups)\n11.  [Impostos](#impostos)\n\nConheça os princípios básicos de contabilidade, como reconhecimento de receitas, reconciliação e conformidade com a norma ASC 606.\n\nExplore o processo de cobrança e faturamento para empresas. Aprenda sobre os recursos de faturamento recorrente, incluindo gerenciamento de assinaturas, reconciliação, cobrança de faturas e muito mais.\n\nNavegue pelos recursos essenciais para sua empresa de pequeno a grande porte. Explore os recursos de processamento de pagamentos, faturamento, startups, gestão de riscos e muito mais.\n\nFamiliarize-se com os fundamentos da formação de empresas, incluindo diferentes maneiras de constituir e registrar uma empresa nos EUA.\n\nAprenda os conceitos básicos de faturamento, como quando emitir uma fatura, faturas recorrentes e reconciliação de faturas.\n\nSaiba mais sobre a emissão de cartões físicos e virtuais, inclusive sobre a solicitação de cartões de crédito corporativos, de marca conjunta e virtuais para empresas.\n\nAprenda sobre gestão financeira, incluindo exemplos de finanças incorporadas, noções de API banking e conceitos de open banking.\n\nExplore o amplo mundo dos pagamentos: dos primeiros passos às carteiras digitais e muito mais.\n\nSaiba como proteger sua empresa contra perdas por fraude, estornos e muito mais.\n\nVeja como criar, apresentar e gerenciar uma startup de sucesso.\n\nSaiba mais sobre conformidade fiscal, recolhimento de impostos e os diferentes tipos de impostos que podem se aplicar à sua empresa.\n\nAcesse uma plataforma completa de pagamento com preços simples e com base no uso ou fale conosco para criarmos um pacote personalizado, específico para sua empresa."
+    }
+  ],
+  "scrapedAt": "2026-06-22T12:59:44.228Z",
+  "sourceUrl": "https://stripe.com/br/resources/more"
+}

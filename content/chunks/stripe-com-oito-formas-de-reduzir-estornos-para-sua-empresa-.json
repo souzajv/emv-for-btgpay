@@ -1,0 +1,160 @@
+{
+  "id": "stripe-com-oito-formas-de-reduzir-estornos-para-sua-empresa-",
+  "sourceUrl": "https://stripe.com/br/resources/more/eight-ways-to-reduce-chargebacks",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Oito formas de reduzir estornos para sua empresa | StripeRadar",
+  "sections": [
+    {
+      "anchorId": "o-que-sao-estornos",
+      "heading": "O que são estornos?",
+      "bodyMd": "Um estorno é uma reversão do pagamento de um emissor de cartão de crédito ou débito para o titular do cartão após uma contestação de cobrança feita por ele. Ao contrário do reembolso, em que a empresa inicia a reversão do pagamento, no estorno o banco emissor retira o valor da conta da empresa, retendo o dinheiro enquanto investiga a legitimidade da contestação: caso seja confirmada, os fundos são devolvidos ao cliente.\n\nOs estornos servem para corrigir casos de fraude de cartão de crédito e erros, como cobranças duplicadas acidentais.  Este é o seu propósito declarado.  Dito isso, alguns consumidores contestam cobranças e solicitam estornos por outros motivos, ou seja, para evitar o processo de devolver um produto e solicitar reembolso.\n\nOs estornos foram criados há mais de 40 anos como recurso contra fraudes em cartões de crédito.  O objetivo era aumentar a confiança do consumidor nos cartões de crédito, permitindo recuperar valores perdidos em caso de fraude.  Se uma compra fosse resultado de fraude, o titular do cartão veria a cobrança no extrato do cartão, avisaria o banco emissor e receberia os fundos de volta.\n\nNa realidade, os estornos são usados pelos clientes não apenas para corrigir casos de fraude reais, mas também para contornar o processo de devolução de produtos insatisfatórios ou para cancelar um pedido que não é entregue.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os estornos servem para corrigir casos de fraude de cartão de crédito e erros, como cobranças duplicadas acidentais. Este é o seu propósito declarado. Dito isso, alguns consumidores contestam cobrança…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "por-que-acontecem-estornos",
+      "heading": "Por que acontecem estornos?",
+      "bodyMd": "Os estornos servem para corrigir casos de fraude de cartão de crédito e erros, como cobranças duplicadas acidentais. Este é o seu propósito declarado. Dito isso, alguns consumidores contestam cobranças e solicitam estornos por outros motivos, ou seja, para evitar o processo de devolver um produto e solicitar reembolso.\n\nFraudes amigáveis podem ser mais complicadas de combater do que simples fraudes de cartão de crédito.  Muitos estornos acontecem porque os clientes preferem não se dar ao trabalho de devolver um item ou pedir um reembolso.  Você pode incentivar os clientes a usarem os canais adequados para devolver um produto que não desejam em vez de desistir e contestar a cobrança pelo banco.\n\nOs estornos foram criados há mais de 40 anos como recurso contra fraudes em cartões de crédito.  O objetivo era aumentar a confiança do consumidor nos cartões de crédito, permitindo recuperar valores perdidos em caso de fraude.  Se uma compra fosse resultado de fraude, o titular do cartão veria a cobrança no extrato do cartão, avisaria o banco emissor e receberia os fundos de volta.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Fraudes amigáveis podem ser mais complicadas de combater do que simples fraudes de cartão de crédito. Muitos estornos acontecem porque os clientes preferem não se dar ao trabalho de devolver um item o…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "por-que-os-estornos-sao-ruins-para-os-negocios",
+      "heading": "Por que os estornos são ruins para os negócios",
+      "bodyMd": "Os estornos prejudicam a empresa por motivos óbvios: qualquer situação em que seja necessário devolver valores ao cliente não é ideal, por definição. Além da perda de receita da transação revertida, os estornos custam caro. Quando se considera o custo do tempo gasto no processamento de estornos, a perda de inventário e as tarifas cobradas pelos provedores de processamento de pagamentos, as empresas perdem uma quantia desproporcional em virtude de estornos. Um estudo da LexisNexis constatou que [US$ 1,00 em fraudes custam US$ 3,75 para uma empresa de varejo e e-commerce nos EUA](https://risk.lexisnexis.com/insights-resources/research/us-ca-true-cost-of-fraud-study), 19,80% mais do que o custo de 2019, que era de US$ 3,13 por US$ 1,00 em fraudes.\n\nEstornos para casos que não configuram fraude real são chamados de \"fraude amigável\" e representam [até 86% de todos os estornos](https://www. getbankcard. com/blog/chargeback-stats-merchants-must-know/#:~:text=Also%20notable%20is%20that%2086,1.\n\nÀ primeira vista, pode parecer que um processo fácil de devolução reduziria sua receita, mas não é verdade.  Se o cliente decidir que quer receber o dinheiro de volta após uma compra, você precisa fazer o que estiver ao seu alcance para que a reversão do pagamento seja feita por reembolso em vez de estorno.  A devolução, assim como o estorno, exige a devolução de fundos ao cliente (e nenhuma empresa quer isso), mas os reembolsos são muito mais favoráveis aos negócios do que os estornos.\n\nOs estornos servem para corrigir casos de fraude de cartão de crédito e erros, como cobranças duplicadas acidentais.  Este é o seu propósito declarado.  Dito isso, alguns consumidores contestam cobranças e solicitam estornos por outros motivos, ou seja, para evitar o processo de devolver um produto e solicitar reembolso.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Estornos para casos que não configuram fraude real são chamados de \"fraude amigável\" e representam [até 86% de todos os estornos](https://www.getbankcard.com/blog/chargeback-stats-merchants-must-know/…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "qual-a-quantidade-normal-de-estornos-para-uma-empresa",
+      "heading": "Qual a quantidade normal de estornos para uma empresa?",
+      "bodyMd": "É bom saber que o número de estornos de uma empresa costuma diminuir ano a ano. Ainda assim, a perda de receita é impressionante: só em 2020, [as empresas perderam US$ 17,5 bilhões em virtude de estornos e fraudes](https://www.juniperresearch.com/press/ecommerce-losses-online-payment-fraud-exceed-20bn), de acordo com um estudo da Juniper Research.\n\nOs estornos prejudicam a empresa por motivos óbvios: qualquer situação em que seja necessário devolver valores ao cliente não é ideal, por definição.  Além da perda de receita da transação revertida, os estornos custam caro.  Quando se considera o custo do tempo gasto no processamento de estornos, a perda de inventário e as tarifas cobradas pelos provedores de processamento de pagamentos, as empresas perdem uma quantia desproporcional em virtude de estornos.\n\n*   **Consultar seu provedor de pagamentos:**  \n    Os processadores de pagamentos têm todo o interesse em ajudar seus clientes a reduzir estornos.  Portanto, um bom ponto de partida é consultar seu provedor e saber que ajuda ele pode oferecer.  A Stripe, por exemplo, oferece [suporte completo para prevenção de fraudes](https://stripe.\n\nUm dos motivos mais comuns para os clientes contestarem cobranças é porque eles simplesmente não reconhecem o nome da empresa no extrato do cartão de crédito.  Quando a cobrança aparece no extrato, sempre há uma breve descrição da transação, chamada de descrição no extrato.  Normalmente, o nome da empresa aparece nessa descrição, mas às vezes o nome da empresa não é reconhecível ou não aparece.\n\n**Pontos técnicos:**\n- **Consultar seu provedor de pagamentos:**\n- **Atualize regularmente seu software de ponto de venda (POS):**\n- **Opte por transações de cartão mais seguras:**\n- **Exija assinatura e PIN do cliente:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os estornos prejudicam a empresa por motivos óbvios: qualquer situação em que seja necessário devolver valores ao cliente não é ideal, por definição. Além da perda de receita da transação revertida, o…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "oito-formas-de-reduzir-o-numero-de-estornos",
+      "heading": "Oito formas de reduzir o número de estornos:",
+      "bodyMd": "Evitar estornos significa fazer tudo o que estiver ao seu alcance para que seus clientes recebam o que desejam, estejam satisfeitos e possam entrar em contato facilmente com você caso surjam problemas. Embora esse objetivo seja totalmente factível, a execução é um projeto complexo e mutável.\n\nAs bandeiras de cartão também têm políticas proativas para estornos.  Por exemplo, [Visa e Mastercard têm programas](https://stripe. com/br/docs/disputes/monitoring-programs) que incentivam as empresas com altas taxas de estorno a tomar providênas e reduzir o número de estornos.\n\n*   **Consultar seu provedor de pagamentos:**  \n    Os processadores de pagamentos têm todo o interesse em ajudar seus clientes a reduzir estornos.  Portanto, um bom ponto de partida é consultar seu provedor e saber que ajuda ele pode oferecer.  A Stripe, por exemplo, oferece [suporte completo para prevenção de fraudes](https://stripe.\n\nPara a maioria das empresas, não é possível erradicar os estornos, mas é possível gerenciá-los.  Em última análise, mesmo que você tome todas as precauções de segurança e configure uma empresa com boa comunicação e fácil acesso ao atendimento ao cliente, não há como evitar todos os estornos.  No entanto, se conseguir reduzir o número deles, será muito mais fácil refutar corretamente os estornos injustificados e processar efetivamente quaisquer casos de fraude legítima.\n\n**Pontos técnicos:**\n- **Consultar seu provedor de pagamentos:**\n- **Atualize regularmente seu software de ponto de venda (POS):**\n- **Opte por transações de cartão mais seguras:**\n- **Exija assinatura e PIN do cliente:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As bandeiras de cartão também têm políticas proativas para estornos. Por exemplo, [Visa e Mastercard têm programas](https://stripe.com/br/docs/disputes/monitoring-programs) que incentivam as empresas…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "priorize-a-seguranca-em-pagamentos-online-e-presenciais",
+      "heading": "Priorize a segurança em pagamentos online e presenciais",
+      "bodyMd": "Como é comum que os estornos aconteçam por fraude com cartões de crédito, priorizar a segurança é a principal providência a tomar para minimizar o volume de estornos. Há várias melhorias que podem ser implementadas nessa área:\n\n*   **Consultar seu provedor de pagamentos:**  \n    Os processadores de pagamentos têm todo o interesse em ajudar seus clientes a reduzir estornos.  Portanto, um bom ponto de partida é consultar seu provedor e saber que ajuda ele pode oferecer.  A Stripe, por exemplo, oferece [suporte completo para prevenção de fraudes](https://stripe.\n\nOs estornos prejudicam a empresa por motivos óbvios: qualquer situação em que seja necessário devolver valores ao cliente não é ideal, por definição.  Além da perda de receita da transação revertida, os estornos custam caro.  Quando se considera o custo do tempo gasto no processamento de estornos, a perda de inventário e as tarifas cobradas pelos provedores de processamento de pagamentos, as empresas perdem uma quantia desproporcional em virtude de estornos.\n\nÉ bom saber que o número de estornos de uma empresa costuma diminuir ano a ano.  Ainda assim, a perda de receita é impressionante: só em 2020, [as empresas perderam US$ 17,5 bilhões em virtude de estornos e fraudes](https://www. juniperresearch.\n\n**Pontos técnicos:**\n- **Consultar seu provedor de pagamentos:**\n- **Atualize regularmente seu software de ponto de venda (POS):**\n- **Opte por transações de cartão mais seguras:**\n- **Exija assinatura e PIN do cliente:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Consultar seu provedor de pagamentos:** Os processadores de pagamentos têm todo o interesse em ajudar seus clientes a reduzir estornos. Portanto, um bom ponto de partida é consultar seu pr…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "politicas-claras-para-devolucao-e-reembolso",
+      "heading": "Políticas claras para devolução e reembolso",
+      "bodyMd": "Fraudes amigáveis podem ser mais complicadas de combater do que simples fraudes de cartão de crédito. Muitos estornos acontecem porque os clientes preferem não se dar ao trabalho de devolver um item ou pedir um reembolso. Você pode incentivar os clientes a usarem os canais adequados para devolver um produto que não desejam em vez de desistir e contestar a cobrança pelo banco. Para isso, tenha uma política de devolução fácil, econômica e flexível, que seja claramente acessível aos clientes.\n\nEstornos para casos que não configuram fraude real são chamados de \"fraude amigável\" e representam [até 86% de todos os estornos](https://www. getbankcard. com/blog/chargeback-stats-merchants-must-know/#:~:text=Also%20notable%20is%20that%2086,1.\n\nÀ primeira vista, pode parecer que um processo fácil de devolução reduziria sua receita, mas não é verdade.  Se o cliente decidir que quer receber o dinheiro de volta após uma compra, você precisa fazer o que estiver ao seu alcance para que a reversão do pagamento seja feita por reembolso em vez de estorno.  A devolução, assim como o estorno, exige a devolução de fundos ao cliente (e nenhuma empresa quer isso), mas os reembolsos são muito mais favoráveis aos negócios do que os estornos.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Estornos para casos que não configuram fraude real são chamados de \"fraude amigável\" e representam [até 86% de todos os estornos](https://www.getbankcard.com/blog/chargeback-stats-merchants-must-know/…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "inventario-online-atualizado",
+      "heading": "Inventário online atualizado",
+      "bodyMd": "Se o cliente conseguir concluir a compra de um produto que na realidade está esgotado, há o risco de que ele inicie um estorno em vez solicitar um reembolso de você. Atualize cuidadosamente seu inventário online.\n\nÉ bom saber que o número de estornos de uma empresa costuma diminuir ano a ano.  Ainda assim, a perda de receita é impressionante: só em 2020, [as empresas perderam US$ 17,5 bilhões em virtude de estornos e fraudes](https://www. juniperresearch.\n\n*   **Consultar seu provedor de pagamentos:**  \n    Os processadores de pagamentos têm todo o interesse em ajudar seus clientes a reduzir estornos.  Portanto, um bom ponto de partida é consultar seu provedor e saber que ajuda ele pode oferecer.  A Stripe, por exemplo, oferece [suporte completo para prevenção de fraudes](https://stripe.\n\n**Pontos técnicos:**\n- **Consultar seu provedor de pagamentos:**\n- **Atualize regularmente seu software de ponto de venda (POS):**\n- **Opte por transações de cartão mais seguras:**\n- **Exija assinatura e PIN do cliente:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Se o cliente conseguir concluir a compra de um produto que na realidade está esgotado, há o risco de que ele inicie um estorno em vez solicitar um reembolso de você. Atualize cuidadosamente seu invent…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "descricoes-claras-dos-produtos",
+      "heading": "Descrições claras dos produtos.",
+      "bodyMd": "Outro motivo comum para estornos é o cliente achar que o produto recebido é diferente da descrição online. Investir um pouco mais de tempo em descrições criteriosas, com fotos ou vídeos realistas do produto, é um investimento que vale a pena e pode contribuir para a redução dos estornos.\n\n*   Fraude real: a cobrança não foi autorizada pelo titular do cartão.   \n    \n*   Os produtos associados ao pedido não chegaram.   \n    \n*   O cliente recebeu um produto trocado.\n\nNa realidade, os estornos são usados pelos clientes não apenas para corrigir casos de fraude reais, mas também para contornar o processo de devolução de produtos insatisfatórios ou para cancelar um pedido que não é entregue.\n\nMuitas vezes, as solicitações de estorno só acontecem depois que alguém tenta e não consegue falar com a empresa sobre o problema.  Se um cliente tiver qualquer tipo de problema com produtos ou serviços comprados de sua empresa (como cobrança inesperada por uma assinatura no final de um período de teste gratuito ou cobrança dupla equivocada por receber um item incorreto no pedido) e não conseguir entrar em contato facilmente com sua empresa para resolver o problema, é muito mais provável que ele solicite um estorno.\n\n**Pontos técnicos:**\n- Fraude real: a cobrança não foi autorizada pelo titular do cartão.\n- Os produtos associados ao pedido não chegaram.\n- O cliente recebeu um produto trocado.\n- O cliente solicitou um reembolso e o processo demorou mais do que o esperado.\n- O cliente ficou insatisfeito com a qualidade do produto.\n- O produto era muito diferente de sua descrição no site.\n- Erros administrativos (por exemplo, uma cobrança duplicada).",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* Fraude real: a cobrança não foi autorizada pelo titular do cartão. * Os produtos associados ao pedido não chegaram. * O cliente recebeu um produto trocado. * O cliente s…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "esclarecer-os-prazos-de-envio",
+      "heading": "Esclarecer os prazos de envio.",
+      "bodyMd": "Muitas vezes, o consumidor abre um estorno porque acha que o produto encomendado perdeu-se no processo de envio ou que é improvável que ele chegue. Para neutralizar esse risco, forneça dados de envio claros, como:\n\n*   Qual transportadora está sendo usada  \n    \n*   Números de confirmação e rastreio e links para um site onde o cliente possa inserir os dados de rastreio para acompanhar sua remessa  \n    \n*   Horário de entrega esperado  \n    \n*   Contatos para o caso de o cliente não receber atualizações de envio ou o pacote não chegar\n\nUm estorno é uma reversão do pagamento de um emissor de cartão de crédito ou débito para o titular do cartão após uma contestação de cobrança feita por ele.  Ao contrário do reembolso, em que a empresa inicia a reversão do pagamento, no estorno o banco emissor retira o valor da conta da empresa, retendo o dinheiro enquanto investiga a legitimidade da contestação — caso seja confirmada, os fundos são devolvidos ao cliente.\n\n**Pontos técnicos:**\n- Qual transportadora está sendo usada\n- Números de confirmação e rastreio e links para um site onde o cliente possa inserir os dados de rastreio para acompanhar sua remessa\n- Horário de entrega esperado\n- Contatos para o caso de o cliente não receber atualizações de envio ou o pacote não chegar\n- Fraude real: a cobrança não foi autorizada pelo titular do cartão.\n- Os produtos associados ao pedido não chegaram.\n- O cliente recebeu um produto trocado.\n- O cliente solicitou um reembolso e o processo demorou mais do que o esperado.\n- O cliente ficou insatisfeito com a qualidade do produto.\n- O produto era muito diferente de sua descrição no site.\n- Erros administrativos (por exemplo, uma cobrança duplicada).",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Muitas vezes, o consumidor abre um estorno porque acha que o produto encomendado perdeu-se no processo de envio ou que é improvável que ele chegue. Para neutralizar esse risco, forneça dados de envio…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "ser-acessivel",
+      "heading": "Ser acessível",
+      "bodyMd": "Muitas vezes, as solicitações de estorno só acontecem depois que alguém tenta e não consegue falar com a empresa sobre o problema. Se um cliente tiver qualquer tipo de problema com produtos ou serviços comprados de sua empresa (como cobrança inesperada por uma assinatura no final de um período de teste gratuito ou cobrança dupla equivocada por receber um item incorreto no pedido) e não conseguir entrar em contato facilmente com sua empresa para resolver o problema, é muito mais provável que ele solicite um estorno.\n\nFraudes amigáveis podem ser mais complicadas de combater do que simples fraudes de cartão de crédito.  Muitos estornos acontecem porque os clientes preferem não se dar ao trabalho de devolver um item ou pedir um reembolso.  Você pode incentivar os clientes a usarem os canais adequados para devolver um produto que não desejam em vez de desistir e contestar a cobrança pelo banco.\n\nPara a maioria das empresas, não é possível erradicar os estornos, mas é possível gerenciá-los.  Em última análise, mesmo que você tome todas as precauções de segurança e configure uma empresa com boa comunicação e fácil acesso ao atendimento ao cliente, não há como evitar todos os estornos.  No entanto, se conseguir reduzir o número deles, será muito mais fácil refutar corretamente os estornos injustificados e processar efetivamente quaisquer casos de fraude legítima.\n\nUm estorno é uma reversão do pagamento de um emissor de cartão de crédito ou débito para o titular do cartão após uma contestação de cobrança feita por ele.  Ao contrário do reembolso, em que a empresa inicia a reversão do pagamento, no estorno o banco emissor retira o valor da conta da empresa, retendo o dinheiro enquanto investiga a legitimidade da contestação — caso seja confirmada, os fundos são devolvidos ao cliente.\n\n**Pontos técnicos:**\n- Fraude real: a cobrança não foi autorizada pelo titular do cartão.\n- Os produtos associados ao pedido não chegaram.\n- O cliente recebeu um produto trocado.\n- O cliente solicitou um reembolso e o processo demorou mais do que o esperado.\n- O cliente ficou insatisfeito com a qualidade do produto.\n- O produto era muito diferente de sua descrição no site.\n- Erros administrativos (por exemplo, uma cobrança duplicada).",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Fraudes amigáveis podem ser mais complicadas de combater do que simples fraudes de cartão de crédito. Muitos estornos acontecem porque os clientes preferem não se dar ao trabalho de devolver um item o…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "oferecer-testes-gratis-realmente-gratuitos",
+      "heading": "Oferecer testes grátis realmente gratuitos.",
+      "bodyMd": "Se a sua empresa vende assinaturas e você oferece uma avaliação gratuita, é recomendável evitar cobrança automática ao final do período grátis. Embora seja uma prática comum, a cobrança automática pode gerar estornos desnecessários. Permitir que o cliente assine voluntariamente ao final da avaliação gratuita pode aumentar o número de desistentes, mas se considerarmos o risco de estornos e reembolsos (e todos os custos pertinentes), eliminar a cobrança automática após as avaliações gratuitas pode ser uma jogada estratégica para sua empresa. Tudo o que você precisa saber para habilitar [avaliações gratuitas de assinaturas pela Stripe está aqui](https://stripe.com/br/docs/billing/subscriptions/trials).\n\n*   **Consultar seu provedor de pagamentos:**  \n    Os processadores de pagamentos têm todo o interesse em ajudar seus clientes a reduzir estornos.  Portanto, um bom ponto de partida é consultar seu provedor e saber que ajuda ele pode oferecer.  A Stripe, por exemplo, oferece [suporte completo para prevenção de fraudes](https://stripe.\n\nUm estorno é uma reversão do pagamento de um emissor de cartão de crédito ou débito para o titular do cartão após uma contestação de cobrança feita por ele.  Ao contrário do reembolso, em que a empresa inicia a reversão do pagamento, no estorno o banco emissor retira o valor da conta da empresa, retendo o dinheiro enquanto investiga a legitimidade da contestação — caso seja confirmada, os fundos são devolvidos ao cliente.\n\nOs estornos servem para corrigir casos de fraude de cartão de crédito e erros, como cobranças duplicadas acidentais.  Este é o seu propósito declarado.  Dito isso, alguns consumidores contestam cobranças e solicitam estornos por outros motivos, ou seja, para evitar o processo de devolver um produto e solicitar reembolso.\n\n**Pontos técnicos:**\n- **Consultar seu provedor de pagamentos:**\n- **Atualize regularmente seu software de ponto de venda (POS):**\n- **Opte por transações de cartão mais seguras:**\n- **Exija assinatura e PIN do cliente:**\n- Fraude real: a cobrança não foi autorizada pelo titular do cartão.\n- Os produtos associados ao pedido não chegaram.\n- O cliente recebeu um produto trocado.\n- O cliente solicitou um reembolso e o processo demorou mais do que o esperado.\n- O cliente ficou insatisfeito com a qualidade do produto.\n- O produto era muito diferente de sua descrição no site.\n- Erros administrativos (por exemplo, uma cobrança duplicada).",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Consultar seu provedor de pagamentos:** Os processadores de pagamentos têm todo o interesse em ajudar seus clientes a reduzir estornos. Portanto, um bom ponto de partida é consultar seu pr…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "verificar-se-o-nome-da-sua-empresa-aparece-nos-extratos-do-cartao-de-credito",
+      "heading": "Verificar se o nome da sua empresa aparece nos extratos do cartão de crédito.",
+      "bodyMd": "Um dos motivos mais comuns para os clientes contestarem cobranças é porque eles simplesmente não reconhecem o nome da empresa no extrato do cartão de crédito. Quando a cobrança aparece no extrato, sempre há uma breve descrição da transação, chamada de descrição no extrato. Normalmente, o nome da empresa aparece nessa descrição, mas às vezes o nome da empresa não é reconhecível ou não aparece. Muitos consumidores contestam cobranças que parecem misteriosas. Por isso, vale a pena verificar se as transações da sua empresa são reconhecíveis quando aparecem no extrato dos clientes. (Também temos um [artigo exclusivo sobre descrições no extrato](https://stripe.com/br/resources/more/billing-descriptors) para minimizar estornos em sua empresa.)\n\nUm estorno é uma reversão do pagamento de um emissor de cartão de crédito ou débito para o titular do cartão após uma contestação de cobrança feita por ele.  Ao contrário do reembolso, em que a empresa inicia a reversão do pagamento, no estorno o banco emissor retira o valor da conta da empresa, retendo o dinheiro enquanto investiga a legitimidade da contestação — caso seja confirmada, os fundos são devolvidos ao cliente.\n\nEstornos para casos que não configuram fraude real são chamados de \"fraude amigável\" e representam [até 86% de todos os estornos](https://www. getbankcard. com/blog/chargeback-stats-merchants-must-know/#:~:text=Also%20notable%20is%20that%2086,1.\n\n**Pontos técnicos:**\n- **Consultar seu provedor de pagamentos:**\n- **Atualize regularmente seu software de ponto de venda (POS):**\n- **Opte por transações de cartão mais seguras:**\n- **Exija assinatura e PIN do cliente:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Um dos motivos mais comuns para os clientes contestarem cobranças é porque eles simplesmente não reconhecem o nome da empresa no extrato do cartão de crédito. Quando a cobrança aparece no extrato, sem…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:01:00.692Z",
+  "synthesizedAt": "2026-06-22T14:44:21.463Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_eight-ways-to-reduce-chargebacks.json"
+  ]
+}

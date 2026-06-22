@@ -1,0 +1,380 @@
+{
+  "id": "stripe-com-metricas-de-saas-um-guia-completo-para-acompanhar",
+  "sourceUrl": "https://stripe.com/br/resources/more/essential-saas-metrics",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Métricas de SaaS: um guia completo para acompanhar o crescimento da empresa | StripeBilling",
+  "sections": [
+    {
+      "anchorId": "metricas-de-aquisicao",
+      "heading": "Métricas de aquisição",
+      "bodyMd": "As métricas de aquisição medem a capacidade de uma empresa de SaaS de adquirir novos clientes. Eles fornecem informações sobre os esforços de aquisição de clientes da empresa, bem como sua capacidade de gerar receita e aumentar sua base de clientes. Ao monitorar essas métricas, empresas de SaaS podem identificar áreas de melhoria, otimizar suas estratégias de marketing e vendas, entender o comportamento do cliente e tomar decisões baseadas em dados para aumentar a aquisição e a receita de clientes.\n\nAs métricas de retenção medem a capacidade de uma empresa de SaaS de reter seus clientes.  Eles fornecem informações sobre o engajamento, a satisfação e a fidelidade do cliente, bem como a capacidade da empresa de gerar receita recorrente.  Enquanto as métricas de aquisição mostram a eficácia com que uma empresa se comercializa para novos clientes em potencial, as métricas de engajamento e retenção indicam se os usuários existentes estão felizes e gerando receita.\n\nAs métricas de crescimento fornecem informações sobre os esforços de aquisição e retenção de clientes de uma empresa, bem como sua capacidade de aumentar a receita e gerar fluxo de caixa.  Eles são importantes para melhorar as estratégias de marketing e vendas e refinar as abordagens de aquisição e retenção de clientes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As métricas de aquisição medem a capacidade de uma empresa de SaaS de adquirir novos clientes. Eles fornecem informações sobre os esforços de aquisição de clientes da empresa, bem como sua capacidade…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "custo-de-aquisicao-de-clientes-cac",
+      "heading": "Custo de aquisição de clientes (CAC)",
+      "bodyMd": "O custo de aquisição de clientes (CAC) mede o custo de aquisição de um novo cliente. O CAC é calculado dividindo o custo total de vendas e marketing para possíveis novos clientes durante um determinado período pelo número de novos clientes adquiridos durante esse período. Para calcular o CAC, é preciso levar em conta todos os custos associados à aquisição de um novo cliente, incluindo publicidade, comissões de vendas e outras despesas de marketing.\n\nO valor anual do contrato (ACV) e o CAC medem aspectos diferentes, mas igualmente importantes, de um negócio.  Enquanto o CAC mede o custo de aquisição de um novo cliente, o ACV mede a receita média anual por cliente.  O ACV é calculado tomando o valor total anual do contrato de todos os clientes e dividindo-o pelo número de clientes.\n\nO índice de CAC para LTV (proporção de custo de aquisição para valor de vida útil do cliente) mede a proporção entre o custo de aquisição de um novo cliente e a receita total que o cliente deve gerar ao longo de sua vida útil.  Semelhante ao CAC e ao LTV separadamente, esse índice é importante para empresas de SaaS, pois ajuda a identificar os segmentos de clientes mais lucrativos e a informar decisões sobre alocação de recursos de marketing e vendas, desenvolvimento de produtos e estratégia de aquisição de clientes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O custo de aquisição de clientes (CAC) mede o custo de aquisição de um novo cliente. O CAC é calculado dividindo o custo total de vendas e marketing para possíveis novos clientes durante um determinad…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "valor-anual-do-contrato-acv-vs-cac",
+      "heading": "Valor anual do contrato (ACV) vs. CAC",
+      "bodyMd": "O valor anual do contrato (ACV) e o CAC medem aspectos diferentes, mas igualmente importantes, de um negócio. Enquanto o CAC mede o custo de aquisição de um novo cliente, o ACV mede a receita média anual por cliente. O ACV é calculado tomando o valor total anual do contrato de todos os clientes e dividindo-o pelo número de clientes.\n\n[Receitas mensais recorrentes (MRR)](https://stripe. com/br/resources/more/what-is-monthly-recurring-revenue) é semelhante à ARR, mas captura uma medida mensal da receita recorrente gerada por uma empresa de SaaS, em vez de uma medida anual.  MRR é o valor total que uma empresa pode esperar receber de seus clientes atuais a cada mês, caso não adquira ou perca nenhum cliente.\n\nMeses para recuperar o CAC mede o tempo que uma empresa leva para recuperar os custos associados à aquisição de um novo cliente.  Esse valor é calculado dividindo o CAC pela [receita mensal recorrente (MRR)](https://stripe. com/br/resources/more/what-is-monthly-recurring-revenue) desse cliente.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O valor anual do contrato (ACV) e o CAC medem aspectos diferentes, mas igualmente importantes, de um negócio. Enquanto o CAC mede o custo de aquisição de um novo cliente, o ACV mede a receita média an…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "meses-para-recuperar-o-cac",
+      "heading": "Meses para recuperar o CAC",
+      "bodyMd": "Meses para recuperar o CAC mede o tempo que uma empresa leva para recuperar os custos associados à aquisição de um novo cliente. Esse valor é calculado dividindo o CAC pela [receita mensal recorrente (MRR)](https://stripe.com/br/resources/more/what-is-monthly-recurring-revenue) desse cliente.\n\nPor exemplo, se uma empresa de SaaS tem um CAC de $ 1. 000 e o MRR de um novo cliente é $ 100, a empresa demora 10 meses para recuperar o CAC.  Se uma empresa leva menos tempo para recuperar seu CAC, isso significa que a receita gerada pelo cliente está cobrindo rapidamente os custos de adquiri-los, indicando um modelo de negócios mais favorável — e potencialmente lucrativo.\n\nO LTV é calculado multiplicando o valor gerado por cliente pela duração de sua vida útil como cliente.  Para alguns setores, faz mais sentido medir a vida útil do cliente em meses; para outros, anos é uma medida mais adequada.  Por exemplo, as empresas automotivas podem medir LTV em anos, já que poucos clientes compram mais de um veículo em um determinado ano, e os esforços de retenção de clientes estão concentrados em impulsionar compras repetidas em um cronograma que se estende por muitos anos.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Meses para recuperar o CAC mede o tempo que uma empresa leva para recuperar os custos associados à aquisição de um novo cliente. Esse valor é calculado dividindo o CAC pela [receita mensal recorrente…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "taxa-de-leads-para-clientes",
+      "heading": "Taxa de leads para clientes",
+      "bodyMd": "A taxa de leads para clientes (também conhecida como taxa de leads para conta ou taxa de leads para fechamento) mede a taxa de conversão de leads em clientes pagantes. O número de clientes pagantes é dividido pelo número de leads gerados.\n\nA taxa de leads para clientes é frequentemente usada em conjunto com outras métricas, como leads qualificados de marketing (MQLs) e leads qualificados de vendas (SQLs), para fornecer uma visão mais completa do processo de geração e conversão de leads.  Por exemplo, uma alta taxa de MQL para SQL pode indicar que a equipe de marketing está gerando leads de alta qualidade, mas uma taxa baixa de leads para clientes pode mostrar que a equipe de vendas está tendo dificuldades para converter esses leads em clientes pagantes.  Ao identificar e resolver esses problemas, as empresas podem otimizar seus esforços de vendas e marketing para aumentar a receita.\n\nGeralmente, altas taxas de perda de clientes significam que há problemas em aspectos da experiência do cliente, como preços de produtos ou atendimento ao cliente.  Como uma alta taxa de perda de clientes pode impactar negativamente a receita e o crescimento, é importante identificar as causas básicas e implementar estratégias para reduzir a perda, como melhorar o produto, oferecer melhor suporte ao cliente ou oferecer incentivos ou descontos.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A taxa de leads para clientes (também conhecida como taxa de leads para conta ou taxa de leads para fechamento) mede a taxa de conversão de leads em clientes pagantes. O número de clientes pagantes é…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "numero-magico",
+      "heading": "Número mágico",
+      "bodyMd": "O \"número mágico\" é calculado dividindo-se o [valor vitalício (LTV)](https://stripe.com/br/resources/more/customer-lifetime-value) de um cliente pelo CAC. A proporção resultante mostra quantas vezes a receita vitalícia total gerada por um cliente cobrirá o custo de adquiri-los. Um número mágico maior que um indica que a empresa está gerando mais receita com um cliente do que gastando para adquiri-lo. Se o número mágico for menor que um, indica que a empresa está gastando mais para adquirir clientes do que gerando receita.\n\nO número mágico expressa de forma concisa a eficiência e eficácia com que a empresa está adquirindo clientes, retendo clientes e gerando o máximo de LTV.  Como um número mágico favorável requer uma experiência positiva do cliente em geral, e não apenas um CAC otimizado, ele mede a integridade geral e a sustentabilidade do negócio.\n\nO custo de aquisição de clientes (CAC) mede o custo de aquisição de um novo cliente.  O CAC é calculado dividindo o custo total de vendas e marketing para possíveis novos clientes durante um determinado período pelo número de novos clientes adquiridos durante esse período.  Para calcular o CAC, é preciso levar em conta todos os custos associados à aquisição de um novo cliente, incluindo publicidade, comissões de vendas e outras despesas de marketing.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O \"número mágico\" é calculado dividindo-se o [valor vitalício (LTV)](https://stripe.com/br/resources/more/customer-lifetime-value) de um cliente pelo CAC. A proporção resultante mostra quantas vezes a…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "metricas-de-engajamento",
+      "heading": "Métricas de engajamento",
+      "bodyMd": "As métricas de engajamento fornecem insights sobre como os clientes interagem com um produto e com que frequência o usam. Ao monitorá-los, empresas de SaaS podem identificar onde melhorar a experiência do usuário e a funcionalidade do produto e decidir de forma embasada para aumentar o envolvimento e a retenção dos clientes.\n\nA seguir estão algumas das principais métricas de engajamento que SaaS as empresas rastreiam rotineiramente para monitorar a experiência do usuário com seus produtos.  Eles também podem identificar onde as empresas devem concentrar seus recursos; por exemplo, melhorar a funcionalidade existente, expandir em novas direções ou remanejar investimentos de áreas com pouco envolvimento do cliente.\n\nA pontuação de engajamento do cliente (CES) é uma métrica composta influenciada por outras métricas de engajamento do cliente relacionadas ao uso do produto, adoção de recursos, satisfação e retenção do cliente.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As métricas de engajamento fornecem insights sobre como os clientes interagem com um produto e com que frequência o usam. Ao monitorá-los, empresas de SaaS podem identificar onde melhorar a experiênci…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "usuarios-ativos-diarios-dau-e-usuarios-ativos-mensais-mau",
+      "heading": "Usuários ativos diários (DAU) e usuários ativos mensais (MAU)",
+      "bodyMd": "Usuários ativos diários (DAU) e usuários ativos mensais (MAU) medem o nível de engajamento e uso de um produto de SaaS. DAU é o número de usuários únicos que se envolvem ativamente com o produto diariamente. Isso inclui usuários que fazem login, realizam outras ações ou geram receita. MAU mede o número total de usuários que interagiram com o produto nos últimos 30 dias.\n\nEnquanto muitas outras métricas avaliam apenas um aspecto do engajamento, a CES normalmente é calculada atribuindo um peso a diferentes métricas de engajamento e, em seguida, combinando-as em uma única pontuação.  Por exemplo, o CES pode ser calculado com métricas como usuários ativos diários, usuários ativos mensais, taxa de retenção, pontuação líquida do promotor (NPS) e pontuação de satisfação do cliente.  O CES delineia um cenário mais sutil de envolvimento do cliente de SaaS e da integridade dos negócios.\n\n[Valor vitalício do cliente](https://stripe. com/br/resources/more/customer-lifetime-value) (LTV; às vezes CLV ou CLTV) mede o valor total que um cliente deve gerar para uma empresa ao longo de seu relacionamento com a marca.  É uma métrica importante para empresas de SaaS porque fornece informações sobre o valor de longo prazo de um cliente e ajuda a identificar os segmentos de clientes mais lucrativos.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Usuários ativos diários (DAU) e usuários ativos mensais (MAU) medem o nível de engajamento e uso de um produto de SaaS. DAU é o número de usuários únicos que se envolvem ativamente com o produto diari…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "pontuacao-de-engajamento-do-cliente-ces",
+      "heading": "Pontuação de engajamento do cliente (CES)",
+      "bodyMd": "A pontuação de engajamento do cliente (CES) é uma métrica composta influenciada por outras métricas de engajamento do cliente relacionadas ao uso do produto, adoção de recursos, satisfação e retenção do cliente.\n\nEnquanto muitas outras métricas avaliam apenas um aspecto do engajamento, a CES normalmente é calculada atribuindo um peso a diferentes métricas de engajamento e, em seguida, combinando-as em uma única pontuação.  Por exemplo, o CES pode ser calculado com métricas como usuários ativos diários, usuários ativos mensais, taxa de retenção, pontuação líquida do promotor (NPS) e pontuação de satisfação do cliente.  O CES delineia um cenário mais sutil de envolvimento do cliente de SaaS e da integridade dos negócios.\n\nAs métricas de engajamento fornecem insights sobre como os clientes interagem com um produto e com que frequência o usam.  Ao monitorá-los, empresas de SaaS podem identificar onde melhorar a experiência do usuário e a funcionalidade do produto e decidir de forma embasada para aumentar o envolvimento e a retenção dos clientes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A pontuação de engajamento do cliente (CES) é uma métrica composta influenciada por outras métricas de engajamento do cliente relacionadas ao uso do produto, adoção de recursos, satisfação e retenção…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "metricas-de-retencao",
+      "heading": "Métricas de retenção",
+      "bodyMd": "As métricas de retenção medem a capacidade de uma empresa de SaaS de reter seus clientes. Eles fornecem informações sobre o engajamento, a satisfação e a fidelidade do cliente, bem como a capacidade da empresa de gerar receita recorrente. Enquanto as métricas de aquisição mostram a eficácia com que uma empresa se comercializa para novos clientes em potencial, as métricas de engajamento e retenção indicam se os usuários existentes estão felizes e gerando receita.\n\nAs métricas de engajamento fornecem insights sobre como os clientes interagem com um produto e com que frequência o usam.  Ao monitorá-los, empresas de SaaS podem identificar onde melhorar a experiência do usuário e a funcionalidade do produto e decidir de forma embasada para aumentar o envolvimento e a retenção dos clientes.\n\nA pontuação de engajamento do cliente (CES) é uma métrica composta influenciada por outras métricas de engajamento do cliente relacionadas ao uso do produto, adoção de recursos, satisfação e retenção do cliente.\n\nEnquanto muitas outras métricas avaliam apenas um aspecto do engajamento, a CES normalmente é calculada atribuindo um peso a diferentes métricas de engajamento e, em seguida, combinando-as em uma única pontuação.  Por exemplo, o CES pode ser calculado com métricas como usuários ativos diários, usuários ativos mensais, taxa de retenção, pontuação líquida do promotor (NPS) e pontuação de satisfação do cliente.  O CES delineia um cenário mais sutil de envolvimento do cliente de SaaS e da integridade dos negócios.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As métricas de engajamento fornecem insights sobre como os clientes interagem com um produto e com que frequência o usam. Ao monitorá-los, empresas de SaaS podem identificar onde melhorar a experiênci…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "taxa-de-perda-de-clientes",
+      "heading": "Taxa de perda de clientes",
+      "bodyMd": "A perda de clientes, também conhecida como rotatividade ou desgaste de clientes, refere-se à perda de clientes. [Taxa de perda de clientes](https://stripe.com/br/resources/more/customer-churn-rates-101) geralmente são expressas como a porcentagem do total de clientes que interrompem o uso de um produto ou serviço durante um determinado período de tempo. Por exemplo, se uma empresa começa com 2.000 clientes e perde 200 deles durante um mês, a taxa de perda de clientes nesse mês seria de 10%.\n\nGeralmente, altas taxas de perda de clientes significam que há problemas em aspectos da experiência do cliente, como preços de produtos ou atendimento ao cliente.  Como uma alta taxa de perda de clientes pode impactar negativamente a receita e o crescimento, é importante identificar as causas básicas e implementar estratégias para reduzir a perda, como melhorar o produto, oferecer melhor suporte ao cliente ou oferecer incentivos ou descontos.\n\nA perda de receitas se refere à perda de receita do cliente.  Normalmente, a taxa de perda de receitas é expressa como uma porcentagem da receita perdida quando os clientes cancelam suas assinaturas ou mudam seus planos.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A perda de clientes, também conhecida como rotatividade ou desgaste de clientes, refere-se à perda de clientes. [Taxa de perda de clientes](https://stripe.com/br/resources/more/customer-churn-rates-10…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "taxa-de-perda-de-receitas",
+      "heading": "Taxa de perda de receitas",
+      "bodyMd": "A perda de receitas se refere à perda de receita do cliente. Normalmente, a taxa de perda de receitas é expressa como uma porcentagem da receita perdida quando os clientes cancelam suas assinaturas ou mudam seus planos.\n\nExistem diferentes formas de calcular a taxa de perda de receitas, mas um método comum é dividir o total de receitas perdidas com perda de clientes em um determinado período pelo total de receitas recorrentes no início desse período.  Por exemplo, se uma empresa de SaaS começa um mês com $ 100. 000 em receita recorrente e perde $ 10.\n\nA perda de clientes, também conhecida como rotatividade ou desgaste de clientes, refere-se à perda de clientes.  [Taxa de perda de clientes](https://stripe. com/br/resources/more/customer-churn-rates-101) geralmente são expressas como a porcentagem do total de clientes que interrompem o uso de um produto ou serviço durante um determinado período de tempo.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A perda de receitas se refere à perda de receita do cliente. Normalmente, a taxa de perda de receitas é expressa como uma porcentagem da receita perdida quando os clientes cancelam suas assinaturas ou…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "retencao-de-receita-liquida-nrr",
+      "heading": "Retenção de receita líquida (NRR)",
+      "bodyMd": "[Retenção de receita líquida (NRR)](https://stripe.com/br/resources/more/net-revenue-retention): (também conhecida como retenção de dólares: mede a porcentagem da receita retida de clientes existentes durante um determinado período. Uma NRR alta é um bom indicador de que uma empresa está retendo seus clientes existentes e aumentando de forma sustentável a receita gerada por eles.\n\nAs métricas de retenção medem a capacidade de uma empresa de SaaS de reter seus clientes.  Eles fornecem informações sobre o engajamento, a satisfação e a fidelidade do cliente, bem como a capacidade da empresa de gerar receita recorrente.  Enquanto as métricas de aquisição mostram a eficácia com que uma empresa se comercializa para novos clientes em potencial, as métricas de engajamento e retenção indicam se os usuários existentes estão felizes e gerando receita.\n\nAs métricas de crescimento fornecem informações sobre os esforços de aquisição e retenção de clientes de uma empresa, bem como sua capacidade de aumentar a receita e gerar fluxo de caixa.  Eles são importantes para melhorar as estratégias de marketing e vendas e refinar as abordagens de aquisição e retenção de clientes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "[Retenção de receita líquida (NRR)](https://stripe.com/br/resources/more/net-revenue-retention) — (também conhecida como retenção de dólares — mede a porcentagem da receita retida de clientes existent…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "retencao-de-logotipo",
+      "heading": "Retenção de logotipo",
+      "bodyMd": "A retenção de logotipo mede a porcentagem de empresas (ou \"logotipos\") que continuam a usar e pagar por um produto ou serviço de SaaS em um determinado período. Essa métrica é semelhante à retenção de clientes, mas mede empresas únicas em vez dos usuários individuais dessas empresas. A retenção de logotipos permite que empresas de SaaS acompanhem o desempenho de contas-chave em comparação com clientes individuais.\n\nNormalmente, a retenção de logotipos é calculada comparando o número de logotipos ou empresas que ainda pagam clientes no final de um determinado período (logotipos retidos) com o número de logotipos ou empresas que pagavam clientes no início desse período (logotipos do período inicial).\n\nPor exemplo, se uma empresa de SaaS começar o mês com 400 logotipos ou empresas como clientes pagantes e terminar o mês com 300 logotipos ou empresas como clientes pagantes, a taxa de retenção de logotipos para esse mês será de 75%.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A retenção de logotipo mede a porcentagem de empresas (ou \"logotipos\") que continuam a usar e pagar por um produto ou serviço de SaaS em um determinado período. Essa métrica é semelhante à retenção de…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "metricas-de-crescimento",
+      "heading": "Métricas de crescimento",
+      "bodyMd": "As métricas de crescimento fornecem informações sobre os esforços de aquisição e retenção de clientes de uma empresa, bem como sua capacidade de aumentar a receita e gerar fluxo de caixa. Eles são importantes para melhorar as estratégias de marketing e vendas e refinar as abordagens de aquisição e retenção de clientes.\n\nAs métricas de crescimento padrão que a maioria das empresas de SaaS acompanha rotineiramente incluem:\n\nAs métricas econômicas medem o desempenho financeiro de uma empresa de SaaS em múltiplas dimensões.  Elas são importantes para criar projeções significativas de lucratividade, crescimento, fluxo de caixa e capacidade da empresa de cobrir despesas.  Ao monitorar essas métricas, as empresas de SaaS podem refinar estrategicamente sua estratégia financeira, desde modelos de precificação até gerenciamento de custos e táticas de vendas.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As métricas de crescimento fornecem informações sobre os esforços de aquisição e retenção de clientes de uma empresa, bem como sua capacidade de aumentar a receita e gerar fluxo de caixa. Eles são imp…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "receita-anual-recorrente-arr",
+      "heading": "Receita anual recorrente (ARR)",
+      "bodyMd": "A receita anual recorrente (ARR) prevê a receita recorrente a ser gerada por uma empresa de SaaS durante um determinado período de tempo, geralmente um ano. É o montante total de dinheiro que uma empresa pode esperar receber de seus clientes existentes durante esse período, supondo que não adquira ou perca nenhum cliente.\n\n[Receitas mensais recorrentes (MRR)](https://stripe. com/br/resources/more/what-is-monthly-recurring-revenue) é semelhante à ARR, mas captura uma medida mensal da receita recorrente gerada por uma empresa de SaaS, em vez de uma medida anual.  MRR é o valor total que uma empresa pode esperar receber de seus clientes atuais a cada mês, caso não adquira ou perca nenhum cliente.\n\nO valor anual do contrato (ACV) e o CAC medem aspectos diferentes, mas igualmente importantes, de um negócio.  Enquanto o CAC mede o custo de aquisição de um novo cliente, o ACV mede a receita média anual por cliente.  O ACV é calculado tomando o valor total anual do contrato de todos os clientes e dividindo-o pelo número de clientes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A receita anual recorrente (ARR) prevê a receita recorrente a ser gerada por uma empresa de SaaS durante um determinado período de tempo, geralmente um ano. É o montante total de dinheiro que uma empr…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "receita-mensal-recorrente-mrr",
+      "heading": "Receita mensal recorrente (MRR)",
+      "bodyMd": "[Receitas mensais recorrentes (MRR)](https://stripe.com/br/resources/more/what-is-monthly-recurring-revenue) é semelhante à ARR, mas captura uma medida mensal da receita recorrente gerada por uma empresa de SaaS, em vez de uma medida anual. MRR é o valor total que uma empresa pode esperar receber de seus clientes atuais a cada mês, caso não adquira ou perca nenhum cliente. Assim como a ARR, a MRR não considera pagamentos avulsos ou receitas de serviços profissionais.\n\nMeses para recuperar o CAC mede o tempo que uma empresa leva para recuperar os custos associados à aquisição de um novo cliente.  Esse valor é calculado dividindo o CAC pela [receita mensal recorrente (MRR)](https://stripe. com/br/resources/more/what-is-monthly-recurring-revenue) desse cliente.\n\nAs métricas de retenção medem a capacidade de uma empresa de SaaS de reter seus clientes.  Eles fornecem informações sobre o engajamento, a satisfação e a fidelidade do cliente, bem como a capacidade da empresa de gerar receita recorrente.  Enquanto as métricas de aquisição mostram a eficácia com que uma empresa se comercializa para novos clientes em potencial, as métricas de engajamento e retenção indicam se os usuários existentes estão felizes e gerando receita.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Meses para recuperar o CAC mede o tempo que uma empresa leva para recuperar os custos associados à aquisição de um novo cliente. Esse valor é calculado dividindo o CAC pela [receita mensal recorrente…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "concentracao-de-clientes",
+      "heading": "Concentração de clientes",
+      "bodyMd": "A concentração de clientes é uma métrica que mede o grau em que a receita de uma empresa depende de um pequeno número de clientes. A maneira mais comum de medir a concentração de clientes é calcular a porcentagem de receita gerada pela porcentagem superior de clientes.\n\nPor exemplo, se uma empresa de SaaS gerar $ 100. 000 em receita e os 10% principais clientes gerarem $ 75. 000 dessa receita, a concentração de clientes será de 75%.\n\nUm alto nível de concentração de clientes é considerado arriscado, pois significa que uma parcela significativa da receita da empresa provém de um pequeno número de clientes.  Se um desses clientes cancelasse a assinatura ou parasse de usar o produto, isso teria um impacto significativo na receita da empresa.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A concentração de clientes é uma métrica que mede o grau em que a receita de uma empresa depende de um pequeno número de clientes. A maneira mais comum de medir a concentração de clientes é calcular a…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "taxa-de-crescimento-mensal-do-cliente-cmgr",
+      "heading": "Taxa de crescimento mensal do cliente (CMGR)",
+      "bodyMd": "A taxa de crescimento mensal do cliente (CMGR) é a taxa na qual uma empresa adiciona novos clientes mensalmente. Normalmente, ela é medida como uma porcentagem e calculada comparando o número de novos clientes adicionados em um determinado mês com o número de clientes no início desse mês.\n\nGeralmente, altas taxas de perda de clientes significam que há problemas em aspectos da experiência do cliente, como preços de produtos ou atendimento ao cliente.  Como uma alta taxa de perda de clientes pode impactar negativamente a receita e o crescimento, é importante identificar as causas básicas e implementar estratégias para reduzir a perda, como melhorar o produto, oferecer melhor suporte ao cliente ou oferecer incentivos ou descontos.\n\nA taxa de perda de receita é importante porque fornece uma imagem mais precisa do desempenho financeiro e do crescimento da empresa do que apenas a taxa de perda de clientes.  Enquanto a taxa de perda de clientes mede o número de clientes perdidos, a taxa de perda de receita mede o impacto desses clientes perdidos nos resultados da empresa.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A taxa de crescimento mensal do cliente (CMGR) é a taxa na qual uma empresa adiciona novos clientes mensalmente. Normalmente, ela é medida como uma porcentagem e calculada comparando o número de novos…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "net-promoter-score-nps",
+      "heading": "Net promoter score (NPS)",
+      "bodyMd": "O net promoter score (NPS) é usado para medir o nível de satisfação e fidelidade do cliente em relação a uma empresa ou produto. É uma métrica de experiência do cliente popular que é usada por empresas de vários setores, incluindo SaaS.\n\nAs métricas de aquisição medem a capacidade de uma empresa de SaaS de adquirir novos clientes.  Eles fornecem informações sobre os esforços de aquisição de clientes da empresa, bem como sua capacidade de gerar receita e aumentar sua base de clientes.  Ao monitorar essas métricas, empresas de SaaS podem identificar áreas de melhoria, otimizar suas estratégias de marketing e vendas, entender o comportamento do cliente e tomar decisões baseadas em dados para aumentar a aquisição e a receita de clientes.\n\nO custo de aquisição de clientes (CAC) mede o custo de aquisição de um novo cliente.  O CAC é calculado dividindo o custo total de vendas e marketing para possíveis novos clientes durante um determinado período pelo número de novos clientes adquiridos durante esse período.  Para calcular o CAC, é preciso levar em conta todos os custos associados à aquisição de um novo cliente, incluindo publicidade, comissões de vendas e outras despesas de marketing.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O net promoter score (NPS) é usado para medir o nível de satisfação e fidelidade do cliente em relação a uma empresa ou produto. É uma métrica de experiência do cliente popular que é usada por empresa…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "metricas-economicas",
+      "heading": "Métricas econômicas",
+      "bodyMd": "As métricas econômicas medem o desempenho financeiro de uma empresa de SaaS em múltiplas dimensões. Elas são importantes para criar projeções significativas de lucratividade, crescimento, fluxo de caixa e capacidade da empresa de cobrir despesas. Ao monitorar essas métricas, as empresas de SaaS podem refinar estrategicamente sua estratégia financeira, desde modelos de precificação até gerenciamento de custos e táticas de vendas.\n\nAs métricas de aquisição medem a capacidade de uma empresa de SaaS de adquirir novos clientes.  Eles fornecem informações sobre os esforços de aquisição de clientes da empresa, bem como sua capacidade de gerar receita e aumentar sua base de clientes.  Ao monitorar essas métricas, empresas de SaaS podem identificar áreas de melhoria, otimizar suas estratégias de marketing e vendas, entender o comportamento do cliente e tomar decisões baseadas em dados para aumentar a aquisição e a receita de clientes.\n\nA taxa de leads para clientes é frequentemente usada em conjunto com outras métricas, como leads qualificados de marketing (MQLs) e leads qualificados de vendas (SQLs), para fornecer uma visão mais completa do processo de geração e conversão de leads.  Por exemplo, uma alta taxa de MQL para SQL pode indicar que a equipe de marketing está gerando leads de alta qualidade, mas uma taxa baixa de leads para clientes pode mostrar que a equipe de vendas está tendo dificuldades para converter esses leads em clientes pagantes.  Ao identificar e resolver esses problemas, as empresas podem otimizar seus esforços de vendas e marketing para aumentar a receita.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As métricas econômicas medem o desempenho financeiro de uma empresa de SaaS em múltiplas dimensões. Elas são importantes para criar projeções significativas de lucratividade, crescimento, fluxo de cai…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "margem-bruta",
+      "heading": "Margem bruta",
+      "bodyMd": "A margem bruta mede a lucratividade de uma empresa. Ela é calculada como a diferença entre a receita e o custo dos produtos vendidos (CPV), dividido pela receita. O CPV são os custos diretos de produção dos produtos ou serviços de uma empresa. Em uma empresa de SaaS, o CPV normalmente inclui os custos associados à hospedagem, desenvolvimento de software e suporte ao cliente.\n\nPor exemplo, se uma empresa de SaaS gerar $ 100. 000 em receita e tiver $ 50. 000 em CPV, a margem bruta seria de 50%.\n\nA margem bruta indica se uma empresa é capaz de cobrir suas despesas.  Uma margem bruta alta significa que o negócio está gerando um alto nível de lucro e tem uma posição financeira sólida, enquanto uma margem bruta baixa demonstra que o negócio não está gerando lucro suficiente e pode ter dificuldades para cobrir suas despesas.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A margem bruta mede a lucratividade de uma empresa. Ela é calculada como a diferença entre a receita e o custo dos produtos vendidos (CPV), dividido pela receita. O CPV são os custos diretos de produç…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "valor-vitalicio-do-cliente-ltv",
+      "heading": "Valor vitalício do cliente (LTV)",
+      "bodyMd": "[Valor vitalício do cliente](https://stripe.com/br/resources/more/customer-lifetime-value) (LTV; às vezes CLV ou CLTV) mede o valor total que um cliente deve gerar para uma empresa ao longo de seu relacionamento com a marca. É uma métrica importante para empresas de SaaS porque fornece informações sobre o valor de longo prazo de um cliente e ajuda a identificar os segmentos de clientes mais lucrativos.\n\nO \"número mágico\" é calculado dividindo-se o [valor vitalício (LTV)](https://stripe. com/br/resources/more/customer-lifetime-value) de um cliente pelo CAC.  A proporção resultante mostra quantas vezes a receita vitalícia total gerada por um cliente cobrirá o custo de adquiri-los.\n\nO valor anual do contrato (ACV) e o CAC medem aspectos diferentes, mas igualmente importantes, de um negócio.  Enquanto o CAC mede o custo de aquisição de um novo cliente, o ACV mede a receita média anual por cliente.  O ACV é calculado tomando o valor total anual do contrato de todos os clientes e dividindo-o pelo número de clientes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O \"número mágico\" é calculado dividindo-se o [valor vitalício (LTV)](https://stripe.com/br/resources/more/customer-lifetime-value) de um cliente pelo CAC. A proporção resultante mostra quantas vezes a…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "indice-de-cac-para-ltv",
+      "heading": "Índice de CAC para LTV",
+      "bodyMd": "O índice de CAC para LTV (proporção de custo de aquisição para valor de vida útil do cliente) mede a proporção entre o custo de aquisição de um novo cliente e a receita total que o cliente deve gerar ao longo de sua vida útil. Semelhante ao CAC e ao LTV separadamente, esse índice é importante para empresas de SaaS, pois ajuda a identificar os segmentos de clientes mais lucrativos e a informar decisões sobre alocação de recursos de marketing e vendas, desenvolvimento de produtos e estratégia de aquisição de clientes.\n\nUm índice CAC/LTV menor que um é considerada ideal, pois indica que a empresa está gerando mais receita com um cliente do que gastando para adquiri-lo.  Um índice maior que um indica que a empresa está gastando mais para adquirir um cliente do que gerando em receita desse cliente.\n\nAs métricas de aquisição medem a capacidade de uma empresa de SaaS de adquirir novos clientes.  Eles fornecem informações sobre os esforços de aquisição de clientes da empresa, bem como sua capacidade de gerar receita e aumentar sua base de clientes.  Ao monitorar essas métricas, empresas de SaaS podem identificar áreas de melhoria, otimizar suas estratégias de marketing e vendas, entender o comportamento do cliente e tomar decisões baseadas em dados para aumentar a aquisição e a receita de clientes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O índice de CAC para LTV (proporção de custo de aquisição para valor de vida útil do cliente) mede a proporção entre o custo de aquisição de um novo cliente e a receita total que o cliente deve gerar…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "multiplo-de-queima",
+      "heading": "Múltiplo de queima",
+      "bodyMd": "O múltiplo de queima mede a relação entre a taxa de consumo de caixa de uma empresa (a rapidez com que a empresa gasta seu caixa) e seu saldo de caixa atual. Essa métrica geralmente é usada por startups e empresas em estágio inicial, incluindo empresas de SaaS, para avaliar sua saúde financeira e determinar quanto tempo (passar) elas têm antes de precisar levantar capital adicional.\n\nPor exemplo, se uma empresa de SaaS tiver um saldo de caixa de $ 100. 000 e uma taxa de consumo de caixa de $ 50. 000 por mês, o múltiplo de queima será 2.\n\nUm múltiplo de queima alto é preferível a um múltiplo de queima baixo, pois indica que a empresa tem uma margem mais longa, o que geralmente é considerado uma posição financeira favorável.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O múltiplo de queima mede a relação entre a taxa de consumo de caixa de uma empresa (a rapidez com que a empresa gasta seu caixa) e seu saldo de caixa atual. Essa métrica geralmente é usada por startu…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "taxa-de-hype",
+      "heading": "Taxa de hype",
+      "bodyMd": "A taxa de hype é uma métrica usada para medir a relação entre o crescimento do interesse público: ou \"hype\": em uma empresa e seu desempenho financeiro. Essa métrica é frequentemente usada para avaliar startups, incluindo empresas de SaaS, e pode fornecer informações sobre se uma empresa é exagerada ou subestimada.\n\nO conceito de \"hype\" pode parecer subjetivo e difícil de medir, mas existe uma fórmula amplamente aceita para calcular a taxa de hype:\n\n_Taxa de hype = (cobertura da mídia + menções em redes sociais + volume de pesquisa) / Receita_",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A taxa de hype é uma métrica usada para medir a relação entre o crescimento do interesse público — ou \"hype\" — em uma empresa e seu desempenho financeiro. Essa métrica é frequentemente usada para aval…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "saas-economic-metrics",
+      "heading": "SaaS economic metrics",
+      "bodyMd": "Economic metrics measure the financial performance of a SaaS business in multiple dimensions. They’re important for creating meaningful projections of profitability, growth, cash flow, and the business’s ability to cover expenses. By monitoring these metrics, SaaS businesses can strategically refine their financial strategy, from pricing models to cost management to sales tactics.\n\nAs métricas de aquisição medem a capacidade de uma empresa de SaaS de adquirir novos clientes.  Eles fornecem informações sobre os esforços de aquisição de clientes da empresa, bem como sua capacidade de gerar receita e aumentar sua base de clientes.  Ao monitorar essas métricas, empresas de SaaS podem identificar áreas de melhoria, otimizar suas estratégias de marketing e vendas, entender o comportamento do cliente e tomar decisões baseadas em dados para aumentar a aquisição e a receita de clientes.\n\nPor exemplo, se uma empresa de SaaS gastar $ 100. 000 em vendas e marketing em determinado mês e adquirir 100 novos clientes nesse período, o CAC seria de $ 1. 000.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Economic metrics measure the financial performance of a SaaS business in multiple dimensions. They’re important for creating meaningful projections of profitability, growth, cash flow, and the busines…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "gross-margin",
+      "heading": "Gross margin",
+      "bodyMd": "[Gross margin](https://stripe.com/br/resources/more/saas-gross-margin-explained-what-it-is-and-why-it-is-important) measures a company’s profitability. It’s calculated as the difference between revenue and the cost of goods sold (COGS), divided by revenue. COGS are the direct costs of producing a company’s products or services. In a SaaS business, COGS typically includes the costs associated with hosting, software development, and customer support.\n\n[Gross margin](https://stripe. com/br/resources/more/saas-gross-margin-explained-what-it-is-and-why-it-is-important) measures a company’s profitability.  It’s calculated as the difference between revenue and the cost of goods sold (COGS), divided by revenue.\n\nFor example, if a SaaS business generates $100,000 in revenue and has $50,000 in COGS, the gross margin would be 50%.\n\nGross margin indicates whether or not a business is able to cover its expenses.  A high gross margin means that the business is generating a high level of profit and has a solid financial position, while a low gross margin demonstrates that the business is not generating enough profit and might struggle to cover its expenses.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "[Gross margin](https://stripe.com/br/resources/more/saas-gross-margin-explained-what-it-is-and-why-it-is-important) measures a company’s profitability. It’s calculated as the difference between revenu…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "customer-lifetime-value-ltv",
+      "heading": "Customer lifetime value (LTV)",
+      "bodyMd": "[Customer lifetime value](https://stripe.com/br/resources/more/customer-lifetime-value) (abbreviated as LTV, CLV, or CLTV) measures the total value a customer is expected to generate for a company over the course of their relationship with the brand. It’s an important metric for SaaS businesses because it provides insight into the long-term value of a customer and helps identify the most profitable customer segments.\n\nO \"número mágico\" é calculado dividindo-se o [valor vitalício (LTV)](https://stripe. com/br/resources/more/customer-lifetime-value) de um cliente pelo CAC.  A proporção resultante mostra quantas vezes a receita vitalícia total gerada por um cliente cobrirá o custo de adquiri-los.\n\n[Valor vitalício do cliente](https://stripe. com/br/resources/more/customer-lifetime-value) (LTV; às vezes CLV ou CLTV) mede o valor total que um cliente deve gerar para uma empresa ao longo de seu relacionamento com a marca.  É uma métrica importante para empresas de SaaS porque fornece informações sobre o valor de longo prazo de um cliente e ajuda a identificar os segmentos de clientes mais lucrativos.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O \"número mágico\" é calculado dividindo-se o [valor vitalício (LTV)](https://stripe.com/br/resources/more/customer-lifetime-value) de um cliente pelo CAC. A proporção resultante mostra quantas vezes a…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "cac-to-ltv-ratio",
+      "heading": "CAC-to-LTV ratio",
+      "bodyMd": "[CAC-to-LTV ratio](https://stripe.com/br/resources/more/cac-in-saas#whats-a-good-ltvcac-ratio-in-saas) (customer acquisition cost to lifetime value ratio) measures the ratio of the cost of acquiring a new customer to the total revenue that customer is expected to generate over their lifetime. Similar to CAC and LTV separately, this ratio is important for SaaS businesses because it helps identify the most profitable customer segments and inform decisions about marketing and sales resource allocation, product development, and customer acquisition strategy.\n\n[CAC-to-LTV ratio](https://stripe. com/br/resources/more/cac-in-saas#whats-a-good-ltvcac-ratio-in-saas) (customer acquisition cost to lifetime value ratio) measures the ratio of the cost of acquiring a new customer to the total revenue that customer is expected to generate over their lifetime.  Similar to CAC and LTV separately, this ratio is important for SaaS businesses because it helps identify the most profitable customer segments and inform decisions about marketing and sales resource allocation, product development, and customer acquisition strategy.\n\nFor example, if a SaaS business has a CAC of $500 and an LTV of $2,400, the CAC-to-LTV ratio would be 0. 21, or 21%.\n\nA CAC-to-LTV ratio of less than one is considered ideal, as it indicates that the company is generating more revenue from a customer than it’s spending to acquire that customer.  A ratio higher than one indicates that the company is spending more to acquire a customer than it’s generating in revenue from that customer.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "[CAC-to-LTV ratio](https://stripe.com/br/resources/more/cac-in-saas#whats-a-good-ltvcac-ratio-in-saas) (customer acquisition cost to lifetime value ratio) measures the ratio of the cost of acquiring a…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "burn-multiple",
+      "heading": "Burn multiple",
+      "bodyMd": "Burn multiple measures the relationship between a company’s [burn rate](https://stripe.com/br/resources/more/what-is-burn-rate-what-startups-need-to-know-about-this-key-metric), which is how quickly the company spends its cash, and its current cash balance. This metric is typically used by startups and early-stage companies, including SaaS businesses, to evaluate their financial health and determine how much time (runway) they have before they will need to raise additional capital.\n\nFor example, if a SaaS business has a cash balance of $100,000 and a burn rate of $50,000 per month, the burn multiple would be two.  This indicates that the company has enough cash to sustain its operations for two months before it will need to raise additional capital.\n\nA high burn multiple is preferable to a low burn multiple, as it indicates that the company has a longer runway, which is generally considered a favorable financial position.\n\n**Pontos técnicos:**\n- **Offer flexible pricing:** Respond to user demand faster with flexible pricing models, including usage-based, tiered, flat-fee plus overage, and more. Support for coupons, free trials, prorations, and add-ons is built-in.\n- **Expand globally:** Increase conversion by offering customers’ preferred payment methods. Stripe supports 125+ local payment methods and 130+ currencies.\n- **Increase revenue and reduce churn:** Improve revenue capture and reduce involuntary churn with Smart Retries and recovery workflow automations. Stripe recovery tools helped users recover over $6.5 billion in revenue in 2024.\n- **Boost efficiency:** Use Stripe’s modular tax, revenue reporting, and data tools to consolidate multiple revenue systems into one. Easily integrate with third-party software.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Burn multiple measures the relationship between a company’s [burn rate](https://stripe.com/br/resources/more/what-is-burn-rate-what-startups-need-to-know-about-this-key-metric), which is how quickly t…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "hype-ratio",
+      "heading": "Hype ratio",
+      "bodyMd": "Hype ratio is a metric used to measure the relationship between the growth in public interest (or “hype”) in a company and its financial performance. This metric is frequently used to evaluate startups, including SaaS companies, and can provide insight into whether a company is overhyped or underhyped.\n\nThe concept of “hype” might seem subjective and difficult to measure, but there is a widely accepted formula for calculating hype ratio:\n\n_Hype Ratio = (Media Coverage + Social Media Mentions + Search Volume) / Revenue_",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Hype ratio is a metric used to measure the relationship between the growth in public interest (or “hype”) in a company and its financial performance. This metric is frequently used to evaluate startup…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "how-stripe-billing-can-help",
+      "heading": "How Stripe Billing can help",
+      "bodyMd": "[Stripe Billing](https://stripe.com/br/billing) lets you bill and manage customers however you want: from simple recurring billing to usage-based billing and sales-negotiated contracts. Start accepting recurring payments globally in minutes: no code required: or build a custom integration using the API.\n\n[Customer lifetime value](https://stripe. com/br/resources/more/customer-lifetime-value) (abbreviated as LTV, CLV, or CLTV) measures the total value a customer is expected to generate for a company over the course of their relationship with the brand.  It’s an important metric for SaaS businesses because it provides insight into the long-term value of a customer and helps identify the most profitable customer segments.\n\n[CAC-to-LTV ratio](https://stripe. com/br/resources/more/cac-in-saas#whats-a-good-ltvcac-ratio-in-saas) (customer acquisition cost to lifetime value ratio) measures the ratio of the cost of acquiring a new customer to the total revenue that customer is expected to generate over their lifetime.  Similar to CAC and LTV separately, this ratio is important for SaaS businesses because it helps identify the most profitable customer segments and inform decisions about marketing and sales resource allocation, product development, and customer acquisition strategy.\n\n[Stripe Billing](https://stripe. com/br/billing) lets you bill and manage customers however you want—from simple recurring billing to usage-based billing and sales-negotiated contracts.  Start accepting recurring payments globally in minutes—no code required—or build a custom integration using the API.\n\n**Pontos técnicos:**\n- **Offer flexible pricing:** Respond to user demand faster with flexible pricing models, including usage-based, tiered, flat-fee plus overage, and more. Support for coupons, free trials, prorations, and add-ons is built-in.\n- **Expand globally:** Increase conversion by offering customers’ preferred payment methods. Stripe supports 125+ local payment methods and 130+ currencies.\n- **Increase revenue and reduce churn:** Improve revenue capture and reduce involuntary churn with Smart Retries and recovery workflow automations. Stripe recovery tools helped users recover over $6.5 billion in revenue in 2024.\n- **Boost efficiency:** Use Stripe’s modular tax, revenue reporting, and data tools to consolidate multiple revenue systems into one. Easily integrate with third-party software.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "[Customer lifetime value](https://stripe.com/br/resources/more/customer-lifetime-value) (abbreviated as LTV, CLV, or CLTV) measures the total value a customer is expected to generate for a company ove…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:00:05.266Z",
+  "synthesizedAt": "2026-06-22T14:44:21.424Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_essential-saas-metrics.json"
+  ]
+}

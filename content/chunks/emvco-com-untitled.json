@@ -1,0 +1,26 @@
+{
+  "id": "emvco-com-untitled",
+  "sourceUrl": "https://www.emvco.com/wp-content/uploads/2025/10/EMVCo-Approvals_Evaluations_eBook_FINAL-TAGGED.pdf",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Untitled",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Untitled",
+      "bodyMd": "Conforme a documentação fonte: %PDF-1. 7 %���� 633 0 obj <> endobj 680 0 obj <>/Filter/FlateDecode/ID\\[<769CFDDD7C6E0B4C9A4629728CB6E4F2>\\]/Index\\[633 131\\]/Info 632 0 R/Length 127/Prev 371265/Root 634 0 R/Size 764/Type/XRef/W\\[1 2 1\\]>>stream h�bbd\u0010\\`\\`b\\`e\u0001\u0012\f\u0013�\u0004�\u0003 ��$x\u000f �H �\u001d\u0005$\u0004~\u0002 Fw\u0010� \"$@� HI+�% \"�A�\u000e\\\\\\\\�b�f�\u0018�\u000b��\u0004R�؎�� ĒB�\b�m�s�1e�F! (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).\n\nEsta seção aborda **Untitled** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.\n\nConforme a documentação fonte: Esta seção aborda **Untitled** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.  (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Esta seção aborda **Untitled** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.",
+        "sourceRel": "https://www.emvco.com/wp-content/uploads/2025/10/EMVCo-Approvals_Evaluations_eBook_FINAL-TAGGED.pdf",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:05:11.023Z",
+  "synthesizedAt": "2026-06-22T14:44:21.240Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": []
+}

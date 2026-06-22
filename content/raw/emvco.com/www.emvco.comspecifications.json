@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=430",
+  "method": "fetch",
+  "title": "Document Search",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Document Search",
+      "bodyMd": "0 Results\n\nSort by: Sort by\n\nNo results found. Try adjusting your search or filters."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:01.797Z",
+  "sourceUrl": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=430"
+}

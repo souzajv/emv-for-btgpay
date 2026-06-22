@@ -1,0 +1,24 @@
+{
+  "name": "emv-content-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "node crawl/index.mjs",
+    "ingest-pdfs": "node ingest-pdfs.mjs",
+    "normalize": "node normalize.mjs",
+    "filter": "node filter-btgpay.mjs",
+    "pipeline": "npm run crawl && npm run ingest-pdfs && npm run normalize && npm run filter",
+    "validate-tracks": "node validate-tracks.mjs",
+    "sanitize-dashes": "node sanitize-dashes.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "p-limit": "^6.2.0",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.49.0",
+    "robots-parser": "^3.0.1",
+    "turndown": "^7.2.0",
+    "zod": "^3.24.0"
+  }
+}

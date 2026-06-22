@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/emv-technologies/emv-electric-vehicle-open-payments",
+  "method": "fetch",
+  "title": "EMV® Electric Vehicle Open Payments (EVOP)",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "EMV® Electric Vehicle Open Payments (EVOP)",
+      "bodyMd": "As EV adoption continues globally, supporting the charging infrastructure to meet growing demand is an urgent priority for industry stakeholders and policymakers across the world.\n\nA challenge for EV drivers today is the charging payment experience, as they may need to register for multiple proprietary EV charging station accounts. This causes unnecessary friction and inconvenience.\n\nEMVCo has worked to address this challenge through an open payments approach. The EV Open Payments Use Case document explains how EMV® Secure Remote Commerce (SRC) – which simplifies the digital payment process to help make it more consistent, convenient and secure – can be used to integrate card-based payments at EV charging stations supporting ISO 15118 Plug and Charge.\n\nThis can help ease deployments, reduce costs and accelerate time-to-market, all while removing unnecessary friction and inconvenience for EV drivers when paying to charge their vehicle."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:15.820Z",
+  "sourceUrl": "https://www.emvco.com/emv-technologies/emv-electric-vehicle-open-payments"
+}

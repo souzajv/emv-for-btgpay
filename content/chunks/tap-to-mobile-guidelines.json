@@ -1,0 +1,54 @@
+{
+  "id": "tap-to-mobile-guidelines",
+  "sourceUrl": "file://TapToMobile-Guidelines-v1.1.pdf",
+  "sourceType": "pdf",
+  "category": "contactless",
+  "title": "Diretrizes Tap to Mobile",
+  "sections": [
+    {
+      "anchorId": "requisitos-dispositivo",
+      "heading": "Requisitos do dispositivo",
+      "bodyMd": "Tap to Mobile exige NFC ativo, versão mínima do SO, patch de segurança recente e ausência de root/jailbreak. O app deve detectar ambiente comprometido e bloquear transações. Lista de dispositivos suportados é mantida pelo provedor do SDK.",
+      "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
+      "verification": {
+        "evidence": "Tap to Mobile exige NFC ativo, versão mínima do SO, patch de segurança recente e ausência de root/jailbreak. O app deve detectar ambiente comprometido e bloquear transações. Lista de dispositivos supo…",
+        "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "ux-pagamento",
+      "heading": "UX de pagamento",
+      "bodyMd": "Telas obrigatórias: valor, instrução de aproximar cartão, animação de leitura, resultado (aprovado/negado/timeout), comprovante. Timeouts contactless devem ser claros: permitir retry sem reiniciar venda inteira. Acessibilidade: contraste, feedback não só visual.",
+      "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
+      "verification": {
+        "evidence": "Telas obrigatórias: valor, instrução de aproximar cartão, animação de leitura, resultado (aprovado/negado/timeout), comprovante. Timeouts contactless devem ser claros: permitir retry sem reiniciar ven…",
+        "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "attestation",
+      "heading": "Attestation e integridade",
+      "bodyMd": "O backend do adquirente pode exigir attestation do app (Play Integrity, DeviceCheck) antes de habilitar transações. O Flutter chama plugins nativos que retornam tokens para o servidor validar que o binário não foi adulterado.",
+      "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
+      "verification": {
+        "evidence": "O backend do adquirente pode exigir attestation do app (Play Integrity, DeviceCheck) antes de habilitar transações. O Flutter chama plugins nativos que retornam tokens para o servidor validar que o bi…",
+        "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "alta",
+  "scrapedAt": "2026-06-22T13:57:52.822Z",
+  "enrichedFrom": [
+    "content\\raw\\pdfs\\TapToMobile-Guidelines-v1.1.json"
+  ],
+  "enrichedChars": 44339,
+  "synthesizedAt": "2026-06-22T14:44:21.520Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json"
+  ]
+}

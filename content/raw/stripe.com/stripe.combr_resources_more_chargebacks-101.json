@@ -1,0 +1,89 @@
+{
+  "url": "https://stripe.com/br/resources/more/chargebacks-101",
+  "method": "fetch",
+  "title": "Estornos: o que são e como as empresas podem preveni-los | StripeRadar",
+  "sections": [
+    {
+      "anchorId": "o-que-e-um-estorno",
+      "heading": "O que é um estorno?",
+      "bodyMd": "Um estorno é a anulação de fundos após uma compra com cartão de débito ou crédito, iniciada quando o cliente registra uma [contestação](https://stripe.com/br/docs/disputes) da cobrança junto ao seu banco ou ao provedor do cartão de crédito. Os estornos quase sempre são iniciados pelos clientes, mas as empresas também podem solicitá-los (isso é raro). Os estornos são regidos por marcos jurídicos e pelas regras das redes de cartões."
+    },
+    {
+      "anchorId": "com-que-frequencia-ocorrem-os-estornos",
+      "heading": "Com que frequência ocorrem os estornos?",
+      "bodyMd": "Os estornos são um problema generalizado e caro que está relacionado a fraudes empresariais de forma mais ampla. Em uma [pesquisa de 2023](https://b2b.mastercard.com/news-and-insights/blog/the-growing-threat-of-first-party-fraud-and-its-impact-on-the-payments-ecosystem/), 75% das empresas disseram que os casos de [fraude amigável](https://stripe.com/br/resources/more/what-is-friendly-fraud), também conhecida como fraude de estorno, aumentaram nos últimos anos. De acordo com o relatório [“O verdadeiro custo da fraude”, da LexisNexis](https://risk.lexisnexis.com/insights-resources/research/us-ca-true-cost-of-fraud-study#:~:text=Fraud%20costs%20rise%2019.8%25%20since%202019&text=This%20year's%20findings%20show%20a,2019%20which%20was%20at%20$3.13.), as empresas acabam pagando US$ 3,75 para cada US$ 1,00 em estornos."
+    },
+    {
+      "anchorId": "formas-de-evitar-estornos",
+      "heading": "Formas de evitar estornos",
+      "bodyMd": "Mesmo as empresas mais vigilantes acabarão tendo alguns estornos, mas há medidas que você pode tomar para minimizar sua frequência. Temos um artigo que aprofunda as [etapas importantes que você pode tomar para reduzir estornos](https://stripe.com/br/resources/more/eight-ways-to-reduce-chargebacks), mas aqui estão alguns pontos-chave a ter em mente:\n\n*   Priorize a segurança dos pagamentos com cartão de crédito.  \n    \n*   Torne as devoluções o mais fácil possível.  \n    \n*   Gerencie as expectativas de entrega.  \n    \n*   Esteja disponível para seus clientes.  \n    \n*   Garanta que o nome da sua empresa aparece nos extratos do cartão de crédito."
+    },
+    {
+      "anchorId": "estorno-versus-reembolso-principais-diferencas",
+      "heading": "Estorno versus reembolso: principais diferenças",
+      "bodyMd": "Um reembolso é quando a empresa devolve fundos ao cliente, enquanto um estorno é quando o banco ou o provedor do cartão de crédito do cliente anula a cobrança e retira os fundos da empresa. Em ambos os casos, os fundos são devolvidos ao cliente. A principal diferença entre um estorno e um reembolso é qual parte inicia a anulação dos fundos, mas há algumas outras diferenças importantes:"
+    },
+    {
+      "anchorId": "reembolso",
+      "heading": "Reembolso",
+      "bodyMd": "*   Iniciado pela empresa, geralmente após uma solicitação do cliente  \n    \n*   Cliente e empresa se comunicam diretamente  \n    \n*   Empresa controla e processa o reembolso  \n    \n*   Normalmente leva de 3 a 7 dias úteis após a aprovação  \n    \n*   Usado para resoluções voluntárias (devoluções, cancelamentos)  \n    \n*   Menor impacto; empresa devolve fundos voluntariamente  \n    \n\n#### Estorno\n\n*   Iniciada pelo banco do cliente após o registro de uma contestação  \n    \n*   Cliente, banco emissor e empresa estão todos envolvidos  \n    \n*   O banco retira os fundos da conta empresarial e os retém durante a análise  \n    \n*   Pode levar de semanas a meses, especialmente se a cobrança for contestada  \n    \n*   Usado para cobranças contestadas ou não autorizadas  \n    \n*   Maior impacto; pode envolver tarifas, perda de receita e risco reputacional"
+    },
+    {
+      "anchorId": "quem-esta-ativamente-envolvido-em-um-estorno",
+      "heading": "Quem está ativamente envolvido em um estorno?",
+      "bodyMd": "Nos estornos, o banco emissor conduz a ação, mantendo-se em contato com o cliente e a empresa durante todo o processo. Nos reembolsos, o cliente geralmente lida diretamente com a empresa, que então inicia a anulação dos fundos."
+    },
+    {
+      "anchorId": "quem-controla-o-dinheiro-em-um-estorno",
+      "heading": "Quem controla o dinheiro em um estorno?",
+      "bodyMd": "Com os reembolsos, a empresa controla os fundos contestados, enquanto, nos estornos, o banco do cliente está no controle. Os reembolsos envolvem a empresa instruindo seu processador de pagamentos a devolver os fundos ao cliente. Até que a transferência seja iniciada, o dinheiro não é movimentado.\n\nNo caso de estorno, o banco do cliente geralmente retira os fundos em questão da conta da empresa e os retém enquanto avalia se a solicitação de estorno é válida."
+    },
+    {
+      "anchorId": "quanto-tempo-leva-para-um-reembolso-ser-processado",
+      "heading": "Quanto tempo leva para um reembolso ser processado?",
+      "bodyMd": "O processo de reembolso geralmente leva de três a sete dias úteis. Isso não inclui o tempo necessário para que o cliente e a empresa se comuniquem e cheguem à decisão de que um reembolso é justificável, o que pode levar desde uma breve conversa até várias semanas de e-mails. Do início ao fim, um estorno pode levar de algumas semanas a vários meses, especialmente se a empresa contestar a cobrança contestada."
+    },
+    {
+      "anchorId": "motivos-comuns-para-estornos",
+      "heading": "Motivos comuns para estornos",
+      "bodyMd": "Para criar um plano prático para reduzir o número de estornos da sua empresa, é importante entender os motivos pelos quais eles acontecem. Veja alguns dos cenários mais comuns:"
+    },
+    {
+      "anchorId": "compras-fraudulentas",
+      "heading": "Compras fraudulentas",
+      "bodyMd": "Compras fraudulentas são a razão pela qual os estornos existem em primeiro lugar. A ideia por trás disso é oferecer aos clientes uma ferramenta para anular transações que aparecem em suas contas devido a atividades fraudulentas — e fraudes legítimas ainda representam uma grande parte dos estornos."
+    },
+    {
+      "anchorId": "fraude-amigavel",
+      "heading": "Fraude amigável",
+      "bodyMd": "“Fraude amigável” é o termo genérico para diversos motivos de estorno que não têm relação com fraude legítima. Tecnicamente, os titulares de cartão só devem contestar uma cobrança e acionar um estorno por um número limitado de motivos. Na realidade, os clientes podem contestar uma cobrança por diversos motivos, além de fraude real.\n\nAqui estão alguns exemplos comuns:\n\n*   **Eles não reconhecem a cobrança.**  \n    Se um cliente olhar o extrato do cartão de crédito e ver uma cobrança que não se lembra de ter feito, ele pode optar por contestá-la e solicitar um estorno. Talvez ele tenha feito a compra e esquecido, ou talvez seja uma tarifa recorrente de uma assinatura que ele esqueceu que havia registrado. Talvez o nome da empresa não apareça claramente na fatura do cartão. Se uma transação não parecer familiar para o titular do cartão, há uma chance de que ele a conteste.  \n    \n*   **Há problemas na entrega.**  \n    Se um item não chegou ou está demorando mais do que o esperado, o cliente pode presumir que ele foi perdido e solicitar um estorno. Isso é mais provável se o cliente não tiver recebido informações de entrega ou um número de rastreamento, ou não conseguiu entrar em contato facilmente com a empresa para saber sobre o status do pedido.  \n    \n*   **Eles querem evitar o processo de devolução.**  \n    Muitas vezes, os estornos são usados para evitar o processamento de uma devolução. Um cliente pode iniciar um estorno se não estiver satisfeito com um item que comprou, se achar a política de devoluções da empresa pouco clara ou complicada, ou se quiser devolver um item, mas já estiver fora do prazo previsto."
+    },
+    {
+      "anchorId": "erros-administrativos",
+      "heading": "Erros administrativos",
+      "bodyMd": "Erros acontecem, e os estornos são um mecanismo para corrigi-los. Se um cliente foi cobrado mais de uma vez, ou se ainda está sendo cobrado por uma assinatura cancelada, ele pode contestar a cobrança com seu banco ou com a empresa do cartão de crédito para corrigir os erros. Se o cliente não puder solicitar facilmente um reembolso à empresa, ele pode considerar um estorno como seu melhor recurso."
+    },
+    {
+      "anchorId": "como-funcionam-os-estornos",
+      "heading": "Como funcionam os estornos?",
+      "bodyMd": "Os estornos ocorrem somente após o final da transação inicial: o pagamento é processado, os fundos são transferidos para a conta da empresa e a cobrança aparece no extrato do cartão de crédito do cliente.\n\nÉ quando [o processo de estorno](https://stripe.com/br/docs/disputes/how-disputes-work) começa:\n\n1.  **O cliente registra uma contestação.**  \n    Quando vê uma cobrança no extrato da conta que acredita ser fraudulenta, o cliente contesta a transação junto ao banco ou à instituição financeira que emitiu o cartão de crédito usado na compra (o banco emissor). Os consumidores normalmente têm 120 dias para contestar uma transação.\n    \n2.  **O banco emissor inicia o estorno.**  \n    Quando o cliente contesta uma cobrança, o banco emissor inicia o processo de estorno.\n    \n3.  **A empresa tem a chance de refutar o estorno.**  \n    Assim que um cliente solicita um estorno, seu banco entra em contato com o banco da empresa e informa que o estorno foi solicitado. Nesse ponto, a empresa tem a oportunidade de fornecer qualquer comprovante que refute a alegações do cliente de que a cobrança é ilegítima.\n    \n4.  **O banco toma uma decisão.**  \n    O banco emissor analisará os comprovantes de ambos os lados da contestação de estorno e decidirá se o processo seguirá adiante ou não. Nesse ponto, se a empresa não fornecer nenhum comprovante que comprove a validade da cobrança, o banco emissor geralmente aprova a solicitação de estorno do cliente.\n    \n5.  **Se o banco emissor decidir a favor da empresa...**  \n    Se o banco do titular do cartão decidir que a cobrança foi válida e se recusar a prosseguir com o estorno, os fundos não serão devolvidos ao cliente. Se o emissor já havia creditado o valor contestado na conta do titular do cartão antes da investigação da cobrança e a cobrança for considerada válida, esses fundos ou créditos serão removidos novamente da conta do titular.\n    \n6.  **Se o banco emissor decidir a favor do cliente...**  \n    Se o banco determinar que o cliente tem motivos legítimos para solicitar o estorno, os fundos são retirados da conta da empresa e creditados de volta ao cliente.\n    \n7.  **A arbitragem pode ocorrer após a decisão**.  \n    Se o banco decidir a favor da empresa e o cliente ainda quiser contestar o estorno, ele tem a opção de recorrer à arbitragem. Isso leva a questão à bandeira do cartão de crédito e funciona, na prática, como um processo de recurso da decisão do banco emissor. As bandeiras de cartão de crédito — Visa, American Express, Mastercard, Discover etc. — têm a palavra final em uma contestação de estorno."
+    },
+    {
+      "anchorId": "qual-e-o-custo-dos-estornos-para-as-empresas",
+      "heading": "Qual é o custo dos estornos para as empresas?",
+      "bodyMd": "As tarifas associadas a estornos variam dependendo do provedor de processamento de pagamentos que você usa e geralmente são detalhadas no contrato da conta comercial. Há uma tarifa de US$ 15 por estorno. As tarifas de outros provedores podem chegar a US$ 50 ou até US$ 100. Obviamente, o objetivo é ter o menor número possível de estornos, mas eles acontecem ocasionalmente, por isso é importante verificar o que seu provedor de processamento de pagamentos cobra."
+    },
+    {
+      "anchorId": "como-contestar-um-estorno",
+      "heading": "Como contestar um estorno",
+      "bodyMd": "Mesmo que você faça todo o possível para evitar que os estornos aconteçam, você não pode evitá-los totalmente. E quando eles acontecem, é importante ter um plano de ação para verificar a autenticidade das alegações de fraude e avançar. Veja como contestar uma reclamação de estorno:\n\n*   **Determine a legitimidade da contestação.**  \n    Se você for notificado sobre um estorno, primeiro precisará determinar se ele está sendo motivado por fraude ou se há um problema de atendimento ao cliente por trás.\n    \n*   **Se a cobrança for genuinamente fraudulenta...**  \n    Se a investigação inicial da cobrança revelar uma fraude verdadeira, informe ao banco emissor do cliente que não contestará o estorno e que eles podem devolver os fundos ao cliente. Além disso, recomendamos informar seu provedor de processamento de pagamentos sobre a fraude e verificar se houve uma ocorrência isolada ou um problema maior que afetou outras transações.\n    \n*   **Se for fraude amigável...**  \n    Se você analisar o problema e determinar que não houve fraude real, o estorno com o cliente dependerá, em última análise, do motivo pelo qual ele o iniciou. Independentemente disso, é recomendável contestar o estorno, o que envolve algumas coisas:\n    \n*   **Entre em contato com o cliente.**  \n    Muitas situações de estorno podem ser resolvidas entrando em contato diretamente com o cliente, expressando o desejo de resolver qualquer problema que o levou a solicitar um estorno e ouvindo o que ele tem a dizer. Você pode acabar realizando o reembolso de qualquer forma, mas, mesmo assim, um reembolso é melhor para sua empresa do que um estorno.\n    \n*   **Apresente comprovantes para refutar o estorno.**  \n    Se buscar uma solução com o cliente não funcionar e você tiver certeza de que não houve fraude, você deve fornecer comprovantes nesse sentido. Provas como recibos, números de confirmação e informações de envio podem ajudar a confirmar a legitimidade da transação. Seu provedor de processamento de pagamentos provavelmente será o responsável por se comunicar com o banco emissor do cliente. Em seguida, você deverá aguardar que o banco emissor tome uma decisão sobre a aprovação do estorno."
+    },
+    {
+      "anchorId": "como-o-stripe-radar-pode-ajudar",
+      "heading": "Como o Stripe Radar pode ajudar",
+      "bodyMd": "O [Stripe Radar](https://stripe.com/br/radar) usa modelos de IA para detectar e prevenir fraudes, treinados com dados da rede global da Stripe. Esses modelos são continuamente atualizados com base nas últimas tendências de fraude, protegendo seu negócio à medida que a fraude evolui.\n\nA Stripe também oferece o [Radar for Fraud Teams](https://stripe.com/br/radar/fraud-teams), que permite que usuários adicionem controles adicionais, como regras personalizadas, para lidar com cenários de fraude específicos de seus negócios e acessar insights avançados de fraude.\n\nO Radar pode ajudar sua empresa a:\n\n*   **Evitar perdas por fraude:** a Stripe processa mais de US$ 1 trilhão em pagamentos por ano. Essa escala permite que o Radar detecte e previna fraudes com precisão, economizando dinheiro.\n    \n*   **Aumentar a receita:** os modelos de IA do Radar são treinados com dados reais de contestação, dados de clientes, dados de navegação e mais. Isso permite identificar transações de risco e reduzir falsos positivos, impulsionando sua receita.\n    \n*   **Economizar tempo:** o Radar já vem integrado à Stripe e não exige nenhuma linha de código para configurar. Você também pode monitorar o desempenho de fraudes, criar regras e muito mais em uma única plataforma, aumentando a eficiência.\n    \n\nA Stripe também oferece soluções de prevenção e gerenciamento de contestações:\n\n*   **Prevenção de contestações:** mitigue e resolva proativamente contestações para reduzir a taxa de contestações e automatizar o processo de resolução de contestações.  \n    \n*   **Contestações inteligentes:** a Stripe usa IA para responder automaticamente a contestações em seu nome com comprovantes personalizados para ajudar a melhorar as taxas de vitórias.  \n    \n\n[Saiba mais](https://stripe.com/br/radar) sobre o Stripe Radar, ou [comece já](https://dashboard.stripe.com/login?redirect=%2Fradar)."
+    }
+  ],
+  "scrapedAt": "2026-06-22T12:59:50.916Z",
+  "sourceUrl": "https://stripe.com/br/resources/more/chargebacks-101"
+}

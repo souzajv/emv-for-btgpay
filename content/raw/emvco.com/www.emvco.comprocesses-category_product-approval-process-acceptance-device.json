@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/processes-category/product-approval-process-acceptance-device",
+  "method": "fetch",
+  "title": "Product Approval Process",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Product Approval Process",
+      "bodyMd": "ESD Evaluation Process\n\nThis administrative process is used to test Terminals for evaluation with ESD (Electrostatic Discharge) resilience.\n\n[View evaluation process](https://www.emvco.com/processes/esd-evaluation-process/) [View all forms](#)"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:02:26.741Z",
+  "sourceUrl": "https://www.emvco.com/processes-category/product-approval-process-acceptance-device"
+}

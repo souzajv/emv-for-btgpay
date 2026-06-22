@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/processes/contactless-product-approval-process",
+  "method": "fetch",
+  "title": "Contactless Product Approval Process",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Contactless Product Approval Process",
+      "bodyMd": "Step 1 PROVIDER\n\nDownloads & signs registration form to receive a contract and registration number."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:56.856Z",
+  "sourceUrl": "https://www.emvco.com/processes/contactless-product-approval-process"
+}

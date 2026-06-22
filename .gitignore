@@ -1,0 +1,26 @@
+# Artefatos de agentes/pipeline (raiz) — README permanece versionado
+/*.md
+!README.md
+
+# Template local de referência
+landingpage-Template/
+
+# Hub Next.js
+hub/node_modules/
+hub/.next/
+hub/out/
+hub/.env*.local
+
+# Pipeline
+pipeline/node_modules/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test artifacts
+hub/playwright-report/
+hub/test-results/
+hub/lighthouse-report.html

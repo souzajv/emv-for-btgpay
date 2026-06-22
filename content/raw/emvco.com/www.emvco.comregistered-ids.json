@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/registered-ids",
+  "method": "fetch",
+  "title": "Registered IDs",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Registered IDs",
+      "bodyMd": "Al Etihad Payments\n\n09\n\nL3PSI09\n\nvikas.anand@aletihadpayments.ae\n\nAbu Dhabi, UAE"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:03:08.584Z",
+  "sourceUrl": "https://www.emvco.com/registered-ids"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/registered",
+  "method": "fetch",
+  "title": "Registered",
+  "sections": [
+    {
+      "anchorId": "registration-processes",
+      "heading": "Registration Processes",
+      "bodyMd": "Find here the process to apply for a registered identifier.\n\n[View registration processes](https://www.emvco.com/processes-category/registration-processes/?sub_category=417)"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:02:07.369Z",
+  "sourceUrl": "https://www.emvco.com/registered"
+}

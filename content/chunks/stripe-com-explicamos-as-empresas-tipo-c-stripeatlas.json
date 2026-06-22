@@ -1,0 +1,237 @@
+{
+  "id": "stripe-com-explicamos-as-empresas-tipo-c-stripeatlas",
+  "sourceUrl": "https://stripe.com/br/resources/more/what-is-a-c-corp",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Explicamos as empresas tipo C | StripeAtlas",
+  "sections": [
+    {
+      "anchorId": "o-que-e-uma-empresa-tipo-c",
+      "heading": "O que é uma empresa tipo C?",
+      "bodyMd": "Uma empresa tipo C é um tipo de estrutura jurídica nos EUA. Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos, ser processada e incorrer em passivos em seu próprio nome. Essa característica oferece proteção limitada de responsabilidade para os acionistas da empresa, que normalmente não são responsabilizados pessoalmente pelas dívidas e obrigações da empresa.\n\nAs empresas do tipo C emitem ações para levantar capital, que podem ser negociadas publicamente em uma bolsa de valores.  Os acionistas investem na corporação e possuem uma parcela da empresa proporcional ao seu número de ações.  Um conselho de administração supervisiona a gestão da corporação e contrata diretores para executar as operações diárias.\n\nA empresa tipo C é uma estrutura muito usada por empresas grandes ou em crescimento que desejam levantar capital por meio de ofertas públicas de ações, têm estruturas de propriedade complexas ou planejam reinvestir os lucros na empresa em vez de distribuí-los aos acionistas.  As empresas tipo C têm \"existência perpétua\", o que significa que podem continuar a existir mesmo que seus proprietários ou acionistas deixem a empresa ou morram.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Uma empresa tipo C é um tipo de estrutura jurídica nos EUA. Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos,…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-funcionam-as-empresas-tipo-c",
+      "heading": "Como funcionam as empresas tipo C",
+      "bodyMd": "Como são pessoas jurídicas separadas de seus proprietários ou acionistas, elas estão sujeitas a certos requisitos legais, como registro do contrato social no estado em que estão localizados, eleição de um conselho de administração e reuniões anuais.\n\nEmpresas tipo C e [LLCs](https://stripe. com/br/resources/more/how-to-form-an-llc) compartilham as mesmas semelhanças básicas entre as empresas tipo C e tipo S: ambas limitam a responsabilidade de proprietários e membros, constituem a empresa como sua pessoa jurídica e devem ser formadas por meio do registro de contrato social ou documentação organizacional no estado em que se localizam.\n\nUma característica importante da empresa tipo C é a limitação de responsabilidade dos acionistas, o que pode proteger o patrimônio pessoal.  Mas essa proteção tem um custo: as empresas tipo C estão sujeitas a dupla tributação, ou seja, os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  Isso pode diminuir a eficiência tributária em relação outras estruturas jurídicas, como a empresa tipo S ou a LLC.\n\nAs empresas tipo C estão sujeitas a uma alíquota fixa de imposto corporativo, atualmente fixada em 21% para os exercícios fiscais a partir de 31 de dezembro de 2017.  Essa alíquota geralmente é menor do que as alíquotas de pessoa física, que podem chegar a 37%.  As empresas empresa tipo Cs podem deduzir despesas comerciais comuns e necessárias, como salários, aluguel e publicidade, das receitas tributáveis.\n\n**Pontos técnicos:**\n- **Se você planeja expandir rapidamente a empresa**\n- **Se você planeja buscar investidores institucionais**\n- **Se você precisa de flexibilidade de propriedade**\n- **Se você deseja oferecer benefícios competitivos aos funcionários**\n- **Se você quer estabilidade no longo prazo**\n- **Se você opera em vários estados**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Empresas tipo C e [LLCs](https://stripe.com/br/resources/more/how-to-form-an-llc) compartilham as mesmas semelhanças básicas entre as empresas tipo C e tipo S: ambas limitam a responsabilidade de prop…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "responsabilidade-limitada",
+      "heading": "Responsabilidade limitada",
+      "bodyMd": "Um dos principais aspectos da empresa tipo C é a responsabilidade limitada delas: ela é uma pessoa jurídica distinta de seus proprietários ou acionistas. A corporação pode celebrar contratos, possuir ativos e incorrer em passivos em seu próprio nome, enquanto os acionistas estarão protegidos principalmente de responsabilidades relacionadas às dívidas e obrigações da empresa.\n\nUma empresa tipo C é um tipo de estrutura jurídica nos EUA.  Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos, ser processada e incorrer em passivos em seu próprio nome.  Essa característica oferece proteção limitada de responsabilidade para os acionistas da empresa, que normalmente não são responsabilizados pessoalmente pelas dívidas e obrigações da empresa.\n\nEssa proteção contra responsabilização pessoal torna a empresa tipo C uma boa escolha para empresas que planejam levantar capital emitindo ações, uma vez que os investidores fica mais tranquilos para investir numa empresa com responsabilidade limitada.\n\n**Pontos técnicos:**\n- **Responsabilidade limitada**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Uma empresa tipo C é um tipo de estrutura jurídica nos EUA. Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos,…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "excecoes-de-responsabilidade",
+      "heading": "Exceções de responsabilidade",
+      "bodyMd": "A limitação de responsabilidade não se aplica em todas as situações. As empresas tipo C são muito úteis para proteger os acionistas, o que é especialmente importante em setores de alto risco, mas essas proteções têm limites.\n\nUma empresa tipo C é um tipo de estrutura jurídica nos EUA.  Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos, ser processada e incorrer em passivos em seu próprio nome.  Essa característica oferece proteção limitada de responsabilidade para os acionistas da empresa, que normalmente não são responsabilizados pessoalmente pelas dívidas e obrigações da empresa.\n\nUm dos principais aspectos da empresa tipo C é a responsabilidade limitada delas: ela é uma pessoa jurídica distinta de seus proprietários ou acionistas.  A corporação pode celebrar contratos, possuir ativos e incorrer em passivos em seu próprio nome, enquanto os acionistas estarão protegidos principalmente de responsabilidades relacionadas às dívidas e obrigações da empresa.\n\nPor exemplo, se uma empresa tipo C for processada por quebra de contrato, o autor pode cobrar indenizações relativas apenas ao patrimônio da empresa, não do patrimônio pessoal dos acionistas.  Se os acionistas investiram na empresa, eles têm alguma responsabilidade, correspondente ao valor de seu investimento, mas normalmente seus outros ativos ficam protegidos.  Se a empresa for processada ou falir por qualquer motivo, os acionistas podem perder seu investimento, mas a estrutura legal protege seu patrimônio pessoal.\n\n**Pontos técnicos:**\n- **Responsabilidade limitada**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Uma empresa tipo C é um tipo de estrutura jurídica nos EUA. Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos,…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "empresa-tipo-s-ou-tipo-c-qual-e-a-diferenca",
+      "heading": "Empresa tipo S ou tipo C: qual é a diferença?",
+      "bodyMd": "[As empresas tipo S](https://stripe.com/br/resources/more/s-corp-vs-llc) e tipo C são dois tipos diferentes de estruturas jurídicas de empresas, cada uma com suas próprias vantagens e desvantagens para as empresas.\n\n*   **Tributação**  \n    As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  As empresas do tipo S não estão sujeitos a dupla tributação e os seus lucros e prejuízos são repassados aos acionistas e tributados às alíquotas de pessoa física. \n    \n*   **Acionistas**  \n    As empresas tipo C podem ter qualquer número de acionistas, que podem ser pessoas físicas, pessoas jurídicas ou outras entidades.\n\nPor exemplo, se uma empresa tipo C for processada por quebra de contrato, o autor pode cobrar indenizações relativas apenas ao patrimônio da empresa, não do patrimônio pessoal dos acionistas.  Se os acionistas investiram na empresa, eles têm alguma responsabilidade, correspondente ao valor de seu investimento, mas normalmente seus outros ativos ficam protegidos.  Se a empresa for processada ou falir por qualquer motivo, os acionistas podem perder seu investimento, mas a estrutura legal protege seu patrimônio pessoal.\n\nAs empresas tipo C limitam a responsabilização dos acionistas, o que significa que os bens pessoais são protegidos das dívidas e obrigações da empresa, embora essa responsabilidade seja limitada ao valor do investimento do acionista na empresa.  Essa proteção se aplica apenas às dívidas e obrigações da empresa, não às ações ou dívidas de cada acionista ou diretor da empresa, e os acionistas ainda podem ser responsabilizados pessoalmente por qualquer conduta irregular durante a operação da empresa.\n\n**Pontos técnicos:**\n- *8\\. Cumprir requisitos contínuos**\n- **Se você planeja expandir rapidamente a empresa**\n- **Se você planeja buscar investidores institucionais**\n- **Se você precisa de flexibilidade de propriedade**\n- **Se você deseja oferecer benefícios competitivos aos funcionários**\n- **Se você quer estabilidade no longo prazo**\n- **Se você opera em vários estados**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Tributação** As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados so…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "empresa-tipo-c-ou-llc-qual-e-a-diferenca",
+      "heading": "Empresa tipo C ou LLC: qual é a diferença?",
+      "bodyMd": "Empresas tipo C e [LLCs](https://stripe.com/br/resources/more/how-to-form-an-llc) compartilham as mesmas semelhanças básicas entre as empresas tipo C e tipo S: ambas limitam a responsabilidade de proprietários e membros, constituem a empresa como sua pessoa jurídica e devem ser formadas por meio do registro de contrato social ou documentação organizacional no estado em que se localizam.\n\n*   **Tributação**  \n    As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  As empresas do tipo S não estão sujeitos a dupla tributação e os seus lucros e prejuízos são repassados aos acionistas e tributados às alíquotas de pessoa física. \n    \n*   **Acionistas**  \n    As empresas tipo C podem ter qualquer número de acionistas, que podem ser pessoas físicas, pessoas jurídicas ou outras entidades.\n\nPor exemplo, se uma empresa tipo C for processada por quebra de contrato, o autor pode cobrar indenizações relativas apenas ao patrimônio da empresa, não do patrimônio pessoal dos acionistas.  Se os acionistas investiram na empresa, eles têm alguma responsabilidade, correspondente ao valor de seu investimento, mas normalmente seus outros ativos ficam protegidos.  Se a empresa for processada ou falir por qualquer motivo, os acionistas podem perder seu investimento, mas a estrutura legal protege seu patrimônio pessoal.\n\nAs empresas tipo C limitam a responsabilização dos acionistas, o que significa que os bens pessoais são protegidos das dívidas e obrigações da empresa, embora essa responsabilidade seja limitada ao valor do investimento do acionista na empresa.  Essa proteção se aplica apenas às dívidas e obrigações da empresa, não às ações ou dívidas de cada acionista ou diretor da empresa, e os acionistas ainda podem ser responsabilizados pessoalmente por qualquer conduta irregular durante a operação da empresa.\n\n**Pontos técnicos:**\n- *8\\. Cumprir requisitos contínuos**\n- **Se você planeja expandir rapidamente a empresa**\n- **Se você planeja buscar investidores institucionais**\n- **Se você precisa de flexibilidade de propriedade**\n- **Se você deseja oferecer benefícios competitivos aos funcionários**\n- **Se você quer estabilidade no longo prazo**\n- **Se você opera em vários estados**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Tributação** As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados so…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "tributacao",
+      "heading": "Tributação",
+      "bodyMd": "As empresas tipo C estão sujeitas a dupla tributação, o que significa que os lucros são tributados primeiro a nível societário, depois os acionistas são tributados sobre os dividendos ou distribuições que recebam. As LLCs, no entanto, não são tributadas: seus lucros e perdas são repassados aos proprietários ou membros e tributados às alíquotas de pessoa física.\n\n*   **Tributação**  \n    As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  As empresas do tipo S não estão sujeitos a dupla tributação e os seus lucros e prejuízos são repassados aos acionistas e tributados às alíquotas de pessoa física. \n    \n*   **Acionistas**  \n    As empresas tipo C podem ter qualquer número de acionistas, que podem ser pessoas físicas, pessoas jurídicas ou outras entidades.\n\nUma característica importante da empresa tipo C é a limitação de responsabilidade dos acionistas, o que pode proteger o patrimônio pessoal.  Mas essa proteção tem um custo: as empresas tipo C estão sujeitas a dupla tributação, ou seja, os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  Isso pode diminuir a eficiência tributária em relação outras estruturas jurídicas, como a empresa tipo S ou a LLC.\n\n**Pontos técnicos:**\n- *6\\. Cadastre-se para tributação estadual**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Tributação** As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados so…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "propriedade",
+      "heading": "Propriedade",
+      "bodyMd": "As empresas tipo C têm uma estrutura de propriedade mais formal do que as LLCs. As empresas tipo C são de propriedade de acionistas, que possuem ações da empresa que podem ser compradas e vendidas em mercados públicos ou privados. Os acionistas elegem um conselho de administração para supervisionar a administração e indicam executivos para dirigir as operações diárias da empresa.\n\nA empresa tipo C é uma estrutura muito usada por empresas grandes ou em crescimento que desejam levantar capital por meio de ofertas públicas de ações, têm estruturas de propriedade complexas ou planejam reinvestir os lucros na empresa em vez de distribuí-los aos acionistas.  As empresas tipo C têm \"existência perpétua\", o que significa que podem continuar a existir mesmo que seus proprietários ou acionistas deixem a empresa ou morram.\n\n*   **Tributação**  \n    As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  As empresas do tipo S não estão sujeitos a dupla tributação e os seus lucros e prejuízos são repassados aos acionistas e tributados às alíquotas de pessoa física. \n    \n*   **Acionistas**  \n    As empresas tipo C podem ter qualquer número de acionistas, que podem ser pessoas físicas, pessoas jurídicas ou outras entidades.\n\nA escolha de uma empresa tipo S ou tipo C depende de suas necessidades e metas específicas da empresa, incluindo considerações fiscais, número e tipos de acionistas e estrutura de propriedade desejada.  Como a decisão deve considerar um conjunto complexo de necessidades e prioridades da empresa, não existe \"resposta certa\" ou um único conjunto de regras a serem seguidas.\n\n**Pontos técnicos:**\n- **Se você planeja expandir rapidamente a empresa**\n- **Se você planeja buscar investidores institucionais**\n- **Se você precisa de flexibilidade de propriedade**\n- **Se você deseja oferecer benefícios competitivos aos funcionários**\n- **Se você quer estabilidade no longo prazo**\n- **Se você opera em vários estados**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A empresa tipo C é uma estrutura muito usada por empresas grandes ou em crescimento que desejam levantar capital por meio de ofertas públicas de ações, têm estruturas de propriedade complexas ou plane…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "formalidades",
+      "heading": "Formalidades",
+      "bodyMd": "Normalmente, as empresas tipo C estão sujeitas a mais formalidades do que as LLCs. Essas formalidades podem ser reuniões anuais, eleição do conselho e contabilidade detalhada das atividades corporativas. As LLCs têm menos formalidades do que as empresas tipo C, embora os especialistas tributários recomendem redigir um acordo operacional que descreva a estrutura de gestão e propriedade da empresa.\n\nPara garantir a proteção da responsabilidade limitada, os acionistas devem manter as formalidades necessárias e evitar condutas irregulares ou atividades ilegais.  Os acionistas ainda podem ser responsabilizados por suas próprias ações ou conduta irregular durante a operação do negócio.  Em alguns casos, o juiz pode decidir responsabilizar pessoalmente os acionistas pelas dívidas ou obrigações da corporação se eles não cumprirem as formalidades necessárias ou se envolverem em fraudes ou atividades ilegais.\n\n*   **Tributação**  \n    As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  As empresas do tipo S não estão sujeitos a dupla tributação e os seus lucros e prejuízos são repassados aos acionistas e tributados às alíquotas de pessoa física. \n    \n*   **Acionistas**  \n    As empresas tipo C podem ter qualquer número de acionistas, que podem ser pessoas físicas, pessoas jurídicas ou outras entidades.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Para garantir a proteção da responsabilidade limitada, os acionistas devem manter as formalidades necessárias e evitar condutas irregulares ou atividades ilegais. Os acionistas ainda podem ser respons…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "limitacao-da-responsabilidade",
+      "heading": "Limitação da responsabilidade​",
+      "bodyMd": "As empresas tipo C limitam a responsabilização dos acionistas, o que significa que os bens pessoais são protegidos das dívidas e obrigações da empresa, embora essa responsabilidade seja limitada ao valor do investimento do acionista na empresa. Essa proteção se aplica apenas às dívidas e obrigações da empresa, não às ações ou dívidas de cada acionista ou diretor da empresa, e os acionistas ainda podem ser responsabilizados pessoalmente por qualquer conduta irregular durante a operação da empresa.\n\nUma empresa tipo C é um tipo de estrutura jurídica nos EUA.  Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos, ser processada e incorrer em passivos em seu próprio nome.  Essa característica oferece proteção limitada de responsabilidade para os acionistas da empresa, que normalmente não são responsabilizados pessoalmente pelas dívidas e obrigações da empresa.\n\nUm dos principais aspectos da empresa tipo C é a responsabilidade limitada delas: ela é uma pessoa jurídica distinta de seus proprietários ou acionistas.  A corporação pode celebrar contratos, possuir ativos e incorrer em passivos em seu próprio nome, enquanto os acionistas estarão protegidos principalmente de responsabilidades relacionadas às dívidas e obrigações da empresa.\n\nEssa proteção contra responsabilização pessoal torna a empresa tipo C uma boa escolha para empresas que planejam levantar capital emitindo ações, uma vez que os investidores fica mais tranquilos para investir numa empresa com responsabilidade limitada.\n\n**Pontos técnicos:**\n- **Responsabilidade limitada**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Uma empresa tipo C é um tipo de estrutura jurídica nos EUA. Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos,…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "o-que-voce-deve-saber-sobre-os-impostos-para-empresas-tipo-c",
+      "heading": "O que você deve saber sobre os impostos para empresas tipo C",
+      "bodyMd": "Para empreendedores e empresas que consideram essa estrutura jurídica, é importante entender as implicações tributárias.\n\nAs empresas tipo C devem pagar imposto por estimativa ao longo do ano, com base em sua receita tributável esperada.  Eles também devem apresentar uma declaração fiscal anual, o [Informe 1120](https://www. irs.\n\n*   **Se você planeja expandir rapidamente a empresa**  \n    Empresas tipo com um plano de crescimento ambicioso, especialmente as que esperam abrir o capital, podem preferir a empresa tipo C porque ela não limita o número de acionistas. \n    \n*   **Se você planeja buscar investidores institucionais**  \n    Uma empresa tipo C muitas vezes é uma estrutura indispensável para investidores institucionais em certos setores, como tecnologia ou biofarmacêutica. \n    \n*   **Se você precisa de flexibilidade de propriedade**  \n    Empresas que precisam de diferentes classes de ações, o que permite diversos níveis de controle e direitos sobre dividendos distintos, preferem empresas tipo C.\n\n**6\\.  Cadastre-se para tributação estadual**  \nCadastre-se no órgão tributário de seu estado.  Pode haver impostos sobre vendas, uso e desemprego.\n\n**Pontos técnicos:**\n- **Se você planeja expandir rapidamente a empresa**\n- **Se você planeja buscar investidores institucionais**\n- **Se você precisa de flexibilidade de propriedade**\n- **Se você deseja oferecer benefícios competitivos aos funcionários**\n- **Se você quer estabilidade no longo prazo**\n- **Se você opera em vários estados**\n- *6\\. Cadastre-se para tributação estadual**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As empresas tipo C devem pagar imposto por estimativa ao longo do ano, com base em sua receita tributável esperada. Eles também devem apresentar uma declaração fiscal anual, o [Informe 1120](https://w…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "que-tipos-de-empresas-devem-constituir-uma-empresa-tipo-c",
+      "heading": "Que tipos de empresas devem constituir uma empresa tipo C?",
+      "bodyMd": "É importante que as empresas entendam quando uma estrutura de empresa tipo C é a melhor escolha. Embora constituir uma empresa tipo C tenha muitas vantagens para alguns negócios, uma pequena empresa familiar ou um consultor freelancer podem preferir evitar os encargos administrativos. A escolha depende da natureza do seu negócio e de como você deseja operar no futuro.\n\n[As empresas tipo S](https://stripe. com/br/resources/more/s-corp-vs-llc) e tipo C são dois tipos diferentes de estruturas jurídicas de empresas, cada uma com suas próprias vantagens e desvantagens para as empresas.\n\n*   **Tributação**  \n    As empresas tipo C estão sujeitas a dupla tributação, ou seja: os lucros da sociedade são tributados primeiro a nível societário e, em seguida, os acionistas são tributados sobre os dividendos ou distribuições que recebam.  As empresas do tipo S não estão sujeitos a dupla tributação e os seus lucros e prejuízos são repassados aos acionistas e tributados às alíquotas de pessoa física. \n    \n*   **Acionistas**  \n    As empresas tipo C podem ter qualquer número de acionistas, que podem ser pessoas físicas, pessoas jurídicas ou outras entidades.\n\nEmpresas tipo C e [LLCs](https://stripe. com/br/resources/more/how-to-form-an-llc) compartilham as mesmas semelhanças básicas entre as empresas tipo C e tipo S: ambas limitam a responsabilidade de proprietários e membros, constituem a empresa como sua pessoa jurídica e devem ser formadas por meio do registro de contrato social ou documentação organizacional no estado em que se localizam.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "[As empresas tipo S](https://stripe.com/br/resources/more/s-corp-vs-llc) e tipo C são dois tipos diferentes de estruturas jurídicas de empresas, cada uma com suas próprias vantagens e desvantagens par…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-abrir-uma-empresa-tipo-c",
+      "heading": "Como abrir uma empresa tipo C",
+      "bodyMd": "[Criar uma empresa tipo C](https://stripe.com/br/resources/more/how-to-form-a-c-corp) é uma escolha popular para empreendedores que desejam limitar sua responsabilidade e, ao mesmo tempo, levantar capital por meio da emissão de ações.\n\n*   **Se você planeja expandir rapidamente a empresa**  \n    Empresas tipo com um plano de crescimento ambicioso, especialmente as que esperam abrir o capital, podem preferir a empresa tipo C porque ela não limita o número de acionistas. \n    \n*   **Se você planeja buscar investidores institucionais**  \n    Uma empresa tipo C muitas vezes é uma estrutura indispensável para investidores institucionais em certos setores, como tecnologia ou biofarmacêutica. \n    \n*   **Se você precisa de flexibilidade de propriedade**  \n    Empresas que precisam de diferentes classes de ações, o que permite diversos níveis de controle e direitos sobre dividendos distintos, preferem empresas tipo C.\n\nUma empresa tipo C é um tipo de estrutura jurídica nos EUA.  Ela é vista como pessoa jurídica distinta de seus proprietários ou acionistas, o que significa que pode celebrar contratos, possuir ativos, ser processada e incorrer em passivos em seu próprio nome.  Essa característica oferece proteção limitada de responsabilidade para os acionistas da empresa, que normalmente não são responsabilizados pessoalmente pelas dívidas e obrigações da empresa.\n\nA escolha de uma empresa tipo S ou tipo C depende de suas necessidades e metas específicas da empresa, incluindo considerações fiscais, número e tipos de acionistas e estrutura de propriedade desejada.  Como a decisão deve considerar um conjunto complexo de necessidades e prioridades da empresa, não existe \"resposta certa\" ou um único conjunto de regras a serem seguidas.\n\n**Pontos técnicos:**\n- **Se você planeja expandir rapidamente a empresa**\n- **Se você planeja buscar investidores institucionais**\n- **Se você precisa de flexibilidade de propriedade**\n- **Se você deseja oferecer benefícios competitivos aos funcionários**\n- **Se você quer estabilidade no longo prazo**\n- **Se você opera em vários estados**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Se você planeja expandir rapidamente a empresa** Empresas tipo com um plano de crescimento ambicioso, especialmente as que esperam abrir o capital, podem preferir a empresa tipo C porque e…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-o-stripe-atlas-pode-ajudar",
+      "heading": "Como o Stripe Atlas pode ajudar",
+      "bodyMd": "O [Stripe Atlas](https://stripe.com/br/atlas) estabelece a base jurídica da sua empresa, permitindo captar investimentos, abrir conta bancária e começar a receber pagamentos em até dois dias úteis, de qualquer lugar do mundo.\n\nSaiba mais sobre como a Atlas pode [ajudar você a configurar sua nova empresa](https://docs. stripe. com/atlas/signup) de forma rápida e fácil, e [comece](https://stripe.\n\nO Atlas fornece todos os [documentos legais](https://docs. stripe. com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa.\n\nOs fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro.  O comprovante da transação é armazenado no painel do Atlas.  Essa função está disponível apenas para propriedade intelectual avaliada em até US$ 100; se o valor for superior, recomenda-se consultar um advogado antes de prosseguir.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Saiba mais sobre como a Atlas pode [ajudar você a configurar sua nova empresa](https://docs.stripe.com/atlas/signup) de forma rápida e fácil, e [comece](https://stripe.com/br/atlas) hoje mesmo.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-se-inscrever-no-atlas",
+      "heading": "Como se inscrever no Atlas",
+      "bodyMd": "O processo de inscrição para criar uma empresa com o Atlas leva menos de 10 minutos. Você escolhe a estrutura societária, verifica de imediato se o nome desejado está disponível e pode adicionar até quatro cofundadores. Também define a divisão de participação acionária, reserva parte das ações para futuros investidores e funcionários, nomeia administradores e assina eletronicamente todos os documentos. Cada cofundador recebe um e-mail para também assinar digitalmente sua parte.\n\nMais de 75 mil empresas já foram constituídas com o Atlas, incluindo startups apoiadas por investidores de destaque como Y Combinator, a16z e General Catalyst.\n\nOs fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro.  O comprovante da transação é armazenado no painel do Atlas.  Essa função está disponível apenas para propriedade intelectual avaliada em até US$ 100; se o valor for superior, recomenda-se consultar um advogado antes de prosseguir.\n\nO Atlas fornece todos os [documentos legais](https://docs. stripe. com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Mais de 75 mil empresas já foram constituídas com o Atlas, incluindo startups apoiadas por investidores de destaque como Y Combinator, a16z e General Catalyst.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "aceitar-pagamentos-e-movimentacoes-bancarias-antes-da-chegada-do-seu-ein",
+      "heading": "Aceitar pagamentos e movimentações bancárias antes da chegada do seu EIN",
+      "bodyMd": "Após a abertura da empresa, o Atlas solicita o seu EIN. Fundadores que possuem número de Seguro Social dos EUA, endereço e número de celular nos EUA são elegíveis para o processamento acelerado junto ao IRS, enquanto os demais passam pelo processamento padrão, que pode levar um pouco mais de tempo. Além disso, o Atlas permite a realização de pagamentos e transações bancárias antes da emissão do EIN, possibilitando que você comece a receber pagamentos e fazer movimentações mesmo antes da chegada do número.\n\nO [Stripe Atlas](https://stripe. com/br/atlas) estabelece a base jurídica da sua empresa, permitindo captar investimentos, abrir conta bancária e começar a receber pagamentos em até dois dias úteis, de qualquer lugar do mundo.\n\nApesar dessas semelhanças, há importantes [distinções entre empresas tipo C e LLCs](https://stripe. com/br/resources/more/c-corp-vs-llc), que se traduzem em diferenças significativas para seus proprietários e gestores.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Após a abertura da empresa, o Atlas solicita o seu EIN. Fundadores que possuem número de Seguro Social dos EUA, endereço e número de celular nos EUA são elegíveis para o processamento acelerado junto…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+      "heading": "Compra de ações de fundador sem dinheiro em espécie",
+      "bodyMd": "Os fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro. O comprovante da transação é armazenado no painel do Atlas. Essa função está disponível apenas para propriedade intelectual avaliada em até US$ 100; se o valor for superior, recomenda-se consultar um advogado antes de prosseguir.\n\nUma situação em que um acionista de empresa tipo C pode ser pessoalmente responsável é se ele garantir pessoalmente um empréstimo ou dívida da corporação.  Por exemplo, digamos que a empresa contraia um empréstimo bancário para comprar novos equipamentos e o acionista aceite oferecer uma garantia pessoal para o empréstimo.  Se a empresa não pagar o empréstimo, o banco pode executar a dívida do acionista.\n\nOutra situação é se um acionista se envolve em conduta ilícita ou atividade ilegal durante a operação do negócio.  Por exemplo, se um acionista de uma empresa tipo C se envolver em fraude, desvio de dinheiro ou outras atividades ilegais, ele pode ser responsabilizado pelos danos ou perdas incorridos pela empresa ou outros interessados.\n\n**Pontos técnicos:**\n- **Se você planeja expandir rapidamente a empresa**\n- **Se você planeja buscar investidores institucionais**\n- **Se você precisa de flexibilidade de propriedade**\n- **Se você deseja oferecer benefícios competitivos aos funcionários**\n- **Se você quer estabilidade no longo prazo**\n- **Se você opera em vários estados**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro. O comprovante da transação é armazenado no painel do Atlas. Essa…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "envio-automatico-da-eleicao-tributaria-83-b",
+      "heading": "Envio automático da eleição tributária 83(b)",
+      "bodyMd": "Os fundadores podem enviar a eleição fiscal 83(b) para reduzir impostos pessoais. O Atlas faz isso automaticamente: seja você residente nos EUA ou não: por meio de envio certificado via USPS com código de rastreio. O documento assinado e o comprovante ficam disponíveis diretamente no painel da Stripe.\n\nNormalmente, as empresas tipo C estão sujeitas a mais formalidades do que as LLCs.  Essas formalidades podem ser reuniões anuais, eleição do conselho e contabilidade detalhada das atividades corporativas.  As LLCs têm menos formalidades do que as empresas tipo C, embora os especialistas tributários recomendem redigir um acordo operacional que descreva a estrutura de gestão e propriedade da empresa.\n\nComo são pessoas jurídicas separadas de seus proprietários ou acionistas, elas estão sujeitas a certos requisitos legais, como registro do contrato social no estado em que estão localizados, eleição de um conselho de administração e reuniões anuais.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os fundadores podem enviar a eleição fiscal 83(b) para reduzir impostos pessoais. O Atlas faz isso automaticamente — seja você residente nos EUA ou não — por meio de envio certificado via USPS com cód…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "documentos-juridicos-de-padrao-internacional",
+      "heading": "Documentos jurídicos de padrão internacional",
+      "bodyMd": "O Atlas fornece todos os [documentos legais](https://docs.stripe.com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa. Os documentos de empresa do tipo C do Atlas foram desenvolvidos em colaboração com a [Cooley](https://cooley.com/), uma das principais firmas de advocacia de capital de risco do mundo. Esses documentos são projetados para ajudar você a captar recursos imediatamente e garantir a proteção legal da sua empresa, abordando aspectos como estrutura societária, distribuição de participação societária e conformidade fiscal.\n\nO processo de inscrição para criar uma empresa com o Atlas leva menos de 10 minutos.  Você escolhe a estrutura societária, verifica de imediato se o nome desejado está disponível e pode adicionar até quatro cofundadores.  Também define a divisão de participação acionária, reserva parte das ações para futuros investidores e funcionários, nomeia administradores e assina eletronicamente todos os documentos.\n\nApós a abertura da empresa, o Atlas solicita o seu EIN.  Fundadores que possuem número de Seguro Social dos EUA, endereço e número de celular nos EUA são elegíveis para o processamento acelerado junto ao IRS, enquanto os demais passam pelo processamento padrão, que pode levar um pouco mais de tempo.  Além disso, o Atlas permite a realização de pagamentos e transações bancárias antes da emissão do EIN, possibilitando que você comece a receber pagamentos e fazer movimentações mesmo antes da chegada do número.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O processo de inscrição para criar uma empresa com o Atlas leva menos de 10 minutos. Você escolhe a estrutura societária, verifica de imediato se o nome desejado está disponível e pode adicionar até q…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+      "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+      "bodyMd": "O Atlas colabora com [parceiros de primeira linha](https://support.stripe.com/questions/stripe-atlas-perks-partners) para oferecer aos fundadores descontos e créditos exclusivos. Isso inclui descontos em ferramentas essenciais para engenharia, impostos, finanças, conformidade e operações, oferecidos por líderes do setor como AWS, Carta e Perplexity. Também fornecemos gratuitamente o agente registrado necessário em Delaware durante o primeiro ano. Além disso, como usuário do Atlas, você terá acesso a benefícios adicionais da Stripe, incluindo até um ano de processamento gratuito de pagamentos para um volume de até $ 100 mil.\n\n[As empresas tipo S](https://stripe. com/br/resources/more/s-corp-vs-llc) e tipo C são dois tipos diferentes de estruturas jurídicas de empresas, cada uma com suas próprias vantagens e desvantagens para as empresas.\n\nEmpresas tipo C e [LLCs](https://stripe. com/br/resources/more/how-to-form-an-llc) compartilham as mesmas semelhanças básicas entre as empresas tipo C e tipo S: ambas limitam a responsabilidade de proprietários e membros, constituem a empresa como sua pessoa jurídica e devem ser formadas por meio do registro de contrato social ou documentação organizacional no estado em que se localizam.\n\n**Pontos técnicos:**\n- *1\\. Escolha um nome**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O Atlas colabora com [parceiros de primeira linha](https://support.stripe.com/questions/stripe-atlas-perks-partners) para oferecer aos fundadores descontos e créditos exclusivos. Isso inclui descontos…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:00:22.713Z",
+  "synthesizedAt": "2026-06-22T14:44:21.380Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_what-is-a-c-corp.json"
+  ]
+}

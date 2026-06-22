@@ -1,0 +1,55 @@
+{
+  "id": "fundamentos-emv-chip",
+  "sourceUrl": "https://stripe.com/br/resources/more/what-are-emv-chip-cards",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Cartões com chip EMV",
+  "sections": [
+    {
+      "anchorId": "o-que-e-emv",
+      "heading": "O que é EMV",
+      "bodyMd": "EMV (Europay, Mastercard e Visa) é o padrão global para pagamentos com cartão baseado em chip. O chip gera um cryptograma dinâmico a cada transação, tornando fraudes por clonagem muito mais difíceis do que na tarja magnética. Para o time BtgPay, entender EMV é essencial porque o POS mobile atua na camada de apresentação e orquestração da transação contactless.\n\nEMV significa Europay, Visa e Mastercard, que são as empresas de cartão de crédito que lideraram o desenvolvimento e a adoção ampla dessa tecnologia de chip.\n\nEMV é uma tecnologia de pagamento que usa um chip pequeno e potente embutido em cartões de crédito e cartão de débito para tornar transações com cartão mais seguras.  Ela foi desenvolvida em meados dos anos 1990 e, desde então, tornou-se o padrão de pagamentos com cartão seguro.  A tecnologia EMV é supervisionada por uma organização chamada EMVCo, que inclui entre seus membros grandes empresas de cartão de crédito como Mastercard, Visa, American Express, Discover, JCB e UnionPay.\n\nCartões com chip EMV são cartões de crédito e cartão de débito com um pequeno chip de computador embutido.  Esse chip transmite dados para a máquina de cartão durante uma transação, diferentemente da tarja magnética tradicional no verso do cartão.  Embora o chip EMV faça transações sem depender da tarja magnética, em geral esses cartões ainda vêm com tarja magnética.\n\n**Pontos técnicos:**\n- **Chip e assinatura**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "EMV significa Europay, Visa e Mastercard, que são as empresas de cartão de crédito que lideraram o desenvolvimento e a adoção ampla dessa tecnologia de chip.",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "chip-vs-tarja",
+      "heading": "Chip vs tarja magnética",
+      "bodyMd": "Na tarja magnética, os dados do cartão são estáticos: o que foi lido pode ser replicado. No chip EMV, cada transação produz dados criptográficos únicos (ARQC, TC, AAC). O terminal envia esses dados ao adquirente, que encaminha ao emissor para autorização. O app Flutter não manipula o PAN em claro; o kernel/SDK do terminal cuida da leitura segura.\n\nCartões com chip EMV são cartões de crédito e cartão de débito com um pequeno chip de computador embutido.  Esse chip transmite dados para a máquina de cartão durante uma transação, diferentemente da tarja magnética tradicional no verso do cartão.  Embora o chip EMV faça transações sem depender da tarja magnética, em geral esses cartões ainda vêm com tarja magnética.\n\nOs chips EMV são muito mais seguros do que as tarjas magnéticas dos cartões, em grande parte porque não transmitem o número real do cartão durante uma transação.  Em vez disso, eles geram um código exclusivo a cada compra e enviam esse código para a máquina de cartão da empresa.  Isso é uma mudança radical em relação ao modelo das transações por tarja magnética, em que o próprio número do cartão fica na tarja e é transmitido para a máquina de cartão em cada transação.\n\nMáquinas de cartão EMV são projetadas para ler dados contidos no chip EMV embutido em cada cartão.  O chip envia dados criptografados para a máquina de cartão de forma parecida com como a tarja magnética transmite o número do cartão, mas com algumas diferenças importantes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Cartões com chip EMV são cartões de crédito e cartão de débito com um pequeno chip de computador embutido. Esse chip transmite dados para a máquina de cartão durante uma transação, diferentemente da t…",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "fluxo-transacao-chip",
+      "heading": "Fluxo básico da transação",
+      "bodyMd": "1) Seleção da aplicação (AID) no cartão; 2) Leitura dos dados EMV; 3) Verificação do titular (PIN, assinatura ou CDCVM no contactless); 4) Geração do cryptograma; 5) Autorização online ou offline; 6) Completion. No mobile POS, o desenvolvedor integra callbacks de estado (iniciando, aguardando cartão, processando, aprovado/negado) sem acessar dados sensíveis.\n\nChips EMV não são usados em compras online, já que transações online são [cartão não presente (CNP)](https://stripe. com/br/resources/more/what-are-card-not-present-transactions) por natureza e, portanto, não usam esse componente físico do cartão.\n\nEMV é uma tecnologia de pagamento que usa um chip pequeno e potente embutido em cartões de crédito e cartão de débito para tornar transações com cartão mais seguras.  Ela foi desenvolvida em meados dos anos 1990 e, desde então, tornou-se o padrão de pagamentos com cartão seguro.  A tecnologia EMV é supervisionada por uma organização chamada EMVCo, que inclui entre seus membros grandes empresas de cartão de crédito como Mastercard, Visa, American Express, Discover, JCB e UnionPay.\n\nCartões com chip EMV são cartões de crédito e cartão de débito com um pequeno chip de computador embutido.  Esse chip transmite dados para a máquina de cartão durante uma transação, diferentemente da tarja magnética tradicional no verso do cartão.  Embora o chip EMV faça transações sem depender da tarja magnética, em geral esses cartões ainda vêm com tarja magnética.\n\n**Pontos técnicos:**\n- **Chip e assinatura**\n- Quando um cliente apresenta um cartão para pagamento durante o checkout presencial, em vez de passar o cartão, ele insere o cartão na máquina de cartão. O cartão precisa ser inserido com o chip voltado para cima, com a ponta do chip entrando primeiro. Esse processo é chamado de “dipping”.\n- Depois de inserido, o chip EMV transmite para a máquina de cartão um código criptografado, de uso único, contendo as informações do cartão. É isso que torna pagamentos por chip EMV muito mais seguros do que pagamentos com cartão passado: o número real do cartão nunca é transmitido e, por isso, permanece protegido no caso de uma violação de segurança.\n- Para que a compra prossiga, o cliente precisa fornecer o PIN ou a assinatura, dependendo se o cartão é chip e PIN ou chip e assinatura.\n- A partir daí, a transação segue como qualquer outro pagamento com cartão: a máquina de cartão envia os dados do pagamento para o POS da empresa, que os encaminha ao processador de pagamentos, que então contata o emissor para autorização.\n- Por fim, o emissor do cartão retorna uma aprovação ou uma rejeição, que aparecerá no POS da empresa, concluindo a transação.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Chips EMV não são usados em compras online, já que transações online são [cartão não presente (CNP)](https://stripe.com/br/resources/more/what-are-card-not-present-transactions) por natureza e, portan…",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "alta",
+  "scrapedAt": "2026-06-22T13:57:52.812Z",
+  "enrichedFrom": [
+    "content\\raw\\emvco.com\\www.emvco.comemv-technologies_emv-contact-chip.json"
+  ],
+  "enrichedChars": 1218,
+  "synthesizedAt": "2026-06-22T14:44:21.256Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
+    "content/raw/stripe.com/stripe.combr_resources_more_what-are-emv-chip-cards.json"
+  ]
+}

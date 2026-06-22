@@ -1,0 +1,571 @@
+{
+  "updatedAt": "2026-06-22T14:44:21.522Z",
+  "total": 109,
+  "waves": {
+    "1": {
+      "label": "trilhas",
+      "ids": [
+        "btgpay-flutter-pratica",
+        "certificacao-l1-l2",
+        "certificacao-niveis-payfelix",
+        "contactless-tap-mobile",
+        "fundamentos-cnp-cp",
+        "fundamentos-emv-chip",
+        "seguranca-terminal",
+        "tap-to-mobile-guidelines"
+      ],
+      "count": 8
+    },
+    "2": {
+      "label": "alta",
+      "ids": [
+        "emvco-com-emv-level-3-testing",
+        "emvco-com-emv-mobile",
+        "emvco-com-emvco-launches-new-testing-process-to-support-the-",
+        "emvco-com-mobile-cmp-ppse-approval-process",
+        "emvco-com-mobile-level-1-approval-process",
+        "emvco-com-wearable-level-1-approval-process",
+        "emvco-com-what-are-emv-level-1-and-level-2-testing",
+        "emvco-com-what-is-emv-level-3-testing",
+        "payfelix-com-emv-certification-levels",
+        "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
+        "pdfs-taptomobile-guidelines-v1-1",
+        "stripe-com-o-que-sao-pagamentos-tap-to-pay-e-como-aceita-los"
+      ],
+      "count": 12
+    },
+    "3": {
+      "label": "restante",
+      "ids": [
+        "emvco-com-about-arman-aygen",
+        "emvco-com-approved-evaluated",
+        "emvco-com-contact-emvco",
+        "emvco-com-contact-kernel-approval-process",
+        "emvco-com-contactless-product-approval-process",
+        "emvco-com-document-search",
+        "emvco-com-emv-3-d-secure",
+        "emvco-com-emv-contact-chip",
+        "emvco-com-emv-contactless-chip",
+        "emvco-com-emv-electric-vehicle-open-payments-evop",
+        "emvco-com-emv-insights",
+        "emvco-com-emv-payment-tokenisation",
+        "emvco-com-emv-qr-codes",
+        "emvco-com-emv-secure-remote-commerce",
+        "emvco-com-emv-technologies-2023-priorities",
+        "emvco-com-emv-technologies",
+        "emvco-com-emvco-associates-subscribers",
+        "emvco-com-enabling-seamless-and-secure-payments-worldwide",
+        "emvco-com-events",
+        "emvco-com-how-emvco-is-supporting-card-data-encryption-advan",
+        "emvco-com-industry-collaboration",
+        "emvco-com-industry-partners-liaisons",
+        "emvco-com-knowledge-hub",
+        "emvco-com-l3-test-tool-qualification-process",
+        "emvco-com-laboratory-recognition-process",
+        "emvco-com-news",
+        "emvco-com-overview-of-emvco",
+        "emvco-com-product-approval-process",
+        "emvco-com-qualification-service-provider",
+        "emvco-com-qualified-test-tools",
+        "emvco-com-registered-ids",
+        "emvco-com-registered",
+        "emvco-com-test-platform-provider-qualification-and-recogniti",
+        "emvco-com-trademark-centre",
+        "emvco-com-untitled",
+        "emvco-com-ways-to-participate",
+        "emvco-com-what-are-emv-specifications",
+        "emvco-com-why-emv",
+        "payfelix-com-how-to-offer-an-emv-payment-solution-on-your-de",
+        "pdfs-emv-issuer-and-application-security-guidelines-v3-0-1",
+        "stripe-com-api-banking-o-que-e-e-como-funciona-stripeconnect",
+        "stripe-com-autorizacao-de-cartao-explicada-como-funciona-e-o",
+        "stripe-com-cobranca",
+        "stripe-com-como-aceitar-pagamentos-online-sem-uma-conta-de-c",
+        "stripe-com-como-aumentar-a-receita-de-empresas-stripepayment",
+        "stripe-com-como-constituir-uma-llc-um-guia-para-novas-empres",
+        "stripe-com-como-fazer-pesquisa-de-mercado-para-uma-startup-s",
+        "stripe-com-como-solicitar-um-cartao-de-credito-corporativo-s",
+        "stripe-com-como-verificar-se-um-nome-de-empresa-ja-existe-st",
+        "stripe-com-contas-bancarias-empresariais-um-guia-para-empres",
+        "stripe-com-contas-reserva-por-que-toda-empresa-precisa-de-um",
+        "stripe-com-emissao",
+        "stripe-com-empresa",
+        "stripe-com-estornos-o-que-sao-e-como-as-empresas-podem-preve",
+        "stripe-com-explicacao-sobre-a-receita-mensal-recorrente-mrr-",
+        "stripe-com-explicamos-as-empresas-tipo-c-stripeatlas",
+        "stripe-com-financas-integradas-x-banco-como-servico-baas-str",
+        "stripe-com-gerenciamento-de-riscos-stripe",
+        "stripe-com-gestao-dos-valores",
+        "stripe-com-guia-sobre-como-usar-links-de-pagamento-para-vend",
+        "stripe-com-guia-sobre-credito-integrado-stripecapital",
+        "stripe-com-imposto-sobre-vendas-vs-imposto-sobre-uso-stripet",
+        "stripe-com-mais-recursos-stripe",
+        "stripe-com-metricas-de-saas-um-guia-completo-para-acompanhar",
+        "stripe-com-o-que-e-emissao-de-cartoes-o-que-as-empresas-prec",
+        "stripe-com-o-que-e-imposto-sobre-vendas-stripetax",
+        "stripe-com-o-que-e-reapresentacao-de-estornos-stripepayments",
+        "stripe-com-o-que-e-servico-de-verificacao-de-endereco-avs-st",
+        "stripe-com-o-que-e-uma-corporacao-de-delaware-stripeatlas",
+        "stripe-com-o-que-e-uma-fatura-stripeinvoicing",
+        "stripe-com-o-que-sao-cartoes-com-chip-emv-como-o-emv-funcion",
+        "stripe-com-o-que-sao-cartoes-virtuais-para-empresas-stripeis",
+        "stripe-com-oito-formas-de-reduzir-estornos-para-sua-empresa-",
+        "stripe-com-por-que-o-comercio-conversacional-esta-crescendo-",
+        "stripe-com-praticas-recomendadas-de-checkout-para-e-commerce",
+        "stripe-com-quando-faturar-um-cliente-praticas-recomendadas-e",
+        "stripe-com-quando-voce-deve-buscar-financiamento-de-serie-a-",
+        "stripe-com-reconciliacao-contabil-o-que-e-e-como-fazer-strip",
+        "stripe-com-reconciliacao-de-faturas-tudo-que-as-empresas-dev",
+        "stripe-com-recursos-de-contabilidade-stripe",
+        "stripe-com-recursos-de-faturamento-stripe",
+        "stripe-com-recursos-de-pagamento-stripe",
+        "stripe-com-recursos-fiscais-stripe",
+        "stripe-com-recursos-para-formacao-de-empresas-stripe",
+        "stripe-com-recursos-para-startups-stripe",
+        "stripe-com-retencao-de-receita-liquida-nrr-para-empresas-de-",
+        "stripe-com-transacoes-sem-apresentacao-de-cartao-cnp-stripep",
+        "stripe-com-treze-dicas-essenciais-para-fazer-apresentacoes-a",
+        "stripe-com-um-guia-sobre-o-nexo-do-imposto-sobre-vendas-stri"
+      ],
+      "count": 89
+    }
+  },
+  "items": {
+    "btgpay-flutter-pratica": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "certificacao-l1-l2": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "certificacao-niveis-payfelix": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "contactless-tap-mobile": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "fundamentos-cnp-cp": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "fundamentos-emv-chip": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "seguranca-terminal": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "tap-to-mobile-guidelines": {
+      "status": "synthesized",
+      "wave": 1
+    },
+    "emvco-com-emv-level-3-testing": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-emv-mobile": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-emvco-launches-new-testing-process-to-support-the-": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-mobile-cmp-ppse-approval-process": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-mobile-level-1-approval-process": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-wearable-level-1-approval-process": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-what-are-emv-level-1-and-level-2-testing": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-what-is-emv-level-3-testing": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "payfelix-com-emv-certification-levels": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "pdfs-taptomobile-guidelines-v1-1": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "stripe-com-o-que-sao-pagamentos-tap-to-pay-e-como-aceita-los": {
+      "status": "synthesized",
+      "wave": 2
+    },
+    "emvco-com-about-arman-aygen": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-approved-evaluated": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-contact-emvco": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-contact-kernel-approval-process": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-contactless-product-approval-process": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-document-search": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-3-d-secure": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-contact-chip": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-contactless-chip": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-electric-vehicle-open-payments-evop": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-insights": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-payment-tokenisation": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-qr-codes": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-secure-remote-commerce": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-technologies-2023-priorities": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emv-technologies": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-emvco-associates-subscribers": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-enabling-seamless-and-secure-payments-worldwide": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-events": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-how-emvco-is-supporting-card-data-encryption-advan": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-industry-collaboration": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-industry-partners-liaisons": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-knowledge-hub": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-l3-test-tool-qualification-process": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-laboratory-recognition-process": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-news": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-overview-of-emvco": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-product-approval-process": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-qualification-service-provider": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-qualified-test-tools": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-registered-ids": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-registered": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-test-platform-provider-qualification-and-recogniti": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-trademark-centre": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-untitled": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-ways-to-participate": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-what-are-emv-specifications": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "emvco-com-why-emv": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "payfelix-com-how-to-offer-an-emv-payment-solution-on-your-de": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "pdfs-emv-issuer-and-application-security-guidelines-v3-0-1": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-api-banking-o-que-e-e-como-funciona-stripeconnect": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-autorizacao-de-cartao-explicada-como-funciona-e-o": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-cobranca": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-como-aceitar-pagamentos-online-sem-uma-conta-de-c": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-como-aumentar-a-receita-de-empresas-stripepayment": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-como-constituir-uma-llc-um-guia-para-novas-empres": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-como-fazer-pesquisa-de-mercado-para-uma-startup-s": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-como-solicitar-um-cartao-de-credito-corporativo-s": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-como-verificar-se-um-nome-de-empresa-ja-existe-st": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-contas-bancarias-empresariais-um-guia-para-empres": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-contas-reserva-por-que-toda-empresa-precisa-de-um": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-emissao": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-empresa": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-estornos-o-que-sao-e-como-as-empresas-podem-preve": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-explicacao-sobre-a-receita-mensal-recorrente-mrr-": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-explicamos-as-empresas-tipo-c-stripeatlas": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-financas-integradas-x-banco-como-servico-baas-str": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-gerenciamento-de-riscos-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-gestao-dos-valores": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-guia-sobre-como-usar-links-de-pagamento-para-vend": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-guia-sobre-credito-integrado-stripecapital": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-imposto-sobre-vendas-vs-imposto-sobre-uso-stripet": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-mais-recursos-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-metricas-de-saas-um-guia-completo-para-acompanhar": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-e-emissao-de-cartoes-o-que-as-empresas-prec": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-e-imposto-sobre-vendas-stripetax": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-e-reapresentacao-de-estornos-stripepayments": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-e-servico-de-verificacao-de-endereco-avs-st": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-e-uma-corporacao-de-delaware-stripeatlas": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-e-uma-fatura-stripeinvoicing": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-sao-cartoes-com-chip-emv-como-o-emv-funcion": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-o-que-sao-cartoes-virtuais-para-empresas-stripeis": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-oito-formas-de-reduzir-estornos-para-sua-empresa-": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-por-que-o-comercio-conversacional-esta-crescendo-": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-praticas-recomendadas-de-checkout-para-e-commerce": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-quando-faturar-um-cliente-praticas-recomendadas-e": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-quando-voce-deve-buscar-financiamento-de-serie-a-": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-reconciliacao-contabil-o-que-e-e-como-fazer-strip": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-reconciliacao-de-faturas-tudo-que-as-empresas-dev": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-recursos-de-contabilidade-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-recursos-de-faturamento-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-recursos-de-pagamento-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-recursos-fiscais-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-recursos-para-formacao-de-empresas-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-recursos-para-startups-stripe": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-retencao-de-receita-liquida-nrr-para-empresas-de-": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-transacoes-sem-apresentacao-de-cartao-cnp-stripep": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-treze-dicas-essenciais-para-fazer-apresentacoes-a": {
+      "status": "synthesized",
+      "wave": 3
+    },
+    "stripe-com-um-guia-sobre-o-nexo-do-imposto-sobre-vendas-stri": {
+      "status": "synthesized",
+      "wave": 3
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "emvco-com-product-approval-process",
+  "sourceUrl": "https://www.emvco.com/processes/emv-3-d-secure-approval-processes",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Product Approval Process",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Product Approval Process",
+      "bodyMd": "*   Completes the EMVCo Registration Form via EMVCo website to receive a contract.\n*   Returns the signed contract to EMVCo Registration Number.\n\n**Pontos técnicos:**\n- Completes the EMVCo Registration Form via EMVCo website to receive a contract.\n- Returns the signed contract to EMVCo Registration Number.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* Completes the EMVCo Registration Form via EMVCo website to receive a contract. * Returns the signed contract to EMVCo Registration Number.",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_emv-3-d-secure-approval-processes.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:02:43.056Z",
+  "synthesizedAt": "2026-06-22T14:44:21.228Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comprocesses_emv-3-d-secure-approval-processes.json"
+  ]
+}

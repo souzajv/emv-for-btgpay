@@ -1,0 +1,805 @@
+{
+  "level": "junior",
+  "questions": [
+    {
+      "id": "junior-001",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"BtgPay na prática: visão Flutter\" (Camadas do app), qual afirmação está correta?",
+      "options": [
+        "PAN em claro pode ser logado para debug",
+        "Apresentação (Flutter widgets) Casos de uso (venda, estorno) Gateway de pagamentos (SDK nativo via method channel) Ke…",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "O Flutter implementa o kernel EMV internamente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Camadas do app\" no material (âncora camadas-app).",
+      "sourceChunkId": "btgpay-flutter-pratica",
+      "anchorId": "camadas-app"
+    },
+    {
+      "id": "junior-002",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"BtgPay na prática: visão Flutter\" (Camadas do app), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Requisito não documentado na fonte EMV",
+        "O time frontend não implementa EMV kernel; implementa estados, navegação, tratamento de erros e observabilidade.",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Camadas do app\" no material (âncora camadas-app).",
+      "sourceChunkId": "btgpay-flutter-pratica",
+      "anchorId": "camadas-app"
+    },
+    {
+      "id": "junior-003",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"BtgPay na prática: visão Flutter\" (Estados da transação), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "PAN em claro pode ser logado para debug",
+        "O Flutter implementa o kernel EMV internamente",
+        "Modelar enum de estados: idle, amountEntry, awaitingCard, processing, approved, declined, cancelled, error."
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"Estados da transação\" no material (âncora estados-transacao).",
+      "sourceChunkId": "btgpay-flutter-pratica",
+      "anchorId": "estados-transacao"
+    },
+    {
+      "id": "junior-004",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"BtgPay na prática: visão Flutter\" (Estados da transação), qual afirmação está correta?",
+      "options": [
+        "Requisito não documentado na fonte EMV",
+        "O Flutter implementa o kernel EMV internamente",
+        "Cada transição vem do callback do SDK.",
+        "Certificação EMV é opcional para Tap to Mobile"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Estados da transação\" no material (âncora estados-transacao).",
+      "sourceChunkId": "btgpay-flutter-pratica",
+      "anchorId": "estados-transacao"
+    },
+    {
+      "id": "junior-005",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"BtgPay na prática: visão Flutter\" (Erros comuns no mobile POS), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Processamento de PIN no widget TextField do Flutter",
+        "O Flutter implementa o kernel EMV internamente",
+        "Cartão removido cedo, timeout NFC, múltiplos cartões no campo, dispositivo sem NFC, rede indisponível na autorização …"
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"Erros comuns no mobile POS\" no material (âncora erros-comuns).",
+      "sourceChunkId": "btgpay-flutter-pratica",
+      "anchorId": "erros-comuns"
+    },
+    {
+      "id": "junior-006",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"BtgPay na prática: visão Flutter\" (Erros comuns no mobile POS), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "PAN em claro pode ser logado para debug",
+        "Mapear códigos do SDK para mensagens amigáveis em PT-BR e ações sugeridas (tentar novamente, usar outro cartão).",
+        "Processamento de PIN no widget TextField do Flutter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Erros comuns no mobile POS\" no material (âncora erros-comuns).",
+      "sourceChunkId": "btgpay-flutter-pratica",
+      "anchorId": "erros-comuns"
+    },
+    {
+      "id": "junior-007",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Certificação EMV Level 1 e Level 2\" (Level 1: Camada física e protocolo), qual afirmação está correta?",
+      "options": [
+        "*What products does EMVCo assess? And are there different requirements for EMV L1 and L2 approvals?**",
+        "PAN em claro pode ser logado para debug",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Level 1: Camada física e protocolo\" no material (âncora level-1-fisico).",
+      "sourceChunkId": "certificacao-l1-l2",
+      "anchorId": "level-1-fisico"
+    },
+    {
+      "id": "junior-008",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Certificação EMV Level 1 e Level 2\" (Level 1: Camada física e protocolo), qual afirmação está correta?",
+      "options": [
+        "Level 1 valida a interface de comunicação entre o terminal e o cartão: RF para contactless (ISO 14443) ou contato (IS…",
+        "Processamento de PIN no widget TextField do Flutter",
+        "Requisito não documentado na fonte EMV",
+        "Certificação EMV é opcional para Tap to Mobile"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Level 1: Camada física e protocolo\" no material (âncora level-1-fisico).",
+      "sourceChunkId": "certificacao-l1-l2",
+      "anchorId": "level-1-fisico"
+    },
+    {
+      "id": "junior-009",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Certificação EMV Level 1 e Level 2\" (Level 2: Kernel de aplicação), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Requisito não documentado na fonte EMV",
+        "Level 2 certifica o kernel EMV: seleção de AID, processamento de GPO, CVM, geração de cryptograma, regras de floor li…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"Level 2: Kernel de aplicação\" no material (âncora level-2-kernel).",
+      "sourceChunkId": "certificacao-l1-l2",
+      "anchorId": "level-2-kernel"
+    },
+    {
+      "id": "junior-010",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Certificação EMV Level 1 e Level 2\" (Level 2: Kernel de aplicação), qual afirmação está correta?",
+      "options": [
+        "Processamento de PIN no widget TextField do Flutter",
+        "O kernel é tipicamente fornecido por um provedor licenciado: o app BtgPay integra via SDK, não reimplementa o kernel.",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Level 2: Kernel de aplicação\" no material (âncora level-2-kernel).",
+      "sourceChunkId": "certificacao-l1-l2",
+      "anchorId": "level-2-kernel"
+    },
+    {
+      "id": "junior-011",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Certificação EMV Level 1 e Level 2\" (Level 3: Integração adquirente), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Level 3 testa a integração ponta a ponta com a rede do adquirente: mensagens ISO 8583, campos EMV (DE 55), cenários d…",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Level 3: Integração adquirente\" no material (âncora level-3-integracao).",
+      "sourceChunkId": "certificacao-l1-l2",
+      "anchorId": "level-3-integracao"
+    },
+    {
+      "id": "junior-012",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Certificação EMV Level 1 e Level 2\" (Level 3: Integração adquirente), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "O time frontend precisa exibir estados corretos e nunca persistir dados sensíveis fora do ambiente certificado.",
+        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Level 3: Integração adquirente\" no material (âncora level-3-integracao).",
+      "sourceChunkId": "certificacao-l1-l2",
+      "anchorId": "level-3-integracao"
+    },
+    {
+      "id": "junior-013",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Níveis de certificação EMV na prática\" (Timeline típica), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "O Flutter implementa o kernel EMV internamente",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Um projeto de terminal EMV costuma levar meses entre desenvolvimento, pré-testes internos, submissão ao lab e correções."
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"Timeline típica\" no material (âncora timeline-certificacao).",
+      "sourceChunkId": "certificacao-niveis-payfelix",
+      "anchorId": "timeline-certificacao"
+    },
+    {
+      "id": "junior-014",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Níveis de certificação EMV na prática\" (Timeline típica), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Processamento de PIN no widget TextField do Flutter",
+        "L1 precede L2; L3 depende de ambos e do host adquirente.",
+        "Certificação EMV é opcional para Tap to Mobile"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Timeline típica\" no material (âncora timeline-certificacao).",
+      "sourceChunkId": "certificacao-niveis-payfelix",
+      "anchorId": "timeline-certificacao"
+    },
+    {
+      "id": "junior-015",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Níveis de certificação EMV na prática\" (Laboratórios aprovados), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV",
+        "Testes EMVCo são executados em labs acreditados."
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"Laboratórios aprovados\" no material (âncora labs-aprovados).",
+      "sourceChunkId": "certificacao-niveis-payfelix",
+      "anchorId": "labs-aprovados"
+    },
+    {
+      "id": "junior-016",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Níveis de certificação EMV na prática\" (Laboratórios aprovados), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Requisito não documentado na fonte EMV",
+        "PAN em claro pode ser logado para debug",
+        "Cada bandeira (Visa, Mastercard, etc."
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"Laboratórios aprovados\" no material (âncora labs-aprovados).",
+      "sourceChunkId": "certificacao-niveis-payfelix",
+      "anchorId": "labs-aprovados"
+    },
+    {
+      "id": "junior-017",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Níveis de certificação EMV na prática\" (Custo e complexidade), qual afirmação está correta?",
+      "options": [
+        "O Flutter implementa o kernel EMV internamente",
+        "Certificação envolve taxas de lab, licenciamento de kernel, manutenção anual e reteste a cada mudança significativa n…",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Custo e complexidade\" no material (âncora custo-complexidade).",
+      "sourceChunkId": "certificacao-niveis-payfelix",
+      "anchorId": "custo-complexidade"
+    },
+    {
+      "id": "junior-018",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Níveis de certificação EMV na prática\" (Custo e complexidade), qual afirmação está correta?",
+      "options": [
+        "Mudanças no app Flutter que afetem fluxo de pagamento, UI de PIN ou integração com SDK exigem avaliação de impacto na…",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Processamento de PIN no widget TextField do Flutter",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Custo e complexidade\" no material (âncora custo-complexidade).",
+      "sourceChunkId": "certificacao-niveis-payfelix",
+      "anchorId": "custo-complexidade"
+    },
+    {
+      "id": "junior-019",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV Contactless e Tap to Mobile\" (Visão geral contactless), qual afirmação está correta?",
+      "options": [
+        "Requisito não documentado na fonte EMV",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Visão geral contactless\" no material (âncora contactless-overview).",
+      "sourceChunkId": "contactless-tap-mobile",
+      "anchorId": "contactless-overview"
+    },
+    {
+      "id": "junior-020",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV Contactless e Tap to Mobile\" (Visão geral contactless), qual afirmação está correta?",
+      "options": [
+        "PAN em claro pode ser logado para debug",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Requisito não documentado na fonte EMV",
+        "EMV® is a registered trademark in the U.S. and other countries and an unregistered trademark elsewhere. The EMV trade…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"Visão geral contactless\" no material (âncora contactless-overview).",
+      "sourceChunkId": "contactless-tap-mobile",
+      "anchorId": "contactless-overview"
+    },
+    {
+      "id": "junior-021",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV Contactless e Tap to Mobile\" (Tap to Mobile (SoftPOS)), qual afirmação está correta?",
+      "options": [
+        "Processamento de PIN no widget TextField do Flutter",
+        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
+        "Requisito não documentado na fonte EMV",
+        "O Flutter implementa o kernel EMV internamente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Tap to Mobile (SoftPOS)\" no material (âncora tap-to-mobile).",
+      "sourceChunkId": "contactless-tap-mobile",
+      "anchorId": "tap-to-mobile"
+    },
+    {
+      "id": "junior-022",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV Contactless e Tap to Mobile\" (Tap to Mobile (SoftPOS)), qual afirmação está correta?",
+      "options": [
+        "EMV® is a registered trademark in the U.S. and other countries and an unregistered trademark elsewhere. The EMV trade…",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Processamento de PIN no widget TextField do Flutter",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Tap to Mobile (SoftPOS)\" no material (âncora tap-to-mobile).",
+      "sourceChunkId": "contactless-tap-mobile",
+      "anchorId": "tap-to-mobile"
+    },
+    {
+      "id": "junior-023",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV Contactless e Tap to Mobile\" (CDCVM), qual afirmação está correta?",
+      "options": [
+        "PAN em claro pode ser logado para debug",
+        "O Flutter implementa o kernel EMV internamente",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …"
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"CDCVM\" no material (âncora cdcvm).",
+      "sourceChunkId": "contactless-tap-mobile",
+      "anchorId": "cdcvm"
+    },
+    {
+      "id": "junior-024",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV Contactless e Tap to Mobile\" (CDCVM), qual afirmação está correta?",
+      "options": [
+        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV",
+        "EMV® is a registered trademark in the U.S. and other countries and an unregistered trademark elsewhere. The EMV trade…",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"CDCVM\" no material (âncora cdcvm).",
+      "sourceChunkId": "contactless-tap-mobile",
+      "anchorId": "cdcvm"
+    },
+    {
+      "id": "junior-025",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV® Level 3 Testing\" (EMV® Level 3 Testing), qual afirmação está correta?",
+      "options": [
+        "PAN em claro pode ser logado para debug",
+        "Requisito não documentado na fonte EMV",
+        "EMV L3 testing is defined by each payment system’s policies.",
+        "Certificação EMV é opcional para Tap to Mobile"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"EMV® Level 3 Testing\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-emv-level-3-testing",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-026",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV® Level 3 Testing\" (EMV® Level 3 Testing), qual afirmação está correta?",
+      "options": [
+        "PAN em claro pode ser logado para debug",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "EMVCo supports this by defining a set of standardised L3 test tool technical components, the EMV L3 Testing Framework…",
+        "Certificação EMV é opcional para Tap to Mobile"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"EMV® Level 3 Testing\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-emv-level-3-testing",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-027",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV® Mobile\" (EMV® Mobile), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"EMV® Mobile\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-emv-mobile",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-028",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMV® Mobile\" (EMV® Mobile), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "O Flutter implementa o kernel EMV internamente",
+        "Processamento de PIN no widget TextField do Flutter",
+        "EMV® is a registered trademark in the U.S. and other countries and an unregistered trademark elsewhere. The EMV trade…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"EMV® Mobile\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-emv-mobile",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-029",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance\" (EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance), qual afirmação está correta?",
+      "options": [
+        "Requisito não documentado na fonte EMV",
+        "Processamento de PIN no widget TextField do Flutter",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …"
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-emvco-launches-new-testing-process-to-support-the-",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-030",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance\" (EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance), qual afirmação está correta?",
+      "options": [
+        "EMV® is a registered trademark in the U.S. and other countries and an unregistered trademark elsewhere. The EMV trade…",
+        "PAN em claro pode ser logado para debug",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "O Flutter implementa o kernel EMV internamente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-emvco-launches-new-testing-process-to-support-the-",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-031",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Mobile CMP/PPSE Approval Process\" (Mobile CMP/PPSE Approval Process), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Downloads & signs registration form and business review form to receive a contract and registration number.",
+        "PAN em claro pode ser logado para debug",
+        "Certificação EMV é opcional para Tap to Mobile"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Mobile CMP/PPSE Approval Process\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-mobile-cmp-ppse-approval-process",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-032",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Mobile CMP/PPSE Approval Process\" (Mobile CMP/PPSE Approval Process), qual afirmação está correta?",
+      "options": [
+        "Requisito não documentado na fonte EMV",
+        "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando …",
+        "PAN em claro pode ser logado para debug",
+        "Processamento de PIN no widget TextField do Flutter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Mobile CMP/PPSE Approval Process\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-mobile-cmp-ppse-approval-process",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-033",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Mobile Level 1 Approval Process\" (Mobile Level 1 Approval Process), qual afirmação está correta?",
+      "options": [
+        "Downloads & signs registration form to receive a contract and registration number.",
+        "Requisito não documentado na fonte EMV",
+        "O Flutter implementa o kernel EMV internamente",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Mobile Level 1 Approval Process\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-mobile-level-1-approval-process",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-034",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Mobile Level 1 Approval Process\" (Mobile Level 1 Approval Process), qual afirmação está correta?",
+      "options": [
+        "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando …",
+        "PAN em claro pode ser logado para debug",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Mobile Level 1 Approval Process\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-mobile-level-1-approval-process",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-035",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Wearable Level 1 Approval Process\" (Wearable Level 1 Approval Process), qual afirmação está correta?",
+      "options": [
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Processamento de PIN no widget TextField do Flutter",
+        "Mobile Level 1 approval is granted to a wearable product designed to support NFC-based payment (e.",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Wearable Level 1 Approval Process\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-wearable-level-1-approval-process",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-036",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Wearable Level 1 Approval Process\" (Wearable Level 1 Approval Process), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "a watch used for proximity payment).",
+        "PAN em claro pode ser logado para debug",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Wearable Level 1 Approval Process\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-wearable-level-1-approval-process",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-037",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"What are EMV® Level 1 and Level 2 Testing?\" (What are EMV® Level 1 and Level 2 Testing?), qual afirmação está correta?",
+      "options": [
+        "*What products does EMVCo assess? And are there different requirements for EMV L1 and L2 approvals?**",
+        "Requisito não documentado na fonte EMV",
+        "PAN em claro pode ser logado para debug",
+        "O Flutter implementa o kernel EMV internamente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"What are EMV® Level 1 and Level 2 Testing?\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-what-are-emv-level-1-and-level-2-testing",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-038",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"What are EMV® Level 1 and Level 2 Testing?\" (What are EMV® Level 1 and Level 2 Testing?), qual afirmação está correta?",
+      "options": [
+        "Processamento de PIN no widget TextField do Flutter",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "PAN em claro pode ser logado para debug",
+        "_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV C…"
+      ],
+      "correctIndex": 3,
+      "explanation": "Consulte a seção \"What are EMV® Level 1 and Level 2 Testing?\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-what-are-emv-level-1-and-level-2-testing",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-039",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"What is EMV® Level 3 Testing?\" (What is EMV® Level 3 Testing?), qual afirmação está correta?",
+      "options": [
+        "PAN em claro pode ser logado para debug",
+        "_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastru…",
+        "Processamento de PIN no widget TextField do Flutter",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"What is EMV® Level 3 Testing?\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-what-is-emv-level-3-testing",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-040",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"What is EMV® Level 3 Testing?\" (What is EMV® Level 3 Testing?), qual afirmação está correta?",
+      "options": [
+        "Processamento de PIN no widget TextField do Flutter",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "_ _In this post, Arman Aygen, EMVCo Director of Technology, covers the basics of EMV L3 testing and how EMVCo support…",
+        "O Flutter implementa o kernel EMV internamente"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"What is EMV® Level 3 Testing?\" no material (âncora conteudo-principal).",
+      "sourceChunkId": "emvco-com-what-is-emv-level-3-testing",
+      "anchorId": "conteudo-principal"
+    },
+    {
+      "id": "junior-041",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Card Present vs Card Not Present\" (Card Present (CP)), qual afirmação está correta?",
+      "options": [
+        "Requisito não documentado na fonte EMV",
+        "Transação Card Present ocorre quando o cartão físico ou dispositivo com token de pagamento está presente no ponto de …",
+        "PAN em claro pode ser logado para debug",
+        "O Flutter implementa o kernel EMV internamente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Card Present (CP)\" no material (âncora definicao-cp).",
+      "sourceChunkId": "fundamentos-cnp-cp",
+      "anchorId": "definicao-cp"
+    },
+    {
+      "id": "junior-042",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Card Present vs Card Not Present\" (Card Present (CP)), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "O POS BtgPay opera primariamente em modo CP: tap no terminal, chip contactless ou wallet digital no dispositivo do po…",
+        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consulte a seção \"Card Present (CP)\" no material (âncora definicao-cp).",
+      "sourceChunkId": "fundamentos-cnp-cp",
+      "anchorId": "definicao-cp"
+    },
+    {
+      "id": "junior-043",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Card Present vs Card Not Present\" (Card Not Present (CNP)), qual afirmação está correta?",
+      "options": [
+        "CNP abrange e-commerce, MOTO (mail order/telephone order) e pagamentos onde o cartão não está fisicamente no terminal.",
+        "Requisito não documentado na fonte EMV",
+        "O Flutter implementa o kernel EMV internamente",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Card Not Present (CNP)\" no material (âncora definicao-cnp).",
+      "sourceChunkId": "fundamentos-cnp-cp",
+      "anchorId": "definicao-cnp"
+    },
+    {
+      "id": "junior-044",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Card Present vs Card Not Present\" (Card Not Present (CNP)), qual afirmação está correta?",
+      "options": [
+        "Regras de autenticação (3DS), liability shift e taxas diferem de CP.",
+        "Requisito não documentado na fonte EMV",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "O Flutter implementa o kernel EMV internamente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Card Not Present (CNP)\" no material (âncora definicao-cnp).",
+      "sourceChunkId": "fundamentos-cnp-cp",
+      "anchorId": "definicao-cnp"
+    },
+    {
+      "id": "junior-045",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Card Present vs Card Not Present\" (Liability shift), qual afirmação está correta?",
+      "options": [
+        "Em CP com EMV contactless/chip, quando o terminal é certificado e a transação segue o fluxo EMV, a responsabilidade p…",
+        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV",
+        "Processamento de PIN no widget TextField do Flutter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Liability shift\" no material (âncora liability-shift).",
+      "sourceChunkId": "fundamentos-cnp-cp",
+      "anchorId": "liability-shift"
+    },
+    {
+      "id": "junior-046",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Card Present vs Card Not Present\" (Liability shift), qual afirmação está correta?",
+      "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Isso reforça a importância da certificação L1/L2 do dispositivo usado pelo BtgPay.",
+        "PAN em claro pode ser logado para debug"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Liability shift\" no material (âncora liability-shift).",
+      "sourceChunkId": "fundamentos-cnp-cp",
+      "anchorId": "liability-shift"
+    },
+    {
+      "id": "junior-047",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Cartões com chip EMV\" (O que é EMV), qual afirmação está correta?",
+      "options": [
+        "EMV (Europay, Mastercard e Visa) é o padrão global para pagamentos com cartão baseado em chip.",
+        "O Flutter implementa o kernel EMV internamente",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Processamento de PIN no widget TextField do Flutter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"O que é EMV\" no material (âncora o-que-e-emv).",
+      "sourceChunkId": "fundamentos-emv-chip",
+      "anchorId": "o-que-e-emv"
+    },
+    {
+      "id": "junior-048",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Cartões com chip EMV\" (O que é EMV), qual afirmação está correta?",
+      "options": [
+        "Processamento de PIN no widget TextField do Flutter",
+        "PAN em claro pode ser logado para debug",
+        "O chip gera um cryptograma dinâmico a cada transação, tornando fraudes por clonagem muito mais difíceis do que na tar…",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"O que é EMV\" no material (âncora o-que-e-emv).",
+      "sourceChunkId": "fundamentos-emv-chip",
+      "anchorId": "o-que-e-emv"
+    },
+    {
+      "id": "junior-049",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Cartões com chip EMV\" (Chip vs tarja magnética), qual afirmação está correta?",
+      "options": [
+        "O Flutter implementa o kernel EMV internamente",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Na tarja magnética, os dados do cartão são estáticos: o que foi lido pode ser replicado.",
+        "Requisito não documentado na fonte EMV"
+      ],
+      "correctIndex": 2,
+      "explanation": "Consulte a seção \"Chip vs tarja magnética\" no material (âncora chip-vs-tarja).",
+      "sourceChunkId": "fundamentos-emv-chip",
+      "anchorId": "chip-vs-tarja"
+    },
+    {
+      "id": "junior-050",
+      "level": "junior",
+      "difficulty": 1,
+      "prompt": "No material \"Cartões com chip EMV\" (Chip vs tarja magnética), qual afirmação está correta?",
+      "options": [
+        "No chip EMV, cada transação produz dados criptográficos únicos (ARQC, TC, AAC).",
+        "Requisito não documentado na fonte EMV",
+        "O Flutter implementa o kernel EMV internamente",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+      ],
+      "correctIndex": 0,
+      "explanation": "Consulte a seção \"Chip vs tarja magnética\" no material (âncora chip-vs-tarja).",
+      "sourceChunkId": "fundamentos-emv-chip",
+      "anchorId": "chip-vs-tarja"
+    }
+  ]
+}

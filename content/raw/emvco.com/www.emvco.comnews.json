@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/news",
+  "method": "fetch",
+  "title": "News",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "News",
+      "bodyMd": "Apr 10 2026\n\n#### [EMVCo Newsletter: Q1 2026](https://www.emvco.com/news/emvco-newsletter-q1-2026/)\n\n[View Online](https://www.emvco.com/news/emvco-newsletter-q1-2026/)"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:01:41.047Z",
+  "sourceUrl": "https://www.emvco.com/news"
+}

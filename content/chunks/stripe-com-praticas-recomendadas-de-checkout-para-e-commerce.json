@@ -1,0 +1,94 @@
+{
+  "id": "stripe-com-praticas-recomendadas-de-checkout-para-e-commerce",
+  "sourceUrl": "https://stripe.com/br/resources/more/ecommerce-checkout-best-practices",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Práticas recomendadas de checkout para e-commerce | StripeCheckout",
+  "sections": [
+    {
+      "anchorId": "criacao-de-uma-experiencia-de-checkout-sem-imprevistos",
+      "heading": "Criação de uma experiência de checkout sem imprevistos",
+      "bodyMd": "A experiência de checkout pode ser a parte mais importante do funil de conversão para empresas de e-commerce. Embora um certo número de carrinhos seja abandonado apesar de seus melhores esforços, melhorar a conversão do carrinho é um objetivo fundamental: e há muito que você pode fazer para mover a agulha. Então, como isso funciona?\n\nCriar um ambiente de checkout adequado para conversão significa eliminar qualquer fonte de atritos.  Se o seu checkout envolve muitas etapas sem uma indicação clara da localização do cliente no processo, isso pode afetar negativamente a experiência dele com sua empresa.  Um cliente quer fazer uma compra segura e seguir em frente com seu dia; qualquer obstáculo dentro desse processo poderia levar a um carrinho abandonado.\n\nAlém de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes.  Isso inclui implementar práticas recomendadas de UX, considerando suas formas de pagamento disponíveis, permitindo o checkout de convidados, considerando o checkout móvel e com um clique e aceitando formas de pagamento locais.\n\nVale ressaltar que, se sua página de checkout não tiver mais os mesmos identificadores de marca com os quais os clientes se familiarizaram em outras áreas do seu site, você corre o risco de criar preocupações sobre segurança e perder a confiança deles.  Para proporcionar uma experiência otimizada, o [Stripe Checkout](https://stripe. com/br/payments/checkout) oferece uma página de pagamentos pré-configurada e hospedada para que os clientes possam fazer compras com rapidez e segurança.\n\n**Pontos técnicos:**\n- **Oferta de checkout em um clique**\n- **Fornecimento de indicadores de progresso no fluxo de checkout**\n- **Exibição de impostos e tarifas o mais cedo possível**\n- **Permissão de preenchimento inteligente de formulários**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Criar um ambiente de checkout adequado para conversão significa eliminar qualquer fonte de atritos. Se o seu checkout envolve muitas etapas sem uma indicação clara da localização do cliente no process…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "dicas-para-otimizar-o-checkout",
+      "heading": "Dicas para otimizar o checkout",
+      "bodyMd": "Além de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes. Isso inclui implementar práticas recomendadas de UX, considerando suas formas de pagamento disponíveis, permitindo o checkout de convidados, considerando o checkout móvel e com um clique e aceitando formas de pagamento locais.\n\nCriar um ambiente de checkout adequado para conversão significa eliminar qualquer fonte de atritos.  Se o seu checkout envolve muitas etapas sem uma indicação clara da localização do cliente no processo, isso pode afetar negativamente a experiência dele com sua empresa.  Um cliente quer fazer uma compra segura e seguir em frente com seu dia; qualquer obstáculo dentro desse processo poderia levar a um carrinho abandonado.\n\nMesmo depois de otimizar seu checkout online, pode haver muitos campos para os clientes preencherem no caminho para fazer uma compra: nome, endereço, informações do cartão de crédito etc.  O checkout com um clique trata cada cliente como um cliente recorrente.  Com ferramentas de checkout com um clique, como o [Stripe Link](https://stripe.\n\n**Pontos técnicos:**\n- **Oferta de checkout em um clique**\n- **Fornecimento de indicadores de progresso no fluxo de checkout**\n- **Exibição de impostos e tarifas o mais cedo possível**\n- **Permissão de preenchimento inteligente de formulários**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Criar um ambiente de checkout adequado para conversão significa eliminar qualquer fonte de atritos. Se o seu checkout envolve muitas etapas sem uma indicação clara da localização do cliente no process…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "siga-as-praticas-recomendadas-de-ux-e-iu-do-site",
+      "heading": "Siga as práticas recomendadas de UX e IU do site",
+      "bodyMd": "[De acordo com um estudo](https://cdn2.hubspot.net/hubfs/2799924/Design-Infographics/Infographic-UX-Statistics-and-Insights-Toptal.pdf), 88% dos clientes são menos propensos a retornar a um site depois de terem tido uma experiência ruim lá. Só os tempos de carregamento lentos do site custam às empresas US$ 2 bilhões em vendas perdidas a cada ano. Algumas coisas para pensar no esforço para manter seu site trabalhando para você, não contra você:\n\nAlém de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes.  Isso inclui implementar práticas recomendadas de UX, considerando suas formas de pagamento disponíveis, permitindo o checkout de convidados, considerando o checkout móvel e com um clique e aceitando formas de pagamento locais.\n\n[De acordo com um estudo](https://cdn2. hubspot. net/hubfs/2799924/Design-Infographics/Infographic-UX-Statistics-and-Insights-Toptal.\n\n*   Mantenha as interfaces do site simples e os projetos limpos.  Quando se trata de web design de e-commerce, mais não é melhor.   \n    \n*   A navegação do seu site deve aceitar uma experiência de usuário verdadeiramente intuitiva.\n\n**Pontos técnicos:**\n- Mantenha as interfaces do site simples e os projetos limpos. Quando se trata de web design de e-commerce, mais não é melhor.\n- A navegação do seu site deve aceitar uma experiência de usuário verdadeiramente intuitiva. Quais opções de menu fazem sentido com base em quem está visitando seu site? O que eles estão procurando? Que casos de uso os trazem para a sua porta digital? A navegação do seu site deve refletir esse entendimento.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Além de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes. Isso inclui implementar práticas recomendadas de UX, considerando s…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "aceitacao-de-uma-grande-variedade-de-formas-de-pagamento",
+      "heading": "Aceitação de uma grande variedade de formas de pagamento",
+      "bodyMd": "Identificar quais formas de pagamento sua empresa deve aceitar é essencial para melhorar a conversão dos carrinhos. De acordo com um estudo, [até 9% dos compradores](https://baymard.com/lists/cart-abandonment-rate) abandonaram os carrinhos quando a forma de pagamento preferida não estava disponível. Se você quer competir no mercado global de e-commerce, identificar quais [formas de pagamento locais](https://stripe.com/br/sessions/2022/local-payment-methods) aceitar é fundamental para o crescimento. O Stripe pacote de [soluções de e-commerce](https://stripe.com/br/use-cases/ecommerce) vem com suporte global integrado para pagamentos para criar experiências de pagamento localizadas sem burocracia, ajudando você a apresentar possíveis novos clientes.\n\nAlém de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes.  Isso inclui implementar práticas recomendadas de UX, considerando suas formas de pagamento disponíveis, permitindo o checkout de convidados, considerando o checkout móvel e com um clique e aceitando formas de pagamento locais.\n\n*   **Oferta de checkout em um clique**  \n    O checkout com um clique é exatamente o que parece: uma maneira de os clientes concluírem uma transação de forma rápida e fácil usando um módulo de checkout que exibe todas as informações importantes sobre a compra (pagamento, detalhes de envio e informações de contato) em uma única tela.  O [Stripe Link](https://stripe. com/br/payments/link) é uma solução de checkout que preenche automaticamente os dados de pagamento e envio dos clientes no checkout.\n\n**Pontos técnicos:**\n- **Oferta de checkout em um clique**\n- **Fornecimento de indicadores de progresso no fluxo de checkout**\n- **Exibição de impostos e tarifas o mais cedo possível**\n- **Permissão de preenchimento inteligente de formulários**\n- Mantenha as interfaces do site simples e os projetos limpos. Quando se trata de web design de e-commerce, mais não é melhor.\n- A navegação do seu site deve aceitar uma experiência de usuário verdadeiramente intuitiva. Quais opções de menu fazem sentido com base em quem está visitando seu site? O que eles estão procurando? Que casos de uso os trazem para a sua porta digital? A navegação do seu site deve refletir esse entendimento.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Além de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes. Isso inclui implementar práticas recomendadas de UX, considerando s…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "permissao-de-checkout-de-convidados",
+      "heading": "Permissão de checkout de convidados",
+      "bodyMd": "Permitir que os clientes façam checkout sem criar uma conta na sua empresa é uma excelente maneira de reduzir barreiras e aumentar as conversões. Há uma série de razões para permitir o checkout de convidados: Os clientes podem ser compradores únicos que sabem que não retornarão para outra compra, podem presumir que entregar o e-mail significa assinar e-mails de marketing ou outras comunicações, ou podem preferir evitar o processo de configuração de um novo nome de usuário e senha.\n\nAlém de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes.  Isso inclui implementar práticas recomendadas de UX, considerando suas formas de pagamento disponíveis, permitindo o checkout de convidados, considerando o checkout móvel e com um clique e aceitando formas de pagamento locais.\n\nOferecer checkout aos convidados pode eliminar esses problemas.  Ao usar linguagens como \"cliente que retorna\" e \"checkout de convidados\" em seu site, você evita fazer com que o cliente se sinta pressionado a se registrar enquanto deixa a porta aberta para que ele se registre no futuro.  Essa linguagem também sinaliza que os clientes confiam em sua marca e gostam de seus produtos o suficiente para voltar.\n\n**Pontos técnicos:**\n- **Oferta de checkout em um clique**\n- **Fornecimento de indicadores de progresso no fluxo de checkout**\n- **Exibição de impostos e tarifas o mais cedo possível**\n- **Permissão de preenchimento inteligente de formulários**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Além de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes. Isso inclui implementar práticas recomendadas de UX, considerando s…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "priorizacao-do-checkout-em-dispositivos-moveis",
+      "heading": "Priorização do checkout em dispositivos móveis",
+      "bodyMd": "Algumas estatísticas colocam a participação de mercado do comércio móvel [em 73%](https://www.oberlo.com/statistics/mobile-commerce-sales#:~:text=The%20share%20of%20mobile%20ecommerce,so%20through%20a%20mobile%20device.).\n\nContudo, os compradores móveis são inconstantes: é mais provável que abandonem os carrinhos por problemas como tempos de carregamento, capacidade de uso do checkout para dispositivos móveis e páginas de checkout não otimizadas para dispositivos móveis.  Isso significa priorizar um design de checkout ágil que mostre apenas as informações necessárias e garanta aos clientes que suas transações são seguras, implementando medidas como um Certificado SSL de Validação Estendida ou simplesmente evitando links externos de checkout.\n\nAlém de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes.  Isso inclui implementar práticas recomendadas de UX, considerando suas formas de pagamento disponíveis, permitindo o checkout de convidados, considerando o checkout móvel e com um clique e aceitando formas de pagamento locais.\n\nA experiência de checkout pode ser a parte mais importante do funil de conversão para empresas de e-commerce.  Embora um certo número de carrinhos seja abandonado apesar de seus melhores esforços, melhorar a conversão do carrinho é um objetivo fundamental — e há muito que você pode fazer para mover a agulha.  Então, como isso funciona?\n\n**Pontos técnicos:**\n- **Oferta de checkout em um clique**\n- **Fornecimento de indicadores de progresso no fluxo de checkout**\n- **Exibição de impostos e tarifas o mais cedo possível**\n- **Permissão de preenchimento inteligente de formulários**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Contudo, os compradores móveis são inconstantes: é mais provável que abandonem os carrinhos por problemas como tempos de carregamento, capacidade de uso do checkout para dispositivos móveis e páginas…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "oferta-de-checkout-em-um-clique",
+      "heading": "Oferta de checkout em um clique",
+      "bodyMd": "Mesmo depois de otimizar seu checkout online, pode haver muitos campos para os clientes preencherem no caminho para fazer uma compra: nome, endereço, informações do cartão de crédito etc. O checkout com um clique trata cada cliente como um cliente recorrente. Com ferramentas de checkout com um clique, como o [Stripe Link](https://stripe.com/br/payments/link), os clientes só precisam inserir seus dados uma vez. O Link salva essas informações de pagamento para a próxima transação, que será preenchida automaticamente para qualquer comerciante de comércio eletrônico que usar a Stripe. Isso permite que os clientes concluam uma compra clicando em apenas um botão, a definição de uma transação sem atritos.\n\n*   **Oferta de checkout em um clique**  \n    O checkout com um clique é exatamente o que parece: uma maneira de os clientes concluírem uma transação de forma rápida e fácil usando um módulo de checkout que exibe todas as informações importantes sobre a compra (pagamento, detalhes de envio e informações de contato) em uma única tela.  O [Stripe Link](https://stripe. com/br/payments/link) é uma solução de checkout que preenche automaticamente os dados de pagamento e envio dos clientes no checkout.\n\nAlém de criar uma experiência de checkout tranquila para seus clientes, você quer otimizar o processo de checkout em outras frentes.  Isso inclui implementar práticas recomendadas de UX, considerando suas formas de pagamento disponíveis, permitindo o checkout de convidados, considerando o checkout móvel e com um clique e aceitando formas de pagamento locais.\n\n**Pontos técnicos:**\n- **Oferta de checkout em um clique**\n- **Fornecimento de indicadores de progresso no fluxo de checkout**\n- **Exibição de impostos e tarifas o mais cedo possível**\n- **Permissão de preenchimento inteligente de formulários**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Oferta de checkout em um clique** O checkout com um clique é exatamente o que parece: uma maneira de os clientes concluírem uma transação de forma rápida e fácil usando um módulo de checko…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:00:16.464Z",
+  "synthesizedAt": "2026-06-22T14:44:21.471Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_ecommerce-checkout-best-practices.json"
+  ]
+}

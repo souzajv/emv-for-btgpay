@@ -1,0 +1,182 @@
+{
+  "id": "stripe-com-explicacao-sobre-a-receita-mensal-recorrente-mrr-",
+  "sourceUrl": "https://stripe.com/br/resources/more/what-is-monthly-recurring-revenue",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Explicação sobre a receita mensal recorrente (MRR) | StripeBilling",
+  "sections": [
+    {
+      "anchorId": "o-que-e-receita-mensal-recorrente-mrr",
+      "heading": "O que é receita mensal recorrente (MRR)?",
+      "bodyMd": "A MRR mede a receita recorrente previsível gerada dos clientes mensalmente. É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tendências de crescimento e tomar decisões estratégicas.\n\n*   **Nova MRR**  \n    MRR geradas por novos assinantes que se inscreveram recentemente em um produto ou serviço, representando o crescimento ocorrido na base de clientes. \n    \n*   **Expansão da MRR**  \n    MRR geradas por assinantes existentes que atualizaram sua assinatura ou adicionaram serviços ou recursos adicionais, representando o aumento da receita por cliente. \n    \n*   **MRR de perda de clientes**  \n    MRR perdidas devido ao cancelamento de assinaturas pelos clientes, o que representa a perda de receita devido a atrito com o cliente durante aquele mês.\n\nA retenção de clientes é uma prioridade fundamental para empresas com receita recorrente.  Um excelente atendimento ao cliente, um programa sólido de fidelidade e a melhoria contínua de produtos e serviços normalmente aumentam a retenção.  Ao manter os clientes satisfeitos, as empresas podem reduzir a taxa de perda de clientes, o que eleva a MRR.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**\n- _[Relatório sobre o estado do gerenciamento de assinaturas e faturamento: Como aumentar a receita recorrente em meio à incerteza econômica](https://stripe.com/br/lp/state-of-subscription-and-billing?utm_medium=content&utm_source=a059&utm_campaign=GLOBAL_4ed3&utm_content=bc79&utm_term=0d69b389b2c2)_",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A MRR mede a receita recorrente previsível gerada dos clientes mensalmente. É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tend…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "tipos-de-mrr",
+      "heading": "Tipos de MRR",
+      "bodyMd": "Empresas que usam assinaturas podem acompanhar diferentes tipos de MRR para obter informações sobre seu desempenho, obter uma compreensão mais profunda do crescimento da receita e identificar áreas de melhoria:\n\nA MRR mede a receita recorrente previsível gerada dos clientes mensalmente.  É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tendências de crescimento e tomar decisões estratégicas.\n\n*   **Nova MRR**  \n    MRR geradas por novos assinantes que se inscreveram recentemente em um produto ou serviço, representando o crescimento ocorrido na base de clientes. \n    \n*   **Expansão da MRR**  \n    MRR geradas por assinantes existentes que atualizaram sua assinatura ou adicionaram serviços ou recursos adicionais, representando o aumento da receita por cliente. \n    \n*   **MRR de perda de clientes**  \n    MRR perdidas devido ao cancelamento de assinaturas pelos clientes, o que representa a perda de receita devido a atrito com o cliente durante aquele mês.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Empresas que usam assinaturas podem acompanhar diferentes tipos de MRR para obter informações sobre seu desempenho, obter uma compreensão mais profunda do crescimento da receita e identificar áreas de…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-calcular-a-mrr",
+      "heading": "Como calcular a MRR",
+      "bodyMd": "Para calcular a MRR, multiplique o número total de clientes pagantes pela receita média por usuário (ARPU) por mês. Por exemplo, se uma empresa tem 100 clientes pagando $ 100 por mês, a MRR seria de $ 10 mil.\n\nComo alternativa, você pode calcular a MRR somando a receita gerada por cada plano de assinatura ou produto oferecido pela sua empresa.\n\nA MRR por si só pode fornecer insights importantes sobre a saúde de um negócio, mas seu valor aumenta quando as empresas a consideram no contexto de outras métricas.  A MRR pode ser usada para calcular métricas importantes, como custo de aquisição de clientes (CAC), valor vitalício (LTV) e margem bruta.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Como alternativa, você pode calcular a MRR somando a receita gerada por cada plano de assinatura ou produto oferecido pela sua empresa.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "por-que-a-mrr-e-importante-para-as-empresas",
+      "heading": "Por que a MRR é importante para as empresas",
+      "bodyMd": "A MRR é uma métrica poderosa para empresas que usam um modelo de negócios baseado em assinatura, pois permite prever receitas futuras, identificar tendências de crescimento, identificar áreas problemáticas e tomar decisões estratégicas. Por exemplo, se uma empresa tem uma taxa de crescimento de MRR constante de 10% ao mês, ela pode prever que sua receita dobrará a cada sete meses. Essas informações podem subsidiar decisões sobre contratação, desenvolvimento de produtos e estratégia de marketing. Da mesma forma, se uma empresa vê uma diminuição na MRR, isso pode indicar que está perdendo clientes. A empresa pode então investigar a causa do problema e fazer alterações para melhorar a retenção.\n\nA MRR mede a receita recorrente previsível gerada dos clientes mensalmente.  É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tendências de crescimento e tomar decisões estratégicas.\n\nA MRR por si só pode fornecer insights importantes sobre a saúde de um negócio, mas seu valor aumenta quando as empresas a consideram no contexto de outras métricas.  A MRR pode ser usada para calcular métricas importantes, como custo de aquisição de clientes (CAC), valor vitalício (LTV) e margem bruta.\n\nEmpresas que usam assinaturas podem acompanhar diferentes tipos de MRR para obter informações sobre seu desempenho, obter uma compreensão mais profunda do crescimento da receita e identificar áreas de melhoria:",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A MRR mede a receita recorrente previsível gerada dos clientes mensalmente. É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tend…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "relacao-com-outras-metricas-importantes",
+      "heading": "Relação com outras métricas importantes",
+      "bodyMd": "A MRR por si só pode fornecer insights importantes sobre a saúde de um negócio, mas seu valor aumenta quando as empresas a consideram no contexto de outras métricas. A MRR pode ser usada para calcular métricas importantes, como custo de aquisição de clientes (CAC), valor vitalício (LTV) e margem bruta.\n\nVenda adicional significa oferecer aos clientes um produto ou serviço de maior valor, enquanto venda cruzada consiste em oferecer produtos ou serviços relacionados.  Por exemplo, uma empresa que vende uma assinatura mensal de um serviço de software pode fazer venda adicional ao oferecer uma assinatura anual ou realizar venda cruzada ao disponibilizar recursos e complementos, como armazenamento adicional, relatórios e análises avançadas ou integrações com outros softwares.\n\nAcesse o [Stripe Billing](https://stripe. com/br/billing) ara saber como ele está impulsionando empresas baseadas em assinaturas a crescer com eficiência, aumentar a receita e simplificar as operações relacionadas a pagamentos recorrentes e faturamento.\n\n**Pontos técnicos:**\n- _[Relatório sobre o estado do gerenciamento de assinaturas e faturamento: Como aumentar a receita recorrente em meio à incerteza econômica](https://stripe.com/br/lp/state-of-subscription-and-billing?utm_medium=content&utm_source=a059&utm_campaign=GLOBAL_4ed3&utm_content=bc79&utm_term=0d69b389b2c2)_\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A MRR por si só pode fornecer insights importantes sobre a saúde de um negócio, mas seu valor aumenta quando as empresas a consideram no contexto de outras métricas. A MRR pode ser usada para calcular…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "informacoes-do-cliente",
+      "heading": "Informações do cliente",
+      "bodyMd": "As empresas também podem usar a MRR para acompanhar o desempenho de diferentes segmentos de clientes para ajudar a identificar quais segmentos são mais lucrativos e onde concentrar os esforços de vendas e marketing. Por exemplo, uma empresa pode medir a MRR para clientes corporativos, pequenas empresas e clientes individuais.\n\nA MRR é uma métrica poderosa para empresas que usam um modelo de negócios baseado em assinatura, pois permite prever receitas futuras, identificar tendências de crescimento, identificar áreas problemáticas e tomar decisões estratégicas.  Por exemplo, se uma empresa tem uma taxa de crescimento de MRR constante de 10% ao mês, ela pode prever que sua receita dobrará a cada sete meses.  Essas informações podem subsidiar decisões sobre contratação, desenvolvimento de produtos e estratégia de marketing.\n\nA MRR mede a receita recorrente previsível gerada dos clientes mensalmente.  É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tendências de crescimento e tomar decisões estratégicas.\n\n*   **Nova MRR**  \n    MRR geradas por novos assinantes que se inscreveram recentemente em um produto ou serviço, representando o crescimento ocorrido na base de clientes. \n    \n*   **Expansão da MRR**  \n    MRR geradas por assinantes existentes que atualizaram sua assinatura ou adicionaram serviços ou recursos adicionais, representando o aumento da receita por cliente. \n    \n*   **MRR de perda de clientes**  \n    MRR perdidas devido ao cancelamento de assinaturas pelos clientes, o que representa a perda de receita devido a atrito com o cliente durante aquele mês.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A MRR é uma métrica poderosa para empresas que usam um modelo de negócios baseado em assinatura, pois permite prever receitas futuras, identificar tendências de crescimento, identificar áreas problemá…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-aumentar-a-mrr",
+      "heading": "Como aumentar a MRR",
+      "bodyMd": "Existem várias maneiras de [aumentar a MRR](https://stripe.com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, foco em táticas de aquisição e retenção de clientes de alto desempenho, diversificação de fluxos de receita e implementação de [soluções de gerenciamento de assinaturas e faturamento](https://stripe.com/br/billing/subscriptions), como as oferecidas pela Stripe.\n\nEssa é uma das formas mais eficazes de aumentar a MRR.  As empresas podem determinar a melhor estratégia de precificação por meio de pesquisas de mercado ou testes A/B.  Também podem usar esses insights para oferecer diferentes planos de preços — como básico, padrão e premium — a fim de atender a diferentes segmentos de clientes.\n\nAcesse o [Stripe Billing](https://stripe. com/br/billing) ara saber como ele está impulsionando empresas baseadas em assinaturas a crescer com eficiência, aumentar a receita e simplificar as operações relacionadas a pagamentos recorrentes e faturamento.\n\n**Pontos técnicos:**\n- _[Relatório sobre o estado do gerenciamento de assinaturas e faturamento: Como aumentar a receita recorrente em meio à incerteza econômica](https://stripe.com/br/lp/state-of-subscription-and-billing?utm_medium=content&utm_source=a059&utm_campaign=GLOBAL_4ed3&utm_content=bc79&utm_term=0d69b389b2c2)_",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Existem várias maneiras de [aumentar a MRR](https://stripe.com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, f…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "otimize-a-estrategia-de-precificacao",
+      "heading": "Otimize a estratégia de precificação",
+      "bodyMd": "Essa é uma das formas mais eficazes de aumentar a MRR. As empresas podem determinar a melhor estratégia de precificação por meio de pesquisas de mercado ou testes A/B. Também podem usar esses insights para oferecer diferentes planos de preços: como básico, padrão e premium: a fim de atender a diferentes segmentos de clientes.\n\nA MRR mede a receita recorrente previsível gerada dos clientes mensalmente.  É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tendências de crescimento e tomar decisões estratégicas.\n\nA MRR é uma métrica poderosa para empresas que usam um modelo de negócios baseado em assinatura, pois permite prever receitas futuras, identificar tendências de crescimento, identificar áreas problemáticas e tomar decisões estratégicas.  Por exemplo, se uma empresa tem uma taxa de crescimento de MRR constante de 10% ao mês, ela pode prever que sua receita dobrará a cada sete meses.  Essas informações podem subsidiar decisões sobre contratação, desenvolvimento de produtos e estratégia de marketing.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Essa é uma das formas mais eficazes de aumentar a MRR. As empresas podem determinar a melhor estratégia de precificação por meio de pesquisas de mercado ou testes A/B. Também podem usar esses insights…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "venda-adicional-e-venda-cruzada",
+      "heading": "Venda adicional e venda cruzada",
+      "bodyMd": "Venda adicional significa oferecer aos clientes um produto ou serviço de maior valor, enquanto venda cruzada consiste em oferecer produtos ou serviços relacionados. Por exemplo, uma empresa que vende uma assinatura mensal de um serviço de software pode fazer venda adicional ao oferecer uma assinatura anual ou realizar venda cruzada ao disponibilizar recursos e complementos, como armazenamento adicional, relatórios e análises avançadas ou integrações com outros softwares.\n\nExistem várias maneiras de [aumentar a MRR](https://stripe. com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, foco em táticas de aquisição e retenção de clientes de alto desempenho, diversificação de fluxos de receita e implementação de [soluções de gerenciamento de assinaturas e faturamento](https://stripe. com/br/billing/subscriptions), como as oferecidas pela Stripe.\n\nCAC é o custo de aquisição de um novo cliente, calculado pela divisão do custo total de vendas e marketing pelo número de novos clientes.  LTV é a receita projetada que um cliente trará para uma empresa ao longo de sua vida útil, calculada multiplicando o ARPU pelo tempo médio de vida do cliente.  A margem bruta é o lucro obtido por uma empresa após a dedução do custo dos produtos vendidos da receita, calculado multiplicando a MRR pelo percentual da margem bruta.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Existem várias maneiras de [aumentar a MRR](https://stripe.com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, f…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "foco-na-retencao-de-clientes",
+      "heading": "Foco na retenção de clientes",
+      "bodyMd": "A retenção de clientes é uma prioridade fundamental para empresas com receita recorrente. Um excelente atendimento ao cliente, um programa sólido de fidelidade e a melhoria contínua de produtos e serviços normalmente aumentam a retenção. Ao manter os clientes satisfeitos, as empresas podem reduzir a taxa de perda de clientes, o que eleva a MRR.\n\nExistem várias maneiras de [aumentar a MRR](https://stripe. com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, foco em táticas de aquisição e retenção de clientes de alto desempenho, diversificação de fluxos de receita e implementação de [soluções de gerenciamento de assinaturas e faturamento](https://stripe. com/br/billing/subscriptions), como as oferecidas pela Stripe.\n\n*   **Nova MRR**  \n    MRR geradas por novos assinantes que se inscreveram recentemente em um produto ou serviço, representando o crescimento ocorrido na base de clientes. \n    \n*   **Expansão da MRR**  \n    MRR geradas por assinantes existentes que atualizaram sua assinatura ou adicionaram serviços ou recursos adicionais, representando o aumento da receita por cliente. \n    \n*   **MRR de perda de clientes**  \n    MRR perdidas devido ao cancelamento de assinaturas pelos clientes, o que representa a perda de receita devido a atrito com o cliente durante aquele mês.\n\nA MRR é uma métrica poderosa para empresas que usam um modelo de negócios baseado em assinatura, pois permite prever receitas futuras, identificar tendências de crescimento, identificar áreas problemáticas e tomar decisões estratégicas.  Por exemplo, se uma empresa tem uma taxa de crescimento de MRR constante de 10% ao mês, ela pode prever que sua receita dobrará a cada sete meses.  Essas informações podem subsidiar decisões sobre contratação, desenvolvimento de produtos e estratégia de marketing.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Existem várias maneiras de [aumentar a MRR](https://stripe.com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, f…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "adquira-mais-clientes",
+      "heading": "Adquira mais clientes",
+      "bodyMd": "A aquisição de clientes é importante para a MRR, e as estratégias variam conforme o setor e os sucessos anteriores da empresa. Essas estratégias podem incluir a expansão da base de clientes por meio de campanhas de marketing direcionadas, a criação de novos pacotes de produtos ou serviços para atrair novos segmentos de mercado, a reformulação da presença on-line da empresa ou a oferta de incentivos de indicação para clientes atuais, incentivando-os a trazer novos negócios.\n\nAs empresas também podem usar a MRR para acompanhar o desempenho de diferentes segmentos de clientes para ajudar a identificar quais segmentos são mais lucrativos e onde concentrar os esforços de vendas e marketing.  Por exemplo, uma empresa pode medir a MRR para clientes corporativos, pequenas empresas e clientes individuais.\n\nEssa é uma das formas mais eficazes de aumentar a MRR.  As empresas podem determinar a melhor estratégia de precificação por meio de pesquisas de mercado ou testes A/B.  Também podem usar esses insights para oferecer diferentes planos de preços — como básico, padrão e premium — a fim de atender a diferentes segmentos de clientes.\n\nA MRR mede a receita recorrente previsível gerada dos clientes mensalmente.  É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tendências de crescimento e tomar decisões estratégicas.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "As empresas também podem usar a MRR para acompanhar o desempenho de diferentes segmentos de clientes para ajudar a identificar quais segmentos são mais lucrativos e onde concentrar os esforços de vend…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "diversifique-fluxos-de-receita",
+      "heading": "Diversifique fluxos de receita",
+      "bodyMd": "Diversificar fluxos de receita é uma maneira poderosa de aumentar a MRR e aumentar a resiliência da empresa. Por exemplo, uma empresa que gera receita com apenas um produto ou serviço pode expandir suas ofertas para incluir outros produtos ou serviços. Isso pode ajudar a mitigar riscos e fornecer uma fonte de receita mais estável.\n\nExistem várias maneiras de [aumentar a MRR](https://stripe. com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, foco em táticas de aquisição e retenção de clientes de alto desempenho, diversificação de fluxos de receita e implementação de [soluções de gerenciamento de assinaturas e faturamento](https://stripe. com/br/billing/subscriptions), como as oferecidas pela Stripe.\n\nA MRR mede a receita recorrente previsível gerada dos clientes mensalmente.  É uma métrica importante para empresas que trabalham com assinaturas, pois ajuda a prever receitas futuras, identificar tendências de crescimento e tomar decisões estratégicas.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Existem várias maneiras de [aumentar a MRR](https://stripe.com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, f…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "mais-recursos",
+      "heading": "Mais recursos",
+      "bodyMd": "*   _[Relatório sobre o estado do gerenciamento de assinaturas e faturamento: Como aumentar a receita recorrente em meio à incerteza econômica](https://stripe.com/br/lp/state-of-subscription-and-billing?utm_medium=content&utm_source=a059&utm_campaign=GLOBAL_4ed3&utm_content=bc79&utm_term=0d69b389b2c2)_\n\nEmpresas que usam assinaturas podem acompanhar diferentes tipos de MRR para obter informações sobre seu desempenho, obter uma compreensão mais profunda do crescimento da receita e identificar áreas de melhoria:\n\n*   **Nova MRR**  \n    MRR geradas por novos assinantes que se inscreveram recentemente em um produto ou serviço, representando o crescimento ocorrido na base de clientes. \n    \n*   **Expansão da MRR**  \n    MRR geradas por assinantes existentes que atualizaram sua assinatura ou adicionaram serviços ou recursos adicionais, representando o aumento da receita por cliente. \n    \n*   **MRR de perda de clientes**  \n    MRR perdidas devido ao cancelamento de assinaturas pelos clientes, o que representa a perda de receita devido a atrito com o cliente durante aquele mês.\n\nAs empresas também podem usar a MRR para acompanhar o desempenho de diferentes segmentos de clientes para ajudar a identificar quais segmentos são mais lucrativos e onde concentrar os esforços de vendas e marketing.  Por exemplo, uma empresa pode medir a MRR para clientes corporativos, pequenas empresas e clientes individuais.\n\n**Pontos técnicos:**\n- **MRR de perda de clientes**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Empresas que usam assinaturas podem acompanhar diferentes tipos de MRR para obter informações sobre seu desempenho, obter uma compreensão mais profunda do crescimento da receita e identificar áreas de…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "veja-como-o-stripe-billing-se-destaca",
+      "heading": "Veja como o Stripe Billing se destaca",
+      "bodyMd": "Veja como a Stripe se compara a outros provedores de cobrança recorrente no [Quadrante™ Mágico do Gartner® de 2025 para aplicativos de faturamento recorrente](https://go.stripe.global/gartner-magic-quadrant-billing-2025).\n\nExistem várias maneiras de [aumentar a MRR](https://stripe. com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, foco em táticas de aquisição e retenção de clientes de alto desempenho, diversificação de fluxos de receita e implementação de [soluções de gerenciamento de assinaturas e faturamento](https://stripe. com/br/billing/subscriptions), como as oferecidas pela Stripe.\n\nAcesse o [Stripe Billing](https://stripe. com/br/billing) ara saber como ele está impulsionando empresas baseadas em assinaturas a crescer com eficiência, aumentar a receita e simplificar as operações relacionadas a pagamentos recorrentes e faturamento.\n\n**Pontos técnicos:**\n- _[Relatório sobre o estado do gerenciamento de assinaturas e faturamento: Como aumentar a receita recorrente em meio à incerteza econômica](https://stripe.com/br/lp/state-of-subscription-and-billing?utm_medium=content&utm_source=a059&utm_campaign=GLOBAL_4ed3&utm_content=bc79&utm_term=0d69b389b2c2)_",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Veja como a Stripe se compara a outros provedores de cobrança recorrente no [Quadrante™ Mágico do Gartner® de 2025 para aplicativos de faturamento recorrente](https://go.stripe.global/gartner-magic-qu…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "how-stripe-can-help",
+      "heading": "How Stripe can help",
+      "bodyMd": "Stripe Billing lets you bill and manage customers however you want: from simple recurring billing to usage-based billing and sales-negotiated contracts. Start accepting recurring payments globally in minutes: no code required: or build a custom integration using the API.\n\n*   **Offer flexible pricing:** Respond to user demand faster with flexible pricing models, including usage-based, tiered, flat-fee plus overage, and more.  Support for coupons, free trials, prorations, and add-ons is built-in. \n    \n*   **Expand globally:** Increase conversion by offering customers’ preferred payment methods.\n\nExistem várias maneiras de [aumentar a MRR](https://stripe. com/br/resources/more/increase-monthly-recurring-revenue), incluindo otimização da estratégia de preços, venda adicional e vendas cruzadas, foco em táticas de aquisição e retenção de clientes de alto desempenho, diversificação de fluxos de receita e implementação de [soluções de gerenciamento de assinaturas e faturamento](https://stripe. com/br/billing/subscriptions), como as oferecidas pela Stripe.\n\nLeia [nosso guia](https://stripe. com/br/resources/more/increase-monthly-recurring-revenue) para uma análise mais aprofundada de formas comprovadas de aumentar a MRR da sua empresa.\n\n**Pontos técnicos:**\n- **Offer flexible pricing:** Respond to user demand faster with flexible pricing models, including usage-based, tiered, flat-fee plus overage, and more. Support for coupons, free trials, prorations, and add-ons is built-in.\n- **Expand globally:** Increase conversion by offering customers’ preferred payment methods. Stripe supports 125+ local payment methods and 130+ currencies.\n- **Increase revenue and reduce churn:** Improve revenue capture and reduce involuntary churn with Smart Retries and recovery workflow automations. Stripe recovery tools helped users recover over $6.5 billion in revenue in 2024.\n- **Boost efficiency:** Use Stripe’s modular tax, revenue reporting, and data tools to consolidate multiple revenue systems into one. Easily integrate with third-party software.\n- _[Relatório sobre o estado do gerenciamento de assinaturas e faturamento: Como aumentar a receita recorrente em meio à incerteza econômica](https://stripe.com/br/lp/state-of-subscription-and-billing?utm_medium=content&utm_source=a059&utm_campaign=GLOBAL_4ed3&utm_content=bc79&utm_term=0d69b389b2c2)_",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Offer flexible pricing:** Respond to user demand faster with flexible pricing models, including usage-based, tiered, flat-fee plus overage, and more. Support for coupons, free trials, prorations…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:00:03.506Z",
+  "synthesizedAt": "2026-06-22T14:44:21.373Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json"
+  ]
+}

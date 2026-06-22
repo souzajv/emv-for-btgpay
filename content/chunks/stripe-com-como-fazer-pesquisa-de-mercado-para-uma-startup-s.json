@@ -1,0 +1,270 @@
+{
+  "id": "stripe-com-como-fazer-pesquisa-de-mercado-para-uma-startup-s",
+  "sourceUrl": "https://stripe.com/br/resources/more/market-research-for-startups",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Como fazer pesquisa de mercado para uma startup | StripeAtlas",
+  "sections": [
+    {
+      "anchorId": "o-que-e-pesquisa-de-mercado",
+      "heading": "O que é pesquisa de mercado?",
+      "bodyMd": "Em alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando. Taticamente, a pesquisa de mercado pode ser executada por meio de uma ampla gama de atividades, que analisaremos mais adiante.\n\nA pesquisa de mercado dirá se há uma necessidade para o seu negócio.  Fazer pesquisa de mercado responderá a perguntas como as seguintes.\n\nPesquisa de mercado é sobre obter uma compreensão detalhada de três coisas: para quem você está tentando vender, quem mais está tentando vender algo semelhante e o que seu público realmente quer.  Descobrir sua posição no mercado significa conquistar uma posição diferenciada nesse mercado, em comparação com seus concorrentes.  Só é possível construir uma marca e uma oferta única se você souber quem já está lá fora no seu espaço.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Em alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando. Taticamente, a pesquisa de…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "por-que-voce-deve-fazer-pesquisa-de-mercado",
+      "heading": "Por que você deve fazer pesquisa de mercado",
+      "bodyMd": "A pesquisa de mercado dirá se há uma necessidade para o seu negócio. Fazer pesquisa de mercado responderá a perguntas como as seguintes.\n\nSaber o quanto é importante fazer pesquisa de mercado é uma coisa, mas como lidar com isso?\n\nVocê provavelmente tem bastante familiaridade com fazer compensações orçamentárias dentro do seu negócio — esta é apenas mais uma.  Olhe para seus objetivos, pesquise os resultados de diferentes tipos de pesquisa de mercado, veja qual orçamento está disponível e siga em frente.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A pesquisa de mercado dirá se há uma necessidade para o seu negócio. Fazer pesquisa de mercado responderá a perguntas como as seguintes.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "qual-e-o-seu-publico-alvo",
+      "heading": "Qual é o seu público-alvo?",
+      "bodyMd": "Antes de criar um negócio, produtos, serviços e mensagens, você precisa definir o espaço de mercado onde vai atuar. Todo o resto remonta a isso.\n\nQuais produtos ou serviços têm a preferência de seus clientes-alvo atualmente e por quê?  Marcas diferentes são mais populares com determinados segmentos de público?  O que distingue estas marcas?\n\nA pesquisa de mercado não é apenas sobre ver o que está acontecendo em seu mercado, é sobre perceber lacunas.  Quais necessidades ou pontos problemáticos na vida do seu público-alvo não estão sendo totalmente atendidos ou poderiam ser mais bem atendidos?\n\nA pesquisa primária envolve a obtenção de insights originais diretamente de clientes, pessoas em seus principais segmentos de público ou outras fontes primárias.  Esse tipo de pesquisa também se enquadra em duas categorias: pesquisa qualitativa e pesquisa quantitativa.\n\n**Pontos técnicos:**\n- *Pesquisa qualitativa:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Quais produtos ou serviços têm a preferência de seus clientes-alvo atualmente e por quê? Marcas diferentes são mais populares com determinados segmentos de público? O que distingue estas marcas? Quant…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "quem-sao-seus-clientes",
+      "heading": "Quem são seus clientes?",
+      "bodyMd": "Entender seus possíveis clientes é, sem dúvida, o esforço mais significativo que você pode empreender para alcançar a adequação do produto ao mercado. Isso é especialmente verdadeiro no início da sua empresa, ao planejar o lançamento de um novo produto ou ao definir áreas de crescimento. Criar personas que descrevem as necessidades, pontos problemáticos, interesses e gatilhos de seus principais públicos por segmento ajudará você a construir cada parte do seu negócio.\n\nPesquisa de mercado é sobre obter uma compreensão detalhada de três coisas: para quem você está tentando vender, quem mais está tentando vender algo semelhante e o que seu público realmente quer.  Descobrir sua posição no mercado significa conquistar uma posição diferenciada nesse mercado, em comparação com seus concorrentes.  Só é possível construir uma marca e uma oferta única se você souber quem já está lá fora no seu espaço.\n\nQuais produtos ou serviços têm a preferência de seus clientes-alvo atualmente e por quê?  Marcas diferentes são mais populares com determinados segmentos de público?  O que distingue estas marcas?\n\n**Pontos técnicos:**\n- Entrevistas individuais\n- Comentários de clientes existentes",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Entender seus possíveis clientes é, sem dúvida, o esforço mais significativo que você pode empreender para alcançar a adequação do produto ao mercado. Isso é especialmente verdadeiro no início da sua…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "quem-sao-seus-concorrentes",
+      "heading": "Quem são seus concorrentes?",
+      "bodyMd": "Pesquisa de mercado é sobre obter uma compreensão detalhada de três coisas: para quem você está tentando vender, quem mais está tentando vender algo semelhante e o que seu público realmente quer. Descobrir sua posição no mercado significa conquistar uma posição diferenciada nesse mercado, em comparação com seus concorrentes. Só é possível construir uma marca e uma oferta única se você souber quem já está lá fora no seu espaço.\n\nEntender seus possíveis clientes é, sem dúvida, o esforço mais significativo que você pode empreender para alcançar a adequação do produto ao mercado.  Isso é especialmente verdadeiro no início da sua empresa, ao planejar o lançamento de um novo produto ou ao definir áreas de crescimento.  Criar personas que descrevem as necessidades, pontos problemáticos, interesses e gatilhos de seus principais públicos por segmento ajudará você a construir cada parte do seu negócio.\n\nQuais produtos ou serviços têm a preferência de seus clientes-alvo atualmente e por quê?  Marcas diferentes são mais populares com determinados segmentos de público?  O que distingue estas marcas?",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Pesquisa de mercado é sobre obter uma compreensão detalhada de três coisas: para quem você está tentando vender, quem mais está tentando vender algo semelhante e o que seu público realmente quer. Desc…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "qual-e-o-tipo-de-publico-alvo-que-voce-esta-usando-no-momento",
+      "heading": "Qual é o tipo de público-alvo que você está usando no momento?",
+      "bodyMd": "Quais produtos ou serviços têm a preferência de seus clientes-alvo atualmente e por quê? Marcas diferentes são mais populares com determinados segmentos de público? O que distingue estas marcas? Quanto mais detalhes você souber, mais claramente poderá começar a montar um modelo abrangente do que está acontecendo em seu espaço de mercado.\n\nVocê provavelmente tem bastante familiaridade com fazer compensações orçamentárias dentro do seu negócio — esta é apenas mais uma.  Olhe para seus objetivos, pesquise os resultados de diferentes tipos de pesquisa de mercado, veja qual orçamento está disponível e siga em frente.\n\nA pesquisa primária envolve a obtenção de insights originais diretamente de clientes, pessoas em seus principais segmentos de público ou outras fontes primárias.  Esse tipo de pesquisa também se enquadra em duas categorias: pesquisa qualitativa e pesquisa quantitativa.\n\n**Pontos técnicos:**\n- *Pesquisa qualitativa:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Você provavelmente tem bastante familiaridade com fazer compensações orçamentárias dentro do seu negócio — esta é apenas mais uma. Olhe para seus objetivos, pesquise os resultados de diferentes tipos…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "onde-estao-as-areas-de-oportunidade-no-seu-mercado",
+      "heading": "Onde estão as áreas de oportunidade no seu mercado?",
+      "bodyMd": "A pesquisa de mercado não é apenas sobre ver o que está acontecendo em seu mercado, é sobre perceber lacunas. Quais necessidades ou pontos problemáticos na vida do seu público-alvo não estão sendo totalmente atendidos ou poderiam ser mais bem atendidos?\n\nEm alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando.  Taticamente, a pesquisa de mercado pode ser executada por meio de uma ampla gama de atividades, que analisaremos mais adiante.\n\nA pesquisa de mercado dirá se há uma necessidade para o seu negócio.  Fazer pesquisa de mercado responderá a perguntas como as seguintes.\n\nAntes de criar um negócio, produtos, serviços e mensagens, você precisa definir o espaço de mercado onde vai atuar.  Todo o resto remonta a isso.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Em alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando. Taticamente, a pesquisa de…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-fazer-pesquisa-de-mercado-para-sua-startup",
+      "heading": "Como fazer pesquisa de mercado para sua startup",
+      "bodyMd": "Saber o quanto é importante fazer pesquisa de mercado é uma coisa, mas como lidar com isso?\n\nA pesquisa de mercado dirá se há uma necessidade para o seu negócio.  Fazer pesquisa de mercado responderá a perguntas como as seguintes.\n\nVocê provavelmente tem bastante familiaridade com fazer compensações orçamentárias dentro do seu negócio — esta é apenas mais uma.  Olhe para seus objetivos, pesquise os resultados de diferentes tipos de pesquisa de mercado, veja qual orçamento está disponível e siga em frente.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "A pesquisa de mercado dirá se há uma necessidade para o seu negócio. Fazer pesquisa de mercado responderá a perguntas como as seguintes.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "calcule-seu-orcamento",
+      "heading": "Calcule seu orçamento",
+      "bodyMd": "Existem inúmeras maneiras de abordar e escalar a pesquisa de mercado. Algumas rotas de pesquisa são de baixo esforço e baixo custo, mas ainda produzem insights extremamente valiosos; outras exigem tempo e custo consideráveis para serem executadas, mas podem valer a pena, dependendo dos objetivos do seu negócio em particular.\n\nEntender seus possíveis clientes é, sem dúvida, o esforço mais significativo que você pode empreender para alcançar a adequação do produto ao mercado.  Isso é especialmente verdadeiro no início da sua empresa, ao planejar o lançamento de um novo produto ou ao definir áreas de crescimento.  Criar personas que descrevem as necessidades, pontos problemáticos, interesses e gatilhos de seus principais públicos por segmento ajudará você a construir cada parte do seu negócio.\n\nVocê provavelmente tem bastante familiaridade com fazer compensações orçamentárias dentro do seu negócio — esta é apenas mais uma.  Olhe para seus objetivos, pesquise os resultados de diferentes tipos de pesquisa de mercado, veja qual orçamento está disponível e siga em frente.\n\nExistem duas categorias principais de pesquisa de mercado: pesquisa primária e pesquisa secundária.  Cada uma delas pode ser dividida em diferentes métodos de pesquisa.  O que você decidir fazer depende do seu orçamento e cronograma, já que alguns desses métodos levam mais tempo para serem realizados e exigem mais investimento.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Entender seus possíveis clientes é, sem dúvida, o esforço mais significativo que você pode empreender para alcançar a adequação do produto ao mercado. Isso é especialmente verdadeiro no início da sua…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "identificar-objetivos-de-pesquisa",
+      "heading": "Identificar objetivos de pesquisa",
+      "bodyMd": "Além do objetivo básico de pesquisa de determinar se há uma necessidade de mercado para seus produtos ou serviços, é bom destacar quaisquer objetivos de pesquisa específicos adicionais que possam fornecer informações de valor para sua equipe. Por exemplo, talvez você saiba que o produto de um determinado concorrente está vendendo como água com um determinado segmento de público, e você quer descobrir o porquê por meio de sua pesquisa de mercado.\n\nExistem inúmeras maneiras de abordar e escalar a pesquisa de mercado.  Algumas rotas de pesquisa são de baixo esforço e baixo custo, mas ainda produzem insights extremamente valiosos; outras exigem tempo e custo consideráveis para serem executadas, mas podem valer a pena, dependendo dos objetivos do seu negócio em particular.\n\nVocê provavelmente tem bastante familiaridade com fazer compensações orçamentárias dentro do seu negócio — esta é apenas mais uma.  Olhe para seus objetivos, pesquise os resultados de diferentes tipos de pesquisa de mercado, veja qual orçamento está disponível e siga em frente.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Existem inúmeras maneiras de abordar e escalar a pesquisa de mercado. Algumas rotas de pesquisa são de baixo esforço e baixo custo, mas ainda produzem insights extremamente valiosos; outras exigem tem…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "faca-um-plano",
+      "heading": "Faça um plano",
+      "bodyMd": "Existem duas categorias principais de pesquisa de mercado: pesquisa primária e pesquisa secundária. Cada uma delas pode ser dividida em diferentes métodos de pesquisa. O que você decidir fazer depende do seu orçamento e cronograma, já que alguns desses métodos levam mais tempo para serem realizados e exigem mais investimento.\n\nEm alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando.  Taticamente, a pesquisa de mercado pode ser executada por meio de uma ampla gama de atividades, que analisaremos mais adiante.\n\nA pesquisa de mercado dirá se há uma necessidade para o seu negócio.  Fazer pesquisa de mercado responderá a perguntas como as seguintes.\n\nAntes de criar um negócio, produtos, serviços e mensagens, você precisa definir o espaço de mercado onde vai atuar.  Todo o resto remonta a isso.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Em alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando. Taticamente, a pesquisa de…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "use-o-que-aprendeu",
+      "heading": "Use o que aprendeu",
+      "bodyMd": "Seja qual for a abordagem que você usa para conduzir sua pesquisa de mercado, você deve ter certeza de agir de acordo com suas descobertas. Isso significa garantir que ela esteja disponível para todos na empresa e que seja ativamente empregada como uma estrutura para desenvolver estratégias de marketing, vendas e produtos.\n\nEm alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando.  Taticamente, a pesquisa de mercado pode ser executada por meio de uma ampla gama de atividades, que analisaremos mais adiante.\n\nA pesquisa de mercado dirá se há uma necessidade para o seu negócio.  Fazer pesquisa de mercado responderá a perguntas como as seguintes.\n\nAntes de criar um negócio, produtos, serviços e mensagens, você precisa definir o espaço de mercado onde vai atuar.  Todo o resto remonta a isso.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Em alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando. Taticamente, a pesquisa de…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "por-que-a-pesquisa-de-mercado-e-importante-para-uma-startup",
+      "heading": "Por que a pesquisa de mercado é importante para uma startup",
+      "bodyMd": "Quanto antes você realizar uma pesquisa de mercado para sua startup, melhor. Se conseguir se envolver em tudo o que está acontecendo (e não acontecendo) na sua área de mercado logo no início da vida da sua startup, você terá uma série de vantagens poderosas.\n\nA pesquisa de mercado dirá se há uma necessidade para o seu negócio.  Fazer pesquisa de mercado responderá a perguntas como as seguintes.\n\nPesquisa de mercado é sobre obter uma compreensão detalhada de três coisas: para quem você está tentando vender, quem mais está tentando vender algo semelhante e o que seu público realmente quer.  Descobrir sua posição no mercado significa conquistar uma posição diferenciada nesse mercado, em comparação com seus concorrentes.  Só é possível construir uma marca e uma oferta única se você souber quem já está lá fora no seu espaço.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Quanto antes você realizar uma pesquisa de mercado para sua startup, melhor. Se conseguir se envolver em tudo o que está acontecendo (e não acontecendo) na sua área de mercado logo no início da vida d…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "alinhamento-do-roteiro-as-oportunidades-de-mercado",
+      "heading": "Alinhamento do roteiro às oportunidades de mercado",
+      "bodyMd": "Você será capaz de traçar um roteiro para o desenvolvimento de produtos e serviços que atenda às oportunidades de mercado conhecidas.\n\nOs investidores vão adorar o quanto você sabe sobre o mercado.  Os fundadores de startups em estágio inicial estão principalmente pedindo financiamento aos investidores com base em sua compreensão aguçada das condições e oportunidades do mercado, uma vez que suas startups ainda não demonstraram desempenho e crescimento.  Quanto mais você souber sobre o campo em que está jogando, torna-se mais provável que os investidores queiram apoiá-lo.\n\nEm alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando.  Taticamente, a pesquisa de mercado pode ser executada por meio de uma ampla gama de atividades, que analisaremos mais adiante.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Você será capaz de traçar um roteiro para o desenvolvimento de produtos e serviços que atenda às oportunidades de mercado conhecidas.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "evitar-o-desperdicio-de-tempo-e-recursos",
+      "heading": "Evitar o desperdício de tempo e recursos",
+      "bodyMd": "Sem uma pesquisa de mercado adequada, você pode desenvolver produtos que cairão por terra porque não respondem a uma necessidade real ou são muito semelhantes ao que os concorrentes dominantes estão oferecendo. Fazer uma pesquisa de mercado com antecedência diminuirá a chance de isso acontecer.\n\nExistem inúmeras maneiras de abordar e escalar a pesquisa de mercado.  Algumas rotas de pesquisa são de baixo esforço e baixo custo, mas ainda produzem insights extremamente valiosos; outras exigem tempo e custo consideráveis para serem executadas, mas podem valer a pena, dependendo dos objetivos do seu negócio em particular.\n\nExistem duas categorias principais de pesquisa de mercado: pesquisa primária e pesquisa secundária.  Cada uma delas pode ser dividida em diferentes métodos de pesquisa.  O que você decidir fazer depende do seu orçamento e cronograma, já que alguns desses métodos levam mais tempo para serem realizados e exigem mais investimento.\n\nApós a abertura da empresa, o Atlas solicita o seu EIN.  Fundadores que possuem número de Seguro Social dos EUA, endereço e número de celular nos EUA são elegíveis para o processamento acelerado junto ao IRS, enquanto os demais passam pelo processamento padrão, que pode levar um pouco mais de tempo.  Além disso, o Atlas permite a realização de pagamentos e transações bancárias antes da emissão do EIN, possibilitando que você comece a aceitar pagamentos e fazer movimentações mesmo antes da chegada do seu número.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Existem inúmeras maneiras de abordar e escalar a pesquisa de mercado. Algumas rotas de pesquisa são de baixo esforço e baixo custo, mas ainda produzem insights extremamente valiosos; outras exigem tem…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "impressione-os-investidores-com-seu-conhecimento-de-mercado",
+      "heading": "Impressione os investidores com seu conhecimento de mercado",
+      "bodyMd": "Os investidores vão adorar o quanto você sabe sobre o mercado. Os fundadores de startups em estágio inicial estão principalmente pedindo financiamento aos investidores com base em sua compreensão aguçada das condições e oportunidades do mercado, uma vez que suas startups ainda não demonstraram desempenho e crescimento. Quanto mais você souber sobre o campo em que está jogando, torna-se mais provável que os investidores queiram apoiá-lo.\n\nEm alto nível, pesquisa de mercado é a prática de reunir e analisar todas as informações pertinentes sobre os clientes-alvo de uma empresa e o mercado onde ela está atuando.  Taticamente, a pesquisa de mercado pode ser executada por meio de uma ampla gama de atividades, que analisaremos mais adiante.\n\nA pesquisa de mercado dirá se há uma necessidade para o seu negócio.  Fazer pesquisa de mercado responderá a perguntas como as seguintes.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os investidores vão adorar o quanto você sabe sobre o mercado. Os fundadores de startups em estágio inicial estão principalmente pedindo financiamento aos investidores com base em sua compreensão aguç…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-o-stripe-atlas-pode-ajudar",
+      "heading": "Como o Stripe Atlas pode ajudar",
+      "bodyMd": "O [Stripe Atlas](https://stripe.com/br/atlas) estabelece a base jurídica da sua empresa, permitindo captar investimentos, abrir conta bancária e começar a aceitar pagamentos em até dois dias úteis, de qualquer lugar do mundo.\n\nSaiba mais sobre como o Atlas pode [ajudar você a abrir sua nova empresa](https://docs. stripe. com/atlas/signup) de forma rápida e fácil, e [comece já](https://stripe.\n\nO Atlas fornece todos os [documentos legais](https://docs. stripe. com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa.\n\nOs fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro.  O comprovante da transação é armazenado no Dashboard do Atlas.  Essa função está disponível apenas para propriedade intelectual avaliada em até $ 100; se o valor for superior, recomendamos consultar um advogado antes de prosseguir.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Saiba mais sobre como o Atlas pode [ajudar você a abrir sua nova empresa](https://docs.stripe.com/atlas/signup) de forma rápida e fácil, e [comece já](https://stripe.com/br/atlas).",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-se-inscrever-no-atlas",
+      "heading": "Como se inscrever no Atlas",
+      "bodyMd": "O processo de inscrição para criar uma empresa com o Atlas leva menos de 10 minutos. Você escolhe a estrutura societária, verifica de imediato se o nome desejado está disponível e pode adicionar até quatro cofundadores. Você também define a divisão de participação acionária, reserva parte das ações para futuros investidores e funcionários, nomeia administradores e assina eletronicamente todos os documentos. Cada cofundador recebe um e-mail para também assinar digitalmente sua parte.\n\nMais de 75 mil empresas já foram constituídas com o Atlas, incluindo startups apoiadas por investidores de destaque como Y Combinator, a16z e General Catalyst.\n\nOs fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro.  O comprovante da transação é armazenado no Dashboard do Atlas.  Essa função está disponível apenas para propriedade intelectual avaliada em até $ 100; se o valor for superior, recomendamos consultar um advogado antes de prosseguir.\n\nO Atlas fornece todos os [documentos legais](https://docs. stripe. com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Mais de 75 mil empresas já foram constituídas com o Atlas, incluindo startups apoiadas por investidores de destaque como Y Combinator, a16z e General Catalyst.",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "aceitar-pagamentos-e-operar-financeiramente-antes-da-chegada-do-ein",
+      "heading": "Aceitar pagamentos e operar financeiramente antes da chegada do EIN",
+      "bodyMd": "Após a abertura da empresa, o Atlas solicita o seu EIN. Fundadores que possuem número de Seguro Social dos EUA, endereço e número de celular nos EUA são elegíveis para o processamento acelerado junto ao IRS, enquanto os demais passam pelo processamento padrão, que pode levar um pouco mais de tempo. Além disso, o Atlas permite a realização de pagamentos e transações bancárias antes da emissão do EIN, possibilitando que você comece a aceitar pagamentos e fazer movimentações mesmo antes da chegada do seu número.\n\nO [Stripe Atlas](https://stripe. com/br/atlas) estabelece a base jurídica da sua empresa, permitindo captar investimentos, abrir conta bancária e começar a aceitar pagamentos em até dois dias úteis, de qualquer lugar do mundo.\n\nAntes de criar um negócio, produtos, serviços e mensagens, você precisa definir o espaço de mercado onde vai atuar.  Todo o resto remonta a isso.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Após a abertura da empresa, o Atlas solicita o seu EIN. Fundadores que possuem número de Seguro Social dos EUA, endereço e número de celular nos EUA são elegíveis para o processamento acelerado junto…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+      "heading": "Compra de ações de fundador sem dinheiro em espécie",
+      "bodyMd": "Os fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro. O comprovante da transação é armazenado no Dashboard do Atlas. Essa função está disponível apenas para propriedade intelectual avaliada em até $ 100; se o valor for superior, recomendamos consultar um advogado antes de prosseguir.\n\nOs investidores vão adorar o quanto você sabe sobre o mercado.  Os fundadores de startups em estágio inicial estão principalmente pedindo financiamento aos investidores com base em sua compreensão aguçada das condições e oportunidades do mercado, uma vez que suas startups ainda não demonstraram desempenho e crescimento.  Quanto mais você souber sobre o campo em que está jogando, torna-se mais provável que os investidores queiram apoiá-lo.\n\nO processo de inscrição para criar uma empresa com o Atlas leva menos de 10 minutos.  Você escolhe a estrutura societária, verifica de imediato se o nome desejado está disponível e pode adicionar até quatro cofundadores.  Você também define a divisão de participação acionária, reserva parte das ações para futuros investidores e funcionários, nomeia administradores e assina eletronicamente todos os documentos.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os fundadores podem adquirir ações iniciais utilizando propriedade intelectual, como direitos autorais ou patentes, em vez de dinheiro. O comprovante da transação é armazenado no Dashboard do Atlas. E…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "envio-automatico-da-eleicao-fiscal-83-b",
+      "heading": "Envio automático da eleição fiscal 83(b)",
+      "bodyMd": "Os fundadores podem enviar a eleição fiscal 83(b) para reduzir impostos pessoais. O Atlas faz isso automaticamente, seja você residente nos EUA ou não, por meio de envio autenticado via USPS com código de rastreio. O documento assinado e o comprovante ficam disponíveis diretamente no Dashboard da Stripe.\n\nO Atlas fornece todos os [documentos legais](https://docs. stripe. com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa.\n\nEntender seus possíveis clientes é, sem dúvida, o esforço mais significativo que você pode empreender para alcançar a adequação do produto ao mercado.  Isso é especialmente verdadeiro no início da sua empresa, ao planejar o lançamento de um novo produto ou ao definir áreas de crescimento.  Criar personas que descrevem as necessidades, pontos problemáticos, interesses e gatilhos de seus principais públicos por segmento ajudará você a construir cada parte do seu negócio.\n\n**Pontos técnicos:**\n- *Pesquisa qualitativa:**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Os fundadores podem enviar a eleição fiscal 83(b) para reduzir impostos pessoais. O Atlas faz isso automaticamente, seja você residente nos EUA ou não, por meio de envio autenticado via USPS com códig…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "documentos-legais-empresariais-de-padrao-internacional",
+      "heading": "Documentos legais empresariais de padrão internacional",
+      "bodyMd": "O Atlas fornece todos os [documentos legais](https://docs.stripe.com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa. Os documentos de empresa do tipo C do Atlas foram desenvolvidos em colaboração com a [Cooley](https://cooley.com/), uma das principais firmas advocatícias de venture capital do mundo. Esses documentos são projetados para ajudar você a captar recursos imediatamente e garantir a proteção legal da sua empresa, abordando aspectos como estrutura societária, distribuição de participação societária e conformidade fiscal.\n\nO processo de inscrição para criar uma empresa com o Atlas leva menos de 10 minutos.  Você escolhe a estrutura societária, verifica de imediato se o nome desejado está disponível e pode adicionar até quatro cofundadores.  Você também define a divisão de participação acionária, reserva parte das ações para futuros investidores e funcionários, nomeia administradores e assina eletronicamente todos os documentos.\n\nApós a abertura da empresa, o Atlas solicita o seu EIN.  Fundadores que possuem número de Seguro Social dos EUA, endereço e número de celular nos EUA são elegíveis para o processamento acelerado junto ao IRS, enquanto os demais passam pelo processamento padrão, que pode levar um pouco mais de tempo.  Além disso, o Atlas permite a realização de pagamentos e transações bancárias antes da emissão do EIN, possibilitando que você comece a aceitar pagamentos e fazer movimentações mesmo antes da chegada do seu número.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O Atlas fornece todos os [documentos legais](https://docs.stripe.com/atlas/incorporation-documents) de que você precisa para começar a administrar sua empresa. Os documentos de empresa do tipo C do At…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+      "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+      "bodyMd": "O Atlas colabora com [parceiros de primeira linha](https://support.stripe.com/questions/stripe-atlas-perks-partners) para oferecer aos fundadores descontos e créditos exclusivos. Isso inclui descontos em ferramentas essenciais para engenharia, impostos, finanças, conformidade e operações, oferecidos por líderes do setor como AWS, Carta e Perplexity. Também fornecemos gratuitamente o agente registrado necessário em Delaware durante o primeiro ano. Além disso, como usuário do Atlas, você terá acesso a benefícios adicionais da Stripe, incluindo até um ano de processamento gratuito de pagamentos para um volume de até US$ 100 mil.\n\nO [Stripe Atlas](https://stripe. com/br/atlas) estabelece a base jurídica da sua empresa, permitindo captar investimentos, abrir conta bancária e começar a aceitar pagamentos em até dois dias úteis, de qualquer lugar do mundo.\n\nOs fundadores podem enviar a eleição fiscal 83(b) para reduzir impostos pessoais.  O Atlas faz isso automaticamente, seja você residente nos EUA ou não, por meio de envio autenticado via USPS com código de rastreio.  O documento assinado e o comprovante ficam disponíveis diretamente no Dashboard da Stripe.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O Atlas colabora com [parceiros de primeira linha](https://support.stripe.com/questions/stripe-atlas-perks-partners) para oferecer aos fundadores descontos e créditos exclusivos. Isso inclui descontos…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:01:07.305Z",
+  "synthesizedAt": "2026-06-22T14:44:21.336Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_market-research-for-startups.json"
+  ]
+}

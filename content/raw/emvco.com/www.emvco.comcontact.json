@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/contact",
+  "method": "fetch",
+  "title": "Contact EMVCo",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Contact EMVCo",
+      "bodyMd": "All payments industry stakeholders are encouraged to provide input to EMVCo. Contact EMVCo to submit technical questions and share feedback on EMV Specifications using these forms."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:01:49.451Z",
+  "sourceUrl": "https://www.emvco.com/contact"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/emv-technologies/qr-codes",
+  "method": "fetch",
+  "title": "EMV® QR Codes",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "EMV® QR Codes",
+      "bodyMd": "[![alt=](https://www.emvco.com/wp-content/uploads/2021/01/An-Overview-of-EMV-QR-Codes.jpg)](#)"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:24.428Z",
+  "sourceUrl": "https://www.emvco.com/emv-technologies/qr-codes"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "stripe-com-um-guia-sobre-o-nexo-do-imposto-sobre-vendas-stri",
+  "sourceUrl": "https://stripe.com/br/resources/more/nexus-tax-101",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Um guia sobre o nexo do imposto sobre vendas | StripeTax",
+  "sections": [
+    {
+      "anchorId": "o-que-e-o-imposto-de-nexo",
+      "heading": "O que é o imposto de nexo?",
+      "bodyMd": "O imposto de nexo (nexus tax), é um tipo de imposto ou tarifa aplicada por estados ou jurisdições a empresas que têm o nexo do imposto sobre vendas dentro de suas fronteiras. O nexo do imposto sobre vendas é criado quando uma empresa tem uma conexão suficiente ou presença em um estado ou jurisdição, como uma presença física ou atividade econômica, que aciona uma obrigação de recolhimento do imposto sobre vendas.\n\nO imposto de nexo é calculado com base nas regras e taxas específicas do estado ou jurisdição em que a empresa tem um nexo do imposto sobre vendas.  Normalmente, o imposto de nexo é uma porcentagem do total de vendas ou receita gerada pela empresa dentro do estado ou jurisdição.  A porcentagem exata pode variar muito, dependendo do estado ou jurisdição, e alguns estados também podem cobrar taxas ou sobretaxas adicionais.\n\nExemplos de estados em que empresas com nexo do imposto sobre vendas são obrigadas a recolher e repassar impostos estaduais e locais sobre vendas tributáveis feitas no estado incluem:\n\n**Pontos técnicos:**\n- **Nexo de direcionamento**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O imposto de nexo (nexus tax), é um tipo de imposto ou tarifa aplicada por estados ou jurisdições a empresas que têm o nexo do imposto sobre vendas dentro de suas fronteiras. O nexo do imposto sobre v…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "tipos-de-nexo-do-imposto-sobre-vendas",
+      "heading": "Tipos de nexo do imposto sobre vendas",
+      "bodyMd": "O nexo do imposto sobre vendas é a conexão ou relação entre uma empresa e um estado ou jurisdição que cria a obrigação de recolher o imposto sobre vendas. Existem diferentes tipos de nexo do imposto sobre vendas que podem acionar a exigência de recolher e repassar o imposto sobre vendas, incluindo:\n\nO imposto de nexo (nexus tax), é um tipo de imposto ou tarifa aplicada por estados ou jurisdições a empresas que têm o nexo do imposto sobre vendas dentro de suas fronteiras.  O nexo do imposto sobre vendas é criado quando uma empresa tem uma conexão suficiente ou presença em um estado ou jurisdição, como uma presença física ou atividade econômica, que aciona uma obrigação de recolhimento do imposto sobre vendas.\n\nO imposto de nexo é calculado com base nas regras e taxas específicas do estado ou jurisdição em que a empresa tem um nexo do imposto sobre vendas.  Normalmente, o imposto de nexo é uma porcentagem do total de vendas ou receita gerada pela empresa dentro do estado ou jurisdição.  A porcentagem exata pode variar muito, dependendo do estado ou jurisdição, e alguns estados também podem cobrar taxas ou sobretaxas adicionais.\n\n**Pontos técnicos:**\n- **Nexo de direcionamento**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O nexo do imposto sobre vendas é a conexão ou relação entre uma empresa e um estado ou jurisdição que cria a obrigação de recolher o imposto sobre vendas. Existem diferentes tipos de nexo do imposto s…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "nexo-do-imposto-sobre-vendas",
+      "heading": "Nexo do imposto sobre vendas",
+      "bodyMd": "Nexo do imposto sobre vendas é um termo usado para descrever a conexão entre uma empresa e um governo estadual ou local que aciona a exigência de recolher e repassar o imposto sobre vendas. É o limite mínimo de atividade que uma empresa deve ter em um estado antes de ser obrigada a recolher e repassar o imposto sobre vendas nesse estado.\n\nO imposto de nexo (nexus tax), é um tipo de imposto ou tarifa aplicada por estados ou jurisdições a empresas que têm o nexo do imposto sobre vendas dentro de suas fronteiras.  O nexo do imposto sobre vendas é criado quando uma empresa tem uma conexão suficiente ou presença em um estado ou jurisdição, como uma presença física ou atividade econômica, que aciona uma obrigação de recolhimento do imposto sobre vendas.\n\nO imposto de nexo é calculado com base nas regras e taxas específicas do estado ou jurisdição em que a empresa tem um nexo do imposto sobre vendas.  Normalmente, o imposto de nexo é uma porcentagem do total de vendas ou receita gerada pela empresa dentro do estado ou jurisdição.  A porcentagem exata pode variar muito, dependendo do estado ou jurisdição, e alguns estados também podem cobrar taxas ou sobretaxas adicionais.\n\nExemplos de estados em que empresas com nexo do imposto sobre vendas são obrigadas a recolher e repassar impostos estaduais e locais sobre vendas tributáveis feitas no estado incluem:\n\n**Pontos técnicos:**\n- **Nexo de direcionamento**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O imposto de nexo (nexus tax), é um tipo de imposto ou tarifa aplicada por estados ou jurisdições a empresas que têm o nexo do imposto sobre vendas dentro de suas fronteiras. O nexo do imposto sobre v…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "criterios-para-estabelecer-o-nexo-do-imposto-sobre-vendas",
+      "heading": "Critérios para estabelecer o nexo do imposto sobre vendas",
+      "bodyMd": "Não há um conjunto universal de critérios para estabelecer o nexo do imposto sobre vendas, mas vários fatores são considerados para determinar se uma empresa tem essa obrigação fiscal em um estado ou jurisdição específica. Alguns dos critérios comuns para estabelecer o nexo do imposto sobre vendas:\n\n*   **Presença física**  \n    Uma presença física pode estabelecer o nexo do imposto sobre vendas em um estado ou jurisdição.  Isso pode incluir ter um escritório, loja, depósito ou outra propriedade física no estado, ou ter funcionários ou prestadores de serviços trabalhando no estado. \n    \n*   **Atividade econômica**  \n    Muitos estados adotaram leis de nexo econômico, que criam uma obrigação do imposto sobre vendas para empresas que atingem certos limites mínimos de vendas, transações ou receita gerada no estado.\n\n*   **Custos de conformidade**  \n    Um dos impactos mais significativos do nexo do imposto sobre vendas nas empresas é o custo de cumprir as leis tributárias estaduais e locais.  As empresas que estabeleceram o nexo em vários estados ou jurisdições podem precisar se cadastrar para obter autorizações do imposto sobre vendas (sales tax permits), recolher e repassar impostos sobre vendas tributáveis, fazer entregas regulares das declarações do imposto sobre vendas e manter registros detalhados de vendas e impostos recolhidos. \n    \n*   **Multas e juros**  \n    As empresas que não cumprirem os requisitos do nexo do imposto sobre vendas podem enfrentar penalidades e cobranças de juros por declarações ou pagamentos atrasados ou incorretos.\n\n**Pontos técnicos:**\n- **Atividade econômica**\n- **Relacionamento com afiliados**\n- **Relacionamentos de direcionamento**\n- **Custos de conformidade**\n- **Desvantagem competitiva**\n- **Danos reputacionais**\n- **Nexo de direcionamento**\n- **Automatização dos cálculos do imposto sobre vendas**\n- **Cobertura abrangente do imposto sobre vendas**\n- **Declaração e remessa simplificados**\n- **Soluções escaláveis para o imposto sobre vendas**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Não há um conjunto universal de critérios para estabelecer o nexo do imposto sobre vendas, mas vários fatores são considerados para determinar se uma empresa tem essa obrigação fiscal em um estado ou…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "impacto-do-nexo-do-imposto-sobre-vendas-nas-empresas",
+      "heading": "Impacto do nexo do imposto sobre vendas nas empresas",
+      "bodyMd": "O impacto do nexo do imposto sobre vendas nas empresas pode ser significativo, dependendo das circunstâncias e dos requisitos específicos de cada estado ou jurisdição. É importante que as empresas conheçam os estados e jurisdições onde elas têm nexo e seu impacto, incluindo:\n\n*   **Custos de conformidade**  \n    Um dos impactos mais significativos do nexo do imposto sobre vendas nas empresas é o custo de cumprir as leis tributárias estaduais e locais.  As empresas que estabeleceram o nexo em vários estados ou jurisdições podem precisar se cadastrar para obter autorizações do imposto sobre vendas (sales tax permits), recolher e repassar impostos sobre vendas tributáveis, fazer entregas regulares das declarações do imposto sobre vendas e manter registros detalhados de vendas e impostos recolhidos. \n    \n*   **Multas e juros**  \n    As empresas que não cumprirem os requisitos do nexo do imposto sobre vendas podem enfrentar penalidades e cobranças de juros por declarações ou pagamentos atrasados ou incorretos.\n\nO imposto de nexo (nexus tax), é um tipo de imposto ou tarifa aplicada por estados ou jurisdições a empresas que têm o nexo do imposto sobre vendas dentro de suas fronteiras.  O nexo do imposto sobre vendas é criado quando uma empresa tem uma conexão suficiente ou presença em um estado ou jurisdição, como uma presença física ou atividade econômica, que aciona uma obrigação de recolhimento do imposto sobre vendas.\n\n**Pontos técnicos:**\n- **Custos de conformidade**\n- **Desvantagem competitiva**\n- **Danos reputacionais**\n- **Nexo de direcionamento**\n- **Atividade econômica**\n- **Relacionamento com afiliados**\n- **Relacionamentos de direcionamento**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O impacto do nexo do imposto sobre vendas nas empresas pode ser significativo, dependendo das circunstâncias e dos requisitos específicos de cada estado ou jurisdição. É importante que as empresas con…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "etapas-que-as-empresas-podem-seguir-para-cumprir-as-leis-do-nexo-do-imposto-sobr",
+      "heading": "Etapas que as empresas podem seguir para cumprir as leis do nexo do imposto sobre vendas",
+      "bodyMd": "Cumprir as leis do nexo do imposto sobre vendas pode ser uma tarefa complexa e desafiadora para as empresas, especialmente aquelas que têm obrigações tributárias em vários estados ou jurisdições. Veja a seguir algumas etapas que as empresas podem seguir para cumprir as leis do nexo:\n\n*   **Custos de conformidade**  \n    Um dos impactos mais significativos do nexo do imposto sobre vendas nas empresas é o custo de cumprir as leis tributárias estaduais e locais.  As empresas que estabeleceram o nexo em vários estados ou jurisdições podem precisar se cadastrar para obter autorizações do imposto sobre vendas (sales tax permits), recolher e repassar impostos sobre vendas tributáveis, fazer entregas regulares das declarações do imposto sobre vendas e manter registros detalhados de vendas e impostos recolhidos. \n    \n*   **Multas e juros**  \n    As empresas que não cumprirem os requisitos do nexo do imposto sobre vendas podem enfrentar penalidades e cobranças de juros por declarações ou pagamentos atrasados ou incorretos.\n\n*   **Presença física**  \n    Uma presença física pode estabelecer o nexo do imposto sobre vendas em um estado ou jurisdição.  Isso pode incluir ter um escritório, loja, depósito ou outra propriedade física no estado, ou ter funcionários ou prestadores de serviços trabalhando no estado. \n    \n*   **Atividade econômica**  \n    Muitos estados adotaram leis de nexo econômico, que criam uma obrigação do imposto sobre vendas para empresas que atingem certos limites mínimos de vendas, transações ou receita gerada no estado.\n\n**Pontos técnicos:**\n- **Custos de conformidade**\n- **Desvantagem competitiva**\n- **Danos reputacionais**\n- **Atividade econômica**\n- **Relacionamento com afiliados**\n- **Relacionamentos de direcionamento**\n- **Determine onde você tem nexo do imposto sobre vendas**\n- **Cadastre-se para obter uma autorização do imposto sobre vendas**\n- **Recolha e repasse o imposto sobre vendas**\n- **Mantenha registros detalhados**\n- **Mantenha-se atualizado sobre os requisitos do nexo do imposto sobre vendas**\n- **Automatização dos cálculos do imposto sobre vendas**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Cumprir as leis do nexo do imposto sobre vendas pode ser uma tarefa complexa e desafiadora para as empresas, especialmente aquelas que têm obrigações tributárias em vários estados ou jurisdições. Veja…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-a-stripe-pode-ajudar",
+      "heading": "Como a Stripe pode ajudar",
+      "bodyMd": "Para empresas que desejam lidar com impostos, conformidade e monitoramento contínuo de mudanças em leis e regulamentos com a abordagem mais eficiente possível, existem soluções tecnológicas que eliminam o trabalho manual que tradicionalmente é necessário para gerenciar essas preocupações. O [Stripe Tax](https://stripe.com/br/tax) é uma solução tributária abrangente que ajuda as empresas a automatizar o cálculo, o recolhimento e a declaração de impostos sobre pagamentos em todo o mundo, tudo isso com uma única integração. O Tax também ajuda as empresas a saber onde se cadastrar e recolhe automaticamente o valor certo dos impostos, além de gerar todos os relatórios de que uma empresa precisa para entregar suas declarações fiscais.\n\n*   **Automatização dos cálculos do imposto sobre vendas**  \n    O Stripe Tax usa alíquotas e regras do imposto sobre vendas em tempo real para calcular automaticamente o imposto em cada transação, levando em consideração os requisitos específicos de nexo em cada estado ou jurisdição onde a empresa tem essa obrigação tributária.  Isso pode ajudar as empresas a garantir o recolhimento do valor correto do imposto sobre vendas e evitar possíveis problemas de conformidade. \n    \n*   **Cobertura abrangente do imposto sobre vendas**  \n    O Stripe Tax lida com os requisitos do nexo do imposto sobre vendas em todos os 50 estados dos EUA e Washington D.\n\n*   **Determine onde você tem nexo do imposto sobre vendas**  \n    A primeira etapa para cumprir as leis tributárias é determinar onde sua empresa tem uma obrigação referente ao imposto sobre vendas.  Para isso, talvez você precise identificar onde sua empresa tem presença física, atividade econômica, relacionamentos com afiliados ou relacionamentos de direcionamento e entender os requisitos do nexo do imposto sobre vendas de cada estado ou jurisdição onde você tem atividades comerciais. \n    \n*   **Cadastre-se para obter uma autorização do imposto sobre vendas**  \n    Depois de determinar onde tem obrigação de recolher o imposto sobre vendas, você precisa se cadastrar para obter uma autorização de recolhimento desse imposto (sales tax permit) em cada estado ou jurisdição onde tem nexo.\n\nVeja como o [Stripe Tax pode beneficiar as empresas especificamente na questão do nexo do imposto sobre vendas](https://stripe.\n\n**Pontos técnicos:**\n- **Automatização dos cálculos do imposto sobre vendas**\n- **Cobertura abrangente do imposto sobre vendas**\n- **Declaração e remessa simplificados**\n- **Soluções escaláveis para o imposto sobre vendas**\n- **Determine onde você tem nexo do imposto sobre vendas**\n- **Cadastre-se para obter uma autorização do imposto sobre vendas**\n- **Recolha e repasse o imposto sobre vendas**\n- **Mantenha registros detalhados**\n- **Mantenha-se atualizado sobre os requisitos do nexo do imposto sobre vendas**\n- **Nexo de direcionamento**",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "* **Automatização dos cálculos do imposto sobre vendas** O Stripe Tax usa alíquotas e regras do imposto sobre vendas em tempo real para calcular automaticamente o imposto em cada transação, le…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:01:21.141Z",
+  "synthesizedAt": "2026-06-22T14:44:21.515Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "gaps",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_nexus-tax-101.json"
+  ]
+}

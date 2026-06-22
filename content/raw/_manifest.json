@@ -1,0 +1,685 @@
+{
+  "runs": [
+    {
+      "startedAt": "2026-06-22T12:59:29.891Z",
+      "domains": {
+        "payfelix.com": {
+          "success": [
+            {
+              "url": "https://payfelix.com/emv-certification-levels",
+              "method": "fetch",
+              "title": "EMV certification levels"
+            },
+            {
+              "url": "https://payfelix.com/emv-payment-solution-on-your-devices",
+              "method": "fetch",
+              "title": "How to offer an EMV payment solution on your devices"
+            }
+          ],
+          "failed": []
+        },
+        "stripe.com": {
+          "success": [
+            {
+              "url": "https://stripe.com/br/resources/more/what-are-emv-chip-cards",
+              "method": "fetch",
+              "title": "O que são cartões com chip EMV? Como o EMV funciona | StripePayments"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/what-are-card-not-present-transactions",
+              "method": "fetch",
+              "title": "Transações sem apresentação de cartão (CNP) | StripePayments"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more",
+              "method": "fetch",
+              "title": "Mais recursos | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/payments",
+              "method": "fetch",
+              "title": "Recursos de pagamento | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/tap-to-pay",
+              "method": "fetch",
+              "title": "O que são pagamentos tap to pay e como aceitá-los | StripePayments"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/chargebacks-101",
+              "method": "fetch",
+              "title": "Estornos: o que são e como as empresas podem preveni-los | StripeRadar"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/what-is-address-verification-service",
+              "method": "fetch",
+              "title": "O que é serviço de verificação de endereço (AVS)? | StripeRadar"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/accounting-reconciliation-101",
+              "method": "fetch",
+              "title": "Reconciliação contábil: o que é e como fazer | StripeRevenue Recognition"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/reserve-accounts",
+              "method": "fetch",
+              "title": "Contas reserva: por que toda empresa precisa de uma | StripeRevenue Recognition"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/business-bank-accounts-101",
+              "method": "fetch",
+              "title": "Contas bancárias empresariais: um guia para empresas | StripeRevenue Recognition"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/accounting",
+              "method": "fetch",
+              "title": "Recursos de contabilidade | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/what-is-monthly-recurring-revenue",
+              "method": "fetch",
+              "title": "Explicação sobre a receita mensal recorrente (MRR) | StripeBilling"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/essential-saas-metrics",
+              "method": "fetch",
+              "title": "Métricas de SaaS: um guia completo para acompanhar o crescimento da empresa | StripeBilling"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/net-revenue-retention",
+              "method": "fetch",
+              "title": "Retenção de receita líquida (NRR) para empresas de SaaS | StripeStripe Sigma"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/billing",
+              "method": "fetch",
+              "title": "Cobrança"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/how-to-form-an-llc",
+              "method": "fetch",
+              "title": "Como constituir uma LLC: um guia para novas empresas | StripeAtlas"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/strategies-enterprise-businesses-can-use-to-increase-revenue",
+              "method": "fetch",
+              "title": "Como aumentar a receita de empresas | StripePayments"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/ecommerce-checkout-best-practices",
+              "method": "fetch",
+              "title": "Práticas recomendadas de checkout para e-commerce | StripeCheckout"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/business",
+              "method": "fetch",
+              "title": "Empresa"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/how-to-check-if-a-business-name-is-taken",
+              "method": "fetch",
+              "title": "Como verificar se um nome de empresa já existe | StripeAtlas"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/what-is-a-c-corp",
+              "method": "fetch",
+              "title": "Explicamos as empresas tipo C | StripeAtlas"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/what-is-a-delaware-corporation",
+              "method": "fetch",
+              "title": "O que é uma corporação de Delaware? | StripeAtlas"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/business-formation",
+              "method": "fetch",
+              "title": "Recursos para formação de empresas | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/invoice-reconciliation",
+              "method": "fetch",
+              "title": "Reconciliação de faturas: tudo que as empresas devem saber | StripeInvoicing"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/what-is-an-invoice",
+              "method": "fetch",
+              "title": "O que é uma fatura? | StripeInvoicing"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/when-to-invoice-a-customer",
+              "method": "fetch",
+              "title": "Quando faturar um cliente: Práticas recomendadas e erros | StripeInvoicing"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/invoicing",
+              "method": "fetch",
+              "title": "Recursos de faturamento | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/card-issuing-101",
+              "method": "fetch",
+              "title": "O que é emissão de cartões? O que as empresas precisam saber | StripeIssuing"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/applying-for-corporate-credit-cards-a-guide",
+              "method": "fetch",
+              "title": "Como solicitar um cartão de crédito corporativo | StripeIssuing"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/virtual-credit-cards-for-businesses-explained",
+              "method": "fetch",
+              "title": "O que são cartões virtuais para empresas? | StripeIssuing"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/issuing",
+              "method": "fetch",
+              "title": "Emissão"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/embedded-finance-vs-banking-as-a-service",
+              "method": "fetch",
+              "title": "Finanças integradas x banco como serviço (BaaS) | StripeConnect"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/api-banking-101",
+              "method": "fetch",
+              "title": "API banking: o que é e como funciona | StripeConnect"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/embedded-lending-101",
+              "method": "fetch",
+              "title": "Guia sobre crédito integrado | StripeCapital"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/money-management",
+              "method": "fetch",
+              "title": "Gestão dos valores"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/card-authorization-explained",
+              "method": "fetch",
+              "title": "Autorização de cartão explicada: como funciona e o que as empresas precisam saber | StripePayments"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/accept-payments-online-without-a-merchant-account",
+              "method": "fetch",
+              "title": "Como aceitar pagamentos online sem uma conta de comerciante | StripePayments"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/payment-links",
+              "method": "fetch",
+              "title": "Guia sobre como usar links de pagamento para vendas simplificadas | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/eight-ways-to-reduce-chargebacks",
+              "method": "fetch",
+              "title": "Oito formas de reduzir estornos para sua empresa | StripeRadar"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/representment-explained",
+              "method": "fetch",
+              "title": "O que é reapresentação de estornos? | StripePayments"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/risk-management",
+              "method": "fetch",
+              "title": "Gerenciamento de riscos | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/market-research-for-startups",
+              "method": "fetch",
+              "title": "Como fazer pesquisa de mercado para uma startup | StripeAtlas"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/pitching-venture-capitalists",
+              "method": "fetch",
+              "title": "Treze dicas essenciais para fazer apresentações a venture capitalists | StripeAtlas"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/series-a-funding",
+              "method": "fetch",
+              "title": "Quando você deve buscar financiamento de Série A? | StripeAtlas"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/startups",
+              "method": "fetch",
+              "title": "Recursos para startups | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/sales-tax-vs-use-tax",
+              "method": "fetch",
+              "title": "Imposto sobre vendas vs. imposto sobre uso | StripeTax"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/what-is-sales-tax",
+              "method": "fetch",
+              "title": "O que é imposto sobre vendas? | StripeTax"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/nexus-tax-101",
+              "method": "fetch",
+              "title": "Um guia sobre o nexo do imposto sobre vendas | StripeTax"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/tax",
+              "method": "fetch",
+              "title": "Recursos fiscais | Stripe"
+            },
+            {
+              "url": "https://stripe.com/br/resources/more/conversational-commerce-in-japan",
+              "method": "fetch",
+              "title": "Por que o comércio conversacional está crescendo no Japão | StripePayments"
+            }
+          ],
+          "failed": []
+        },
+        "emvco.com": {
+          "success": [
+            {
+              "url": "https://www.emvco.com/knowledge-hub/what-are-emv-level-1-and-level-2-testing",
+              "method": "fetch",
+              "title": "What are EMV® Level 1 and Level 2 Testing?"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/mobile",
+              "method": "fetch",
+              "title": "EMV® Mobile"
+            },
+            {
+              "url": "https://www.emvco.com/about-us",
+              "method": "fetch",
+              "title": "Overview of EMVCo"
+            },
+            {
+              "url": "https://www.emvco.com/news",
+              "method": "fetch",
+              "title": "News"
+            },
+            {
+              "url": "https://www.emvco.com/trademark-centre",
+              "method": "fetch",
+              "title": "Trademark Centre"
+            },
+            {
+              "url": "https://www.emvco.com/knowledge-hub",
+              "method": "fetch",
+              "title": "Knowledge Hub"
+            },
+            {
+              "url": "https://www.emvco.com/contact",
+              "method": "fetch",
+              "title": "Contact EMVCo"
+            },
+            {
+              "url": "https://www.emvco.com/",
+              "method": "fetch",
+              "title": "Enabling Seamless and Secure Payments Worldwide"
+            },
+            {
+              "url": "https://www.emvco.com/why-emv",
+              "method": "fetch",
+              "title": "Why EMV®?"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies",
+              "method": "fetch",
+              "title": "EMV® Technologies"
+            },
+            {
+              "url": "https://www.emvco.com/emvco-website-search",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/approved-evaluated",
+              "method": "fetch",
+              "title": "Approved & Evaluated"
+            },
+            {
+              "url": "https://www.emvco.com/registered",
+              "method": "fetch",
+              "title": "Registered"
+            },
+            {
+              "url": "https://www.emvco.com/industry-collaboration",
+              "method": "fetch",
+              "title": "Industry Collaboration"
+            },
+            {
+              "url": "https://www.emvco.com/processes/card-mobile-laboratory-recognition-process",
+              "method": "fetch",
+              "title": "Laboratory Recognition Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes-category/product-approval-process?sub_category=634",
+              "method": "fetch",
+              "title": "Product Approval or Assessment Process"
+            },
+            {
+              "url": "https://www.emvco.com/service-providers?type=card_and_mobile",
+              "method": "fetch",
+              "title": "Recognised Laboratories, Auditors and Qualified Test Tools"
+            },
+            {
+              "url": "https://www.emvco.com/approved-products?type=card_and_mobile",
+              "method": "fetch",
+              "title": "Approved Products"
+            },
+            {
+              "url": "https://www.emvco.com/processes/acceptance-device-laboratory-recognition-process",
+              "method": "fetch",
+              "title": "Laboratory Recognition Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes-category/product-approval-process-acceptance-device",
+              "method": "fetch",
+              "title": "Product Approval Process"
+            },
+            {
+              "url": "https://www.emvco.com/service-providers?type=acceptance_device",
+              "method": "fetch",
+              "title": "Recognised Laboratories, Auditors and Qualified Test Tools"
+            },
+            {
+              "url": "https://www.emvco.com/approved-products?type=acceptance_device",
+              "method": "fetch",
+              "title": "Approved Products"
+            },
+            {
+              "url": "https://www.emvco.com/processes/3-d-secure-laboratory-recognition-process",
+              "method": "fetch",
+              "title": "Laboratory Recognition Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes/test-platform-provider-qualification-and-recognition-process",
+              "method": "fetch",
+              "title": "Test Platform Provider Qualification and Recognition Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes/emv-3-d-secure-approval-processes",
+              "method": "fetch",
+              "title": "Product Approval Process"
+            },
+            {
+              "url": "https://www.emvco.com/service-providers?type=3-d_secure",
+              "method": "fetch",
+              "title": "Recognised Laboratories, Auditors and Test Platform Providers"
+            },
+            {
+              "url": "https://www.emvco.com/approved-products?type=3-d_secure",
+              "method": "fetch",
+              "title": "Approved Products"
+            },
+            {
+              "url": "https://www.emvco.com/processes-category/product-evaluation-process?sub_category=639",
+              "method": "fetch",
+              "title": "Product Evaluation Process"
+            },
+            {
+              "url": "https://www.emvco.com/service-providers?type=security_evaluation",
+              "method": "fetch",
+              "title": "Recognised Laboratories"
+            },
+            {
+              "url": "https://www.emvco.com/approved-products?type=security_evaluation",
+              "method": "fetch",
+              "title": "Evaluated Products"
+            },
+            {
+              "url": "https://www.emvco.com/processes/qualification-service-provider",
+              "method": "fetch",
+              "title": "Qualification Service Provider"
+            },
+            {
+              "url": "https://www.emvco.com/processes/l3-test-tool-qualification-process",
+              "method": "fetch",
+              "title": "L3 Test Tool Qualification Process"
+            },
+            {
+              "url": "https://www.emvco.com/service-providers?search_bar_keywords=l3&tax[service-providers_categories][57][]=138,140&type=level_3",
+              "method": "fetch",
+              "title": "Qualified Test Tools"
+            },
+            {
+              "url": "https://www.emvco.com/registered-ids",
+              "method": "fetch",
+              "title": "Registered IDs"
+            },
+            {
+              "url": "https://www.emvco.com/processes-category/registration-processes?sub_category=417",
+              "method": "fetch",
+              "title": "Registration Processes"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?meta%5Breview%5D=public",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?meta%5Breview%5D=associates",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=84",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=477",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=35",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=624",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=36",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=83",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=81",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B32%5D%5B%5D=429",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=38",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=80",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=447",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=82",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/specifications?tax%5Bspecifications_categories%5D%5B33%5D%5B%5D=430",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/what-are-emv-specifications",
+              "method": "fetch",
+              "title": "What are EMV® Specifications?"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/3-d-secure",
+              "method": "fetch",
+              "title": "EMV® 3-D Secure"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/emv-contact-chip",
+              "method": "fetch",
+              "title": "EMV® Contact Chip"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/emv-contactless-chip",
+              "method": "fetch",
+              "title": "EMV® Contactless Chip"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/emv-electric-vehicle-open-payments",
+              "method": "fetch",
+              "title": "EMV® Electric Vehicle Open Payments (EVOP)"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/emv-level-3-testing",
+              "method": "fetch",
+              "title": "EMV® Level 3 Testing"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/payment-tokenisation",
+              "method": "fetch",
+              "title": "EMV® Payment Tokenisation"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/qr-codes",
+              "method": "fetch",
+              "title": "EMV® QR Codes"
+            },
+            {
+              "url": "https://www.emvco.com/emv-technologies/secure-remote-commerce",
+              "method": "fetch",
+              "title": "EMV® Secure Remote Commerce"
+            },
+            {
+              "url": "https://www.emvco.com/industry-collaboration/emvco-associates-subscribers",
+              "method": "fetch",
+              "title": "EMVCo Associates & Subscribers"
+            },
+            {
+              "url": "https://www.emvco.com/industry-collaboration/industry-partners-liaisons",
+              "method": "fetch",
+              "title": "Industry Partners & Liaisons"
+            },
+            {
+              "url": "https://www.emvco.com/industry-collaboration/ways-to-participate",
+              "method": "fetch",
+              "title": "Ways to Participate"
+            },
+            {
+              "url": "https://www.emvco.com/events",
+              "method": "fetch",
+              "title": "Events"
+            },
+            {
+              "url": "https://www.emvco.com/service-providers?search_bar_keywords=l3&tax%5Bservice-providers_categories%5D%5B57%5D%5B%5D=138,140&type=level_3",
+              "method": "fetch",
+              "title": "Qualified Test Tools"
+            },
+            {
+              "url": "https://www.emvco.com/knowledge-hub-category/emv-insights",
+              "method": "fetch",
+              "title": "EMV® Insights"
+            },
+            {
+              "url": "https://www.emvco.com/author/arman-aygenemvco-com",
+              "method": "fetch",
+              "title": "About Arman Aygen"
+            },
+            {
+              "url": "https://www.emvco.com/wp-content/uploads/2025/06/EMVCo_WEB_HEADERS_APR25_2-2340x960.png",
+              "method": "fetch",
+              "title": "Untitled"
+            },
+            {
+              "url": "https://www.emvco.com/news/emvco-launches-new-testing-process-to-support-the-use-of-taptomobile-devices-for-contactless-payment-acceptance",
+              "method": "fetch",
+              "title": "EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance"
+            },
+            {
+              "url": "https://www.emvco.com/processes/contact-kernel-approval-process",
+              "method": "fetch",
+              "title": "Contact Kernel Approval Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes/contactless-product-approval-process",
+              "method": "fetch",
+              "title": "Contactless Product Approval Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes/mobile-level-1-approval-process",
+              "method": "fetch",
+              "title": "Mobile Level 1 Approval Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes/wearable-level-1-approval-process",
+              "method": "fetch",
+              "title": "Wearable Level 1 Approval Process"
+            },
+            {
+              "url": "https://www.emvco.com/processes/mobile-cmp-ppse-approval-process",
+              "method": "fetch",
+              "title": "Mobile CMP/PPSE Approval Process"
+            },
+            {
+              "url": "https://www.emvco.com/wp-content/uploads/2025/10/EMVCo-Approvals_Evaluations_eBook_FINAL-TAGGED.pdf",
+              "method": "fetch",
+              "title": "Untitled"
+            },
+            {
+              "url": "https://www.emvco.com/knowledge-hub/what-is-level-3-terminal-integration-testing",
+              "method": "fetch",
+              "title": "What is EMV® Level 3 Testing?"
+            },
+            {
+              "url": "https://www.emvco.com/knowledge-hub/emv-technologies-2023-priorities",
+              "method": "fetch",
+              "title": "EMV® Technologies: 2023 Priorities"
+            },
+            {
+              "url": "https://www.emvco.com/knowledge-hub/how-emvco-is-supporting-card-data-encryption-advancements-for-card-personalisation",
+              "method": "fetch",
+              "title": "How EMVCo is Supporting Card Data Encryption Advancements for Card Personalisation"
+            },
+            {
+              "url": "https://www.emvco.com/emvco-website-search?type=specifications&spec_technologies=3-D%2520Secure",
+              "method": "fetch",
+              "title": "Document Search"
+            },
+            {
+              "url": "https://www.emvco.com/emvco-website-search?type=specifications&spec_technologies=Contact",
+              "method": "fetch",
+              "title": "Document Search"
+            }
+          ],
+          "failed": []
+        }
+      },
+      "finishedAt": "2026-06-22T13:05:25.934Z"
+    }
+  ]
+}

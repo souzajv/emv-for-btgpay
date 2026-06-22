@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/emv-technologies/emv-level-3-testing",
+  "method": "fetch",
+  "title": "EMV® Level 3 Testing",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "EMV® Level 3 Testing",
+      "bodyMd": "EMV L3 testing is defined by each payment system’s policies. EMVCo supports this by defining a set of standardised L3 test tool technical components – the EMV L3 Testing Framework – and a streamlined qualification process for L3 test tools.\n\nFor EMV L3 testing, the test cases are provided by the ‘Participant Systems.’ This term refers to payment systems and other entities that elect to use the EMV L3 Testing Framework and EMVCo L3 Test Tool Qualification Process.\n\nEMVCo qualified L3 test tools are listed on the [EMVCo website](https://www.emvco.com/service-providers/?search_bar_keywords=L3) for use by acquirers and processors in achieving L3 testing and certification with the Participant Systems.\n\nEMVCo also manages an L3 Participant System Identifier (PSI) service to allow domestic payment systems (and other similar entities) to use the EMV L3 Testing Framework."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:18.618Z",
+  "sourceUrl": "https://www.emvco.com/emv-technologies/emv-level-3-testing"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "emvco-com-emv-insights",
+  "sourceUrl": "https://www.emvco.com/knowledge-hub-category/emv-insights",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "EMV® Insights",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "EMV® Insights",
+      "bodyMd": "Conteúdo sobre **EMV® Insights** conforme documentação EMV aplicável.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "#### Highlights from the EMVCo Singapore Technical Meeting",
+        "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub-category_emv-insights.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:04:44.013Z",
+  "synthesizedAt": "2026-06-22T14:44:21.186Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/emvco.com/www.emvco.comknowledge-hub-category_emv-insights.json"
+  ]
+}

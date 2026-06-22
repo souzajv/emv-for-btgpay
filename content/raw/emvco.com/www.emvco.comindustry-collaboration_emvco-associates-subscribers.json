@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/industry-collaboration/emvco-associates-subscribers",
+  "method": "fetch",
+  "title": "EMVCo Associates & Subscribers",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "EMVCo Associates & Subscribers",
+      "bodyMd": "![](https://www.emvco.com/wp-content/uploads/2022/10/icon_associates-subscribers_access.svg)\n\nAccess\n\nAccess draft EMV Specifications and documentation prior to publication. Interact with EMVCo technical working groups and task forces."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:04:30.142Z",
+  "sourceUrl": "https://www.emvco.com/industry-collaboration/emvco-associates-subscribers"
+}

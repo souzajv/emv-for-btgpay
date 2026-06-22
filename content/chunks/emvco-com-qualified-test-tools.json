@@ -1,0 +1,26 @@
+{
+  "id": "emvco-com-qualified-test-tools",
+  "sourceUrl": "https://www.emvco.com/service-providers?search_bar_keywords=l3&tax%5Bservice-providers_categories%5D%5B57%5D%5B%5D=138,140&type=level_3",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "Qualified Test Tools",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Qualified Test Tools",
+      "bodyMd": "Esta seção aborda **Qualified Test Tools** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.\n\nConforme a documentação fonte: Esta seção aborda **Qualified Test Tools** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.  (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).\n\n**Pontos técnicos:**\n- *Extrato estruturado da fonte:**\n- Applus+ Laboratories, LGAI Technological Center S.  A.\n\n**Pontos técnicos:**\n- *Extrato estruturado da fonte:**\n- Applus+ Laboratories, LGAI Technological Center S. A.\n- Contact L1 Contact L2 Contactless L1 Contactless C-3 Contactless C-4 Contactless C-6 ESD",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Esta seção aborda **Qualified Test Tools** no contexto das especificações e diretrizes EMV aplicáveis a terminais, adquirentes e aceitação de pagamentos com chip e contactless.",
+        "sourceRel": "https://www.emvco.com/service-providers?search_bar_keywords=l3&tax%5Bservice-providers_categories%5D%5B57%5D%5B%5D=138,140&type=level_3",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:04:41.171Z",
+  "synthesizedAt": "2026-06-22T14:44:21.230Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": []
+}

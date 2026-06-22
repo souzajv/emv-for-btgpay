@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/processes/emv-3-d-secure-approval-processes",
+  "method": "fetch",
+  "title": "Product Approval Process",
+  "sections": [
+    {
+      "anchorId": "conteudo-principal",
+      "heading": "Product Approval Process",
+      "bodyMd": "STEP 1 Provider\n\n*   Completes the EMVCo Registration Form via EMVCo website to receive a contract.\n*   Returns the signed contract to EMVCo Registration Number."
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:02:43.056Z",
+  "sourceUrl": "https://www.emvco.com/processes/emv-3-d-secure-approval-processes"
+}

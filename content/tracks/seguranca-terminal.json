@@ -1,0 +1,34 @@
+{
+  "id": "track-seguranca",
+  "slug": "seguranca-terminal",
+  "title": "Segurança de Terminal",
+  "description": "PCI, ambiente seguro, chaves e o que o dev mobile não deve fazer.",
+  "order": 4,
+  "estimatedMinutes": 40,
+  "modules": [
+    {
+      "id": "mod-ambiente-seguro",
+      "title": "Ambiente seguro",
+      "summary": "Boundary entre Flutter e kernel certificado.",
+      "chunkIds": ["seguranca-terminal"],
+      "sectionAnchorIds": ["ambiente-seguro"],
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "mod-pci",
+      "title": "Escopo PCI",
+      "summary": "PAN, logs e tokenização.",
+      "chunkIds": ["seguranca-terminal"],
+      "sectionAnchorIds": ["pci-escopo"],
+      "estimatedMinutes": 15
+    },
+    {
+      "id": "mod-attestation",
+      "title": "Integridade do app",
+      "summary": "Attestation e dispositivos comprometidos.",
+      "chunkIds": ["tap-to-mobile-guidelines"],
+      "sectionAnchorIds": ["attestation"],
+      "estimatedMinutes": 10
+    }
+  ]
+}

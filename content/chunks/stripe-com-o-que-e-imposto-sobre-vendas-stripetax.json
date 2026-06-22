@@ -1,0 +1,94 @@
+{
+  "id": "stripe-com-o-que-e-imposto-sobre-vendas-stripetax",
+  "sourceUrl": "https://stripe.com/br/resources/more/what-is-sales-tax",
+  "sourceType": "web",
+  "category": "fundamentos",
+  "title": "O que é imposto sobre vendas? | StripeTax",
+  "sections": [
+    {
+      "anchorId": "o-que-e-imposto-sobre-vendas",
+      "heading": "O que é imposto sobre vendas?",
+      "bodyMd": "O imposto sobre vendas é um tipo de [imposto indireto](https://stripe.com/br/resources/more/indirect-taxes) cobrados sobre as vendas de certos bens e serviços nos EUA. É chamado de \"imposto indireto\" porque é cobrado da empresa, mas pago pelo cliente. A empresa recolhe o imposto do cliente e é responsável pelo envio (remessa) do imposto ao órgão governamental competente em uma data de vencimento definida.\n\nEstados e municípios usam a receita do imposto sobre vendas para pagar projetos como escolas, estradas e iniciativas de segurança pública.  Nos EUA, o imposto sobre vendas é regulamentado principalmente em nível estadual, e cada estado tem leis e regras diferentes.  Alguns estados se referem ao imposto sobre vendas como imposto sobre privilégios de transação ou imposto especial de consumo geral, mas o conceito permanece o mesmo.\n\nO imposto sobre vendas é regido em nível estadual, o que pode tornar a manutenção da conformidade com o imposto sobre vendas um desafio.\n\n**Pontos técnicos:**\n- Quais produtos e serviços são tributáveis\n- Isenções baseadas no cliente\n- Quanto do imposto sobre vendas é cobrado\n- Com que frequência os vendedores são obrigados a apresentar declarações de imposto sobre vendas\n- Data de vencimento das declarações de imposto sobre vendas",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O imposto sobre vendas é um tipo de [imposto indireto](https://stripe.com/br/resources/more/indirect-taxes) cobrados sobre as vendas de certos bens e serviços nos EUA. É chamado de \"imposto indireto\"…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "quando-devo-recolher-impostos-sobre-vendas-dos-clientes",
+      "heading": "Quando devo recolher impostos sobre vendas dos clientes?",
+      "bodyMd": "Geralmente, empresas de fora do estado e estrangeiras são obrigadas a recolher impostos sobre vendas de clientes quando excedem certos limites. Esses limites são chamados de \"limites de nexo econômico\" e são baseados em receita ou transação, ou ambos. Por exemplo, no estado da Geórgia, as empresas só precisam recolher impostos sobre vendas de clientes que excederam US$ 100.000 em receita ou 200 transações de clientes na Geórgia. Alguns estados têm apenas limites de receita ou exigem que as empresas excedam os limites de receita e transação antes de recolher o imposto sobre vendas. Como o imposto sobre vendas é regido em nível estadual, esses limites variam nos EUA.\n\nAntes de cobrar e recolher impostos sobre vendas de clientes, você precisa se registrar para obter uma permissão de imposto sobre vendas.  Como o imposto sobre vendas é regido por cada estado, você deve se registrar individualmente em cada estado depois de cumprir os requisitos de registro, que são baseados em fatores como presença física e volume de transações.  Alguns estados também podem exigir o registro em nível local.\n\nNo entanto, só porque você atingiu um limite de nexo em um estado não significa que você é obrigado a recolher imposto sobre vendas.  Nem todos os bens e serviços são tributáveis e, se os itens que você vende não são tributáveis, não é obrigatório recolher imposto sobre vendas sobre esses itens.  No entanto, você ainda pode ter a obrigação de se registrar.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Geralmente, empresas de fora do estado e estrangeiras são obrigadas a recolher impostos sobre vendas de clientes quando excedem certos limites. Esses limites são chamados de \"limites de nexo econômico…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "qual-e-a-aliquota-do-imposto-sobre-vendas-nos-eua",
+      "heading": "Qual é a alíquota do imposto sobre vendas nos EUA?",
+      "bodyMd": "Na maioria dos estados, há uma alíquota estadual de imposto sobre vendas, e muitos estados têm alíquotas adicionais de impostos sobre vendas locais em nível de condado, municipal e distrito. Uma alíquota de imposto sobre vendas para qualquer estado específico incluiria a alíquota de imposto sobre vendas em todo o estado mais quaisquer alíquotas de imposto sobre vendas locais. Para colocar em perspectiva, existem mais de 11.000 jurisdições fiscais nos EUA, todas com diferentes taxas e regulamentações. É importante observar que há cinco estados que não têm um imposto sobre vendas em todo o estado: Alasca, Delaware, Montana, New Hampshire e Oregon. No entanto, ainda pode haver alíquotas locais de imposto sobre vendas a serem consideradas nesses estados.\n\nHá uma exceção para os estados que participam do Acordo Fiscal sobre Vendas e Uso Simplificado (SSUTA).  Este acordo foi criado para simplificar e modernizar a administração do imposto sobre vendas, que inclui o [processo de registro do imposto sobre vendas](https://stripe. com/br/guides/sales-tax-registration-process-us).\n\nPara determinar a alíquota correta do imposto sobre vendas, pesquise individualmente cada estado e jurisdição para garantir o recolhimento correto do imposto.  Como alternativa, use nossa \\[calculadora de imposto sobre vendas\\] gratuita(https://stripe. com/guides/tools/sales-tax-calculator) para procurar rapidamente o alíquota.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Na maioria dos estados, há uma alíquota estadual de imposto sobre vendas, e muitos estados têm alíquotas adicionais de impostos sobre vendas locais em nível de condado, municipal e distrito. Uma alíqu…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "o-que-e-alvara-de-imposto-sobre-vendas",
+      "heading": "O que é alvará de imposto sobre vendas?",
+      "bodyMd": "Antes de cobrar e recolher impostos sobre vendas de clientes, você precisa se registrar para obter uma permissão de imposto sobre vendas. Como o imposto sobre vendas é regido por cada estado, você deve se registrar individualmente em cada estado depois de cumprir os requisitos de registro, que são baseados em fatores como presença física e volume de transações. Alguns estados também podem exigir o registro em nível local. Para solicitar uma autorização de imposto sobre vendas, você precisará de dados comerciais gerais. Alguns estados cobram uma pequena tarifa pelo registro. As inscrições são feitas online, e você encontrará os links de inscrição [aqui](https://stripe.com/br/docs/tax/registering).\n\nO imposto sobre vendas é um tipo de [imposto indireto](https://stripe. com/br/resources/more/indirect-taxes) cobrados sobre as vendas de certos bens e serviços nos EUA.  É chamado de \"imposto indireto\" porque é cobrado da empresa, mas pago pelo cliente.\n\nEstados e municípios usam a receita do imposto sobre vendas para pagar projetos como escolas, estradas e iniciativas de segurança pública.  Nos EUA, o imposto sobre vendas é regulamentado principalmente em nível estadual, e cada estado tem leis e regras diferentes.  Alguns estados se referem ao imposto sobre vendas como imposto sobre privilégios de transação ou imposto especial de consumo geral, mas o conceito permanece o mesmo.\n\nO imposto sobre vendas é regido em nível estadual, o que pode tornar a manutenção da conformidade com o imposto sobre vendas um desafio.\n\n**Pontos técnicos:**\n- Quais produtos e serviços são tributáveis\n- Isenções baseadas no cliente\n- Quanto do imposto sobre vendas é cobrado\n- Com que frequência os vendedores são obrigados a apresentar declarações de imposto sobre vendas\n- Data de vencimento das declarações de imposto sobre vendas",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "O imposto sobre vendas é um tipo de [imposto indireto](https://stripe.com/br/resources/more/indirect-taxes) cobrados sobre as vendas de certos bens e serviços nos EUA. É chamado de \"imposto indireto\"…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "como-declarar-e-repassar-imposto-sobre-vendas",
+      "heading": "Como declarar e repassar imposto sobre vendas",
+      "bodyMd": "Depois de recolher o imposto sobre vendas dos clientes, você entregará uma declaração de imposto sobre vendas e remeterá o imposto recolhido para a autoridade fiscal estadual ou outra autoridade fiscal local correta. O site de cada autoridade fiscal estadual terá detalhes sobre como declarar e sua data de vencimento. As datas de vencimento variam conforme o estado, e a frequência com que você registra uma declaração também pode variar. Grandes empresas com maior passivo tributário costumam fazer declarações com mais frequência (mensalmente) e empresas menores podem ser obrigadas a apresentar declarações bimestrais ou trimestrais. Declarar em dia é a melhor maneira de evitar as multas e juros que vêm com um registro inadimplente.\n\nEstados e municípios usam a receita do imposto sobre vendas para pagar projetos como escolas, estradas e iniciativas de segurança pública.  Nos EUA, o imposto sobre vendas é regulamentado principalmente em nível estadual, e cada estado tem leis e regras diferentes.  Alguns estados se referem ao imposto sobre vendas como imposto sobre privilégios de transação ou imposto especial de consumo geral, mas o conceito permanece o mesmo.\n\nGeralmente, empresas de fora do estado e estrangeiras são obrigadas a recolher impostos sobre vendas de clientes quando excedem certos limites.  Esses limites são chamados de \"limites de nexo econômico\" e são baseados em receita ou transação, ou ambos.  Por exemplo, no estado da Geórgia, as empresas só precisam recolher impostos sobre vendas de clientes que excederam US$ 100.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Depois de recolher o imposto sobre vendas dos clientes, você entregará uma declaração de imposto sobre vendas e remeterá o imposto recolhido para a autoridade fiscal estadual ou outra autoridade fisca…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "imposto-sobre-vendas-versus-imposto-especial-sobre-consumo",
+      "heading": "Imposto sobre vendas versus imposto especial sobre consumo",
+      "bodyMd": "\"Imposto especial de consumo\" e \"imposto sobre vendas\" são termos frequentemente usados de forma intercambiável, mas são dois impostos separados. O imposto especial de consumo se aplica apenas às vendas de determinados produtos. Itens populares que estão sujeitos ao imposto especial de consumo são cigarros, gasolina e passagens aéreas. O imposto especial de consumo e o imposto sobre vendas podem ser aplicados à mesma compra ou o imposto especial de consumo pode ser aplicado quando o imposto sobre vendas não o é. Além disso, o imposto especial de consumo geralmente é uma taxa fixa, em vez de uma porcentagem das vendas, como um imposto sobre vendas.\n\nEstados e municípios usam a receita do imposto sobre vendas para pagar projetos como escolas, estradas e iniciativas de segurança pública.  Nos EUA, o imposto sobre vendas é regulamentado principalmente em nível estadual, e cada estado tem leis e regras diferentes.  Alguns estados se referem ao imposto sobre vendas como imposto sobre privilégios de transação ou imposto especial de consumo geral, mas o conceito permanece o mesmo.\n\nO imposto sobre vendas é um tipo de [imposto indireto](https://stripe. com/br/resources/more/indirect-taxes) cobrados sobre as vendas de certos bens e serviços nos EUA.  É chamado de \"imposto indireto\" porque é cobrado da empresa, mas pago pelo cliente.\n\n**Pontos técnicos:**\n- Quais produtos e serviços são tributáveis\n- Isenções baseadas no cliente\n- Quanto do imposto sobre vendas é cobrado\n- Com que frequência os vendedores são obrigados a apresentar declarações de imposto sobre vendas\n- Data de vencimento das declarações de imposto sobre vendas",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Estados e municípios usam a receita do imposto sobre vendas para pagar projetos como escolas, estradas e iniciativas de segurança pública. Nos EUA, o imposto sobre vendas é regulamentado principalment…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+        "status": "OK"
+      }
+    },
+    {
+      "anchorId": "how-stripe-tax-can-help",
+      "heading": "How Stripe Tax can help",
+      "bodyMd": "[Stripe Tax](https://stripe.com/br/tax) reduces the complexity of tax compliance so you can focus on growing your business. Start collecting taxes globally by adding a single line of code to your existing integration, clicking a button in the Dashboard, or using our powerful API.\n\nStripe Tax helps you monitor your obligations and alerts you when you exceed a sales tax registration threshold based on your Stripe transactions.  It can also [register to collect tax](https://docs. stripe.\n\n*   **Understand where to register and collect taxes:** See where you need to collect taxes based on your Stripe transactions.  After you register, switch on tax collection in a new state or country in seconds.  You can start collecting taxes by adding one line of code to your existing Stripe integration, or add tax collection with the click of a button in the Stripe Dashboard.\n\nO imposto sobre vendas é um tipo de [imposto indireto](https://stripe. com/br/resources/more/indirect-taxes) cobrados sobre as vendas de certos bens e serviços nos EUA.  É chamado de \"imposto indireto\" porque é cobrado da empresa, mas pago pelo cliente.\n\n**Pontos técnicos:**\n- **Understand where to register and collect taxes:** See where you need to collect taxes based on your Stripe transactions. After you register, switch on tax collection in a new state or country in seconds. You can start collecting taxes by adding one line of code to your existing Stripe integration, or add tax collection with the click of a button in the Stripe Dashboard.\n- **Register to pay tax:** If you need to register for a sales tax in the US, let Stripe manage your [tax registrations](https://docs.stripe.com/tax/use-stripe-to-register). You’ll benefit from a simplified process that prefills application details—saving you time and simplifying compliance with local regulations. If you need help registering outside of the US, Stripe partners with Taxually to help you register with local tax authorities.\n- **Automatically collect tax:** Stripe Tax calculates and collects the right amount of tax owed, no matter what or where you sell. It supports hundreds of products and services and is up-to-date on tax rules and rate changes.\n- **Simplify filing:** Stripe Tax seamlessly integrates with [filing partners](https://docs.stripe.com/tax/filing), so your global filings are accurate and timely. Let our partners manage your filings so you can focus on growing your business.",
+      "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
+      "verification": {
+        "evidence": "Stripe Tax helps you monitor your obligations and alerts you when you exceed a sales tax registration threshold based on your Stripe transactions. It can also [register to collect tax](https://docs.st…",
+        "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json",
+        "status": "OK"
+      }
+    }
+  ],
+  "btgpayRelevance": "media",
+  "scrapedAt": "2026-06-22T13:01:18.726Z",
+  "synthesizedAt": "2026-06-22T14:44:21.431Z",
+  "synthesisLocale": "pt-BR",
+  "verificationStatus": "pass",
+  "synthesizedFrom": [
+    "content/raw/stripe.com/stripe.combr_resources_more_what-is-sales-tax.json"
+  ]
+}

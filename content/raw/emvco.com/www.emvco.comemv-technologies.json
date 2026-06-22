@@ -1,0 +1,14 @@
+{
+  "url": "https://www.emvco.com/emv-technologies",
+  "method": "fetch",
+  "title": "EMV® Technologies",
+  "sections": [
+    {
+      "anchorId": "emv-3-d-secure",
+      "heading": "EMV® 3-D Secure",
+      "bodyMd": "EMV 3DS allows seamless authentication of consumers to prevent card-not-present (CNP) fraud and increase the security of e-commerce payments.\n\nLearn more"
+    }
+  ],
+  "scrapedAt": "2026-06-22T13:01:58.844Z",
+  "sourceUrl": "https://www.emvco.com/emv-technologies"
+}

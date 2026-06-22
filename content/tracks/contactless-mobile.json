@@ -1,0 +1,34 @@
+{
+  "id": "track-contactless",
+  "slug": "contactless-mobile",
+  "title": "Contactless e Tap to Mobile",
+  "description": "NFC, SoftPOS, CDCVM e diretrizes para POS no smartphone.",
+  "order": 2,
+  "estimatedMinutes": 50,
+  "modules": [
+    {
+      "id": "mod-contactless",
+      "title": "EMV Contactless",
+      "summary": "Tap, limites e negociação com o cartão.",
+      "chunkIds": ["contactless-tap-mobile"],
+      "sectionAnchorIds": ["contactless-overview"],
+      "estimatedMinutes": 20
+    },
+    {
+      "id": "mod-tap-mobile",
+      "title": "Tap to Mobile",
+      "summary": "Requisitos de dispositivo, SDK e certificação.",
+      "chunkIds": ["contactless-tap-mobile", "tap-to-mobile-guidelines"],
+      "sectionAnchorIds": ["tap-to-mobile", "requisitos-dispositivo", "ux-pagamento"],
+      "estimatedMinutes": 20
+    },
+    {
+      "id": "mod-cdcvm",
+      "title": "Verificação do portador (CDCVM)",
+      "summary": "Biometria e PIN do dispositivo em valores altos.",
+      "chunkIds": ["contactless-tap-mobile"],
+      "sectionAnchorIds": ["cdcvm"],
+      "estimatedMinutes": 10
+    }
+  ]
+}
