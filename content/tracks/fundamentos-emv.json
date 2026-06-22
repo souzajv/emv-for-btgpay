@@ -1,34 +1,68 @@
-{
-  "id": "track-fundamentos",
-  "slug": "fundamentos-emv",
-  "title": "Fundamentos EMV",
-  "description": "Chip, cryptograma, Card Present vs Card Not Present — base para o curso.",
-  "order": 1,
-  "estimatedMinutes": 45,
-  "modules": [
-    {
-      "id": "mod-emv-intro",
-      "title": "O que é EMV e por que importa",
-      "summary": "Padrão global, chip dinâmico e papel do POS mobile.",
-      "chunkIds": ["fundamentos-emv-chip"],
-      "sectionAnchorIds": ["o-que-e-emv", "chip-vs-tarja"],
-      "estimatedMinutes": 15
-    },
-    {
-      "id": "mod-cp-cnp",
-      "title": "Card Present vs Card Not Present",
-      "summary": "Diferenças de fluxo, risco e liability shift.",
-      "chunkIds": ["fundamentos-cnp-cp"],
-      "sectionAnchorIds": ["definicao-cp", "definicao-cnp", "liability-shift"],
-      "estimatedMinutes": 15
-    },
-    {
-      "id": "mod-fluxo-chip",
-      "title": "Fluxo da transação com chip",
-      "summary": "AID, autorização e o que o app Flutter observa.",
-      "chunkIds": ["fundamentos-emv-chip"],
-      "sectionAnchorIds": ["fluxo-transacao-chip"],
-      "estimatedMinutes": 15
-    }
-  ]
-}
+{
+
+  "id": "track-fundamentos",
+
+  "slug": "fundamentos-emv",
+
+  "title": "Fundamentos EMV",
+
+  "description": "Chip, cryptograma, Card Present vs Card Not Present — base para o curso.",
+
+  "order": 1,
+
+  "estimatedMinutes": 45,
+
+  "modules": [
+
+    {
+
+      "id": "mod-emv-intro",
+
+      "title": "O que é EMV e por que importa",
+
+      "summary": "Padrão global, chip dinâmico e papel do POS mobile.",
+
+      "chunkIds": ["fundamentos-emv-chip"],
+
+      "sectionAnchorIds": ["o-que-e-emv", "chip-vs-tarja"],
+
+      "estimatedMinutes": 15
+
+    },
+
+    {
+
+      "id": "mod-cp-cnp",
+
+      "title": "Card Present vs Card Not Present",
+
+      "summary": "Diferenças de fluxo, risco e liability shift.",
+
+      "chunkIds": ["fundamentos-cnp-cp"],
+
+      "sectionAnchorIds": ["definicao-cp", "definicao-cnp", "liability-shift"],
+
+      "estimatedMinutes": 15
+
+    },
+
+    {
+
+      "id": "mod-fluxo-chip",
+
+      "title": "Fluxo da transação com chip",
+
+      "summary": "AID, autorização e o que o app Flutter observa.",
+
+      "chunkIds": ["fundamentos-emv-chip"],
+
+      "sectionAnchorIds": ["fluxo-transacao-chip"],
+
+      "estimatedMinutes": 15
+
+    }
+
+  ]
+
+}
+

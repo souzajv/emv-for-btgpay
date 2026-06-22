@@ -246,22 +246,59 @@ npm run lint
 
 Repositório: [github.com/souzajv/emv-for-btgpay](https://github.com/souzajv/emv-for-btgpay)
 
-1. No [dashboard Vercel](https://vercel.com/new), importe o repositório.
-2. **Root Directory:** `hub`
-3. Framework: Next.js (detectado automaticamente)
-4. Build command: `npm run build`
-5. Output directory: `out`
-6. Deploy. Não há variáveis de ambiente obrigatórias.
+O hub é export estático (`output: "export"` em `hub/next.config.js`). O artefato final fica em `hub/out/`.
 
-`metadataBase` usa `VERCEL_URL` em produção.
+### Modo A: Root Directory na raiz do repo (padrão atual)
+
+Use quando o campo **Root Directory** no dashboard Vercel estiver **vazio**.
+
+O repositório já inclui [`vercel.json`](vercel.json) na raiz:
+
+- `installCommand`: `cd hub && npm install`
+- `buildCommand`: `cd hub && npm run build`
+- `outputDirectory`: `hub/out`
+
+No dashboard, deixe **Build Command**, **Output Directory** e **Install Command** em branco (o `vercel.json` da raiz prevalece). Não use `Output Directory = out` sem o prefixo `hub/`.
+
+### Modo B: Root Directory = `hub` (alternativa)
+
+1. **Root Directory:** `hub`
+2. Framework: Next.js (detectado automaticamente)
+3. **Não** sobrescreva Output Directory manualmente (a Vercel detecta o export em `out/`).
+4. Build command: `npm run build` (ou em branco)
+
+### Variáveis e redeploy
+
+Não há variáveis de ambiente obrigatórias. `metadataBase` usa `VERCEL_URL` em produção.
 
 Após mudar arquivos em `content/`, rode `npm run build` no hub e dispare um novo deploy.
 
-CLI opcional (a partir de `hub/`):
+CLI opcional (a partir da raiz do repo):
 
 ```bash
 npx vercel deploy --prod
 ```
+
+### Troubleshooting: 404 NOT_FOUND
+
+Se `emv-for-btgpay.vercel.app` mostrar `404: NOT_FOUND` com `Code: NOT_FOUND`:
+
+1. Confirme que o build terminou com **Succeeded** (não Failed).
+2. Nos logs, procure `Generating static pages (124/124)`.
+3. Se Root Directory está vazio: Output Directory deve ser `hub/out` (via `vercel.json` da raiz), **não** `out` sozinho.
+4. Se Root Directory é `hub`: remova override de Output Directory no dashboard.
+5. Faça **Redeploy** após corrigir as settings (Deployments → ⋯ → Redeploy).
+
+Validação local:
+
+```powershell
+cd hub
+npm install
+npm run build
+Test-Path out/index.html
+```
+
+Deve retornar `True`.
 
 ## Agentes Cursor
 

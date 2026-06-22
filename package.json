@@ -1,0 +1,7 @@
+{
+  "name": "emv-for-btgpay",
+  "private": true,
+  "scripts": {
+    "build": "cd hub && npm run build"
+  }
+}
