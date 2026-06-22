@@ -31,6 +31,26 @@ npm run dev
 
 Build estático: `npm run build` → pasta `out/`
 
+## Deploy na Vercel
+
+Repositório: [github.com/souzajv/emv-for-btgpay](https://github.com/souzajv/emv-for-btgpay)
+
+1. No [dashboard Vercel](https://vercel.com/new), importe o repo `souzajv/emv-for-btgpay`.
+2. **Root Directory:** `hub`
+3. Framework: Next.js (detectado automaticamente)
+4. Build: `npm run build` · Output: `out`
+5. Deploy — sem variáveis de ambiente obrigatórias.
+
+O `content/` na raiz do repo é lido em **build time** (`../content` a partir de `hub/`). Após alterar chunks/trilhas/quizzes, rode `npm run build` no hub e faça redeploy.
+
+`metadataBase` usa `VERCEL_URL` automaticamente em produção.
+
+Deploy via CLI (opcional, a partir de `hub/`):
+
+```bash
+npx vercel deploy --prod
+```
+
 ## Quiz
 
 - 3 níveis: junior, pleno, senior
