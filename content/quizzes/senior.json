@@ -7,9 +7,9 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Camadas do app\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Certificação EMV é opcional para Tap to Mobile",
-        "Apresentação (Flutter widgets) Casos de uso (venda, estorno) Gateway de pagamentos (SDK nativo via method channel) Ke…",
         "Processamento de PIN no widget TextField do Flutter",
+        "CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do porta…",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
         "O Flutter implementa o kernel EMV internamente"
       ],
       "correctIndex": 1,
@@ -23,10 +23,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Estados da transação\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Modelar enum de estados: idle, amountEntry, awaitingCard, processing, approved, declined, cancelled, error.",
-        "Requisito não documentado na fonte EMV",
-        "Processamento de PIN no widget TextField do Flutter",
-        "O Flutter implementa o kernel EMV internamente"
+        "CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do porta…",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV"
       ],
       "correctIndex": 0,
       "explanation": "Consulte a seção \"Estados da transação\" no material (âncora estados-transacao).",
@@ -39,12 +39,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Erros comuns no mobile POS\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Cartão removido cedo, timeout NFC, múltiplos cartões no campo, dispositivo sem NFC, rede indisponível na autorização …",
+        "PAN em claro pode ser logado para debug",
         "Processamento de PIN no widget TextField do Flutter",
-        "Certificação EMV é opcional para Tap to Mobile",
-        "O Flutter implementa o kernel EMV internamente"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do porta…"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Erros comuns no mobile POS\" no material (âncora erros-comuns).",
       "sourceChunkId": "btgpay-flutter-pratica",
       "anchorId": "erros-comuns"
@@ -55,10 +55,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Level 1: Camada física e protocolo\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "*What products does EMVCo assess? And are there different requirements for EMV L1 and L2 approvals?**",
+        "O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.",
+        "PAN em claro pode ser logado para debug",
         "Requisito não documentado na fonte EMV",
-        "O Flutter implementa o kernel EMV internamente",
-        "PAN em claro pode ser logado para debug"
+        "O Flutter implementa o kernel EMV internamente"
       ],
       "correctIndex": 0,
       "explanation": "Consulte a seção \"Level 1: Camada física e protocolo\" no material (âncora level-1-fisico).",
@@ -71,12 +71,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Level 2: Kernel de aplicação\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.",
         "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "Level 2 certifica o kernel EMV: seleção de AID, processamento de GPO, CVM, geração de cryptograma, regras de floor li…",
-        "PAN em claro pode ser logado para debug",
-        "Processamento de PIN no widget TextField do Flutter"
+        "Processamento de PIN no widget TextField do Flutter",
+        "Certificação EMV é opcional para Tap to Mobile"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Consulte a seção \"Level 2: Kernel de aplicação\" no material (âncora level-2-kernel).",
       "sourceChunkId": "certificacao-l1-l2",
       "anchorId": "level-2-kernel"
@@ -87,12 +87,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Level 3: Integração adquirente\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.",
+        "O Flutter implementa o kernel EMV internamente",
         "Requisito não documentado na fonte EMV",
-        "Processamento de PIN no widget TextField do Flutter",
-        "Level 3 testa a integração ponta a ponta com a rede do adquirente: mensagens ISO 8583, campos EMV (DE 55), cenários d…",
         "PAN em claro pode ser logado para debug"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Consulte a seção \"Level 3: Integração adquirente\" no material (âncora level-3-integracao).",
       "sourceChunkId": "certificacao-l1-l2",
       "anchorId": "level-3-integracao"
@@ -103,12 +103,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Timeline típica\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "O Flutter implementa o kernel EMV internamente",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "PAN em claro pode ser logado para debug",
         "Certificação EMV é opcional para Tap to Mobile",
-        "Um projeto de terminal EMV costuma levar meses entre desenvolvimento, pré-testes internos, submissão ao lab e correções.",
-        "Requisito não documentado na fonte EMV"
+        "O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal."
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Timeline típica\" no material (âncora timeline-certificacao).",
       "sourceChunkId": "certificacao-niveis-payfelix",
       "anchorId": "timeline-certificacao"
@@ -119,12 +119,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Laboratórios aprovados\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "Processamento de PIN no widget TextField do Flutter",
+        "Certificação EMV é opcional para Tap to Mobile",
         "O Flutter implementa o kernel EMV internamente",
-        "Testes EMVCo são executados em labs acreditados.",
-        "Requisito não documentado na fonte EMV",
-        "PAN em claro pode ser logado para debug"
+        "O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal."
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Laboratórios aprovados\" no material (âncora labs-aprovados).",
       "sourceChunkId": "certificacao-niveis-payfelix",
       "anchorId": "labs-aprovados"
@@ -135,10 +135,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Custo e complexidade\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Certificação envolve taxas de lab, licenciamento de kernel, manutenção anual e reteste a cada mudança significativa n…",
-        "Requisito não documentado na fonte EMV",
+        "O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.",
+        "Processamento de PIN no widget TextField do Flutter",
         "Certificação EMV é opcional para Tap to Mobile",
-        "PAN em claro pode ser logado para debug"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
       ],
       "correctIndex": 0,
       "explanation": "Consulte a seção \"Custo e complexidade\" no material (âncora custo-complexidade).",
@@ -151,12 +151,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Visão geral contactless\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
-        "PAN em claro pode ser logado para debug",
+        "O Flutter implementa o kernel EMV internamente",
         "Processamento de PIN no widget TextField do Flutter",
-        "Certificação EMV é opcional para Tap to Mobile"
+        "Certificação EMV é opcional para Tap to Mobile",
+        "CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do porta…"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Visão geral contactless\" no material (âncora contactless-overview).",
       "sourceChunkId": "contactless-tap-mobile",
       "anchorId": "contactless-overview"
@@ -167,10 +167,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Tap to Mobile (SoftPOS)\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
-        "Requisito não documentado na fonte EMV",
-        "PAN em claro pode ser logado para debug",
-        "O Flutter implementa o kernel EMV internamente"
+        "CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do porta…",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "O Flutter implementa o kernel EMV internamente",
+        "PAN em claro pode ser logado para debug"
       ],
       "correctIndex": 0,
       "explanation": "Consulte a seção \"Tap to Mobile (SoftPOS)\" no material (âncora tap-to-mobile).",
@@ -183,12 +183,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"CDCVM\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do porta…",
+        "Requisito não documentado na fonte EMV",
         "Certificação EMV é opcional para Tap to Mobile",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
-        "O Flutter implementa o kernel EMV internamente"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Consulte a seção \"CDCVM\" no material (âncora cdcvm).",
       "sourceChunkId": "contactless-tap-mobile",
       "anchorId": "cdcvm"
@@ -199,12 +199,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"EMV® Level 3 Testing\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
         "EMV L3 testing is defined by each payment system’s policies.",
         "O Flutter implementa o kernel EMV internamente",
-        "PAN em claro pode ser logado para debug",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+        "PAN em claro pode ser logado para debug"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Consulte a seção \"EMV® Level 3 Testing\" no material (âncora conteudo-principal).",
       "sourceChunkId": "emvco-com-emv-level-3-testing",
       "anchorId": "conteudo-principal"
@@ -215,12 +215,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"EMV® Mobile\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "O Flutter implementa o kernel EMV internamente",
+        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
+        "PAN em claro pode ser logado para debug",
         "Certificação EMV é opcional para Tap to Mobile",
-        "Requisito não documentado na fonte EMV",
-        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …"
+        "O Flutter implementa o kernel EMV internamente"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Consulte a seção \"EMV® Mobile\" no material (âncora conteudo-principal).",
       "sourceChunkId": "emvco-com-emv-mobile",
       "anchorId": "conteudo-principal"
@@ -231,10 +231,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Processamento de PIN no widget TextField do Flutter",
-        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
         "O Flutter implementa o kernel EMV internamente",
-        "PAN em claro pode ser logado para debug"
+        "While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap …",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Requisito não documentado na fonte EMV"
       ],
       "correctIndex": 1,
       "explanation": "Consulte a seção \"EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance\" no material (âncora conteudo-principal).",
@@ -248,8 +248,8 @@
       "prompt": "[Cenário BtgPay] Sobre \"Mobile CMP/PPSE Approval Process\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
         "Downloads & signs registration form and business review form to receive a contract and registration number.",
-        "Certificação EMV é opcional para Tap to Mobile",
-        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV",
+        "PAN em claro pode ser logado para debug",
         "CNP e CP usam o mesmo fluxo criptográfico no chip"
       ],
       "correctIndex": 0,
@@ -263,8 +263,8 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Mobile Level 1 Approval Process\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "PAN em claro pode ser logado para debug",
+        "Processamento de PIN no widget TextField do Flutter",
+        "O Flutter implementa o kernel EMV internamente",
         "Requisito não documentado na fonte EMV",
         "Downloads & signs registration form to receive a contract and registration number."
       ],
@@ -279,12 +279,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Wearable Level 1 Approval Process\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "PAN em claro pode ser logado para debug",
+        "Mobile Level 1 approval is granted to a wearable product designed to support NFC-based payment (e.",
         "Requisito não documentado na fonte EMV",
-        "Processamento de PIN no widget TextField do Flutter",
-        "Certificação EMV é opcional para Tap to Mobile",
-        "Mobile Level 1 approval is granted to a wearable product designed to support NFC-based payment (e."
+        "Processamento de PIN no widget TextField do Flutter"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Consulte a seção \"Wearable Level 1 Approval Process\" no material (âncora conteudo-principal).",
       "sourceChunkId": "emvco-com-wearable-level-1-approval-process",
       "anchorId": "conteudo-principal"
@@ -295,12 +295,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"What are EMV® Level 1 and Level 2 Testing?\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Certificação EMV é opcional para Tap to Mobile",
         "Processamento de PIN no widget TextField do Flutter",
-        "*What products does EMVCo assess? And are there different requirements for EMV L1 and L2 approvals?**",
-        "O Flutter implementa o kernel EMV internamente"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "*What products does EMVCo assess? And are there different requirements for EMV L1 and L2 approvals?**"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"What are EMV® Level 1 and Level 2 Testing?\" no material (âncora conteudo-principal).",
       "sourceChunkId": "emvco-com-what-are-emv-level-1-and-level-2-testing",
       "anchorId": "conteudo-principal"
@@ -311,12 +311,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"What is EMV® Level 3 Testing?\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastru…",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
         "Certificação EMV é opcional para Tap to Mobile",
-        "O Flutter implementa o kernel EMV internamente"
+        "O Flutter implementa o kernel EMV internamente",
+        "_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastru…",
+        "Processamento de PIN no widget TextField do Flutter"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Consulte a seção \"What is EMV® Level 3 Testing?\" no material (âncora conteudo-principal).",
       "sourceChunkId": "emvco-com-what-is-emv-level-3-testing",
       "anchorId": "conteudo-principal"
@@ -327,12 +327,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Card Present (CP)\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "O Flutter implementa o kernel EMV internamente",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "Transação Card Present ocorre quando o cartão físico ou dispositivo com token de pagamento está presente no ponto de …",
-        "Requisito não documentado na fonte EMV"
+        "PAN em claro pode ser logado para debug",
+        "Certificação EMV é opcional para Tap to Mobile",
+        "Requisito não documentado na fonte EMV",
+        "Conceito PAN aparece na documentação fonte desta seção e impacta decisões de integração mobile."
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Card Present (CP)\" no material (âncora definicao-cp).",
       "sourceChunkId": "fundamentos-cnp-cp",
       "anchorId": "definicao-cp"
@@ -343,12 +343,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Card Not Present (CNP)\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "Conceito PAN aparece na documentação fonte desta seção e impacta decisões de integração mobile.",
         "PAN em claro pode ser logado para debug",
-        "CNP abrange e-commerce, MOTO (mail order/telephone order) e pagamentos onde o cartão não está fisicamente no terminal.",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "O Flutter implementa o kernel EMV internamente"
+        "O Flutter implementa o kernel EMV internamente",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Consulte a seção \"Card Not Present (CNP)\" no material (âncora definicao-cnp).",
       "sourceChunkId": "fundamentos-cnp-cp",
       "anchorId": "definicao-cnp"
@@ -359,10 +359,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Liability shift\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Em CP com EMV contactless/chip, quando o terminal é certificado e a transação segue o fluxo EMV, a responsabilidade p…",
+        "Conceito PAN aparece na documentação fonte desta seção e impacta decisões de integração mobile.",
         "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "O Flutter implementa o kernel EMV internamente",
-        "Processamento de PIN no widget TextField do Flutter"
+        "PAN em claro pode ser logado para debug",
+        "O Flutter implementa o kernel EMV internamente"
       ],
       "correctIndex": 0,
       "explanation": "Consulte a seção \"Liability shift\" no material (âncora liability-shift).",
@@ -375,12 +375,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"O que é EMV\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "EMV (Europay, Mastercard e Visa) é o padrão global para pagamentos com cartão baseado em chip.",
         "Certificação EMV é opcional para Tap to Mobile",
         "Processamento de PIN no widget TextField do Flutter",
-        "Requisito não documentado na fonte EMV"
+        "Conceito TAC aparece na documentação fonte desta seção e impacta decisões de integração mobile.",
+        "PAN em claro pode ser logado para debug"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Consulte a seção \"O que é EMV\" no material (âncora o-que-e-emv).",
       "sourceChunkId": "fundamentos-emv-chip",
       "anchorId": "o-que-e-emv"
@@ -391,10 +391,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Chip vs tarja magnética\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "Na tarja magnética, os dados do cartão são estáticos: o que foi lido pode ser replicado.",
-        "Certificação EMV é opcional para Tap to Mobile",
-        "Requisito não documentado na fonte EMV"
+        "Processamento de PIN no widget TextField do Flutter",
+        "Conceito TAC aparece na documentação fonte desta seção e impacta decisões de integração mobile.",
+        "PAN em claro pode ser logado para debug",
+        "O Flutter implementa o kernel EMV internamente"
       ],
       "correctIndex": 1,
       "explanation": "Consulte a seção \"Chip vs tarja magnética\" no material (âncora chip-vs-tarja).",
@@ -407,12 +407,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Fluxo básico da transação\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "O Flutter implementa o kernel EMV internamente",
-        "PAN em claro pode ser logado para debug",
         "Certificação EMV é opcional para Tap to Mobile",
-        "Para que a compra prossiga, o cliente precisa fornecer o PIN ou a assinatura, dependendo se o cartão é chip e PIN ou …"
+        "PAN em claro pode ser logado para debug",
+        "Para que a compra prossiga, o cliente precisa fornecer o PIN ou a assinatura, dependendo se o cartão é chip e PIN ou …",
+        "Processamento de PIN no widget TextField do Flutter"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Consulte a seção \"Fluxo básico da transação\" no material (âncora fluxo-transacao-chip).",
       "sourceChunkId": "fundamentos-emv-chip",
       "anchorId": "fluxo-transacao-chip"
@@ -439,12 +439,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"2. Level 2 Certification, Kernel Integration Process (KIP):\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "O Flutter implementa o kernel EMV internamente",
         "Conforme a documentação fonte: *   **Purpose:** Level 3 certification focuses on the integration of the terminal’s EM…",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "Certificação EMV é opcional para Tap to Mobile"
+        "O Flutter implementa o kernel EMV internamente",
+        "Requisito não documentado na fonte EMV",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Consulte a seção \"2. Level 2 Certification, Kernel Integration Process (KIP):\" no material (âncora 2-level-2-certification-kernel-integration-process-kip).",
       "sourceChunkId": "payfelix-com-emv-certification-levels",
       "anchorId": "2-level-2-certification-kernel-integration-process-kip"
@@ -455,12 +455,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"3. Level 3 Certification, Application Integration Process (AIP):\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "PAN em claro pode ser logado para debug",
-        "The three levels of EMV certification ensure that payment devices and software adhere to EMV standards, from the hard…",
         "Requisito não documentado na fonte EMV",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Processamento de PIN no widget TextField do Flutter",
+        "The three levels of EMV certification ensure that payment devices and software adhere to EMV standards, from the hard…"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"3. Level 3 Certification, Application Integration Process (AIP):\" no material (âncora 3-level-3-certification-application-integration-process-aip).",
       "sourceChunkId": "payfelix-com-emv-certification-levels",
       "anchorId": "3-level-3-certification-application-integration-process-aip"
@@ -471,12 +471,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Requisito não documentado na fonte EMV",
+        "PAN em claro pode ser logado para debug",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "Processamento de PIN no widget TextField do Flutter",
         "Certificação EMV é opcional para Tap to Mobile"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -487,12 +487,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "O Flutter implementa o kernel EMV internamente",
         "Processamento de PIN no widget TextField do Flutter",
-        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "Requisito não documentado na fonte EMV"
+        "Certificação EMV é opcional para Tap to Mobile",
+        "PAN em claro pode ser logado para debug",
+        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -503,12 +503,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Requisito não documentado na fonte EMV",
-        "O Flutter implementa o kernel EMV internamente",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "PAN em claro pode ser logado para debug",
+        "Requisito não documentado na fonte EMV"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -519,10 +519,10 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Certificação EMV é opcional para Tap to Mobile",
         "O Flutter implementa o kernel EMV internamente",
+        "Processamento de PIN no widget TextField do Flutter",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "Requisito não documentado na fonte EMV"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
       ],
       "correctIndex": 2,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
@@ -535,9 +535,9 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
         "Certificação EMV é opcional para Tap to Mobile",
-        "Requisito não documentado na fonte EMV",
+        "PAN em claro pode ser logado para debug",
+        "Processamento de PIN no widget TextField do Flutter",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
       ],
       "correctIndex": 3,
@@ -553,8 +553,8 @@
       "options": [
         "Processamento de PIN no widget TextField do Flutter",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "Certificação EMV é opcional para Tap to Mobile"
+        "Certificação EMV é opcional para Tap to Mobile",
+        "PAN em claro pode ser logado para debug"
       ],
       "correctIndex": 1,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
@@ -567,12 +567,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Certificação EMV é opcional para Tap to Mobile",
-        "PAN em claro pode ser logado para debug",
-        "Processamento de PIN no widget TextField do Flutter",
-        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
+        "O Flutter implementa o kernel EMV internamente",
+        "Certificação EMV é opcional para Tap to Mobile"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -583,8 +583,8 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Certificação EMV é opcional para Tap to Mobile",
         "Requisito não documentado na fonte EMV",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
         "O Flutter implementa o kernel EMV internamente",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
       ],
@@ -599,12 +599,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "Certificação EMV é opcional para Tap to Mobile",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
         "PAN em claro pode ser logado para debug",
-        "Certificação EMV é opcional para Tap to Mobile",
         "Processamento de PIN no widget TextField do Flutter"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -616,9 +616,9 @@
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "Requisito não documentado na fonte EMV",
-        "Processamento de PIN no widget TextField do Flutter",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "PAN em claro pode ser logado para debug",
+        "Requisito não documentado na fonte EMV"
       ],
       "correctIndex": 0,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
@@ -631,12 +631,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Certificação EMV é opcional para Tap to Mobile",
-        "Requisito não documentado na fonte EMV",
-        "PAN em claro pode ser logado para debug",
-        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
+        "O Flutter implementa o kernel EMV internamente",
+        "Processamento de PIN no widget TextField do Flutter",
+        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -647,12 +647,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "Certificação EMV é opcional para Tap to Mobile",
+        "Processamento de PIN no widget TextField do Flutter",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
         "PAN em claro pode ser logado para debug",
-        "Processamento de PIN no widget TextField do Flutter"
+        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -664,7 +664,7 @@
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
         "Processamento de PIN no widget TextField do Flutter",
-        "PAN em claro pode ser logado para debug",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
         "O Flutter implementa o kernel EMV internamente",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
       ],
@@ -679,12 +679,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Requisito não documentado na fonte EMV",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "PAN em claro pode ser logado para debug",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
+        "Processamento de PIN no widget TextField do Flutter",
         "Certificação EMV é opcional para Tap to Mobile"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -696,11 +696,11 @@
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
         "Processamento de PIN no widget TextField do Flutter",
-        "O Flutter implementa o kernel EMV internamente",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "PAN em claro pode ser logado para debug"
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "Requisito não documentado na fonte EMV"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -712,11 +712,11 @@
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
         "Certificação EMV é opcional para Tap to Mobile",
-        "Processamento de PIN no widget TextField do Flutter",
         "PAN em claro pode ser logado para debug",
-        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
+        "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
+        "Processamento de PIN no widget TextField do Flutter"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "anchorId": "introducao"
@@ -727,9 +727,9 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "PAN em claro pode ser logado para debug",
+        "CNP e CP usam o mesmo fluxo criptográfico no chip",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…",
-        "Requisito não documentado na fonte EMV",
+        "PAN em claro pode ser logado para debug",
         "Processamento de PIN no widget TextField do Flutter"
       ],
       "correctIndex": 1,
@@ -743,9 +743,9 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
+        "Processamento de PIN no widget TextField do Flutter",
+        "Certificação EMV é opcional para Tap to Mobile",
         "Requisito não documentado na fonte EMV",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
-        "PAN em claro pode ser logado para debug",
         "[6.0] Acquirers should formulate their security requirements for the deployment of terminals in a Security Policy. Th…"
       ],
       "correctIndex": 3,
@@ -761,7 +761,7 @@
       "options": [
         "O Flutter implementa o kernel EMV internamente",
         "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando …",
-        "PAN em claro pode ser logado para debug",
+        "Requisito não documentado na fonte EMV",
         "Certificação EMV é opcional para Tap to Mobile"
       ],
       "correctIndex": 1,
@@ -775,12 +775,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Requisito não documentado na fonte EMV",
         "Certificação EMV é opcional para Tap to Mobile",
-        "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando …",
-        "Processamento de PIN no widget TextField do Flutter"
+        "Requisito não documentado na fonte EMV",
+        "PAN em claro pode ser logado para debug",
+        "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando …"
       ],
-      "correctIndex": 2,
+      "correctIndex": 3,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-taptomobile-guidelines-v1-1",
       "anchorId": "introducao"
@@ -791,12 +791,12 @@
       "difficulty": 3,
       "prompt": "[Cenário BtgPay] Sobre \"Introdução\": qual decisão está alinhada ao material e à conformidade EMV?",
       "options": [
-        "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando …",
-        "CNP e CP usam o mesmo fluxo criptográfico no chip",
+        "O Flutter implementa o kernel EMV internamente",
         "Processamento de PIN no widget TextField do Flutter",
-        "PAN em claro pode ser logado para debug"
+        "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando …",
+        "Requisito não documentado na fonte EMV"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Consulte a seção \"Introdução\" no material (âncora introducao).",
       "sourceChunkId": "pdfs-taptomobile-guidelines-v1-1",
       "anchorId": "introducao"

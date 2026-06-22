@@ -37,12 +37,14 @@ export default function QuizPage() {
       <div className="space-y-4">
         {LEVELS.map((level) => (
           <Link key={level.id} href={`/quiz/${level.id}/`}>
-            <BrutalCard className="flex justify-between items-center">
-              <div>
+            <BrutalCard className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+              <div className="min-w-0">
                 <h2 className="text-xl font-bold">{level.title}</h2>
                 <p className="text-sm text-muted mt-1">{level.desc}</p>
               </div>
-              <span className="font-mono text-xs tracking-widest">10 perguntas →</span>
+              <span className="font-mono text-xs tracking-widest shrink-0 sm:text-right">
+                10 perguntas →
+              </span>
             </BrutalCard>
           </Link>
         ))}

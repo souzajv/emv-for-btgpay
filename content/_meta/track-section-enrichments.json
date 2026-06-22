@@ -1,0 +1,42 @@
+{
+  "tap-to-mobile-guidelines": {
+    "attestation": "A attestation confirma que o binário do app não foi adulterado e que o dispositivo atende ao perfil de segurança exigido pelo adquirente. No Android, o fluxo típico usa Play Integrity API; no iOS, DeviceCheck ou App Attest. O plugin nativo retorna um token opaco que o backend BtgPay valida antes de liberar transações Tap to Mobile.\n\nO time Flutter não implementa a criptografia da attestation: integra o bridge nativo, trata erros de indisponibilidade (serviço Google/Apple fora do ar) e bloqueia o fluxo de pagamento quando a validação falha. Ambientes com root, jailbreak ou emulador costumam ser recusados pela política do adquirente.",
+    "requisitos-dispositivo": "Além de NFC ativo, Tap to Mobile exige SO suportado, patches de segurança recentes e política anti-tampering. O SDK mantém lista de modelos homologados; o app deve exibir mensagem clara quando o dispositivo não é elegível, em vez de falhar silenciosamente na leitura do cartão.",
+    "ux-pagamento": "A jornada contactless no smartphone deve deixar explícitos valor, instrução de aproximar o cartão, feedback de leitura e resultado final. Em timeout ou anticolisão, o lojista precisa de retry sem reiniciar toda a venda. Contraste e feedback sonoro ou háptico ajudam em ambientes com pouca luz."
+  },
+  "certificacao-l1-l2": {
+    "level-1-fisico": "O Level 1 (L1) avalia a camada física e de protocolo: interface RF contactless (ISO 14443) ou contato (ISO 7816), timing, modulação e anticolisão. Laboratórios EMVCo homologados executam casos de teste com cartões de referência. Para POS no smartphone, o stack NFC de baixo nível e o firmware do dispositivo entram no escopo, não apenas o app Flutter.",
+    "level-2-kernel": "O Level 2 (L2) certifica o kernel EMV: seleção de AID, processamento de GPO, regras de CVM, geração de cryptograma (ARQC/TC/AAC), floor limit e torn transactions. O kernel é licenciado; o app BtgPay consome APIs do SDK e não reimplementa lógica EMV. Mudanças no bridge nativo ou na versão do kernel podem exigir reteste L2.",
+    "level-3-integracao": "O Level 3 (L3) valida a integração ponta a ponta com o host do adquirente: DE 55 (TLV EMV), ISO 8583, cenários de aprovação, negação, estorno e reconciliação. O time mobile garante estados de UI corretos e observabilidade sem expor PAN, PIN ou chaves em logs."
+  },
+  "certificacao-niveis-payfelix": {
+    "timeline-certificacao": "Planeje L1 antes de L2 e L3. Cada falha em laboratório gera ciclo de correção e reteste. Para Tap to Mobile, alinhe cronograma com homologação de bandeira (VCPS, M-TIP) além do escopo EMVCo.",
+    "labs-aprovados": "Somente laboratórios acreditados pela EMVCo ou programas de bandeira devem executar os testes oficiais. O PO BtgPay define quais esquemas (Visa, Mastercard, domestic) o produto precisa antes do go-live.",
+    "custo-complexidade": "Custos incluem taxas de lab, licença de kernel, manutenção anual e retestes após mudanças no fluxo de pagamento, UI de PIN ou integração SDK. Avalie impacto de cada release mobile na certificação vigente."
+  },
+  "contactless-tap-mobile": {
+    "cdcvm": "CDCVM (Consumer Device Cardholder Verification Method) permite verificar o portador no próprio dispositivo (biometria ou PIN do aparelho) em transações contactless acima do limite sem contato. O terminal indica quando CDCVM é necessário; o app deve guiar o usuário sem expor dados sensíveis na camada Flutter.",
+    "contactless-overview": "Contactless EMV negocia com o cartão em milissegundos: seleção de aplicação, leitura de dados, CVM quando exigido e geração de cryptograma. Limites sem contato e políticas de bandeira definem quando PIN ou CDCVM são obrigatórios.",
+    "tap-to-mobile": "Tap to Mobile transforma o smartphone em terminal de pagamento via NFC e kernel certificado (SoftPOS/CPoC). Exige dispositivo elegível, SDK homologado e backend do adquirente preparado para aceitar esse tipo de POI."
+  },
+  "seguranca-terminal": {
+    "ambiente-seguro": "PIN, chaves e operações criptográficas devem ocorrer dentro de ambiente certificado (PCI PTS, CPoC). O app Flutter permanece na camada de apresentação; o boundary seguro fica no SDK ou elemento seguro do terminal.",
+    "pci-escopo": "Reduza escopo PCI evitando armazenar ou logar PAN, track, CVV ou PIN. Use tokenização e criptografia ponta a ponta quando disponível. Logs do app devem conter apenas IDs de transação e códigos de resposta.",
+    "key-management": "Chaves de injeção, DUKPT e sessão são geridas pelo provedor do terminal ou adquirente. O desenvolvedor mobile integra APIs de alto nível sem acesso direto ao material criptográfico."
+  },
+  "btgpay-flutter-pratica": {
+    "camadas-app": "Separe UI Flutter, casos de uso (orquestração) e bridge nativo para o SDK de pagamentos. A UI reage a estados; o SDK executa EMV e segurança dentro do boundary certificado.",
+    "estados-transacao": "Modele estados explícitos: idle, aguardando cartão, processando, aprovado, negado, cancelado e erro. Callbacks do kernel alimentam um stream ou state machine testável.",
+    "erros-comuns": "Timeouts NFC, usuário afastando o cartão cedo, kernel ocupado e falhas de rede devem virar mensagens acionáveis para o lojista. Nunca exiba stack traces ou dados sensíveis na UI."
+  },
+  "fundamentos-emv-chip": {
+    "o-que-e-emv": "EMV é o padrão global de pagamento com chip que gera cryptograma dinâmico por transação, reduzindo clonagem em relação à tarja magnética. EMVCo mantém as especificações; bandeiras e adquirentes definem regras de certificação e deployment.",
+    "chip-vs-tarja": "Na tarja, dados estáticos podem ser copiados. No chip, ARQC, TC e AAC amarram a transação ao cartão e ao terminal. O POS mobile lê via NFC ou chip sem manipular PAN em claro na camada de apresentação.",
+    "fluxo-transacao-chip": "Fluxo típico: seleção de AID, leitura de registros, CVM, GENERATE AC (cryptograma), autorização online ou offline e completion. O app observa estados e exibe UX; o kernel executa o protocolo EMV."
+  },
+  "fundamentos-cnp-cp": {
+    "definicao-cp": "Card Present (CP) exige cartão ou token de pagamento no ponto de venda no momento da compra. O BtgPay POS opera em CP com tap, chip contactless ou wallet no dispositivo do portador.",
+    "definicao-cnp": "Card Not Present (CNP) cobre e-commerce, MOTO e fluxos sem cartão físico no terminal. Autenticação (ex.: 3DS), taxas e liability shift diferem de CP. Não confunda checkout web com fluxo EMV no terminal.",
+    "liability-shift": "Com chip EMV em CP, a responsabilidade por fraude de cartão falsificado tende a migrar para o emissor quando o terminal é compatível. Em CNP, regras e 3DS alteram a distribuição de risco entre emissor, adquirente e comerciante."
+  }
+}

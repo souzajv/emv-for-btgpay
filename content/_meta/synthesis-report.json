@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T14:44:51.302Z",
+  "generatedAt": "2026-06-22T16:14:03.606Z",
   "chunks": [
     {
       "id": "btgpay-flutter-pratica",
@@ -31,6 +31,32 @@
       "id": "certificacao-l1-l2",
       "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
       "checks": 3,
+      "passed": 0,
+      "criticalGaps": 3,
+      "gaps": [
+        {
+          "section": "level-1-fisico",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "level-2-kernel",
+          "type": "evidence_not_in_source",
+          "critical": true
+        },
+        {
+          "section": "level-3-integracao",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
+      "warnings": [],
+      "verificationStatus": "gaps"
+    },
+    {
+      "id": "certificacao-niveis-payfelix",
+      "sourceRel": "content/raw/payfelix.com/payfelix.comemv-certification-levels.json",
+      "checks": 3,
       "passed": 3,
       "criticalGaps": 0,
       "gaps": [],
@@ -38,46 +64,14 @@
       "verificationStatus": "pass"
     },
     {
-      "id": "certificacao-niveis-payfelix",
-      "sourceRel": "content/raw/payfelix.com/payfelix.comemv-certification-levels.json",
-      "checks": 3,
-      "passed": 0,
-      "criticalGaps": 3,
-      "gaps": [
-        {
-          "section": "timeline-certificacao",
-          "type": "evidence_not_in_source",
-          "critical": true
-        },
-        {
-          "section": "labs-aprovados",
-          "type": "evidence_not_in_source",
-          "critical": true
-        },
-        {
-          "section": "custo-complexidade",
-          "type": "evidence_not_in_source",
-          "critical": true
-        }
-      ],
-      "warnings": [],
-      "verificationStatus": "gaps"
-    },
-    {
       "id": "contactless-tap-mobile",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_mobile.json",
       "checks": 3,
-      "passed": 2,
-      "criticalGaps": 1,
-      "gaps": [
-        {
-          "section": "tap-to-mobile",
-          "type": "evidence_not_in_source",
-          "critical": true
-        }
-      ],
+      "passed": 3,
+      "criticalGaps": 0,
+      "gaps": [],
       "warnings": [],
-      "verificationStatus": "gaps"
+      "verificationStatus": "pass"
     },
     {
       "id": "emvco-com-about-arman-aygen",
@@ -605,17 +599,11 @@
       "id": "fundamentos-cnp-cp",
       "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-are-card-not-present-transactions.json",
       "checks": 3,
-      "passed": 2,
-      "criticalGaps": 1,
-      "gaps": [
-        {
-          "section": "liability-shift",
-          "type": "evidence_not_in_source",
-          "critical": true
-        }
-      ],
+      "passed": 3,
+      "criticalGaps": 0,
+      "gaps": [],
       "warnings": [],
-      "verificationStatus": "gaps"
+      "verificationStatus": "pass"
     },
     {
       "id": "fundamentos-emv-chip",
@@ -991,8 +979,8 @@
     {
       "id": "seguranca-terminal",
       "sourceRel": "content/raw/pdfs/EMV-Acquirer-and-Terminal-Security-Guidelines-v2.0-1.json",
-      "checks": 81,
-      "passed": 78,
+      "checks": 27,
+      "passed": 24,
       "criticalGaps": 3,
       "gaps": [
         {
@@ -1891,8 +1879,8 @@
   ],
   "summary": {
     "total": 109,
-    "pass": 67,
-    "gaps": 42,
-    "criticalGaps": 88
+    "pass": 69,
+    "gaps": 40,
+    "criticalGaps": 86
   }
 }

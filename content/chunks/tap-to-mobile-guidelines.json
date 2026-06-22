@@ -8,7 +8,7 @@
     {
       "anchorId": "requisitos-dispositivo",
       "heading": "Requisitos do dispositivo",
-      "bodyMd": "Tap to Mobile exige NFC ativo, versão mínima do SO, patch de segurança recente e ausência de root/jailbreak. O app deve detectar ambiente comprometido e bloquear transações. Lista de dispositivos suportados é mantida pelo provedor do SDK.",
+      "bodyMd": "Tap to Mobile exige NFC ativo, versão mínima do SO, patch de segurança recente e ausência de root/jailbreak. O app deve detectar ambiente comprometido e bloquear transações. Lista de dispositivos suportados é mantida pelo provedor do SDK.\n\n**Pontos técnicos:**\n- CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do portador.\n\nAlém de NFC ativo, Tap to Mobile exige SO suportado, patches de segurança recentes e política anti-tampering. O SDK mantém lista de modelos homologados; o app deve exibir mensagem clara quando o dispositivo não é elegível, em vez de falhar silenciosamente na leitura do cartão.",
       "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
       "verification": {
         "evidence": "Tap to Mobile exige NFC ativo, versão mínima do SO, patch de segurança recente e ausência de root/jailbreak. O app deve detectar ambiente comprometido e bloquear transações. Lista de dispositivos supo…",
@@ -19,7 +19,7 @@
     {
       "anchorId": "ux-pagamento",
       "heading": "UX de pagamento",
-      "bodyMd": "Telas obrigatórias: valor, instrução de aproximar cartão, animação de leitura, resultado (aprovado/negado/timeout), comprovante. Timeouts contactless devem ser claros: permitir retry sem reiniciar venda inteira. Acessibilidade: contraste, feedback não só visual.",
+      "bodyMd": "Telas obrigatórias: valor, instrução de aproximar cartão, animação de leitura, resultado (aprovado/negado/timeout), comprovante. Timeouts contactless devem ser claros: permitir retry sem reiniciar venda inteira. Acessibilidade: contraste, feedback não só visual.\n\n**Pontos técnicos:**\n- CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do portador.\n\nA jornada contactless no smartphone deve deixar explícitos valor, instrução de aproximar o cartão, feedback de leitura e resultado final. Em timeout ou anticolisão, o lojista precisa de retry sem reiniciar toda a venda. Contraste e feedback sonoro ou háptico ajudam em ambientes com pouca luz.",
       "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
       "verification": {
         "evidence": "Telas obrigatórias: valor, instrução de aproximar cartão, animação de leitura, resultado (aprovado/negado/timeout), comprovante. Timeouts contactless devem ser claros: permitir retry sem reiniciar ven…",
@@ -30,7 +30,7 @@
     {
       "anchorId": "attestation",
       "heading": "Attestation e integridade",
-      "bodyMd": "O backend do adquirente pode exigir attestation do app (Play Integrity, DeviceCheck) antes de habilitar transações. O Flutter chama plugins nativos que retornam tokens para o servidor validar que o binário não foi adulterado.",
+      "bodyMd": "O backend do adquirente pode exigir attestation do app (Play Integrity, DeviceCheck) antes de habilitar transações. O Flutter chama plugins nativos que retornam tokens para o servidor validar que o binário não foi adulterado.\n\n**Pontos técnicos:**\n- CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do portador.\n\nA attestation confirma que o binário do app não foi adulterado e que o dispositivo atende ao perfil de segurança exigido pelo adquirente. No Android, o fluxo típico usa Play Integrity API; no iOS, DeviceCheck ou App Attest. O plugin nativo retorna um token opaco que o backend BtgPay valida antes de liberar transações Tap to Mobile.\n\nO time Flutter não implementa a criptografia da attestation: integra o bridge nativo, trata erros de indisponibilidade (serviço Google/Apple fora do ar) e bloqueia o fluxo de pagamento quando a validação falha. Ambientes com root, jailbreak ou emulador costumam ser recusados pela política do adquirente.",
       "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
       "verification": {
         "evidence": "O backend do adquirente pode exigir attestation do app (Play Integrity, DeviceCheck) antes de habilitar transações. O Flutter chama plugins nativos que retornam tokens para o servidor validar que o bi…",
@@ -45,9 +45,9 @@
     "content\\raw\\pdfs\\TapToMobile-Guidelines-v1.1.json"
   ],
   "enrichedChars": 44339,
-  "synthesizedAt": "2026-06-22T14:44:21.520Z",
+  "synthesizedAt": "2026-06-22T16:14:40.608Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "gaps",
+  "verificationStatus": "pending",
   "synthesizedFrom": [
     "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json"
   ]

@@ -88,3 +88,25 @@ test("module progress is scoped and requires explicit completion", async ({ page
     page.getByRole("link", { name: /Módulo 2: Escopo PCI/i }).getByText("0%")
   ).toBeVisible();
 });
+
+test.describe("mobile viewport", () => {
+  test.use({ viewport: { width: 375, height: 667 } });
+
+  test("quiz list has no horizontal overflow", async ({ page }) => {
+    await page.goto("/quiz/");
+    await expect(page.getByRole("heading", { name: /Validar conhecimento/i })).toBeVisible();
+    const overflow = await page.evaluate(
+      () => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1
+    );
+    expect(overflow).toBe(false);
+  });
+
+  test("quiz session fits mobile width", async ({ page }) => {
+    await page.goto("/quiz/junior/");
+    await expect(page.getByText(/PERGUNTA 1/i)).toBeVisible({ timeout: 10000 });
+    const overflow = await page.evaluate(
+      () => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1
+    );
+    expect(overflow).toBe(false);
+  });
+});

@@ -8,7 +8,7 @@
     {
       "anchorId": "camadas-app",
       "heading": "Camadas do app",
-      "bodyMd": "Apresentação (Flutter widgets) Casos de uso (venda, estorno) Gateway de pagamentos (SDK nativo via method channel) Kernel EMV certificado. O time frontend não implementa EMV kernel; implementa estados, navegação, tratamento de erros e observabilidade.",
+      "bodyMd": "Apresentação (Flutter widgets) Casos de uso (venda, estorno) Gateway de pagamentos (SDK nativo via method channel) Kernel EMV certificado. O time frontend não implementa EMV kernel; implementa estados, navegação, tratamento de erros e observabilidade.\n\n**Pontos técnicos:**\n- CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do portador.\n\nSepare UI Flutter, casos de uso (orquestração) e bridge nativo para o SDK de pagamentos. A UI reage a estados; o SDK executa EMV e segurança dentro do boundary certificado.",
       "btgpayNote": "Este conteúdo subsidia decisões técnicas do time BtgPay mobile: integração Flutter, SDK de pagamentos e conformidade com especificações EMV e requisitos do adquirente.",
       "verification": {
         "evidence": "Apresentação (Flutter widgets) Casos de uso (venda, estorno) Gateway de pagamentos (SDK nativo via method channel) Kernel EMV certificado. O time frontend não implementa EMV kernel; implementa estados…",
@@ -19,7 +19,7 @@
     {
       "anchorId": "estados-transacao",
       "heading": "Estados da transação",
-      "bodyMd": "Modelar enum de estados: idle, amountEntry, awaitingCard, processing, approved, declined, cancelled, error. Cada transição vem do callback do SDK. UI reativa com Bloc/Riverpod; nunca assumir aprovação antes do callback final.",
+      "bodyMd": "Modelar enum de estados: idle, amountEntry, awaitingCard, processing, approved, declined, cancelled, error. Cada transição vem do callback do SDK. UI reativa com Bloc/Riverpod; nunca assumir aprovação antes do callback final.\n\n**Pontos técnicos:**\n- CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do portador.\n\nModele estados explícitos: idle, aguardando cartão, processando, aprovado, negado, cancelado e erro. Callbacks do kernel alimentam um stream ou state machine testável.",
       "btgpayNote": "Este conteúdo subsidia decisões técnicas do time BtgPay mobile: integração Flutter, SDK de pagamentos e conformidade com especificações EMV e requisitos do adquirente.",
       "verification": {
         "evidence": "Modelar enum de estados: idle, amountEntry, awaitingCard, processing, approved, declined, cancelled, error. Cada transição vem do callback do SDK. UI reativa com Bloc/Riverpod; nunca assumir aprovação…",
@@ -30,7 +30,7 @@
     {
       "anchorId": "erros-comuns",
       "heading": "Erros comuns no mobile POS",
-      "bodyMd": "Cartão removido cedo, timeout NFC, múltiplos cartões no campo, dispositivo sem NFC, rede indisponível na autorização online, terminal não ativado. Mapear códigos do SDK para mensagens amigáveis em PT-BR e ações sugeridas (tentar novamente, usar outro cartão).",
+      "bodyMd": "Cartão removido cedo, timeout NFC, múltiplos cartões no campo, dispositivo sem NFC, rede indisponível na autorização online, terminal não ativado. Mapear códigos do SDK para mensagens amigáveis em PT-BR e ações sugeridas (tentar novamente, usar outro cartão).\n\n**Pontos técnicos:**\n- CDCVM pode ser exigido em valores contactless acima do limite sem contato, usando verificação no dispositivo do portador.\n\nTimeouts NFC, usuário afastando o cartão cedo, kernel ocupado e falhas de rede devem virar mensagens acionáveis para o lojista. Nunca exiba stack traces ou dados sensíveis na UI.",
       "btgpayNote": "Este conteúdo subsidia decisões técnicas do time BtgPay mobile: integração Flutter, SDK de pagamentos e conformidade com especificações EMV e requisitos do adquirente.",
       "verification": {
         "evidence": "Cartão removido cedo, timeout NFC, múltiplos cartões no campo, dispositivo sem NFC, rede indisponível na autorização online, terminal não ativado. Mapear códigos do SDK para mensagens amigáveis em PT-…",
@@ -45,9 +45,9 @@
     "content\\raw\\pdfs\\TapToMobile-Guidelines-v1.1.json"
   ],
   "enrichedChars": 44349,
-  "synthesizedAt": "2026-06-22T14:44:21.152Z",
+  "synthesizedAt": "2026-06-22T16:14:40.547Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "gaps",
+  "verificationStatus": "pending",
   "synthesizedFrom": [
     "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json"
   ]

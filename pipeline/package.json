@@ -10,7 +10,12 @@
     "filter": "node filter-btgpay.mjs",
     "pipeline": "npm run crawl && npm run ingest-pdfs && npm run normalize && npm run filter",
     "validate-tracks": "node validate-tracks.mjs",
-    "sanitize-dashes": "node sanitize-dashes.mjs"
+    "sanitize-dashes": "node sanitize-dashes.mjs",
+    "synthesize": "node synthesize-chunks.mjs",
+    "synthesize-tracks": "node synthesize-tracks.mjs",
+    "audit-tracks": "node audit-track-modules.mjs",
+    "verify-claims": "node verify-chunk-claims.mjs",
+    "generate-quizzes": "node generate-quizzes-from-content.mjs"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

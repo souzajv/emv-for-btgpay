@@ -1,0 +1,411 @@
+{
+  "generatedAt": "2026-06-22T16:14:31.072Z",
+  "summary": {
+    "ok": 24,
+    "thin": 0,
+    "english": 0,
+    "missing_terms": 0,
+    "total": 24
+  },
+  "modules": [
+    {
+      "trackSlug": "btgpay-pratica",
+      "trackTitle": "BtgPay na prática",
+      "moduleId": "mod-camadas",
+      "moduleTitle": "Arquitetura em camadas",
+      "sections": [
+        {
+          "chunkId": "btgpay-flutter-pratica",
+          "anchorId": "camadas-app",
+          "heading": "Camadas do app",
+          "bodyChars": 1062,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "btgpay-pratica",
+      "trackTitle": "BtgPay na prática",
+      "moduleId": "mod-estados",
+      "moduleTitle": "Estados da transação",
+      "sections": [
+        {
+          "chunkId": "btgpay-flutter-pratica",
+          "anchorId": "estados-transacao",
+          "heading": "Estados da transação",
+          "bodyChars": 1031,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "btgpay-pratica",
+      "trackTitle": "BtgPay na prática",
+      "moduleId": "mod-erros-ux",
+      "moduleTitle": "Erros e UX",
+      "sections": [
+        {
+          "chunkId": "btgpay-flutter-pratica",
+          "anchorId": "erros-comuns",
+          "heading": "Erros comuns no mobile POS",
+          "bodyChars": 1076,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        },
+        {
+          "chunkId": "tap-to-mobile-guidelines",
+          "anchorId": "ux-pagamento",
+          "heading": "UX de pagamento",
+          "bodyChars": 1194,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "certificacao-emv",
+      "trackTitle": "Certificação EMV",
+      "moduleId": "mod-l1-l2",
+      "moduleTitle": "Level 1 e Level 2",
+      "sections": [
+        {
+          "chunkId": "certificacao-l1-l2",
+          "anchorId": "level-1-fisico",
+          "heading": "Level 1: Camada física e protocolo",
+          "bodyChars": 1351,
+          "englishRatio": 0,
+          "termCoverage": 0.75,
+          "missingTerms": [
+            "L2",
+            "L3"
+          ],
+          "status": "ok"
+        },
+        {
+          "chunkId": "certificacao-l1-l2",
+          "anchorId": "level-2-kernel",
+          "heading": "Level 2: Kernel de aplicação",
+          "bodyChars": 1258,
+          "englishRatio": 0,
+          "termCoverage": 0.75,
+          "missingTerms": [
+            "EMVCo",
+            "L3"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "certificacao-emv",
+      "trackTitle": "Certificação EMV",
+      "moduleId": "mod-l3",
+      "moduleTitle": "Level 3 e integração",
+      "sections": [
+        {
+          "chunkId": "certificacao-l1-l2",
+          "anchorId": "level-3-integracao",
+          "heading": "Level 3: Integração adquirente",
+          "bodyChars": 1197,
+          "englishRatio": 0,
+          "termCoverage": 0.75,
+          "missingTerms": [
+            "EMVCo",
+            "L2"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "certificacao-emv",
+      "trackTitle": "Certificação EMV",
+      "moduleId": "mod-pratica-cert",
+      "moduleTitle": "Certificação na prática",
+      "sections": [
+        {
+          "chunkId": "certificacao-niveis-payfelix",
+          "anchorId": "timeline-certificacao",
+          "heading": "Timeline típica",
+          "bodyChars": 1213,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        },
+        {
+          "chunkId": "certificacao-niveis-payfelix",
+          "anchorId": "labs-aprovados",
+          "heading": "Laboratórios aprovados",
+          "bodyChars": 1159,
+          "englishRatio": 0,
+          "termCoverage": 0.71,
+          "missingTerms": [
+            "L2",
+            "L3"
+          ],
+          "status": "ok"
+        },
+        {
+          "chunkId": "certificacao-niveis-payfelix",
+          "anchorId": "custo-complexidade",
+          "heading": "Custo e complexidade",
+          "bodyChars": 1201,
+          "englishRatio": 0,
+          "termCoverage": 0.71,
+          "missingTerms": [
+            "L2",
+            "L3"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "contactless-mobile",
+      "trackTitle": "Contactless e Tap to Mobile",
+      "moduleId": "mod-contactless",
+      "moduleTitle": "EMV Contactless",
+      "sections": [
+        {
+          "chunkId": "contactless-tap-mobile",
+          "anchorId": "contactless-overview",
+          "heading": "Visão geral contactless",
+          "bodyChars": 1315,
+          "englishRatio": 0,
+          "termCoverage": 0.78,
+          "missingTerms": [
+            "PCI",
+            "PAN"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "contactless-mobile",
+      "trackTitle": "Contactless e Tap to Mobile",
+      "moduleId": "mod-tap-mobile",
+      "moduleTitle": "Tap to Mobile",
+      "sections": [
+        {
+          "chunkId": "contactless-tap-mobile",
+          "anchorId": "tap-to-mobile",
+          "heading": "Tap to Mobile (SoftPOS)",
+          "bodyChars": 1338,
+          "englishRatio": 0,
+          "termCoverage": 0.78,
+          "missingTerms": [
+            "PCI",
+            "PAN"
+          ],
+          "status": "ok"
+        },
+        {
+          "chunkId": "tap-to-mobile-guidelines",
+          "anchorId": "requisitos-dispositivo",
+          "heading": "Requisitos do dispositivo",
+          "bodyChars": 1154,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        },
+        {
+          "chunkId": "tap-to-mobile-guidelines",
+          "anchorId": "ux-pagamento",
+          "heading": "UX de pagamento",
+          "bodyChars": 1194,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "contactless-mobile",
+      "trackTitle": "Contactless e Tap to Mobile",
+      "moduleId": "mod-cdcvm",
+      "moduleTitle": "Verificação do portador (CDCVM)",
+      "sections": [
+        {
+          "chunkId": "contactless-tap-mobile",
+          "anchorId": "cdcvm",
+          "heading": "CDCVM",
+          "bodyChars": 1388,
+          "englishRatio": 0,
+          "termCoverage": 0.78,
+          "missingTerms": [
+            "PCI",
+            "PAN"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "fundamentos-emv",
+      "trackTitle": "Fundamentos EMV",
+      "moduleId": "mod-emv-intro",
+      "moduleTitle": "O que é EMV e por que importa",
+      "sections": [
+        {
+          "chunkId": "fundamentos-emv-chip",
+          "anchorId": "o-que-e-emv",
+          "heading": "O que é EMV",
+          "bodyChars": 2058,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        },
+        {
+          "chunkId": "fundamentos-emv-chip",
+          "anchorId": "chip-vs-tarja",
+          "heading": "Chip vs tarja magnética",
+          "bodyChars": 2086,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "fundamentos-emv",
+      "trackTitle": "Fundamentos EMV",
+      "moduleId": "mod-cp-cnp",
+      "moduleTitle": "Card Present vs Card Not Present",
+      "sections": [
+        {
+          "chunkId": "fundamentos-cnp-cp",
+          "anchorId": "definicao-cp",
+          "heading": "Card Present (CP)",
+          "bodyChars": 3006,
+          "englishRatio": 0,
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "PCI"
+          ],
+          "status": "ok"
+        },
+        {
+          "chunkId": "fundamentos-cnp-cp",
+          "anchorId": "definicao-cnp",
+          "heading": "Card Not Present (CNP)",
+          "bodyChars": 3053,
+          "englishRatio": 0,
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "PCI"
+          ],
+          "status": "ok"
+        },
+        {
+          "chunkId": "fundamentos-cnp-cp",
+          "anchorId": "liability-shift",
+          "heading": "Liability shift",
+          "bodyChars": 3086,
+          "englishRatio": 0,
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "PCI"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "fundamentos-emv",
+      "trackTitle": "Fundamentos EMV",
+      "moduleId": "mod-fluxo-chip",
+      "moduleTitle": "Fluxo da transação com chip",
+      "sections": [
+        {
+          "chunkId": "fundamentos-emv-chip",
+          "anchorId": "fluxo-transacao-chip",
+          "heading": "Fluxo básico da transação",
+          "bodyChars": 3255,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "seguranca-terminal",
+      "trackTitle": "Segurança de Terminal",
+      "moduleId": "mod-ambiente-seguro",
+      "moduleTitle": "Ambiente seguro",
+      "sections": [
+        {
+          "chunkId": "seguranca-terminal",
+          "anchorId": "ambiente-seguro",
+          "heading": "Ambiente seguro de execução",
+          "bodyChars": 2059,
+          "englishRatio": 0,
+          "termCoverage": 0.64,
+          "missingTerms": [
+            "TAC",
+            "EMVCo",
+            "L3",
+            "PAN"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "seguranca-terminal",
+      "trackTitle": "Segurança de Terminal",
+      "moduleId": "mod-pci",
+      "moduleTitle": "Escopo PCI",
+      "sections": [
+        {
+          "chunkId": "seguranca-terminal",
+          "anchorId": "pci-escopo",
+          "heading": "Escopo PCI",
+          "bodyChars": 2073,
+          "englishRatio": 0,
+          "termCoverage": 0.73,
+          "missingTerms": [
+            "TAC",
+            "EMVCo",
+            "L3"
+          ],
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "trackSlug": "seguranca-terminal",
+      "trackTitle": "Segurança de Terminal",
+      "moduleId": "mod-attestation",
+      "moduleTitle": "Integridade do app",
+      "sections": [
+        {
+          "chunkId": "tap-to-mobile-guidelines",
+          "anchorId": "attestation",
+          "heading": "Attestation e integridade",
+          "bodyChars": 1503,
+          "englishRatio": 0,
+          "termCoverage": 1,
+          "missingTerms": [],
+          "status": "ok"
+        }
+      ]
+    }
+  ]
+}

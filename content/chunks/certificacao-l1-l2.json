@@ -8,10 +8,10 @@
     {
       "anchorId": "level-1-fisico",
       "heading": "Level 1: Camada física e protocolo",
-      "bodyMd": "Level 1 valida a interface de comunicação entre o terminal e o cartão: RF para contactless (ISO 14443) ou contato (ISO 7816). Testa timing, modulação, anticolisão e interoperabilidade com cartões de referência. Para SoftPOS/Tap to Mobile, o NFC do dispositivo e o stack de baixo nível precisam passar nos testes do laboratório aprovado.\n\n_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications for performance and compatibility.\n\n_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastructure to help ensure the interoperability of an end-to-end EMV transaction. _ _In this post, Arman Aygen, EMVCo Director of Technology, covers the basics of EMV L3 testing and how EMVCo supports the delivery of seamless and secure chip card payments around the world.\n\nBefore exploring EMV L3 testing, it is important to firstly understand the role of EMV Level 1 (L1) and Level 2 (L2).\n\n**Pontos técnicos:**\n- *What products does EMVCo assess? And are there different requirements for EMV L1 and L2 approvals?**",
+      "bodyMd": "Level 1 valida a interface de comunicação entre o terminal e o cartão: RF para contactless (ISO 14443) ou contato (ISO 7816). Testa timing, modulação, anticolisão e interoperabilidade com cartões de referência. Para SoftPOS/Tap to Mobile, o NFC do dispositivo e o stack de baixo nível precisam passar nos testes do laboratório aprovado.\n\n**Pontos técnicos:**\n- **EMV acceptance devices**\n- **Mobile payment form factors**\n- O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.\n\nO Level 1 (L1) avalia a camada física e de protocolo: interface RF contactless (ISO 14443) ou contato (ISO 7816), timing, modulação e anticolisão. Laboratórios EMVCo homologados executam casos de teste com cartões de referência. Para POS no smartphone, o stack NFC de baixo nível e o firmware do dispositivo entram no escopo, não apenas o app Flutter.",
       "btgpayNote": "Certificações L1/L2/L3 e programas de bandeira impactam diretamente o cronograma do POS mobile BtgPay. Alterações no fluxo de pagamento ou no bridge nativo podem exigir reteste em laboratório aprovado.",
       "verification": {
-        "evidence": "_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications for performance and c…",
+        "evidence": "Level 1 valida a interface de comunicação entre o terminal e o cartão: RF para contactless (ISO 14443) ou contato (ISO 7816). Testa timing, modulação, anticolisão e interoperabilidade com cartões de r…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
         "status": "OK"
       }
@@ -19,10 +19,10 @@
     {
       "anchorId": "level-2-kernel",
       "heading": "Level 2: Kernel de aplicação",
-      "bodyMd": "Level 2 certifica o kernel EMV: seleção de AID, processamento de GPO, CVM, geração de cryptograma, regras de floor limit e torniquete (torn transaction). O kernel é tipicamente fornecido por um provedor licenciado: o app BtgPay integra via SDK, não reimplementa o kernel.\n\n_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications for performance and compatibility.\n\nEMV L2 refers to the software component, commonly known as the ‘kernel’ or ‘payment application’, that resides on an acceptance device or card and mobile respectively.  This software contains the set of functions that provide the processing logic along with necessary data to perform an EMV contact or contactless transaction.\n\nTo ease the transition for stakeholders deploying the new EMV Contactless Kernel, the approval process supports two approaches.  The EMV Contactless Kernel can be tested as a full contactless acceptance device, which reflects the approach currently used for other available contactless kernels.  Additionally, EMVCo has introduced standalone testing of the EMV Contactless Kernel itself to support different deployment options for products in the field that are already approved.",
+      "bodyMd": "Level 2 certifica o kernel EMV: seleção de AID, processamento de GPO, CVM, geração de cryptograma, regras de floor limit e torniquete (torn transaction). O kernel é tipicamente fornecido por um provedor licenciado: o app BtgPay integra via SDK, não reimplementa o kernel.\n\n**Pontos técnicos:**\n- **EMV acceptance devices**\n- **Mobile payment form factors**\n- O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.\n\nO Level 2 (L2) certifica o kernel EMV: seleção de AID, processamento de GPO, regras de CVM, geração de cryptograma (ARQC/TC/AAC), floor limit e torn transactions. O kernel é licenciado; o app BtgPay consome APIs do SDK e não reimplementa lógica EMV. Mudanças no bridge nativo ou na versão do kernel podem exigir reteste L2.",
       "btgpayNote": "Certificações L1/L2/L3 e programas de bandeira impactam diretamente o cronograma do POS mobile BtgPay. Alterações no fluxo de pagamento ou no bridge nativo podem exigir reteste em laboratório aprovado.",
       "verification": {
-        "evidence": "_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications for performance and c…",
+        "evidence": "Level 2 certifica o kernel EMV: seleção de AID, processamento de GPO, CVM, geração de cryptograma, regras de floor limit e torniquete (torn transaction). O kernel é tipicamente fornecido por um proved…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
         "status": "OK"
       }
@@ -30,10 +30,10 @@
     {
       "anchorId": "level-3-integracao",
       "heading": "Level 3: Integração adquirente",
-      "bodyMd": "Level 3 testa a integração ponta a ponta com a rede do adquirente: mensagens ISO 8583, campos EMV (DE 55), cenários de aprovação/negação, estorno e reconciliação. O time frontend precisa exibir estados corretos e nunca persistir dados sensíveis fora do ambiente certificado.\n\n_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastructure to help ensure the interoperability of an end-to-end EMV transaction. _ _In this post, Arman Aygen, EMVCo Director of Technology, covers the basics of EMV L3 testing and how EMVCo supports the delivery of seamless and secure chip card payments around the world.\n\n_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications for performance and compatibility.\n\nBefore exploring EMV L3 testing, it is important to firstly understand the role of EMV Level 1 (L1) and Level 2 (L2).",
+      "bodyMd": "Level 3 testa a integração ponta a ponta com a rede do adquirente: mensagens ISO 8583, campos EMV (DE 55), cenários de aprovação/negação, estorno e reconciliação. O time frontend precisa exibir estados corretos e nunca persistir dados sensíveis fora do ambiente certificado.\n\n**Pontos técnicos:**\n- **EMV acceptance devices**\n- **Mobile payment form factors**\n- O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.\n\nO Level 3 (L3) valida a integração ponta a ponta com o host do adquirente: DE 55 (TLV EMV), ISO 8583, cenários de aprovação, negação, estorno e reconciliação. O time mobile garante estados de UI corretos e observabilidade sem expor PAN, PIN ou chaves em logs.",
       "btgpayNote": "Certificações L1/L2/L3 e programas de bandeira impactam diretamente o cronograma do POS mobile BtgPay. Alterações no fluxo de pagamento ou no bridge nativo podem exigir reteste em laboratório aprovado.",
       "verification": {
-        "evidence": "_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastructure to help ensure the interoperability of an end-to-end EMV transaction._ _In th…",
+        "evidence": "Level 3 testa a integração ponta a ponta com a rede do adquirente: mensagens ISO 8583, campos EMV (DE 55), cenários de aprovação/negação, estorno e reconciliação. O time frontend precisa exibir estado…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
         "status": "OK"
       }
@@ -45,9 +45,9 @@
     "content\\raw\\emvco.com\\www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json"
   ],
   "enrichedChars": 4976,
-  "synthesizedAt": "2026-06-22T14:44:21.157Z",
+  "synthesizedAt": "2026-06-22T16:14:40.557Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "pending",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
     "content/raw/emvco.com/www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json"

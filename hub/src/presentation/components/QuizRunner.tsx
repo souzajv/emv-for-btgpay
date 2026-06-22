@@ -75,11 +75,11 @@ export function QuizRunner({ level, questions }: QuizRunnerProps) {
         <p className="mt-4 text-muted">
           Você acertou <strong>{score}</strong> de <strong>{batch.length}</strong> perguntas.
         </p>
-        <div className="mt-8 flex flex-wrap gap-4">
+        <div className="mt-8 flex flex-col sm:flex-row flex-wrap gap-4">
           <button
             type="button"
             onClick={startSession}
-            className="font-mono text-xs tracking-widest px-7 py-3.5 bg-accent text-accent-foreground border-2 border-ink shadow-brutal rounded-sm"
+            className="w-full sm:w-auto font-mono text-xs tracking-widest px-4 sm:px-7 py-3.5 bg-accent text-accent-foreground border-2 border-ink shadow-brutal rounded-sm"
           >
             NOVA SESSÃO (10)
           </button>
@@ -96,13 +96,13 @@ export function QuizRunner({ level, questions }: QuizRunnerProps) {
       <div className="font-mono text-xs tracking-widest text-muted mb-4" aria-live="polite">
         PERGUNTA {current + 1} / {batch.length} · NÍVEL {level.toUpperCase()}
       </div>
-      <h2 className="text-xl font-bold leading-snug">{q.prompt}</h2>
+      <h2 className="text-xl sm:text-2xl font-bold leading-snug break-words">{q.prompt}</h2>
       <fieldset className="mt-8 space-y-3">
         <legend className="sr-only">Opções de resposta</legend>
         {q.options.map((opt, i) => (
           <label
             key={i}
-            className={`flex items-start gap-3 border-2 border-ink p-4 rounded-sm cursor-pointer transition-colors ${
+            className={`flex items-start gap-3 border-2 border-ink p-3 sm:p-4 rounded-sm cursor-pointer transition-colors ${
               selected === i ? "bg-highlight" : "bg-paper hover:bg-accent/30"
             } ${showResult && i === q.correctIndex ? "ring-2 ring-success" : ""}`}
           >
@@ -113,9 +113,9 @@ export function QuizRunner({ level, questions }: QuizRunnerProps) {
               checked={selected === i}
               onChange={() => !showResult && setSelected(i)}
               disabled={showResult}
-              className="mt-1"
+              className="mt-1 shrink-0"
             />
-            <span>{opt}</span>
+            <span className="break-words min-w-0 text-sm sm:text-base">{opt}</span>
           </label>
         ))}
       </fieldset>
@@ -125,7 +125,7 @@ export function QuizRunner({ level, questions }: QuizRunnerProps) {
           type="button"
           onClick={submitAnswer}
           disabled={selected === null}
-          className="mt-8 font-mono text-xs tracking-widest px-7 py-3.5 bg-accent text-accent-foreground border-2 border-ink shadow-brutal rounded-sm disabled:opacity-40"
+          className="mt-8 w-full sm:w-auto font-mono text-xs tracking-widest px-4 sm:px-7 py-3.5 bg-accent text-accent-foreground border-2 border-ink shadow-brutal rounded-sm disabled:opacity-40"
         >
           CONFIRMAR
         </button>
@@ -148,7 +148,7 @@ export function QuizRunner({ level, questions }: QuizRunnerProps) {
             <button
               type="button"
               onClick={next}
-              className="font-mono text-xs tracking-widest px-7 py-3.5 bg-highlight border-2 border-ink shadow-brutal rounded-sm"
+              className="w-full sm:w-auto font-mono text-xs tracking-widest px-4 sm:px-7 py-3.5 bg-highlight border-2 border-ink shadow-brutal rounded-sm"
             >
               {current + 1 >= batch.length ? "FINALIZAR" : "PRÓXIMA"}
             </button>
