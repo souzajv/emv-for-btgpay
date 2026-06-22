@@ -20,6 +20,12 @@ import {
   mergeRawText,
   relPath,
 } from "./lib/chunk-source.mjs";
+import { isMostlyEnglish } from "./lib/language-audit.mjs";
+import {
+  stripPedagogicalWrapper,
+  sanitizeBodyMd,
+} from "./lib/pt-from-english.mjs";
+import { getCuratedSection } from "./lib/curated-sections.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -28,21 +34,11 @@ const CHUNKS_DIR = join(ROOT, "content", "chunks");
 const TRACKS_DIR = join(ROOT, "content", "tracks");
 const META_DIR = join(ROOT, "content", "_meta");
 const QUEUE_PATH = join(META_DIR, "synthesis-queue.json");
-const ENRICHMENTS_PATH = join(META_DIR, "track-section-enrichments.json");
+const ENRICHMENTS_TRACK_PATH = join(META_DIR, "track-section-enrichments.json");
+const ENRICHMENTS_ALL_PATH = join(META_DIR, "section-enrichments.json");
 
 const BOILERPLATE_RE =
   /©\s*\d{4}.*EMVCo|All rights reserved|www\.\s*emvco|Page \d+\s*\/\s*\d+|EMV ®/i;
-
-const EN_STOP = new Set([
-  "the", "and", "for", "with", "that", "this", "from", "have", "has", "are",
-  "was", "were", "will", "can", "should", "must", "before", "after", "when",
-  "which", "their", "they", "assesses", "testing", "exploring",
-]);
-
-const PT_STOP = new Set([
-  "que", "para", "com", "uma", "dos", "das", "não", "são", "como", "mais",
-  "pelo", "pela", "deve", "pode", "este", "esta", "seu", "sua", "nos", "nas",
-]);
 
 const EMV_TERMS = [
   "ARQC", "TC", "AAC", "CDCVM", "AID", "TVR", "TAC", "DE 55", "kernel",
@@ -65,8 +61,15 @@ const BTGPAY_CONTEXT = {
 };
 
 function loadEnrichments() {
-  if (!existsSync(ENRICHMENTS_PATH)) return {};
-  return loadJson(ENRICHMENTS_PATH);
+  const merged = {};
+  for (const path of [ENRICHMENTS_TRACK_PATH, ENRICHMENTS_ALL_PATH]) {
+    if (!existsSync(path)) continue;
+    const data = loadJson(path);
+    for (const [chunkId, sections] of Object.entries(data)) {
+      merged[chunkId] = { ...merged[chunkId], ...sections };
+    }
+  }
+  return merged;
 }
 
 function getBtgContext(category) {
@@ -77,28 +80,12 @@ function isBoilerplate(text) {
   return BOILERPLATE_RE.test(text);
 }
 
-function isMostlyEnglish(text) {
-  if (!text || text.length < 25) return false;
-  if (/[áàâãéêíóôõúç]/i.test(text)) return false;
-  const words = text.toLowerCase().match(/[a-z]{3,}/g) ?? [];
-  if (words.length === 0) return false;
-  let en = 0;
-  let pt = 0;
-  for (const w of words) {
-    if (EN_STOP.has(w)) en++;
-    if (PT_STOP.has(w)) pt++;
-  }
-  if (/\b(the|and|should|assesses|testing|before exploring|level \d)\b/i.test(text)) {
-    en += 4;
-  }
-  if (/\b(que|para|com|não|são|deve|transação|cartão|terminal)\b/i.test(text)) {
-    pt += 3;
-  }
-  return en > pt && en >= 2;
-}
-
 function stripLegacyBlocks(body) {
   if (!body) return "";
+  body = stripPedagogicalWrapper(body);
+  if (/\*\*Purpose:\*\*/i.test(body) && isMostlyEnglish(stripPedagogicalWrapper(body))) {
+    return "";
+  }
   if (body.includes("### Resumo acadêmico")) {
     const resumo = body.split("### Resumo acadêmico")[1]?.split("### Detalhes técnicos")[0] ?? "";
     const paragraphs = resumo.split(/\n\n+/).map((p) => p.trim()).filter(Boolean);
@@ -119,13 +106,21 @@ function stripLegacyBlocks(body) {
   return first ?? "";
 }
 
+function isUselessBullet(text) {
+  const t = text.trim();
+  if (t.length < 15) return true;
+  if (/^!\[/.test(t)) return true;
+  if (/^#+$/.test(t)) return true;
+  return false;
+}
+
 function extractBullets(text) {
   const bullets = [];
   for (const line of text.split(/\n/)) {
     const t = line.trim();
     if ((t.startsWith("•") || t.startsWith("-") || t.startsWith("*")) && !isBoilerplate(t)) {
       const content = t.replace(/^[•\-*]\s*/, "");
-      if (!isMostlyEnglish(content)) bullets.push(content);
+      if (!isUselessBullet(content) && !isMostlyEnglish(content)) bullets.push(content);
     } else if (/^\[\d+\.\d+\]/.test(t)) {
       bullets.push(t);
     }
@@ -226,7 +221,7 @@ function buildPtBulletsFromRaw(rawText, heading) {
   return bullets.slice(0, 6);
 }
 
-function buildStudyBody(heading, seedPt, relevantParas, requirements, bullets, rawText, isTrackChunk) {
+function buildStudyBody(heading, seedPt, relevantParas, requirements, bullets, rawText) {
   const parts = [];
 
   if (seedPt && seedPt.length > 40 && !seedPt.includes("Esta seção aborda") && !isMostlyEnglish(seedPt)) {
@@ -256,9 +251,7 @@ function buildStudyBody(heading, seedPt, relevantParas, requirements, bullets, r
   let usefulBullets = bullets.filter(
     (b) => b.length > 20 && !isBoilerplate(b) && !isMostlyEnglish(b)
   );
-  if (isTrackChunk) {
-    usefulBullets = [...new Set([...usefulBullets, ...buildPtBulletsFromRaw(rawText, heading)])];
-  }
+  usefulBullets = [...new Set([...usefulBullets, ...buildPtBulletsFromRaw(rawText, heading)])];
   if (usefulBullets.length) {
     if (detailLines.length) detailLines.push("");
     detailLines.push("**Pontos técnicos:**");
@@ -273,6 +266,17 @@ function buildStudyBody(heading, seedPt, relevantParas, requirements, bullets, r
 }
 
 function applyEnrichment(bodyMd, chunkId, anchorId, enrichments) {
+  const curated = getCuratedSection(chunkId, anchorId);
+  if (curated) {
+    if (!bodyMd || bodyMd.length < 350 || bodyMd.length < curated.length - 30) {
+      return curated;
+    }
+    if (!bodyMd.includes(curated.slice(0, 80))) {
+      return `${bodyMd}\n\n${curated}`;
+    }
+    return bodyMd;
+  }
+
   const extra = enrichments[chunkId]?.[anchorId];
   if (!extra) return bodyMd;
   if (bodyMd.includes(extra.slice(0, 60))) return bodyMd;
@@ -302,7 +306,7 @@ function buildVerification(evidence, sourceRel) {
   };
 }
 
-function synthesizeSection(section, rawText, sourceRel, category, enrichments, isTrackChunk) {
+function synthesizeSection(section, rawText, sourceRel, category, enrichments) {
   const heading = section.heading || "Conteúdo";
   const anchorId = section.anchorId || "sec";
   const seedPt = stripLegacyBlocks(section.bodyMd || "");
@@ -319,9 +323,9 @@ function synthesizeSection(section, rawText, sourceRel, category, enrichments, i
     relevant,
     requirements,
     bullets,
-    rawText,
-    isTrackChunk
+    rawText
   );
+  bodyMd = sanitizeBodyMd(bodyMd, heading, category, rawText);
   bodyMd = applyEnrichment(bodyMd, section.chunkId ?? "", anchorId, enrichments);
 
   return {
@@ -333,11 +337,10 @@ function synthesizeSection(section, rawText, sourceRel, category, enrichments, i
   };
 }
 
-function synthesizeChunk(chunk, rawPaths, enrichments, trackChunkIds) {
+function synthesizeChunk(chunk, rawPaths, enrichments) {
   const rawText = mergeRawText(rawPaths, ROOT) || chunk.sections.map((s) => s.bodyMd).join("\n\n");
   const sourceRel =
     rawPaths.length > 0 ? relPath(rawPaths[0], ROOT) : chunk.sourceUrl || "chunk-local";
-  const isTrackChunk = trackChunkIds.has(chunk.id);
 
   const sections = chunk.sections.map((sec) =>
     synthesizeSection(
@@ -345,8 +348,7 @@ function synthesizeChunk(chunk, rawPaths, enrichments, trackChunkIds) {
       rawText,
       sourceRel,
       chunk.category,
-      enrichments,
-      isTrackChunk
+      enrichments
     )
   );
 
@@ -357,8 +359,7 @@ function synthesizeChunk(chunk, rawPaths, enrichments, trackChunkIds) {
         rawText,
         sourceRel,
         chunk.category,
-        enrichments,
-        isTrackChunk
+        enrichments
       )
     );
   }
@@ -417,7 +418,7 @@ function main() {
     const chunkPath = join(CHUNKS_DIR, file);
     const chunk = loadJson(chunkPath);
     const rawPaths = findRawFilesForChunk(chunk, allRaw);
-    const synthesized = synthesizeChunk(chunk, rawPaths, enrichments, trackChunkIds);
+    const synthesized = synthesizeChunk(chunk, rawPaths, enrichments);
 
     if (!dryRun) {
       writeFileSync(chunkPath, JSON.stringify(synthesized, null, 2));

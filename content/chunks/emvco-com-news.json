@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "News",
-      "bodyMd": "TapToMobile allows merchants to accept contactless payments directly on near field communication (NFC)-enabled consumer and enterprise devices, without the need for an additional connected device, dongle or attachment.  The quality of the TapToMobile user experience is dependent on NFC read ranges, which determine how close and precisely positioned the payment device needs to be to the acceptance device for payment information to flow.\n\nWhile traditional terminals have a high read range, consumer and enterprise devices – which were not designed with payments as their primary function – are more limited.  To address this challenge and promote a good user experience, EMVCo has defined minimum acceptance criteria and developed a supporting ‘reduced range’ approval process to evaluate the performance of consumer and enterprise devices for contactless payment acceptance.\n\n“Advancing and evolving testing processes to reflect emerging industry developments is integral to promoting consistent, convenient and secure payments worldwide,” comments Aaron Armstrong, EMVCo Executive Committee Chair.  “The introduction of reduced range approval testing addresses the need to enhance the TapToMobile payment experience, enabling EMVCo and industry participants to start measuring the performance of TapToMobile devices and provide feedback on improving read range over time.\n\n**Pontos técnicos:**\n- While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap on Phone, Tap on Mobile, Tap to Phone and Tap to Pay.\n- EMV® Level 1 testing assesses compliance with the protocols defined within the EMV Chip and EMV Contactless Specifications, which covers the transfer of data between the terminal and the chip card or payment device (such as a smartphone or watch). This includes tests to confirm how close the card or device and the reader need to be for reliable information to flow when a contactless payment is made.\n- EMV® is a registered trademark in the U.S. and other countries and an unregistered trademark elsewhere. The EMV trademark is owned by EMVCo, LLC.",
+      "bodyMd": "Fundamentos do padrão EMV aplicados a cartão presente, contactless e integração com POS mobile.\n\n**Pontos técnicos:**\n\n- Apr 10 2026\n\n- #### EMVCo Newsletter: Q1 2026\n\n- View Online\n\n- *– ENDS –**\n\n- *Notes to Editors:**\n\n- For further EMVCo media information please contact David Amos / Chloe Mercer – Tel: +44 113 3501922 or email: david@iseepr.co.uk / chloe@iseepr.co.uk\n\n- Termos técnicos na fonte: TAC, NFC, SoftPOS, EMVCo, PAN. Siglas EMV são mantidas conforme glossário do hub.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "TapToMobile allows merchants to accept contactless payments directly on near field communication (NFC)-enabled consumer and enterprise devices, without the need for an additional connected device, don…",
+        "evidence": "For further EMVCo media information please contact David Amos / Chloe Mercer – Tel: +44 113 3501922 or email: [david@iseepr.co.uk](mailto:david@iseepr.co.uk) / [chloe@iseepr.co.uk](mailto:chloe@iseepr…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comnews.json",
         "status": "OK"
       }
@@ -19,7 +19,7 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:01:41.047Z",
-  "synthesizedAt": "2026-06-22T14:44:21.225Z",
+  "synthesizedAt": "2026-06-22T16:26:40.854Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "pass",
   "synthesizedFrom": [

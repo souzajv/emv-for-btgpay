@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T16:14:03.606Z",
+  "generatedAt": "2026-06-22T16:26:41.824Z",
   "chunks": [
     {
       "id": "btgpay-flutter-pratica",
@@ -77,21 +77,33 @@
       "id": "emvco-com-about-arman-aygen",
       "sourceRel": "content/raw/emvco.com/www.emvco.comauthor_arman-aygenemvco-com.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-approved-evaluated",
       "sourceRel": "content/raw/emvco.com/www.emvco.comapproved-evaluated.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "functional-approval",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-contact-emvco",
@@ -107,21 +119,33 @@
       "id": "emvco-com-contact-kernel-approval-process",
       "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_contact-kernel-approval-process.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-contactless-product-approval-process",
       "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_contactless-product-approval-process.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-document-search",
@@ -153,51 +177,81 @@
       "id": "emvco-com-emv-contact-chip",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-contactless-chip",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contactless-chip.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-electric-vehicle-open-payments-evop",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-electric-vehicle-open-payments.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-insights",
       "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub-category_emv-insights.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-level-3-testing",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_emv-level-3-testing.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-mobile",
@@ -213,71 +267,97 @@
       "id": "emvco-com-emv-payment-tokenisation",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_payment-tokenisation.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
-      "warnings": [
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
         {
           "section": "conteudo-principal",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         }
       ],
-      "verificationStatus": "pass"
+      "warnings": [],
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-qr-codes",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_qr-codes.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
-      "warnings": [
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
         {
           "section": "conteudo-principal",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         }
       ],
-      "verificationStatus": "pass"
+      "warnings": [],
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-secure-remote-commerce",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_secure-remote-commerce.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-technologies-2023-priorities",
       "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_emv-technologies-2023-priorities.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emv-technologies",
       "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "emv-3-d-secure",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emvco-associates-subscribers",
       "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration_emvco-associates-subscribers.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-emvco-launches-new-testing-process-to-support-the-",
@@ -293,61 +373,97 @@
       "id": "emvco-com-enabling-seamless-and-secure-payments-worldwide",
       "sourceRel": "https://www.emvco.com/",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "emvco-collaborates-with-the-payments-industry",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-events",
       "sourceRel": "content/raw/emvco.com/www.emvco.comevents.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-how-emvco-is-supporting-card-data-encryption-advan",
       "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_how-emvco-is-supporting-card-data-encryption-advancements-for-card-personalisation.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-industry-collaboration",
       "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "emvco-associates-subscribers",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-industry-partners-liaisons",
       "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration_industry-partners-liaisons.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-knowledge-hub",
       "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub-category_emv-insights.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-l3-test-tool-qualification-process",
@@ -385,21 +501,33 @@
       "id": "emvco-com-mobile-cmp-ppse-approval-process",
       "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_mobile-cmp-ppse-approval-process.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-mobile-level-1-approval-process",
       "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_mobile-level-1-approval-process.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-news",
@@ -415,11 +543,17 @@
       "id": "emvco-com-overview-of-emvco",
       "sourceRel": "content/raw/emvco.com/www.emvco.comabout-us.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-product-approval-process",
@@ -477,11 +611,17 @@
       "id": "emvco-com-registered",
       "sourceRel": "content/raw/emvco.com/www.emvco.comregistered-ids.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "registration-processes",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-test-platform-provider-qualification-and-recogniti",
@@ -503,11 +643,17 @@
       "id": "emvco-com-trademark-centre",
       "sourceRel": "content/raw/emvco.com/www.emvco.comtrademark-centre.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "marks-promote-payment-trust-familiarity-and-consistency",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-untitled",
@@ -532,68 +678,88 @@
           "critical": true
         }
       ],
-      "warnings": [
-        {
-          "section": "conteudo-principal",
-          "type": "section_gap_status"
-        }
-      ],
+      "warnings": [],
       "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-wearable-level-1-approval-process",
       "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_wearable-level-1-approval-process.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-what-are-emv-level-1-and-level-2-testing",
       "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-what-are-emv-specifications",
       "sourceRel": "content/raw/emvco.com/www.emvco.comwhat-are-emv-specifications.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-what-is-emv-level-3-testing",
       "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
+        {
+          "section": "conteudo-principal",
+          "type": "evidence_not_in_source",
+          "critical": true
+        }
+      ],
       "warnings": [],
-      "verificationStatus": "pass"
+      "verificationStatus": "gaps"
     },
     {
       "id": "emvco-com-why-emv",
       "sourceRel": "content/raw/emvco.com/www.emvco.comwhy-emv.json",
       "checks": 1,
-      "passed": 1,
-      "criticalGaps": 0,
-      "gaps": [],
-      "warnings": [
+      "passed": 0,
+      "criticalGaps": 1,
+      "gaps": [
         {
           "section": "conteudo-principal",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         }
       ],
-      "verificationStatus": "pass"
+      "warnings": [],
+      "verificationStatus": "gaps"
     },
     {
       "id": "fundamentos-cnp-cp",
@@ -654,327 +820,400 @@
     {
       "id": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
       "sourceRel": "content/raw/pdfs/EMV-Acquirer-and-Terminal-Security-Guidelines-v2.0-1.json",
-      "checks": 486,
-      "passed": 486,
-      "criticalGaps": 0,
-      "gaps": [],
-      "warnings": [
+      "checks": 1314,
+      "passed": 1296,
+      "criticalGaps": 18,
+      "gaps": [
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         }
       ],
-      "verificationStatus": "pass"
+      "warnings": [],
+      "verificationStatus": "gaps"
     },
     {
       "id": "pdfs-emv-issuer-and-application-security-guidelines-v3-0-1",
       "sourceRel": "content/raw/pdfs/EMV-Issuer-and-Application-Security-Guidelines-v3.0-1.json",
-      "checks": 2112,
-      "passed": 2112,
-      "criticalGaps": 0,
-      "gaps": [],
-      "warnings": [
+      "checks": 3212,
+      "passed": 3168,
+      "criticalGaps": 44,
+      "gaps": [
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         }
       ],
-      "verificationStatus": "pass"
+      "warnings": [],
+      "verificationStatus": "gaps"
     },
     {
       "id": "pdfs-taptomobile-guidelines-v1-1",
       "sourceRel": "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json",
       "checks": 11,
-      "passed": 11,
-      "criticalGaps": 0,
-      "gaps": [],
-      "warnings": [
+      "passed": 0,
+      "criticalGaps": 11,
+      "gaps": [
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         },
         {
           "section": "introducao",
-          "type": "section_gap_status"
+          "type": "evidence_not_in_source",
+          "critical": true
         }
       ],
-      "verificationStatus": "pass"
+      "warnings": [],
+      "verificationStatus": "gaps"
     },
     {
       "id": "seguranca-terminal",
@@ -1275,17 +1514,11 @@
       "id": "stripe-com-explicacao-sobre-a-receita-mensal-recorrente-mrr-",
       "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_what-is-monthly-recurring-revenue.json",
       "checks": 15,
-      "passed": 14,
-      "criticalGaps": 1,
-      "gaps": [
-        {
-          "section": "how-stripe-can-help",
-          "type": "evidence_not_in_source",
-          "critical": true
-        }
-      ],
+      "passed": 15,
+      "criticalGaps": 0,
+      "gaps": [],
       "warnings": [],
-      "verificationStatus": "gaps"
+      "verificationStatus": "pass"
     },
     {
       "id": "stripe-com-explicamos-as-empresas-tipo-c-stripeatlas",
@@ -1781,8 +2014,8 @@
       "id": "stripe-com-retencao-de-receita-liquida-nrr-para-empresas-de-",
       "sourceRel": "content/raw/stripe.com/stripe.combr_resources_more_net-revenue-retention.json",
       "checks": 11,
-      "passed": 8,
-      "criticalGaps": 3,
+      "passed": 9,
+      "criticalGaps": 2,
       "gaps": [
         {
           "section": "o-que-e-uma-boa-taxa-de-retencao-de-receita-liquida",
@@ -1791,11 +2024,6 @@
         },
         {
           "section": "what-is-a-good-net-revenue-retention-rate",
-          "type": "evidence_not_in_source",
-          "critical": true
-        },
-        {
-          "section": "how-to-increase-net-revenue-retention",
           "type": "evidence_not_in_source",
           "critical": true
         }
@@ -1879,8 +2107,8 @@
   ],
   "summary": {
     "total": 109,
-    "pass": 69,
-    "gaps": 40,
-    "criticalGaps": 86
+    "pass": 36,
+    "gaps": 73,
+    "criticalGaps": 188
   }
 }

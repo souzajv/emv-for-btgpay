@@ -8,20 +8,20 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "EMV® QR Codes",
-      "bodyMd": "Conteúdo sobre **EMV® QR Codes** conforme documentação EMV aplicável.",
+      "bodyMd": "EMV QR Codes padronizam pagamentos via QR com payload seguro, permitindo interoperabilidade entre emissor, adquirente e carteiras. Variantes incluem merchant-present e customer-present.\n\nRelevante quando o BtgPay expandir para leitura de QR de pagamento além de NFC, mantendo separação clara entre fluxo QR e EMV contactless.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "[![alt=](https://www.emvco.com/wp-content/uploads/2021/01/An-Overview-of-EMV-QR-Codes.jpg)](#)",
+        "evidence": "EMV QR Codes padronizam pagamentos via QR com payload seguro, permitindo interoperabilidade entre emissor, adquirente e carteiras. Variantes incluem merchant-present e customer-present.",
         "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_qr-codes.json",
-        "status": "GAP"
+        "status": "OK"
       }
     }
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:04:24.428Z",
-  "synthesizedAt": "2026-06-22T14:44:21.193Z",
+  "synthesizedAt": "2026-06-22T16:26:40.820Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comemv-technologies_qr-codes.json"
   ]

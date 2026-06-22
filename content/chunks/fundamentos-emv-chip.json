@@ -45,9 +45,9 @@
     "content\\raw\\emvco.com\\www.emvco.comemv-technologies_emv-contact-chip.json"
   ],
   "enrichedChars": 1218,
-  "synthesizedAt": "2026-06-22T16:14:40.591Z",
+  "synthesizedAt": "2026-06-22T16:26:40.888Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pending",
+  "verificationStatus": "pass",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comemv-technologies_emv-contact-chip.json",
     "content/raw/stripe.com/stripe.combr_resources_more_what-are-emv-chip-cards.json"

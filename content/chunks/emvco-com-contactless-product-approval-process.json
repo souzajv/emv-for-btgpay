@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Contactless Product Approval Process",
-      "bodyMd": "Downloads & signs registration form to receive a contract and registration number.",
+      "bodyMd": "Produtos contactless (ISO 14443) passam por aprovação de RF, timing, anticolisão e interoperabilidade com cartões de referência EMVCo. Wearables e smartphones com NFC entram em variantes do processo quando atuam como POI.\n\nTap to Mobile e SoftPOS dependem desta linha de aprovação somada a requisitos CPoC/VCPS das bandeiras.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "Downloads & signs registration form to receive a contract and registration number.",
+        "evidence": "Produtos contactless (ISO 14443) passam por aprovação de RF, timing, anticolisão e interoperabilidade com cartões de referência EMVCo. Wearables e smartphones com NFC entram em variantes do processo q…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_contactless-product-approval-process.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:04:56.856Z",
-  "synthesizedAt": "2026-06-22T14:44:21.174Z",
+  "synthesizedAt": "2026-06-22T16:26:40.801Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comprocesses_contactless-product-approval-process.json"
   ]

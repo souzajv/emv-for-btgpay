@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance",
-      "bodyMd": "Conforme a documentação fonte: While traditional terminals have a high read range, consumer and enterprise devices, which were not designed with payments as their primary function, are more limited.  To address this challenge and promote a good user experience, EMVCo has defined minimum acceptance criteria and developed a supporting ‘reduced range’ approval process to evaluate the performance of consumer and enterprise devices for contactless payment acceptance. (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).\n\n“Advancing and evolving testing processes to reflect emerging industry developments is integral to promoting consistent, convenient and secure payments worldwide,” comments Aaron Armstrong, EMVCo Executive Committee Chair.  “The introduction of reduced range approval testing addresses the need to enhance the TapToMobile payment experience, enabling EMVCo and industry participants to start measuring the performance of TapToMobile devices and provide feedback on improving read range over time.\n\nTapToMobile allows merchants to accept contactless payments directly on near field communication (NFC)-enabled consumer and enterprise devices, without the need for an additional connected device, dongle or attachment.  The quality of the TapToMobile user experience is dependent on NFC read ranges, which determine how close and precisely positioned the payment device needs to be to the acceptance device for payment information to flow.\n\n**Pontos técnicos:**\n- While EMVCo uses the term TapToMobile, it can be used interchangeably with other industry terms such as softPOS, Tap on Phone, Tap on Mobile, Tap to Phone and Tap to Pay.\n- EMV® Level 1 testing assesses compliance with the protocols defined within the EMV Chip and EMV Contactless Specifications, which covers the transfer of data between the terminal and the chip card or payment device (such as a smartphone or watch). This includes tests to confirm how close the card or device and the reader need to be for reliable information to flow when a contactless payment is made.\n- EMV® is a registered trademark in the U.S. and other countries and an unregistered trademark elsewhere. The EMV trademark is owned by EMVCo, LLC.",
+      "bodyMd": "While traditional terminals have a high read range, consumer and enterprise devices, which were not designed with payments as their primary function, are more limited.  To address this challenge and promote a good user experience, EMVCo has defined minimum acceptance criteria and developed a supporting ‘reduced range’ approval process to evaluate the performance of consumer and enterprise devices for contactless payment acceptance. (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).\n\nFor further EMVCo media information please contact David Amos / Chloe Mercer – Tel: +44 113 3501922 or email: [david@iseepr. co. uk](mailto:david@iseepr.",
       "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
       "verification": {
-        "evidence": "While traditional terminals have a high read range, consumer and enterprise devices – which were not designed with payments as their primary function – are more limited. To address this challenge and…",
+        "evidence": "For further EMVCo media information please contact David Amos / Chloe Mercer – Tel: +44 113 3501922 or email: [david@iseepr.co.uk](mailto:david@iseepr.co.uk) / [chloe@iseepr.co.uk](mailto:chloe@iseepr…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comnews_emvco-launches-new-testing-process-to-support-the-use-of-taptomobile-devices-for-contactless-payment-acceptance.json",
         "status": "OK"
       }
@@ -19,7 +19,7 @@
   ],
   "btgpayRelevance": "alta",
   "scrapedAt": "2026-06-22T13:04:51.229Z",
-  "synthesizedAt": "2026-06-22T14:44:21.204Z",
+  "synthesizedAt": "2026-06-22T16:26:40.830Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "pass",
   "synthesizedFrom": [

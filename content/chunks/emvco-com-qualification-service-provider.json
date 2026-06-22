@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Qualification Service Provider",
-      "bodyMd": "Level 3 Test Tool Qualification services are provided by an independent service provider. As described in the EMV Level 3 (L3) Testing Framework, Test Tool Requirements document, this service provider is recognised by EMVCo for delivery of the services described.\n\nSuppliers interested in achieving qualification of their L3 test tools must utilise this recognised L3 Test Tool Qualification Service Provider (L3 QSP) for testing services.\n\nEMVCo is pleased to announce that the following L3 QSP has been recognised to perform EMV Level 3 Test Tool Qualification service testing.",
+      "bodyMd": "Qualification Service Providers (QSP) apoiam fabricantes na preparação documental e execução de pré-testes antes da submissão oficial. Atuam como consultoria técnica especializada em roteiros EMVCo.\n\nProduto BtgPay pode contratar QSP para acelerar ciclos L2/L3 quando houver mudanças frequentes no bridge nativo.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "Level 3 Test Tool Qualification services are provided by an independent service provider. As described in the EMV Level 3 (L3) Testing Framework – Test Tool Requirements document, this service provide…",
+        "evidence": "Qualification Service Providers (QSP) apoiam fabricantes na preparação documental e execução de pré-testes antes da submissão oficial. Atuam como consultoria técnica especializada em roteiros EMVCo.",
         "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_qualification-service-provider.json",
         "status": "OK"
       }
@@ -19,7 +19,7 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:03:00.345Z",
-  "synthesizedAt": "2026-06-22T14:44:21.229Z",
+  "synthesizedAt": "2026-06-22T16:26:40.859Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "pass",
   "synthesizedFrom": [

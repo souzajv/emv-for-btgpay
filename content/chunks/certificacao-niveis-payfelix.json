@@ -46,9 +46,9 @@
     "content\\raw\\payfelix.com\\payfelix.comemv-payment-solution-on-your-devices.json"
   ],
   "enrichedChars": 7927,
-  "synthesizedAt": "2026-06-22T16:14:40.564Z",
+  "synthesizedAt": "2026-06-22T16:26:40.785Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pending",
+  "verificationStatus": "pass",
   "synthesizedFrom": [
     "content/raw/payfelix.com/payfelix.comemv-certification-levels.json",
     "content/raw/payfelix.com/payfelix.comemv-payment-solution-on-your-devices.json"

@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "What are EMV® Level 1 and Level 2 Testing?",
-      "bodyMd": "_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications for performance and compatibility._\n\n**What products does EMVCo assess?  And are there different requirements for EMV L1 and L2 approvals?\n\nYes.  EMVCo has defined specific EMV L1 and L2 testing processes to assess if products including EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications.\n\n**Pontos técnicos:**\n- *What products does EMVCo assess? And are there different requirements for EMV L1 and L2 approvals?**",
+      "bodyMd": "O Level 1 EMVCo cobre conformidade física e de protocolo do ponto de interação (POI), incluindo leitores contactless e com chip.\n\n**Pontos técnicos:**\n- **EMV acceptance devices**\n- **Mobile payment form factors**\n- O kernel EMV implementa regras de aplicação, CVM e geração de cryptograma no terminal.",
       "btgpayNote": "Certificações L1/L2/L3 e programas de bandeira impactam diretamente o cronograma do POS mobile BtgPay. Alterações no fluxo de pagamento ou no bridge nativo podem exigir reteste em laboratório aprovado.",
       "verification": {
-        "evidence": "_EMV® Level 1 (L1) and Level 2 (L2) testing assesses if EMV acceptance devices, mobile payment form factors and EMV Chip cards meet the EMV Contact and Contactless Specifications for performance and c…",
+        "evidence": "O Level 1 EMVCo cobre conformidade física e de protocolo do ponto de interação (POI), incluindo leitores contactless e com chip.",
         "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "alta",
   "scrapedAt": "2026-06-22T13:01:32.041Z",
-  "synthesizedAt": "2026-06-22T14:44:21.245Z",
+  "synthesizedAt": "2026-06-22T16:26:40.875Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json"
   ]

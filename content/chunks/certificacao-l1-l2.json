@@ -45,9 +45,9 @@
     "content\\raw\\emvco.com\\www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json"
   ],
   "enrichedChars": 4976,
-  "synthesizedAt": "2026-06-22T16:14:40.557Z",
+  "synthesizedAt": "2026-06-22T16:26:40.780Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pending",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comknowledge-hub_what-are-emv-level-1-and-level-2-testing.json",
     "content/raw/emvco.com/www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json"

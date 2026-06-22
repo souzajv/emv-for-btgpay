@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Laboratory Recognition Process",
-      "bodyMd": "*   Downloads and signs registration form.\n*   Submits the registration form to EMVCo.\n\n**Pontos técnicos:**\n- Downloads and signs registration form.\n- Submits the registration form to EMVCo.",
+      "bodyMd": "Laboratórios só executam testes oficiais EMVCo após reconhecimento formal: capacidade técnica, equipamentos, treinamento e auditoria periódica. Fabricantes escolhem labs da lista publicada para cada tipo de certificação (L1, L2, L3, kernel, contactless).\n\nCronograma BtgPay deve reservar fila de lab e retestes; mudanças de kernel ou firmware NFC reiniciam ciclos de aprovação.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "* Downloads and signs registration form. * Submits the registration form to EMVCo.",
+        "evidence": "Laboratórios só executam testes oficiais EMVCo após reconhecimento formal: capacidade técnica, equipamentos, treinamento e auditoria periódica. Fabricantes escolhem labs da lista publicada para cada t…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_card-mobile-laboratory-recognition-process.json",
         "status": "OK"
       }
@@ -19,7 +19,7 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:02:12.926Z",
-  "synthesizedAt": "2026-06-22T14:44:21.220Z",
+  "synthesizedAt": "2026-06-22T16:26:40.849Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "gaps",
   "synthesizedFrom": [

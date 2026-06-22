@@ -8,18 +8,18 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Ways to Participate",
-      "bodyMd": "Conteúdo sobre **Ways to Participate** conforme documentação EMV aplicável.",
+      "bodyMd": "Fundamentos do padrão EMV aplicados a cartão presente, contactless e integração com POS mobile.\n\n**Pontos técnicos:**\n\n- [Jun 23, 2022\n\n- ### Ways to Participate\n\n- ](https://www.emvco.com/industry-collaboration/ways-to-participate/)\n\n- Termos técnicos na fonte: EMVCo. Siglas EMV são mantidas conforme glossário do hub.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "[Jun 23, 2022 ### Ways to Participate ](https://www.emvco.com/industry-collaboration/ways-to-participate/)",
+        "evidence": "Fundamentos do padrão EMV aplicados a cartão presente, contactless e integração com POS mobile.",
         "sourceRel": "content/raw/emvco.com/www.emvco.comindustry-collaboration_ways-to-participate.json",
-        "status": "GAP"
+        "status": "OK"
       }
     }
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:04:35.602Z",
-  "synthesizedAt": "2026-06-22T14:44:21.242Z",
+  "synthesizedAt": "2026-06-22T16:26:40.872Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "gaps",
   "synthesizedFrom": [

@@ -8,10 +8,10 @@
     {
       "anchorId": "marks-promote-payment-trust-familiarity-and-consistency",
       "heading": "Marks promote payment trust, familiarity and consistency",
-      "bodyMd": "EMVCo Marks encourage a payment landscape that can be trusted by all parties and promotes confidence across the payment industry.",
+      "bodyMd": "Marcas EMV® e indicadores visuais sinalizam ao portador que o terminal aceita chip/contactless com segurança reconhecida. Uso indevido de trademark é regulado pela EMVCo.\n\nMarketing do app BtgPay deve seguir guias de marca do adquirente e bandeira, exibindo símbolos contactless apenas em dispositivos homologados.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "EMVCo Marks encourage a payment landscape that can be trusted by all parties and promotes confidence across the payment industry.",
+        "evidence": "Marcas EMV® e indicadores visuais sinalizam ao portador que o terminal aceita chip/contactless com segurança reconhecida. Uso indevido de trademark é regulado pela EMVCo.",
         "sourceRel": "content/raw/emvco.com/www.emvco.comtrademark-centre.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:01:43.896Z",
-  "synthesizedAt": "2026-06-22T14:44:21.239Z",
+  "synthesizedAt": "2026-06-22T16:26:40.869Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comtrademark-centre.json"
   ]

@@ -45,9 +45,9 @@
     "content\\raw\\stripe.com\\stripe.combr_resources_more_what-are-card-not-present-transactions.json"
   ],
   "enrichedChars": 9000,
-  "synthesizedAt": "2026-06-22T16:14:40.585Z",
+  "synthesizedAt": "2026-06-22T16:26:40.884Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pending",
+  "verificationStatus": "pass",
   "synthesizedFrom": [
     "content/raw/stripe.com/stripe.combr_resources_more_what-are-card-not-present-transactions.json"
   ]

@@ -135,19 +135,22 @@ crawl → ingest-pdfs → normalize → filter → enrich → synthesize-chunks
 | Normalize | `npm run normalize` | Padroniza raw em JSON |
 | Filter | `npm run filter` | Mantém trechos relevantes ao BtgPay |
 | Enrich | (interno ao synthesize) | Mescla `content/_meta/track-section-enrichments.json` |
-| Synthesize | `npm run synthesize` | Gera `bodyMd` em PT-BR por seção |
-| Trilhas | `npm run synthesize-tracks` | Reprocessa só os 8 chunks das trilhas |
-| Audit | `npm run audit-tracks` | Profundidade, idioma e termos por módulo |
+| Synthesize | `npm run synthesize` | Gera `bodyMd` em PT-BR por seção (todos os chunks) |
+| Trilhas | `npm run synthesize-tracks` | Atalho: reprocessa só os 8 chunks das trilhas |
+| Todos | `npm run synthesize-all` | Síntese completa + audit + enrich + verify + quizzes |
+| Audit trilhas | `npm run audit-tracks` | Profundidade das seções usadas nos módulos |
+| Audit chunks | `npm run audit-chunks` | Idioma e profundidade de **todas** as seções (109 chunks) |
 | Verify | `npm run verify-claims` | Evidências fonte vs. texto |
 | Quizzes | `npm run generate-quizzes` | 50 perguntas/nível a partir dos chunks |
 
-**Regra editorial:** texto de estudo em **português**. Siglas e termos EMV padrão permanecem em inglês quando é o uso do setor (AID, CDCVM, L1, L2, NFC, etc.). Parágrafos detectados como inglês não entram no `bodyMd`.
+**Regra editorial:** todo o material de estudo (`bodyMd`) está em **português**. Siglas e termos EMV padrão permanecem em inglês quando é o uso do setor (AID, CDCVM, L1, L2, NFC, etc.). Parágrafos detectados como inglês são descartados ou reescritos por heurística; páginas com scrape pobre usam enrichments curados em `section-enrichments.json` e `curated-sections.mjs`.
 
-**Gate pré-deploy das trilhas:** `npm run audit-tracks` deve reportar 0 seções com status `english`. Seções `thin` devem ter enrichment em `track-section-enrichments.json`.
+**Gate pré-deploy:** `npm run audit-chunks` deve reportar 0 seções `english` e 0 `thin` nos 109 chunks. Para trilhas, `npm run audit-tracks` complementa com cobertura de termos por módulo.
 
 Relatórios úteis:
 
-- `content/_meta/track-audit-report.json`
+- `content/_meta/chunk-audit-report.json` (todos os chunks)
+- `content/_meta/track-audit-report.json` (módulos das trilhas)
 - `content/_meta/synthesis-report.json`
 
 ## Hub (interface)
@@ -186,6 +189,8 @@ Cinco trilhas, 15 módulos no total. Cada módulo define:
 - `chunkIds`: quais chunks abrir
 - `sectionAnchorIds`: quais seções mostrar (filtro no leitor)
 - `estimatedMinutes`: tempo sugerido
+
+O hub expõe **109 chunks** de material complementar além das trilhas. Todos são acessíveis em `/material/[chunkId]` e passam pelo mesmo pipeline de síntese PT-BR.
 
 Os 8 chunks centrais das trilhas:
 

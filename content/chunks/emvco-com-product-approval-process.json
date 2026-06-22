@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Product Approval Process",
-      "bodyMd": "*   Completes the EMVCo Registration Form via EMVCo website to receive a contract.\n*   Returns the signed contract to EMVCo Registration Number.\n\n**Pontos técnicos:**\n- Completes the EMVCo Registration Form via EMVCo website to receive a contract.\n- Returns the signed contract to EMVCo Registration Number.",
+      "bodyMd": "O processo de aprovação de produto EMVCo cobre componentes que entram no fluxo de pagamento: kernels, leitores, módulos RF e ferramentas de teste. Cada produto passa por avaliação documental e testes em laboratório reconhecido antes de constar em listas oficiais.\n\nNo contexto POS smartphone, aprovação de produto distingue o que é certificado (hardware NFC, kernel, PPSE) do que o app Flutter apenas integra via SDK.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "* Completes the EMVCo Registration Form via EMVCo website to receive a contract. * Returns the signed contract to EMVCo Registration Number.",
+        "evidence": "O processo de aprovação de produto EMVCo cobre componentes que entram no fluxo de pagamento: kernels, leitores, módulos RF e ferramentas de teste. Cada produto passa por avaliação documental e testes…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_emv-3-d-secure-approval-processes.json",
         "status": "OK"
       }
@@ -19,7 +19,7 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:02:43.056Z",
-  "synthesizedAt": "2026-06-22T14:44:21.228Z",
+  "synthesizedAt": "2026-06-22T16:26:40.857Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "gaps",
   "synthesizedFrom": [

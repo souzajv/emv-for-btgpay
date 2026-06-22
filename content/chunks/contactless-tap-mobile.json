@@ -45,9 +45,9 @@
     "content\\raw\\pdfs\\TapToMobile-Guidelines-v1.1.json"
   ],
   "enrichedChars": 44514,
-  "synthesizedAt": "2026-06-22T16:14:40.576Z",
+  "synthesizedAt": "2026-06-22T16:26:40.789Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pending",
+  "verificationStatus": "pass",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comemv-technologies_mobile.json",
     "content/raw/emvco.com/www.emvco.comnews_emvco-launches-new-testing-process-to-support-the-use-of-taptomobile-devices-for-contactless-payment-acceptance.json",

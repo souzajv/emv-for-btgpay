@@ -13,7 +13,10 @@
     "sanitize-dashes": "node sanitize-dashes.mjs",
     "synthesize": "node synthesize-chunks.mjs",
     "synthesize-tracks": "node synthesize-tracks.mjs",
+    "synthesize-all": "node synthesize-all.mjs",
     "audit-tracks": "node audit-track-modules.mjs",
+    "audit-chunks": "node audit-all-chunks.mjs",
+    "auto-enrich": "node auto-enrich-from-audit.mjs",
     "verify-claims": "node verify-chunk-claims.mjs",
     "generate-quizzes": "node generate-quizzes-from-content.mjs"
   },

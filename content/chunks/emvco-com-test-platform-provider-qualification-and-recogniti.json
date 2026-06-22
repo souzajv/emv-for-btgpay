@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Test Platform Provider Qualification and Recognition Process",
-      "bodyMd": "Conforme a documentação fonte: *   Downloads and signs registration form. \n*   Submits the registration form to EMVCo. (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).\n\n**Pontos técnicos:**\n- Downloads and signs registration form.\n- Submits the registration form to EMVCo.",
+      "bodyMd": "Provedores de plataforma de teste oferecem ambientes automatizados para regressão EMV. A qualificação EMVCo assegura que scripts e resultados são aceitos em auditorias de certificação.\n\nEm CI/CD de SDK, alinhar suites internas a plataformas reconhecidas reduz surpresas na homologação final.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "* Downloads and signs registration form. * Submits the registration form to EMVCo.",
+        "evidence": "Provedores de plataforma de teste oferecem ambientes automatizados para regressão EMV. A qualificação EMVCo assegura que scripts e resultados são aceitos em auditorias de certificação.",
         "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_test-platform-provider-qualification-and-recognition-process.json",
         "status": "OK"
       }
@@ -19,7 +19,7 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:02:40.350Z",
-  "synthesizedAt": "2026-06-22T14:44:21.237Z",
+  "synthesizedAt": "2026-06-22T16:26:40.866Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "gaps",
   "synthesizedFrom": [

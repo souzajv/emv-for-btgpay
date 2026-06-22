@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "About Arman Aygen",
-      "bodyMd": "Conteúdo sobre **About Arman Aygen** conforme documentação EMV aplicável.",
+      "bodyMd": "Fundamentos do padrão EMV aplicados a cartão presente, contactless e integração com POS mobile.\n\n**Pontos técnicos:**\n\n- [\n\n- ![](https://www.emvco.com/wp-content/uploads/2022/11/EMVCo_INSIGHTS_8-1-600x246.png)\n\n- EMV® Insights\n\n- Termos técnicos na fonte: EMVCo. Siglas EMV são mantidas conforme glossário do hub.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "#### Highlights from the Indonesia EMVCo Board of Advisor Meeting",
+        "evidence": "Fundamentos do padrão EMV aplicados a cartão presente, contactless e integração com POS mobile.",
         "sourceRel": "content/raw/emvco.com/www.emvco.comauthor_arman-aygenemvco-com.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:04:46.769Z",
-  "synthesizedAt": "2026-06-22T14:44:21.165Z",
+  "synthesizedAt": "2026-06-22T16:26:40.792Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comauthor_arman-aygenemvco-com.json"
   ]

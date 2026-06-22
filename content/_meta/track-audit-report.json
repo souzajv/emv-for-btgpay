@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-22T16:14:31.072Z",
+  "generatedAt": "2026-06-22T16:25:34.462Z",
   "summary": {
-    "ok": 24,
+    "ok": 15,
     "thin": 0,
     "english": 0,
-    "missing_terms": 0,
+    "missing_terms": 9,
     "total": 24
   },
   "modules": [
@@ -18,10 +18,14 @@
           "chunkId": "btgpay-flutter-pratica",
           "anchorId": "camadas-app",
           "heading": "Camadas do app",
-          "bodyChars": 1062,
+          "bodyChars": 571,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "AID",
+            "NFC",
+            "EMVCo"
+          ],
           "status": "ok"
         }
       ]
@@ -36,10 +40,14 @@
           "chunkId": "btgpay-flutter-pratica",
           "anchorId": "estados-transacao",
           "heading": "Estados da transação",
-          "bodyChars": 1031,
+          "bodyChars": 540,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "AID",
+            "NFC",
+            "EMVCo"
+          ],
           "status": "ok"
         }
       ]
@@ -54,20 +62,27 @@
           "chunkId": "btgpay-flutter-pratica",
           "anchorId": "erros-comuns",
           "heading": "Erros comuns no mobile POS",
-          "bodyChars": 1076,
+          "bodyChars": 585,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.67,
+          "missingTerms": [
+            "AID",
+            "EMVCo"
+          ],
           "status": "ok"
         },
         {
           "chunkId": "tap-to-mobile-guidelines",
           "anchorId": "ux-pagamento",
           "heading": "UX de pagamento",
-          "bodyChars": 1194,
+          "bodyChars": 703,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "AID",
+            "NFC",
+            "EMVCo"
+          ],
           "status": "ok"
         }
       ]
@@ -82,12 +97,13 @@
           "chunkId": "certificacao-l1-l2",
           "anchorId": "level-1-fisico",
           "heading": "Level 1: Camada física e protocolo",
-          "bodyChars": 1351,
+          "bodyChars": 863,
           "englishRatio": 0,
-          "termCoverage": 0.75,
+          "termCoverage": 0.63,
           "missingTerms": [
             "L2",
-            "L3"
+            "L3",
+            "PAN"
           ],
           "status": "ok"
         },
@@ -95,14 +111,18 @@
           "chunkId": "certificacao-l1-l2",
           "anchorId": "level-2-kernel",
           "heading": "Level 2: Kernel de aplicação",
-          "bodyChars": 1258,
+          "bodyChars": 770,
           "englishRatio": 0,
-          "termCoverage": 0.75,
+          "termCoverage": 0.25,
           "missingTerms": [
+            "TAC",
+            "NFC",
             "EMVCo",
-            "L3"
+            "L1",
+            "L3",
+            "PAN"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         }
       ]
     },
@@ -116,14 +136,17 @@
           "chunkId": "certificacao-l1-l2",
           "anchorId": "level-3-integracao",
           "heading": "Level 3: Integração adquirente",
-          "bodyChars": 1197,
+          "bodyChars": 709,
           "englishRatio": 0,
-          "termCoverage": 0.75,
+          "termCoverage": 0.38,
           "missingTerms": [
+            "TAC",
+            "NFC",
             "EMVCo",
+            "L1",
             "L2"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         }
       ]
     },
@@ -137,37 +160,48 @@
           "chunkId": "certificacao-niveis-payfelix",
           "anchorId": "timeline-certificacao",
           "heading": "Timeline típica",
-          "bodyChars": 1213,
+          "bodyChars": 720,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.57,
+          "missingTerms": [
+            "NFC",
+            "SoftPOS",
+            "PAN"
+          ],
           "status": "ok"
         },
         {
           "chunkId": "certificacao-niveis-payfelix",
           "anchorId": "labs-aprovados",
           "heading": "Laboratórios aprovados",
-          "bodyChars": 1159,
+          "bodyChars": 666,
           "englishRatio": 0,
-          "termCoverage": 0.71,
+          "termCoverage": 0.14,
           "missingTerms": [
+            "TAC",
+            "NFC",
+            "SoftPOS",
             "L2",
-            "L3"
+            "L3",
+            "PAN"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         },
         {
           "chunkId": "certificacao-niveis-payfelix",
           "anchorId": "custo-complexidade",
           "heading": "Custo e complexidade",
-          "bodyChars": 1201,
+          "bodyChars": 708,
           "englishRatio": 0,
-          "termCoverage": 0.71,
+          "termCoverage": 0.29,
           "missingTerms": [
+            "NFC",
+            "SoftPOS",
             "L2",
-            "L3"
+            "L3",
+            "PAN"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         }
       ]
     },
@@ -181,11 +215,13 @@
           "chunkId": "contactless-tap-mobile",
           "anchorId": "contactless-overview",
           "heading": "Visão geral contactless",
-          "bodyChars": 1315,
+          "bodyChars": 822,
           "englishRatio": 0,
-          "termCoverage": 0.78,
+          "termCoverage": 0.56,
           "missingTerms": [
+            "AID",
             "PCI",
+            "SoftPOS",
             "PAN"
           ],
           "status": "ok"
@@ -202,10 +238,11 @@
           "chunkId": "contactless-tap-mobile",
           "anchorId": "tap-to-mobile",
           "heading": "Tap to Mobile (SoftPOS)",
-          "bodyChars": 1338,
+          "bodyChars": 845,
           "englishRatio": 0,
-          "termCoverage": 0.78,
+          "termCoverage": 0.67,
           "missingTerms": [
+            "AID",
             "PCI",
             "PAN"
           ],
@@ -215,20 +252,27 @@
           "chunkId": "tap-to-mobile-guidelines",
           "anchorId": "requisitos-dispositivo",
           "heading": "Requisitos do dispositivo",
-          "bodyChars": 1154,
+          "bodyChars": 663,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.67,
+          "missingTerms": [
+            "AID",
+            "EMVCo"
+          ],
           "status": "ok"
         },
         {
           "chunkId": "tap-to-mobile-guidelines",
           "anchorId": "ux-pagamento",
           "heading": "UX de pagamento",
-          "bodyChars": 1194,
+          "bodyChars": 703,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "AID",
+            "NFC",
+            "EMVCo"
+          ],
           "status": "ok"
         }
       ]
@@ -243,11 +287,14 @@
           "chunkId": "contactless-tap-mobile",
           "anchorId": "cdcvm",
           "heading": "CDCVM",
-          "bodyChars": 1388,
+          "bodyChars": 895,
           "englishRatio": 0,
-          "termCoverage": 0.78,
+          "termCoverage": 0.44,
           "missingTerms": [
+            "AID",
+            "NFC",
             "PCI",
+            "SoftPOS",
             "PAN"
           ],
           "status": "ok"
@@ -264,20 +311,26 @@
           "chunkId": "fundamentos-emv-chip",
           "anchorId": "o-que-e-emv",
           "heading": "O que é EMV",
-          "bodyChars": 2058,
+          "bodyChars": 1664,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "NFC",
+            "PAN"
+          ],
           "status": "ok"
         },
         {
           "chunkId": "fundamentos-emv-chip",
           "anchorId": "chip-vs-tarja",
           "heading": "Chip vs tarja magnética",
-          "bodyChars": 2086,
+          "bodyChars": 1670,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "TAC",
+            "EMVCo"
+          ],
           "status": "ok"
         }
       ]
@@ -292,37 +345,40 @@
           "chunkId": "fundamentos-cnp-cp",
           "anchorId": "definicao-cp",
           "heading": "Card Present (CP)",
-          "bodyChars": 3006,
+          "bodyChars": 2908,
           "englishRatio": 0,
-          "termCoverage": 0.5,
+          "termCoverage": 0,
           "missingTerms": [
-            "PCI"
+            "PCI",
+            "PAN"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         },
         {
           "chunkId": "fundamentos-cnp-cp",
           "anchorId": "definicao-cnp",
           "heading": "Card Not Present (CNP)",
-          "bodyChars": 3053,
+          "bodyChars": 2955,
           "englishRatio": 0,
-          "termCoverage": 0.5,
+          "termCoverage": 0,
           "missingTerms": [
-            "PCI"
+            "PCI",
+            "PAN"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         },
         {
           "chunkId": "fundamentos-cnp-cp",
           "anchorId": "liability-shift",
           "heading": "Liability shift",
-          "bodyChars": 3086,
+          "bodyChars": 2988,
           "englishRatio": 0,
-          "termCoverage": 0.5,
+          "termCoverage": 0,
           "missingTerms": [
-            "PCI"
+            "PCI",
+            "PAN"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         }
       ]
     },
@@ -336,10 +392,13 @@
           "chunkId": "fundamentos-emv-chip",
           "anchorId": "fluxo-transacao-chip",
           "heading": "Fluxo básico da transação",
-          "bodyChars": 3255,
+          "bodyChars": 2861,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "NFC",
+            "PAN"
+          ],
           "status": "ok"
         }
       ]
@@ -354,16 +413,20 @@
           "chunkId": "seguranca-terminal",
           "anchorId": "ambiente-seguro",
           "heading": "Ambiente seguro de execução",
-          "bodyChars": 2059,
+          "bodyChars": 1566,
           "englishRatio": 0,
-          "termCoverage": 0.64,
+          "termCoverage": 0.18,
           "missingTerms": [
+            "ARQC",
+            "CDCVM",
+            "AID",
+            "TVR",
             "TAC",
             "EMVCo",
             "L3",
-            "PAN"
+            "CVM"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         }
       ]
     },
@@ -377,15 +440,20 @@
           "chunkId": "seguranca-terminal",
           "anchorId": "pci-escopo",
           "heading": "Escopo PCI",
-          "bodyChars": 2073,
+          "bodyChars": 1580,
           "englishRatio": 0,
-          "termCoverage": 0.73,
+          "termCoverage": 0.27,
           "missingTerms": [
+            "ARQC",
+            "CDCVM",
+            "AID",
+            "TVR",
             "TAC",
             "EMVCo",
-            "L3"
+            "L3",
+            "CVM"
           ],
-          "status": "ok"
+          "status": "missing_terms"
         }
       ]
     },
@@ -399,10 +467,14 @@
           "chunkId": "tap-to-mobile-guidelines",
           "anchorId": "attestation",
           "heading": "Attestation e integridade",
-          "bodyChars": 1503,
+          "bodyChars": 1012,
           "englishRatio": 0,
-          "termCoverage": 1,
-          "missingTerms": [],
+          "termCoverage": 0.5,
+          "missingTerms": [
+            "AID",
+            "NFC",
+            "EMVCo"
+          ],
           "status": "ok"
         }
       ]

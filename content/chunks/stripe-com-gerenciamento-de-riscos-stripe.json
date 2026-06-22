@@ -8,7 +8,7 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Gerenciamento de riscos | Stripe",
-      "bodyMd": "[Comece agora](https://dashboard.stripe.com/register)  [Fale com a equipe](/br/contact/sales)\n\n[](https://images. stripeassets. com/fzn2n1nzq965/vkuHHSaBRDiPNQMNrfypm/64ac41be3aac547fe97d598248037c5c/image__45_.",
+      "bodyMd": "Fundamentos do padrão EMV aplicados a cartão presente, contactless e integração com POS mobile.\n\n**Pontos técnicos:**\n\n- Comece agora  Fale com a equipe\n\n- Saiba como proteger sua empresa contra perdas por fraude, estornos e muito mais.\n\n- ![](https://images.stripeassets.com/fzn2n1nzq965/vkuHHSaBRDiPNQMNrfypm/64ac41be3aac547fe97d598248037c5c/image__45_.svg?q=80)\n\n- Gerenciamento de riscos\n\n- ![](https://images.stripeassets.com/fzn2n1nzq965/jw7X3WATqtmsoEaMNgO5m/5ab0c144349dabe492f15d9d9927aefe/image__44_.svg?q=80)\n\n- Acesse uma plataforma completa de pagamento com preços simples e com base no uso ou fale conosco para criarmos um pacote personalizado, específico para sua empresa.\n\n- Termos técnicos na fonte: TAC. Siglas EMV são mantidas conforme glossário do hub.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
         "evidence": "[Comece agora](https://dashboard.stripe.com/register) [Fale com a equipe](/br/contact/sales)",
@@ -19,7 +19,7 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:01:04.931Z",
-  "synthesizedAt": "2026-06-22T14:44:21.387Z",
+  "synthesizedAt": "2026-06-22T16:26:41.259Z",
   "synthesisLocale": "pt-BR",
   "verificationStatus": "pass",
   "synthesizedFrom": [

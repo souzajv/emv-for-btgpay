@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "What is EMV® Level 3 Testing?",
-      "bodyMd": "_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastructure to help ensure the interoperability of an end-to-end EMV transaction._ _In this post, Arman Aygen, EMVCo Director of Technology, covers the basics of EMV L3 testing and how EMVCo supports the delivery of seamless and secure chip card payments around the world._\n\nBefore exploring EMV L3 testing, it is important to firstly understand the role of EMV Level 1 (L1) and Level 2 (L2).\n\nEMV L3 testing aims to validate the integration of an EMV acceptance device with its acceptance infrastructure to help ensure the interoperability of an end-to-end EMV transaction.",
+      "bodyMd": "EMV Level 3 concentra-se na aplicação de pagamento e na mensageria com o host, após hardware (L1) e kernel (L2) aprovados. Testes simulam transações reais com cartões físicos ou virtuais e validam conformidade com regras de cada esquema.\n\nPlaneje L3 quando o kernel estiver congelado e o fluxo de UI estiver estável; mudanças tardias em PIN, valor ou timeout costumam exigir reteste.",
       "btgpayNote": "Certificações L1/L2/L3 e programas de bandeira impactam diretamente o cronograma do POS mobile BtgPay. Alterações no fluxo de pagamento ou no bridge nativo podem exigir reteste em laboratório aprovado.",
       "verification": {
-        "evidence": "_EMV® Level 3 (L3) testing aims to validate the integration of an EMV acceptance device with its acceptance infrastructure to help ensure the interoperability of an end-to-end EMV transaction._ _In th…",
+        "evidence": "EMV Level 3 concentra-se na aplicação de pagamento e na mensageria com o host, após hardware (L1) e kernel (L2) aprovados. Testes simulam transações reais com cartões físicos ou virtuais e validam con…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "alta",
   "scrapedAt": "2026-06-22T13:05:14.831Z",
-  "synthesizedAt": "2026-06-22T14:44:21.250Z",
+  "synthesizedAt": "2026-06-22T16:26:40.878Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comknowledge-hub_what-is-level-3-terminal-integration-testing.json"
   ]

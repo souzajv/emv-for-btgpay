@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "Mobile CMP/PPSE Approval Process",
-      "bodyMd": "Downloads & signs registration form and business review form to receive a contract and registration number.",
+      "bodyMd": "CMP (Card Memory Protection) e PPSE (Proximity Payment System Environment) estruturam como aplicações de pagamento são expostas no ambiente mobile seguro. Aprovação garante que seleção de AID e dados apresentados ao cartão seguem o modelo EMV contactless.\n\nIntegradores Flutter dependem do SDK para PPSE correto; alterações na lista de AIDs ou na configuração exigem validação com o provedor do kernel.",
       "btgpayNote": "Tap to Mobile e contactless exigem NFC estável, UX clara em caso de timeout ou anticolisão, e suporte a CDCVM quando o valor exigir verificação no dispositivo.",
       "verification": {
-        "evidence": "Downloads & signs registration form and business review form to receive a contract and registration number.",
+        "evidence": "CMP (Card Memory Protection) e PPSE (Proximity Payment System Environment) estruturam como aplicações de pagamento são expostas no ambiente mobile seguro. Aprovação garante que seleção de AID e dados…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comprocesses_mobile-cmp-ppse-approval-process.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "alta",
   "scrapedAt": "2026-06-22T13:05:05.418Z",
-  "synthesizedAt": "2026-06-22T14:44:21.221Z",
+  "synthesizedAt": "2026-06-22T16:26:40.851Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comprocesses_mobile-cmp-ppse-approval-process.json"
   ]

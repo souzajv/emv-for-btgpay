@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "EMV® Secure Remote Commerce",
-      "bodyMd": "The EMV SRC Specifications provide a common baseline for the development of Click to Pay ecommerce payment solutions. An Application Programming Interface (API) Specification and JavaScript Software Development Kit (SDK) Specification support common integration, while the EMV Secure Remote Commerce, Click to Pay Customer Experience (CX) Guidelines are available to support consistent Click to Pay checkout experiences.\n\nClick to Pay solutions based on the EMV SRC Specifications reduce complexity and unwanted friction for e-commerce merchants and consumers.  They provide a consistent checkout process which can reduce the potential for exploitation by fraudsters.",
+      "bodyMd": "EMV Secure Remote Commerce (SRC) padroniza checkout digital com token de cartão e experiência consistente entre comerciantes, sem expor PAN em cada loja. Complementa 3-D Secure em jornadas e-commerce e wallet.\n\nNão confunda SRC com Tap to Mobile: SRC é CNP; o BtgPay POS atua em CP/contactless, mas o conhecimento ajuda em produtos híbridos.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "The EMV SRC Specifications provide a common baseline for the development of Click to Pay ecommerce payment solutions. An Application Programming Interface (API) Specification and JavaScript Software D…",
+        "evidence": "EMV Secure Remote Commerce (SRC) padroniza checkout digital com token de cartão e experiência consistente entre comerciantes, sem expor PAN em cada loja. Complementa 3-D Secure em jornadas e-commerce…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comemv-technologies_secure-remote-commerce.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:04:27.245Z",
-  "synthesizedAt": "2026-06-22T14:44:21.195Z",
+  "synthesizedAt": "2026-06-22T16:26:40.821Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comemv-technologies_secure-remote-commerce.json"
   ]

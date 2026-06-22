@@ -8,10 +8,10 @@
     {
       "anchorId": "conteudo-principal",
       "heading": "What are EMV® Specifications?",
-      "bodyMd": "Conforme a documentação fonte: EMV Specifications are designed to be global, meaning any business in any country can adopt them and expect their products and solutions to work everywhere. (tradução e condensação pedagógica; termos técnicos preservados na íntegra na seção de detalhes).",
+      "bodyMd": "As especificações EMV definem interoperabilidade global entre cartões, terminais e redes de pagamento. Qualquer emissor ou adquirente pode adotá-las e esperar comportamento consistente entre países e bandeiras.\n\n**Pontos técnicos:**\n\n- !aria-hidden=\n\n- Global\n\n- Termos técnicos na fonte: EMVCo. Siglas EMV são mantidas conforme glossário do hub.",
       "btgpayNote": "Fundamentos EMV orientam decisões de produto no BtgPay: CP vs CNP, fluxo chip/contactless e papéis de emissor, adquirente e terminal (incluindo smartphone como POI).",
       "verification": {
-        "evidence": "EMV Specifications are designed to be global, meaning any business in any country can adopt them and expect their products and solutions to work everywhere.",
+        "evidence": "As especificações EMV definem interoperabilidade global entre cartões, terminais e redes de pagamento. Qualquer emissor ou adquirente pode adotá-las e esperar comportamento consistente entre países e…",
         "sourceRel": "content/raw/emvco.com/www.emvco.comwhat-are-emv-specifications.json",
         "status": "OK"
       }
@@ -19,9 +19,9 @@
   ],
   "btgpayRelevance": "media",
   "scrapedAt": "2026-06-22T13:04:04.565Z",
-  "synthesizedAt": "2026-06-22T14:44:21.247Z",
+  "synthesizedAt": "2026-06-22T16:26:40.877Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pass",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/emvco.com/www.emvco.comwhat-are-emv-specifications.json"
   ]

@@ -1,0 +1,5624 @@
+{
+  "generatedAt": "2026-06-22T16:27:03.038Z",
+  "summary": {
+    "ok": 606,
+    "thin": 0,
+    "english": 0,
+    "total": 606,
+    "chunks": 109
+  },
+  "chunks": [
+    {
+      "chunkId": "btgpay-flutter-pratica",
+      "title": "BtgPay na prática: visão Flutter",
+      "category": "btgpay",
+      "sections": [
+        {
+          "anchorId": "camadas-app",
+          "heading": "Camadas do app",
+          "bodyChars": 571,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "estados-transacao",
+          "heading": "Estados da transação",
+          "bodyChars": 540,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "erros-comuns",
+          "heading": "Erros comuns no mobile POS",
+          "bodyChars": 585,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "certificacao-l1-l2",
+      "title": "Certificação EMV Level 1 e Level 2",
+      "category": "certificacao",
+      "sections": [
+        {
+          "anchorId": "level-1-fisico",
+          "heading": "Level 1: Camada física e protocolo",
+          "bodyChars": 863,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "level-2-kernel",
+          "heading": "Level 2: Kernel de aplicação",
+          "bodyChars": 770,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "level-3-integracao",
+          "heading": "Level 3: Integração adquirente",
+          "bodyChars": 709,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "certificacao-niveis-payfelix",
+      "title": "Níveis de certificação EMV na prática",
+      "category": "certificacao",
+      "sections": [
+        {
+          "anchorId": "timeline-certificacao",
+          "heading": "Timeline típica",
+          "bodyChars": 720,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "labs-aprovados",
+          "heading": "Laboratórios aprovados",
+          "bodyChars": 666,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "custo-complexidade",
+          "heading": "Custo e complexidade",
+          "bodyChars": 708,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "contactless-tap-mobile",
+      "title": "EMV Contactless e Tap to Mobile",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "contactless-overview",
+          "heading": "Visão geral contactless",
+          "bodyChars": 822,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tap-to-mobile",
+          "heading": "Tap to Mobile (SoftPOS)",
+          "bodyChars": 845,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "cdcvm",
+          "heading": "CDCVM",
+          "bodyChars": 895,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-about-arman-aygen",
+      "title": "About Arman Aygen",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "About Arman Aygen",
+          "bodyChars": 314,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-approved-evaluated",
+      "title": "Approved & Evaluated",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "functional-approval",
+          "heading": "Functional Approval",
+          "bodyChars": 380,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-contact-emvco",
+      "title": "Contact EMVCo",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Contact EMVCo",
+          "bodyChars": 593,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-contact-kernel-approval-process",
+      "title": "Contact Kernel Approval Process",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Contact Kernel Approval Process",
+          "bodyChars": 396,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-contactless-product-approval-process",
+      "title": "Contactless Product Approval Process",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Contactless Product Approval Process",
+          "bodyChars": 325,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-document-search",
+      "title": "Document Search",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Document Search",
+          "bodyChars": 2378,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-3-d-secure",
+      "title": "EMV® 3-D Secure",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® 3-D Secure",
+          "bodyChars": 302,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-contact-chip",
+      "title": "EMV® Contact Chip",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Contact Chip",
+          "bodyChars": 358,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-contactless-chip",
+      "title": "EMV® Contactless Chip",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Contactless Chip",
+          "bodyChars": 409,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-electric-vehicle-open-payments-evop",
+      "title": "EMV® Electric Vehicle Open Payments (EVOP)",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Electric Vehicle Open Payments (EVOP)",
+          "bodyChars": 453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-insights",
+      "title": "EMV® Insights",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Insights",
+          "bodyChars": 321,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-level-3-testing",
+      "title": "EMV® Level 3 Testing",
+      "category": "certificacao",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Level 3 Testing",
+          "bodyChars": 381,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-mobile",
+      "title": "EMV® Mobile",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Mobile",
+          "bodyChars": 838,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-payment-tokenisation",
+      "title": "EMV® Payment Tokenisation",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Payment Tokenisation",
+          "bodyChars": 353,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-qr-codes",
+      "title": "EMV® QR Codes",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® QR Codes",
+          "bodyChars": 325,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-secure-remote-commerce",
+      "title": "EMV® Secure Remote Commerce",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Secure Remote Commerce",
+          "bodyChars": 341,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-technologies-2023-priorities",
+      "title": "EMV® Technologies: 2023 Priorities",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMV® Technologies: 2023 Priorities",
+          "bodyChars": 293,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emv-technologies",
+      "title": "EMV® Technologies",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "emv-3-d-secure",
+          "heading": "EMV® 3-D Secure",
+          "bodyChars": 296,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emvco-associates-subscribers",
+      "title": "EMVCo Associates & Subscribers",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMVCo Associates & Subscribers",
+          "bodyChars": 310,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-emvco-launches-new-testing-process-to-support-the-",
+      "title": "EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "EMVCo Launches New Testing Process to Support the Use of TapToMobile Devices for Contactless Payment Acceptance",
+          "bodyChars": 688,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-enabling-seamless-and-secure-payments-worldwide",
+      "title": "Enabling Seamless and Secure Payments Worldwide",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "emvco-collaborates-with-the-payments-industry",
+          "heading": "EMVCo collaborates with the payments industry",
+          "bodyChars": 3624,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-events",
+      "title": "Events",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Events",
+          "bodyChars": 292,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-how-emvco-is-supporting-card-data-encryption-advan",
+      "title": "How EMVCo is Supporting Card Data Encryption Advancements for Card Personalisation",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "How EMVCo is Supporting Card Data Encryption Advancements for Card Personalisation",
+          "bodyChars": 358,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-industry-collaboration",
+      "title": "Industry Collaboration",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "emvco-associates-subscribers",
+          "heading": "EMVCo Associates & Subscribers",
+          "bodyChars": 440,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-industry-partners-liaisons",
+      "title": "Industry Partners & Liaisons",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Industry Partners & Liaisons",
+          "bodyChars": 296,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-knowledge-hub",
+      "title": "Knowledge Hub",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Knowledge Hub",
+          "bodyChars": 3237,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-l3-test-tool-qualification-process",
+      "title": "L3 Test Tool Qualification Process",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "L3 Test Tool Qualification Process",
+          "bodyChars": 381,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-laboratory-recognition-process",
+      "title": "Laboratory Recognition Process",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Laboratory Recognition Process",
+          "bodyChars": 377,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-mobile-cmp-ppse-approval-process",
+      "title": "Mobile CMP/PPSE Approval Process",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Mobile CMP/PPSE Approval Process",
+          "bodyChars": 402,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-mobile-level-1-approval-process",
+      "title": "Mobile Level 1 Approval Process",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Mobile Level 1 Approval Process",
+          "bodyChars": 396,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-news",
+      "title": "News",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "News",
+          "bodyChars": 484,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-overview-of-emvco",
+      "title": "Overview of EMVCo",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Overview of EMVCo",
+          "bodyChars": 474,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-product-approval-process",
+      "title": "Product Approval Process",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Product Approval Process",
+          "bodyChars": 417,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-qualification-service-provider",
+      "title": "Qualification Service Provider",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Qualification Service Provider",
+          "bodyChars": 312,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-qualified-test-tools",
+      "title": "Qualified Test Tools",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Qualified Test Tools",
+          "bodyChars": 1010,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-registered-ids",
+      "title": "Registered IDs",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Registered IDs",
+          "bodyChars": 310,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-registered",
+      "title": "Registered",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "registration-processes",
+          "heading": "Registration Processes",
+          "bodyChars": 331,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-test-platform-provider-qualification-and-recogniti",
+      "title": "Test Platform Provider Qualification and Recognition Process",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Test Platform Provider Qualification and Recognition Process",
+          "bodyChars": 291,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-trademark-centre",
+      "title": "Trademark Centre",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "marks-promote-payment-trust-familiarity-and-consistency",
+          "heading": "Marks promote payment trust, familiarity and consistency",
+          "bodyChars": 314,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-untitled",
+      "title": "Untitled",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Untitled",
+          "bodyChars": 1397,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-ways-to-participate",
+      "title": "Ways to Participate",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Ways to Participate",
+          "bodyChars": 320,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-wearable-level-1-approval-process",
+      "title": "Wearable Level 1 Approval Process",
+      "category": "certificacao",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Wearable Level 1 Approval Process",
+          "bodyChars": 317,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-what-are-emv-level-1-and-level-2-testing",
+      "title": "What are EMV® Level 1 and Level 2 Testing?",
+      "category": "certificacao",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "What are EMV® Level 1 and Level 2 Testing?",
+          "bodyChars": 302,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-what-are-emv-specifications",
+      "title": "What are EMV® Specifications?",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "What are EMV® Specifications?",
+          "bodyChars": 346,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-what-is-emv-level-3-testing",
+      "title": "What is EMV® Level 3 Testing?",
+      "category": "certificacao",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "What is EMV® Level 3 Testing?",
+          "bodyChars": 383,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "emvco-com-why-emv",
+      "title": "Why EMV®?",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Why EMV®?",
+          "bodyChars": 472,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "fundamentos-cnp-cp",
+      "title": "Card Present vs Card Not Present",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "definicao-cp",
+          "heading": "Card Present (CP)",
+          "bodyChars": 2908,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "definicao-cnp",
+          "heading": "Card Not Present (CNP)",
+          "bodyChars": 2955,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "liability-shift",
+          "heading": "Liability shift",
+          "bodyChars": 2988,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "fundamentos-emv-chip",
+      "title": "Cartões com chip EMV",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-emv",
+          "heading": "O que é EMV",
+          "bodyChars": 1664,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "chip-vs-tarja",
+          "heading": "Chip vs tarja magnética",
+          "bodyChars": 1670,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "fluxo-transacao-chip",
+          "heading": "Fluxo básico da transação",
+          "bodyChars": 2861,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "payfelix-com-emv-certification-levels",
+      "title": "EMV certification levels",
+      "category": "certificacao",
+      "sections": [
+        {
+          "anchorId": "1-level-1-certification-terminal-integration-process-tip",
+          "heading": "1. Level 1 Certification, Terminal Integration Process (TIP):",
+          "bodyChars": 727,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "2-level-2-certification-kernel-integration-process-kip",
+          "heading": "2. Level 2 Certification, Kernel Integration Process (KIP):",
+          "bodyChars": 705,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "3-level-3-certification-application-integration-process-aip",
+          "heading": "3. Level 3 Certification, Application Integration Process (AIP):",
+          "bodyChars": 2437,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "payfelix-com-how-to-offer-an-emv-payment-solution-on-your-de",
+      "title": "How to offer an EMV payment solution on your devices",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "traditional-integration-is-a-headache",
+          "heading": "Traditional integration is a headache",
+          "bodyChars": 459,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "fast-easy-integration-of-contactless-payments",
+          "heading": "Fast, easy integration of contactless payments",
+          "bodyChars": 283,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "pdfs-emv-acquirer-and-terminal-security-guidelines-v2-0-1",
+      "title": "EMV Acquirer and Terminal Security Guidelines v2.0 1",
+      "category": "seguranca",
+      "sections": [
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 12704,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "pdfs-emv-issuer-and-application-security-guidelines-v3-0-1",
+      "title": "EMV Issuer and Application Security Guidelines v3.0 1",
+      "category": "seguranca",
+      "sections": [
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 11453,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "pdfs-taptomobile-guidelines-v1-1",
+      "title": "TapToMobile Guidelines v1.1",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "introducao",
+          "heading": "Introdução",
+          "bodyChars": 315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "seguranca-terminal",
+      "title": "Segurança de terminal e adquirente",
+      "category": "seguranca",
+      "sections": [
+        {
+          "anchorId": "ambiente-seguro",
+          "heading": "Ambiente seguro de execução",
+          "bodyChars": 1566,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "pci-escopo",
+          "heading": "Escopo PCI",
+          "bodyChars": 1580,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "key-management",
+          "heading": "Gestão de chaves",
+          "bodyChars": 1835,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-api-banking-o-que-e-e-como-funciona-stripeconnect",
+      "title": "API banking: o que é e como funciona | StripeConnect",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-api",
+          "heading": "O que é uma API?",
+          "bodyChars": 1074,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-sao-apis-bancarias",
+          "heading": "O que são APIs bancárias?",
+          "bodyChars": 4610,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funcionam-as-apis-bancarias",
+          "heading": "Como funcionam as APIs bancárias?",
+          "bodyChars": 5282,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "casos-de-uso-e-aplicacoes-de-apis-bancarias",
+          "heading": "Casos de uso e aplicações de APIs bancárias",
+          "bodyChars": 5287,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "pagamentos-integrados",
+          "heading": "Pagamentos integrados",
+          "bodyChars": 4294,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "baas",
+          "heading": "BaaS",
+          "bodyChars": 2473,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "vantagens-das-apis-bancarias",
+          "heading": "Vantagens das APIs bancárias",
+          "bodyChars": 3809,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tendencias-em-api-bancarias",
+          "heading": "Tendências em API bancárias",
+          "bodyChars": 4330,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "pagamentos-instantaneos",
+          "heading": "Pagamentos instantâneos",
+          "bodyChars": 1999,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "acesso-mais-amplo-aos-dados",
+          "heading": "Acesso mais amplo aos dados",
+          "bodyChars": 4289,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "automacao-e-ia",
+          "heading": "Automação e IA",
+          "bodyChars": 1138,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "areas-restritas-regulatorias",
+          "heading": "Áreas restritas regulatórias",
+          "bodyChars": 2100,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-connect-pode-ajudar",
+          "heading": "Como o Stripe Connect pode ajudar",
+          "bodyChars": 4512,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-autorizacao-de-cartao-explicada-como-funciona-e-o",
+      "title": "Autorização de cartão explicada: como funciona e o que as empresas precisam saber | StripePayments",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-autorizacao-de-cartao",
+          "heading": "O que é autorização de cartão?",
+          "bodyChars": 2045,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funciona-a-autorizacao-de-cartao",
+          "heading": "Como funciona a autorização de cartão?",
+          "bodyChars": 1981,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-captura",
+          "heading": "O que é captura?",
+          "bodyChars": 1411,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-a-liquidacao-de-fundos",
+          "heading": "O que é a liquidação de fundos?",
+          "bodyChars": 2199,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "exemplo-de-autorizacao-de-cartao",
+          "heading": "Exemplo de autorização de cartão",
+          "bodyChars": 2541,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-um-formulario-de-autorizacao-de-cartao-de-credito",
+          "heading": "O que é um formulário de autorização de cartão de crédito?",
+          "bodyChars": 1337,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "os-formularios-de-autorizacao-de-cartao-de-credito-sao-seguros",
+          "heading": "Os formulários de autorização de cartão de crédito são seguros?",
+          "bodyChars": 1596,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-uma-retencao-de-autorizacao-de-cartao",
+          "heading": "O que é uma retenção de autorização de cartão?",
+          "bodyChars": 2369,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "exemplo-de-retencao-de-autorizacao-de-cartao",
+          "heading": "Exemplo de retenção de autorização de cartão",
+          "bodyChars": 2084,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-um-autorizacao-de-cartao-falha",
+          "heading": "Por que um autorização de cartão falha?",
+          "bodyChars": 2088,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "recusas-causadas-por-questoes-de-seguranca-ou-fraude",
+          "heading": "Recusas causadas por questões de segurança ou fraude",
+          "bodyChars": 2608,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "recusas-causadas-por-fundos-ou-credito-insuficientes",
+          "heading": "Recusas causadas por fundos ou crédito insuficientes",
+          "bodyChars": 2441,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "recusas-causadas-por-erros-tecnicos-ou-dados-de-pagamento-incorretos",
+          "heading": "Recusas causadas por erros técnicos ou dados de pagamento incorretos",
+          "bodyChars": 2713,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-as-empresas-podem-melhorar-as-taxas-de-autorizacao",
+          "heading": "Como as empresas podem melhorar as taxas de autorização",
+          "bodyChars": 3272,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-payments-pode-ajudar",
+          "heading": "Como o Stripe Payments pode ajudar",
+          "bodyChars": 1994,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-cobranca",
+      "title": "Cobrança",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Cobrança",
+          "bodyChars": 415,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-como-aceitar-pagamentos-online-sem-uma-conta-de-c",
+      "title": "Como aceitar pagamentos online sem uma conta de comerciante | StripePayments",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-conta-de-comerciante",
+          "heading": "O que é uma conta de comerciante?",
+          "bodyChars": 1734,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "conta-de-comerciante-e-conta-bancaria-empresarial",
+          "heading": "Conta de comerciante e conta bancária empresarial",
+          "bodyChars": 2352,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funcionam-as-contas-de-comerciante",
+          "heading": "Como funcionam as contas de comerciante?",
+          "bodyChars": 2790,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "as-desvantagens-das-contas-de-comerciante",
+          "heading": "As desvantagens das contas de comerciante",
+          "bodyChars": 1581,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-um-intermediador",
+          "heading": "O que é um intermediador?",
+          "bodyChars": 1346,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-aceitar-pagamentos-por-cartao-de-credito-sem-uma-conta-de-comerciante",
+          "heading": "Como aceitar pagamentos por cartão de crédito sem uma conta de comerciante",
+          "bodyChars": 2030,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-aceitar-pagamentos-online-sem-uma-conta-de-comerciante",
+          "heading": "Como aceitar pagamentos online sem uma conta de comerciante",
+          "bodyChars": 2309,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "vantagens-da-stripe-em-relacao-a-contas-de-comerciante",
+          "heading": "Vantagens da Stripe em relação a contas de comerciante",
+          "bodyChars": 1583,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-como-aumentar-a-receita-de-empresas-stripepayment",
+      "title": "Como aumentar a receita de empresas | StripePayments",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-define-a-experiencia-de-compra",
+          "heading": "O que define a experiência de compra?",
+          "bodyChars": 1340,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-focar-na-experiencia-de-compra",
+          "heading": "Por que focar na experiência de compra?",
+          "bodyChars": 1245,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "estrategias-para-aumentar-a-receita-e-melhorar-a-experiencia-de-compra",
+          "heading": "Estratégias para aumentar a receita e melhorar a experiência de compra",
+          "bodyChars": 929,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "otimizar-o-checkout",
+          "heading": "Otimizar o checkout",
+          "bodyChars": 1102,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "expandir-as-formas-de-pagamento-aceitas",
+          "heading": "Expandir as formas de pagamento aceitas",
+          "bodyChars": 1554,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "oferecer-financiamento-flexivel-com-opcoes-de-parcelamento",
+          "heading": "Oferecer financiamento flexível com opções de parcelamento",
+          "bodyChars": 1214,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "reduzir-fraudes-e-problemas-de-pagamento-relacionados",
+          "heading": "Reduzir fraudes e problemas de pagamento relacionados",
+          "bodyChars": 2007,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "otimizar-as-autorizacoes",
+          "heading": "Otimizar as autorizações",
+          "bodyChars": 1832,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-atlas-pode-ajudar",
+          "heading": "Como o Stripe Atlas pode ajudar",
+          "bodyChars": 895,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-se-inscrever-no-atlas",
+          "heading": "Como se inscrever no Atlas",
+          "bodyChars": 1355,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "aceitar-pagamentos-e-operar-financeiramente-antes-da-chegada-do-ein",
+          "heading": "Aceitar pagamentos e operar financeiramente antes da chegada do EIN",
+          "bodyChars": 1357,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+          "heading": "Compra de ações de fundador sem dinheiro em espécie",
+          "bodyChars": 1102,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "envio-automatico-da-eleicao-fiscal-83-b",
+          "heading": "Envio automático da eleição fiscal 83(b)",
+          "bodyChars": 897,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "documentos-legais-empresariais-de-padrao-internacional",
+          "heading": "Documentos legais empresariais de padrão internacional",
+          "bodyChars": 1227,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+          "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+          "bodyChars": 1531,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-como-constituir-uma-llc-um-guia-para-novas-empres",
+      "title": "Como constituir uma LLC: um guia para novas empresas | StripeAtlas",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-llc",
+          "heading": "O que é uma LLC?",
+          "bodyChars": 2393,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quais-sao-os-beneficios-de-constituir-uma-llc",
+          "heading": "Quais são os benefícios de constituir uma LLC?",
+          "bodyChars": 1315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-constituir-uma-llc-passo-a-passo",
+          "heading": "Como constituir uma LLC passo a passo",
+          "bodyChars": 1707,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "1-realize-uma-pesquisa-de-nome-para-a-llc",
+          "heading": "1. Realize uma pesquisa de nome para a LLC",
+          "bodyChars": 2662,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "2-registre-o-nome-fantasia",
+          "heading": "2. Registre o nome fantasia",
+          "bodyChars": 2717,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "3-registre-um-nome-de-dominio",
+          "heading": "3. Registre um nome de domínio",
+          "bodyChars": 2163,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "4-protocolar-os-artigos-de-organizacao",
+          "heading": "4. Protocolar os artigos de organização",
+          "bodyChars": 1185,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "5-nomeie-um-agente-registrado",
+          "heading": "5. Nomeie um agente registrado",
+          "bodyChars": 1184,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "6-elabore-um-contrato-operacional",
+          "heading": "6. Elabore um contrato operacional",
+          "bodyChars": 2044,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "7-cumpra-os-requisitos-de-publicacao-se-exigidos-pelo-estado",
+          "heading": "7. Cumpra os requisitos de publicação (se exigidos pelo estado)",
+          "bodyChars": 2007,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "8-obtenha-licencas-e-autorizacoes-empresariais",
+          "heading": "8. Obtenha licenças e autorizações empresariais",
+          "bodyChars": 2304,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "9-obtenha-um-numero-de-identificacao-do-empregador-ein",
+          "heading": "9. Obtenha um Número de Identificação do Empregador (EIN)",
+          "bodyChars": 1168,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "10-registre-se-junto-ao-departamento-estadual-do-trabalho",
+          "heading": "10. Registre-se junto ao departamento estadual do trabalho",
+          "bodyChars": 1331,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "11-abra-uma-conta-bancaria-empresarial",
+          "heading": "11. Abra uma conta bancária empresarial",
+          "bodyChars": 1077,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-atlas-pode-ajudar",
+          "heading": "Como o Stripe Atlas pode ajudar",
+          "bodyChars": 2228,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "inscricao-no-atlas",
+          "heading": "Inscrição no Atlas",
+          "bodyChars": 953,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "aceitacao-de-pagamentos-e-servicos-bancarios-antes-da-emissao-do-ein",
+          "heading": "Aceitação de pagamentos e serviços bancários antes da emissão do EIN",
+          "bodyChars": 2253,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-dos-fundadores-sem-desembolso-em-dinheiro",
+          "heading": "Compra de ações dos fundadores sem desembolso em dinheiro",
+          "bodyChars": 1393,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "envio-automatico-da-opcao-fiscal-83-b",
+          "heading": "Envio automático da opção fiscal 83(b)",
+          "bodyChars": 1214,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "documentos-legais-empresariais-de-nivel-internacional",
+          "heading": "Documentos legais empresariais de nível internacional",
+          "bodyChars": 2821,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-us-50-mil-em-beneficios-de-parceiros-",
+          "heading": "Um ano gratuito de Stripe Payments, além de US$ 50 mil em benefícios de parceiros e US$ 2.500 em créditos da Stripe",
+          "bodyChars": 2263,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-como-fazer-pesquisa-de-mercado-para-uma-startup-s",
+      "title": "Como fazer pesquisa de mercado para uma startup | StripeAtlas",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-pesquisa-de-mercado",
+          "heading": "O que é pesquisa de mercado?",
+          "bodyChars": 873,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-voce-deve-fazer-pesquisa-de-mercado",
+          "heading": "Por que você deve fazer pesquisa de mercado",
+          "bodyChars": 509,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "qual-e-o-seu-publico-alvo",
+          "heading": "Qual é o seu público-alvo?",
+          "bodyChars": 918,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quem-sao-seus-clientes",
+          "heading": "Quem são seus clientes?",
+          "bodyChars": 1188,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quem-sao-seus-concorrentes",
+          "heading": "Quem são seus concorrentes?",
+          "bodyChars": 1103,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "qual-e-o-tipo-de-publico-alvo-que-voce-esta-usando-no-momento",
+          "heading": "Qual é o tipo de público-alvo que você está usando no momento?",
+          "bodyChars": 939,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "onde-estao-as-areas-de-oportunidade-no-seu-mercado",
+          "heading": "Onde estão as áreas de oportunidade no seu mercado?",
+          "bodyChars": 842,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-fazer-pesquisa-de-mercado-para-sua-startup",
+          "heading": "Como fazer pesquisa de mercado para sua startup",
+          "bodyChars": 510,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "calcule-seu-orcamento",
+          "heading": "Calcule seu orçamento",
+          "bodyChars": 1412,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "identificar-objetivos-de-pesquisa",
+          "heading": "Identificar objetivos de pesquisa",
+          "bodyChars": 1058,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "faca-um-plano",
+          "heading": "Faça um plano",
+          "bodyChars": 916,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "use-o-que-aprendeu",
+          "heading": "Use o que aprendeu",
+          "bodyChars": 913,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-a-pesquisa-de-mercado-e-importante-para-uma-startup",
+          "heading": "Por que a pesquisa de mercado é importante para uma startup",
+          "bodyChars": 831,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "alinhamento-do-roteiro-as-oportunidades-de-mercado",
+          "heading": "Alinhamento do roteiro às oportunidades de mercado",
+          "bodyChars": 880,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "evitar-o-desperdicio-de-tempo-e-recursos",
+          "heading": "Evitar o desperdício de tempo e recursos",
+          "bodyChars": 1473,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "impressione-os-investidores-com-seu-conhecimento-de-mercado",
+          "heading": "Impressione os investidores com seu conhecimento de mercado",
+          "bodyChars": 882,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-atlas-pode-ajudar",
+          "heading": "Como o Stripe Atlas pode ajudar",
+          "bodyChars": 928,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-se-inscrever-no-atlas",
+          "heading": "Como se inscrever no Atlas",
+          "bodyChars": 1181,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "aceitar-pagamentos-e-operar-financeiramente-antes-da-chegada-do-ein",
+          "heading": "Aceitar pagamentos e operar financeiramente antes da chegada do EIN",
+          "bodyChars": 889,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+          "heading": "Compra de ações de fundador sem dinheiro em espécie",
+          "bodyChars": 1224,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "envio-automatico-da-eleicao-fiscal-83-b",
+          "heading": "Envio automático da eleição fiscal 83(b)",
+          "bodyChars": 992,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "documentos-legais-empresariais-de-padrao-internacional",
+          "heading": "Documentos legais empresariais de padrão internacional",
+          "bodyChars": 1509,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+          "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+          "bodyChars": 1170,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-como-solicitar-um-cartao-de-credito-corporativo-s",
+      "title": "Como solicitar um cartão de crédito corporativo | StripeIssuing",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-sao-cartoes-de-credito-corporativos",
+          "heading": "O que são cartões de crédito corporativos?",
+          "bodyChars": 3268,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quem-tem-direito-ao-cartao-de-credito-corporativo",
+          "heading": "Quem tem direito ao cartão de crédito corporativo?",
+          "bodyChars": 2777,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-escolher-o-cartao-de-credito-corporativo-certo",
+          "heading": "Como escolher o cartão de crédito corporativo certo",
+          "bodyChars": 2990,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-solicitar-um-cartao-de-credito-corporativo",
+          "heading": "Como solicitar um cartão de crédito corporativo",
+          "bodyChars": 2858,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "gestao-do-seu-cartao-de-credito-corporativo",
+          "heading": "Gestão do seu cartão de crédito corporativo",
+          "bodyChars": 2879,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-superar-desafios-na-obtencao-de-um-cartao-de-credito-corporativo",
+          "heading": "Como superar desafios na obtenção de um cartão de crédito corporativo",
+          "bodyChars": 2887,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-como-verificar-se-um-nome-de-empresa-ja-existe-st",
+      "title": "Como verificar se um nome de empresa já existe | StripeAtlas",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "como-verificar-se-o-nome-da-empresa-esta-sendo-usado",
+          "heading": "Como verificar se o nome da empresa está sendo usado",
+          "bodyChars": 2551,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "1-consulte-os-registros-comerciais-em-orgaos-estaduais-e-federais-bem-como-banco",
+          "heading": "1. Consulte os registros comerciais em órgãos estaduais e federais, bem como bancos de dados de marcas registradas.",
+          "bodyChars": 1850,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "2-verificacao-de-nome-fantasia-e-nomes-de-empresas-razao-social-nao-registrados",
+          "heading": "2. Verificação de nome fantasia e nomes de empresas (razão social) não registrados",
+          "bodyChars": 1958,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "3-faca-uma-busca-manual-na-internet",
+          "heading": "3. Faça uma busca manual na Internet",
+          "bodyChars": 1938,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "4-abra-sua-empresa-por-meio-de-um-servico-de-incorporacao-online",
+          "heading": "4. Abra sua empresa por meio de um serviço de incorporação online",
+          "bodyChars": 1617,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-voce-precisa-verificar-se-o-nome-de-uma-empresa-esta-disponivel",
+          "heading": "Por que você precisa verificar se o nome de uma empresa está disponível",
+          "bodyChars": 2134,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "a-legislacao-estadual-exige",
+          "heading": "A legislação estadual exige",
+          "bodyChars": 1778,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "risco-de-violacao-de-direitos-autorais",
+          "heading": "Risco de violação de direitos autorais",
+          "bodyChars": 1341,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "diferenciacao-de-marca",
+          "heading": "Diferenciação de marca",
+          "bodyChars": 1264,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-fazer-se-o-nome-da-empresa-desejado-razao-social-ja-estiver-em-uso",
+          "heading": "O que fazer se o nome da empresa desejado (razão social) já estiver em uso",
+          "bodyChars": 1747,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-a-stripe-pode-ajudar",
+          "heading": "Como a Stripe pode ajudar",
+          "bodyChars": 725,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-se-inscrever-no-atlas",
+          "heading": "Como se inscrever no Atlas",
+          "bodyChars": 1935,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-aceitar-pagamentos-e-movimentacoes-bancarias-antes-da-chegada-do-seu-ein",
+          "heading": "Como aceitar pagamentos e movimentações bancárias antes da chegada do seu EIN",
+          "bodyChars": 1787,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+          "heading": "Compra de ações de fundador sem dinheiro em espécie",
+          "bodyChars": 1619,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "arquivamento-automatico-da-opcao-fiscal-83-b",
+          "heading": "Arquivamento automático da opção fiscal 83(b)",
+          "bodyChars": 1352,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "documentos-juridicos-de-padrao-internacional",
+          "heading": "Documentos jurídicos de padrão internacional",
+          "bodyChars": 1836,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+          "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+          "bodyChars": 987,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-contas-bancarias-empresariais-um-guia-para-empres",
+      "title": "Contas bancárias empresariais: um guia para empresas | StripeRevenue Recognition",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-sao-contas-bancarias-empresariais",
+          "heading": "O que são contas bancárias empresariais?",
+          "bodyChars": 1380,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tipos-de-contas-bancarias-empresariais",
+          "heading": "Tipos de contas bancárias empresariais",
+          "bodyChars": 1482,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "preciso-de-uma-conta-bancaria-empresarial",
+          "heading": "Preciso de uma conta bancária empresarial?",
+          "bodyChars": 1083,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "conta-bancaria-empresarial-x-conta-de-comerciante",
+          "heading": "Conta bancária empresarial x conta de comerciante",
+          "bodyChars": 1482,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "qual-conta-bancaria-empresarial-e-a-melhor-para-voce",
+          "heading": "Qual conta bancária empresarial é a melhor para você?",
+          "bodyChars": 1543,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "do-que-eu-preciso-para-abrir-uma-conta-bancaria-empresarial",
+          "heading": "Do que eu preciso para abrir uma conta bancária empresarial?",
+          "bodyChars": 1126,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-abrir-uma-conta-bancaria-empresarial",
+          "heading": "Como abrir uma conta bancária empresarial",
+          "bodyChars": 1285,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "1-decida-o-tipo-de-conta-que-voce-quer",
+          "heading": "1. Decida o tipo de conta que você quer",
+          "bodyChars": 1841,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "2-pesquise-opcoes-de-conta-bancaria",
+          "heading": "2. Pesquise opções de conta bancária",
+          "bodyChars": 1428,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "3-filtre-sua-lista",
+          "heading": "3. Filtre sua lista",
+          "bodyChars": 1649,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "4-converse-com-suas-principais-opcoes",
+          "heading": "4. Converse com suas principais opções",
+          "bodyChars": 1307,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "5-escolha-uma-instituicao-bancaria",
+          "heading": "5. Escolha uma instituição bancária",
+          "bodyChars": 1599,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "6-reuna-a-documentacao-necessaria",
+          "heading": "6. Reúna a documentação necessária",
+          "bodyChars": 1661,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "7-envie-os-documentos-e-abra-a-conta",
+          "heading": "7. Envie os documentos e abra a conta",
+          "bodyChars": 1908,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-a-stripe-pode-ajudar",
+          "heading": "Como a Stripe pode ajudar",
+          "bodyChars": 1733,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "abertura-pelo-stripe-atlas",
+          "heading": "Abertura pelo Stripe Atlas",
+          "bodyChars": 1628,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "abertura-da-empresa-em-delaware",
+          "heading": "Abertura da empresa em Delaware",
+          "bodyChars": 1705,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "identificacao-fiscal-do-irs-ein",
+          "heading": "Identificação fiscal do IRS (EIN)",
+          "bodyChars": 2002,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-da-empresa",
+          "heading": "Compra de ações da empresa",
+          "bodyChars": 2116,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "declaracao-da-opcao-fiscal-83-b",
+          "heading": "Declaração da opção fiscal 83(b)",
+          "bodyChars": 1683,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "vantagens-e-descontos-para-parceiros",
+          "heading": "Vantagens e descontos para parceiros",
+          "bodyChars": 1599,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-contas-reserva-por-que-toda-empresa-precisa-de-um",
+      "title": "Contas reserva: por que toda empresa precisa de uma | StripeRevenue Recognition",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-conta-reserva",
+          "heading": "O que é uma conta reserva?",
+          "bodyChars": 1219,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-as-empresas-precisam-de-reservas-de-caixa",
+          "heading": "Por que as empresas precisam de reservas de caixa",
+          "bodyChars": 1413,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "qual-deve-ser-o-valor-da-reserva-de-caixa-de-sua-empresa",
+          "heading": "Qual deve ser o valor da reserva de caixa de sua empresa?",
+          "bodyChars": 1914,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-calcular-sua-meta-de-reserva-de-caixa",
+          "heading": "Como calcular sua meta de reserva de caixa",
+          "bodyChars": 1804,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funcionam-as-contas-de-reserva-da-stripe",
+          "heading": "Como funcionam as contas de reserva da Stripe",
+          "bodyChars": 1394,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-emissao",
+      "title": "Emissão",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Emissão",
+          "bodyChars": 3430,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-empresa",
+      "title": "Empresa",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Empresa",
+          "bodyChars": 2723,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-estornos-o-que-sao-e-como-as-empresas-podem-preve",
+      "title": "Estornos: o que são e como as empresas podem preveni-los | StripeRadar",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-um-estorno",
+          "heading": "O que é um estorno?",
+          "bodyChars": 846,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "com-que-frequencia-ocorrem-os-estornos",
+          "heading": "Com que frequência ocorrem os estornos?",
+          "bodyChars": 1576,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "formas-de-evitar-estornos",
+          "heading": "Formas de evitar estornos",
+          "bodyChars": 1430,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "estorno-versus-reembolso-principais-diferencas",
+          "heading": "Estorno versus reembolso: principais diferenças",
+          "bodyChars": 1163,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "reembolso",
+          "heading": "Reembolso",
+          "bodyChars": 1377,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quem-esta-ativamente-envolvido-em-um-estorno",
+          "heading": "Quem está ativamente envolvido em um estorno?",
+          "bodyChars": 1889,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quem-controla-o-dinheiro-em-um-estorno",
+          "heading": "Quem controla o dinheiro em um estorno?",
+          "bodyChars": 1420,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quanto-tempo-leva-para-um-reembolso-ser-processado",
+          "heading": "Quanto tempo leva para um reembolso ser processado?",
+          "bodyChars": 1722,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "motivos-comuns-para-estornos",
+          "heading": "Motivos comuns para estornos",
+          "bodyChars": 729,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compras-fraudulentas",
+          "heading": "Compras fraudulentas",
+          "bodyChars": 1380,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "fraude-amigavel",
+          "heading": "Fraude amigável",
+          "bodyChars": 1697,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "erros-administrativos",
+          "heading": "Erros administrativos",
+          "bodyChars": 1482,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funcionam-os-estornos",
+          "heading": "Como funcionam os estornos?",
+          "bodyChars": 1011,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "qual-e-o-custo-dos-estornos-para-as-empresas",
+          "heading": "Qual é o custo dos estornos para as empresas?",
+          "bodyChars": 1317,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-contestar-um-estorno",
+          "heading": "Como contestar um estorno",
+          "bodyChars": 1195,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-radar-pode-ajudar",
+          "heading": "Como o Stripe Radar pode ajudar",
+          "bodyChars": 2109,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-explicacao-sobre-a-receita-mensal-recorrente-mrr-",
+      "title": "Explicação sobre a receita mensal recorrente (MRR) | StripeBilling",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-receita-mensal-recorrente-mrr",
+          "heading": "O que é receita mensal recorrente (MRR)?",
+          "bodyChars": 1368,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tipos-de-mrr",
+          "heading": "Tipos de MRR",
+          "bodyChars": 1090,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-calcular-a-mrr",
+          "heading": "Como calcular a MRR",
+          "bodyChars": 651,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-a-mrr-e-importante-para-as-empresas",
+          "heading": "Por que a MRR é importante para as empresas",
+          "bodyChars": 1473,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "relacao-com-outras-metricas-importantes",
+          "heading": "Relação com outras métricas importantes",
+          "bodyChars": 1230,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "informacoes-do-cliente",
+          "heading": "Informações do cliente",
+          "bodyChars": 1711,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-aumentar-a-mrr",
+          "heading": "Como aumentar a MRR",
+          "bodyChars": 1211,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "otimize-a-estrategia-de-precificacao",
+          "heading": "Otimize a estratégia de precificação",
+          "bodyChars": 1139,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "venda-adicional-e-venda-cruzada",
+          "heading": "Venda adicional e venda cruzada",
+          "bodyChars": 1461,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "foco-na-retencao-de-clientes",
+          "heading": "Foco na retenção de clientes",
+          "bodyChars": 1939,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "adquira-mais-clientes",
+          "heading": "Adquira mais clientes",
+          "bodyChars": 1448,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "diversifique-fluxos-de-receita",
+          "heading": "Diversifique fluxos de receita",
+          "bodyChars": 1104,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "mais-recursos",
+          "heading": "Mais recursos",
+          "bodyChars": 1470,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "veja-como-o-stripe-billing-se-destaca",
+          "heading": "Veja como o Stripe Billing se destaca",
+          "bodyChars": 1103,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "how-stripe-can-help",
+          "heading": "How Stripe can help",
+          "bodyChars": 1063,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-explicamos-as-empresas-tipo-c-stripeatlas",
+      "title": "Explicamos as empresas tipo C | StripeAtlas",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-empresa-tipo-c",
+          "heading": "O que é uma empresa tipo C?",
+          "bodyChars": 1243,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funcionam-as-empresas-tipo-c",
+          "heading": "Como funcionam as empresas tipo C",
+          "bodyChars": 1908,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "responsabilidade-limitada",
+          "heading": "Responsabilidade limitada",
+          "bodyChars": 1138,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "excecoes-de-responsabilidade",
+          "heading": "Exceções de responsabilidade",
+          "bodyChars": 1635,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "empresa-tipo-s-ou-tipo-c-qual-e-a-diferenca",
+          "heading": "Empresa tipo S ou tipo C: qual é a diferença?",
+          "bodyChars": 2196,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "empresa-tipo-c-ou-llc-qual-e-a-diferenca",
+          "heading": "Empresa tipo C ou LLC: qual é a diferença?",
+          "bodyChars": 2371,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tributacao",
+          "heading": "Tributação",
+          "bodyChars": 1518,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "propriedade",
+          "heading": "Propriedade",
+          "bodyChars": 2114,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "formalidades",
+          "heading": "Formalidades",
+          "bodyChars": 1486,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "limitacao-da-responsabilidade",
+          "heading": "Limitação da responsabilidade​",
+          "bodyChars": 1642,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-voce-deve-saber-sobre-os-impostos-para-empresas-tipo-c",
+          "heading": "O que você deve saber sobre os impostos para empresas tipo C",
+          "bodyChars": 1557,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "que-tipos-de-empresas-devem-constituir-uma-empresa-tipo-c",
+          "heading": "Que tipos de empresas devem constituir uma empresa tipo C?",
+          "bodyChars": 1553,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-abrir-uma-empresa-tipo-c",
+          "heading": "Como abrir uma empresa tipo C",
+          "bodyChars": 2093,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-atlas-pode-ajudar",
+          "heading": "Como o Stripe Atlas pode ajudar",
+          "bodyChars": 929,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-se-inscrever-no-atlas",
+          "heading": "Como se inscrever no Atlas",
+          "bodyChars": 1175,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "aceitar-pagamentos-e-movimentacoes-bancarias-antes-da-chegada-do-seu-ein",
+          "heading": "Aceitar pagamentos e movimentações bancárias antes da chegada do seu EIN",
+          "bodyChars": 958,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+          "heading": "Compra de ações de fundador sem dinheiro em espécie",
+          "bodyChars": 1455,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "envio-automatico-da-eleicao-tributaria-83-b",
+          "heading": "Envio automático da eleição tributária 83(b)",
+          "bodyChars": 956,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "documentos-juridicos-de-padrao-internacional",
+          "heading": "Documentos jurídicos de padrão internacional",
+          "bodyChars": 1501,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+          "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+          "bodyChars": 1287,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-financas-integradas-x-banco-como-servico-baas-str",
+      "title": "Finanças integradas x banco como serviço (BaaS) | StripeConnect",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-sao-financas-integradas",
+          "heading": "O que são finanças integradas?",
+          "bodyChars": 1667,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-banco-como-servico-baas",
+          "heading": "O que é banco como serviço (BaaS)?",
+          "bodyChars": 1915,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "financas-integradas-x-banco-como-servico",
+          "heading": "Finanças integradas x banco como serviço",
+          "bodyChars": 2074,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "financas-integradas",
+          "heading": "Finanças integradas",
+          "bodyChars": 1826,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "banco-como-servico",
+          "heading": "Banco como serviço",
+          "bodyChars": 2065,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "questoes-regulatorias",
+          "heading": "Questões regulatórias",
+          "bodyChars": 1447,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "dados-e-analises",
+          "heading": "Dados e análises",
+          "bodyChars": 1315,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "mercados-alvo",
+          "heading": "Mercados-alvo",
+          "bodyChars": 906,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-gerenciamento-de-riscos-stripe",
+      "title": "Gerenciamento de riscos | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Gerenciamento de riscos | Stripe",
+          "bodyChars": 772,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-gestao-dos-valores",
+      "title": "Gestão dos valores",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Gestão dos valores",
+          "bodyChars": 341,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-guia-sobre-como-usar-links-de-pagamento-para-vend",
+      "title": "Guia sobre como usar links de pagamento para vendas simplificadas | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-sao-links-de-pagamento",
+          "heading": "O que são links de pagamento?",
+          "bodyChars": 1497,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quem-usa-os-links-de-pagamento-e-por-que",
+          "heading": "Quem usa os links de pagamento e por quê?",
+          "bodyChars": 1334,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "stripe-payment-links",
+          "heading": "Stripe Payment Links",
+          "bodyChars": 1580,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-criar-stripe-payment-links",
+          "heading": "Como criar Stripe Payment Links",
+          "bodyChars": 1418,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-enviar-stripe-payment-links",
+          "heading": "Como enviar Stripe Payment Links",
+          "bodyChars": 1016,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "rastreamento-de-links-de-pagamento",
+          "heading": "Rastreamento de links de pagamento",
+          "bodyChars": 1473,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "beneficios-dos-links-de-pagamento",
+          "heading": "Benefícios dos links de pagamento",
+          "bodyChars": 1663,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tarifas-dos-links-de-pagamento",
+          "heading": "Tarifas dos links de pagamento",
+          "bodyChars": 1752,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "alternativas-aos-links-de-pagamento",
+          "heading": "Alternativas aos links de pagamento",
+          "bodyChars": 1989,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-guia-sobre-credito-integrado-stripecapital",
+      "title": "Guia sobre crédito integrado | StripeCapital",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-credito-integrado",
+          "heading": "O que é crédito integrado?",
+          "bodyChars": 1166,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funciona-o-credito-integrado",
+          "heading": "Como funciona o crédito integrado?",
+          "bodyChars": 1118,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "exemplos-de-credito-integrado",
+          "heading": "Exemplos de crédito integrado",
+          "bodyChars": 1449,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quais-sao-as-implicacoes-do-credito-integrado",
+          "heading": "Quais são as implicações do crédito integrado?",
+          "bodyChars": 1671,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "empresas-nao-financeiras",
+          "heading": "Empresas não financeiras",
+          "bodyChars": 3168,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "credores",
+          "heading": "Credores",
+          "bodyChars": 3806,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "clientes",
+          "heading": "Clientes",
+          "bodyChars": 3851,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-imposto-sobre-vendas-vs-imposto-sobre-uso-stripet",
+      "title": "Imposto sobre vendas vs. imposto sobre uso | StripeTax",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "imposto-sobre-vendas-vs-imposto-sobre-uso",
+          "heading": "Imposto sobre vendas vs. imposto sobre uso",
+          "bodyChars": 1347,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-exemplo-de-imposto-sobre-vendas-vs-imposto-sobre-uso",
+          "heading": "Um exemplo de imposto sobre vendas vs. imposto sobre uso",
+          "bodyChars": 1501,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-mais-recursos-stripe",
+      "title": "Mais recursos | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Mais recursos | Stripe",
+          "bodyChars": 3449,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-metricas-de-saas-um-guia-completo-para-acompanhar",
+      "title": "Métricas de SaaS: um guia completo para acompanhar o crescimento da empresa | StripeBilling",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "metricas-de-aquisicao",
+          "heading": "Métricas de aquisição",
+          "bodyChars": 1296,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "custo-de-aquisicao-de-clientes-cac",
+          "heading": "Custo de aquisição de clientes (CAC)",
+          "bodyChars": 1314,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "valor-anual-do-contrato-acv-vs-cac",
+          "heading": "Valor anual do contrato (ACV) vs. CAC",
+          "bodyChars": 1010,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "meses-para-recuperar-o-cac",
+          "heading": "Meses para recuperar o CAC",
+          "bodyChars": 1175,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "taxa-de-leads-para-clientes",
+          "heading": "Taxa de leads para clientes",
+          "bodyChars": 1343,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "numero-magico",
+          "heading": "Número mágico",
+          "bodyChars": 1317,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "metricas-de-engajamento",
+          "heading": "Métricas de engajamento",
+          "bodyChars": 935,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "usuarios-ativos-diarios-dau-e-usuarios-ativos-mensais-mau",
+          "heading": "Usuários ativos diários (DAU) e usuários ativos mensais (MAU)",
+          "bodyChars": 1298,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "pontuacao-de-engajamento-do-cliente-ces",
+          "heading": "Pontuação de engajamento do cliente (CES)",
+          "bodyChars": 1057,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "metricas-de-retencao",
+          "heading": "Métricas de retenção",
+          "bodyChars": 1525,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "taxa-de-perda-de-clientes",
+          "heading": "Taxa de perda de clientes",
+          "bodyChars": 1165,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "taxa-de-perda-de-receitas",
+          "heading": "Taxa de perda de receitas",
+          "bodyChars": 915,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "retencao-de-receita-liquida-nrr",
+          "heading": "Retenção de receita líquida (NRR)",
+          "bodyChars": 1175,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "retencao-de-logotipo",
+          "heading": "Retenção de logotipo",
+          "bodyChars": 941,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "metricas-de-crescimento",
+          "heading": "Métricas de crescimento",
+          "bodyChars": 860,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "receita-anual-recorrente-arr",
+          "heading": "Receita anual recorrente (ARR)",
+          "bodyChars": 1040,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "receita-mensal-recorrente-mrr",
+          "heading": "Receita mensal recorrente (MRR)",
+          "bodyChars": 1238,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "concentracao-de-clientes",
+          "heading": "Concentração de clientes",
+          "bodyChars": 748,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "taxa-de-crescimento-mensal-do-cliente-cmgr",
+          "heading": "Taxa de crescimento mensal do cliente (CMGR)",
+          "bodyChars": 1081,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "net-promoter-score-nps",
+          "heading": "Net promoter score (NPS)",
+          "bodyChars": 1199,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "metricas-economicas",
+          "heading": "Métricas econômicas",
+          "bodyChars": 1596,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "margem-bruta",
+          "heading": "Margem bruta",
+          "bodyChars": 829,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "valor-vitalicio-do-cliente-ltv",
+          "heading": "Valor vitalício do cliente (LTV)",
+          "bodyChars": 1025,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "indice-de-cac-para-ltv",
+          "heading": "Índice de CAC para LTV",
+          "bodyChars": 1311,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "multiplo-de-queima",
+          "heading": "Múltiplo de queima",
+          "bodyChars": 732,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "taxa-de-hype",
+          "heading": "Taxa de hype",
+          "bodyChars": 549,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "saas-economic-metrics",
+          "heading": "SaaS economic metrics",
+          "bodyChars": 940,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "gross-margin",
+          "heading": "Gross margin",
+          "bodyChars": 1127,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "customer-lifetime-value-ltv",
+          "heading": "Customer lifetime value (LTV)",
+          "bodyChars": 788,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "cac-to-ltv-ratio",
+          "heading": "CAC-to-LTV ratio",
+          "bodyChars": 1044,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "burn-multiple",
+          "heading": "Burn multiple",
+          "bodyChars": 1127,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "hype-ratio",
+          "heading": "Hype ratio",
+          "bodyChars": 538,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "how-stripe-billing-can-help",
+          "heading": "How Stripe Billing can help",
+          "bodyChars": 684,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-e-emissao-de-cartoes-o-que-as-empresas-prec",
+      "title": "O que é emissão de cartões? O que as empresas precisam saber | StripeIssuing",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-um-emissor-de-cartoes",
+          "heading": "O que é um emissor de cartões?",
+          "bodyChars": 1438,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-os-emissores-de-cartoes-fazem",
+          "heading": "O que os emissores de cartões fazem?",
+          "bodyChars": 1362,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "emissor-x-adquirente-de-cartoes-qual-e-a-diferenca",
+          "heading": "Emissor x adquirente de cartões: qual é a diferença?",
+          "bodyChars": 3108,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "emissores-de-cartoes",
+          "heading": "Emissores de cartões",
+          "bodyChars": 1349,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "adquirentes",
+          "heading": "Adquirentes",
+          "bodyChars": 3165,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-os-emissores-e-adquirentes-de-cartoes-se-diferem",
+          "heading": "Como os emissores e adquirentes de cartões se diferem",
+          "bodyChars": 3100,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-os-emissores-de-cartoes-trabalham-com-as-empresas",
+          "heading": "Como os emissores de cartões trabalham com as empresas?",
+          "bodyChars": 3035,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-e-imposto-sobre-vendas-stripetax",
+      "title": "O que é imposto sobre vendas? | StripeTax",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-imposto-sobre-vendas",
+          "heading": "O que é imposto sobre vendas?",
+          "bodyChars": 1279,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quando-devo-recolher-impostos-sobre-vendas-dos-clientes",
+          "heading": "Quando devo recolher impostos sobre vendas dos clientes?",
+          "bodyChars": 1462,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "qual-e-a-aliquota-do-imposto-sobre-vendas-nos-eua",
+          "heading": "Qual é a alíquota do imposto sobre vendas nos EUA?",
+          "bodyChars": 1417,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-alvara-de-imposto-sobre-vendas",
+          "heading": "O que é alvará de imposto sobre vendas?",
+          "bodyChars": 1831,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-declarar-e-repassar-imposto-sobre-vendas",
+          "heading": "Como declarar e repassar imposto sobre vendas",
+          "bodyChars": 1552,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "imposto-sobre-vendas-versus-imposto-especial-sobre-consumo",
+          "heading": "Imposto sobre vendas versus imposto especial sobre consumo",
+          "bodyChars": 1643,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "how-stripe-tax-can-help",
+          "heading": "How Stripe Tax can help",
+          "bodyChars": 1013,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-e-reapresentacao-de-estornos-stripepayments",
+      "title": "O que é reapresentação de estornos? | StripePayments",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-sao-estornos",
+          "heading": "O que são estornos?",
+          "bodyChars": 1571,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-fraude-de-estorno-ou-fraude-amigavel",
+          "heading": "O que é fraude de estorno ou fraude amigável?",
+          "bodyChars": 1527,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-reapresentacao",
+          "heading": "O que é reapresentação?",
+          "bodyChars": 1667,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quais-comprovantes-sao-necessarios-para-reapresentar-um-estorno",
+          "heading": "Quais comprovantes são necessários para reapresentar um estorno?",
+          "bodyChars": 2074,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quais-sao-os-possiveis-resultados-da-reapresentacao-de-estorno",
+          "heading": "Quais são os possíveis resultados da reapresentação de estorno?",
+          "bodyChars": 1629,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-acontece-se-eu-nao-responder-a-um-estorno",
+          "heading": "O que acontece se eu não responder a um estorno?",
+          "bodyChars": 1688,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quais-sao-as-praticas-recomendadas-no-processo-de-reapresentacao-de-estornos",
+          "heading": "Quais são as práticas recomendadas no processo de reapresentação de estornos?",
+          "bodyChars": 1684,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-e-servico-de-verificacao-de-endereco-avs-st",
+      "title": "O que é serviço de verificação de endereço (AVS)? | StripeRadar",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-significa-avs",
+          "heading": "O que significa AVS?",
+          "bodyChars": 1664,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-avs",
+          "heading": "O que é AVS?",
+          "bodyChars": 1353,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funciona-o-servico-de-verificacao-de-endereco",
+          "heading": "Como funciona o serviço de verificação de endereço?",
+          "bodyChars": 1507,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "codigos-avs",
+          "heading": "Códigos AVS",
+          "bodyChars": 1829,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-significa-avs-recusado",
+          "heading": "O que significa “AVS recusado”?",
+          "bodyChars": 1663,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-erro-de-avs",
+          "heading": "O que é erro de AVS?",
+          "bodyChars": 1409,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "devo-usar-o-avs-na-minha-empresa",
+          "heading": "Devo usar o AVS na minha empresa?",
+          "bodyChars": 1433,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-comecar-a-usar-o-servico-de-verificacao-de-endereco",
+          "heading": "Como começar a usar o serviço de verificação de endereço",
+          "bodyChars": 1496,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-e-uma-corporacao-de-delaware-stripeatlas",
+      "title": "O que é uma corporação de Delaware? | StripeAtlas",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-empresa-de-delaware",
+          "heading": "O que é uma empresa de Delaware?",
+          "bodyChars": 1093,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "a-historia-das-empresas-de-delaware",
+          "heading": "A história das empresas de Delaware",
+          "bodyChars": 1093,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tipos-de-empresas-em-delaware",
+          "heading": "Tipos de empresas em Delaware",
+          "bodyChars": 1352,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "vantagens-de-constituir-uma-empresa-em-delaware",
+          "heading": "Vantagens de constituir uma empresa em Delaware",
+          "bodyChars": 2508,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "sistema-juridico-favoravel-aos-negocios",
+          "heading": "Sistema jurídico favorável aos negócios",
+          "bodyChars": 2949,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "direito-societario-flexivel",
+          "heading": "Direito societário flexível",
+          "bodyChars": 2074,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "impostos-corporativos-baixos",
+          "heading": "Impostos corporativos baixos",
+          "bodyChars": 2502,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "privacidade",
+          "heading": "Privacidade",
+          "bodyChars": 1122,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "acesso-a-capital",
+          "heading": "Acesso a capital",
+          "bodyChars": 2574,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "reputacao",
+          "heading": "Reputação",
+          "bodyChars": 1541,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-constituir-uma-empresa-em-delaware",
+          "heading": "Como constituir uma empresa em Delaware",
+          "bodyChars": 2702,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "1-escolha-um-nome",
+          "heading": "1. Escolha um nome",
+          "bodyChars": 2702,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "2-registrar-o-contrato-social",
+          "heading": "2. Registrar o contrato social",
+          "bodyChars": 2218,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "3-indique-um-agente-registrado",
+          "heading": "3. Indique um agente registrado",
+          "bodyChars": 833,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "4-redija-o-estatuto-social",
+          "heading": "4. Redija o Estatuto Social",
+          "bodyChars": 969,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "5-obtenha-as-licencas-e-alvaras-necessarios",
+          "heading": "5. Obtenha as licenças e alvarás necessários",
+          "bodyChars": 2765,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "6-faca-uma-assembleia-do-conselho-de-administracao",
+          "heading": "6. Faça uma assembleia do conselho de administração",
+          "bodyChars": 2660,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "7-emita-acoes",
+          "heading": "7. Emita ações",
+          "bodyChars": 1053,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "recursos-para-fundadores-que-desejam-registrar-uma-empresa-em-delaware",
+          "heading": "Recursos para fundadores que desejam registrar uma empresa em Delaware",
+          "bodyChars": 2869,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-atlas-pode-ajudar",
+          "heading": "Como o Stripe Atlas pode ajudar",
+          "bodyChars": 1076,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-se-inscrever-no-atlas",
+          "heading": "Como se inscrever no Atlas",
+          "bodyChars": 1181,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "aceitar-pagamentos-e-operar-financeiramente-antes-da-chegada-do-ein",
+          "heading": "Aceitar pagamentos e operar financeiramente antes da chegada do EIN",
+          "bodyChars": 976,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+          "heading": "Compra de ações de fundador sem dinheiro em espécie",
+          "bodyChars": 1232,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "envio-automatico-da-eleicao-fiscal-83-b",
+          "heading": "Envio automático da eleição fiscal 83(b)",
+          "bodyChars": 700,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "documentos-legais-empresariais-de-padrao-internacional",
+          "heading": "Documentos legais empresariais de padrão internacional",
+          "bodyChars": 3017,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+          "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+          "bodyChars": 2513,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-e-uma-fatura-stripeinvoicing",
+      "title": "O que é uma fatura? | StripeInvoicing",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-fatura",
+          "heading": "O que é uma fatura?",
+          "bodyChars": 1102,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "quem-usa-as-faturas",
+          "heading": "Quem usa as faturas?",
+          "bodyChars": 1262,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "principais-componentes-de-uma-fatura",
+          "heading": "Principais componentes de uma fatura",
+          "bodyChars": 1119,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-enviar-uma-fatura",
+          "heading": "Como enviar uma fatura",
+          "bodyChars": 3665,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-pagar-uma-fatura",
+          "heading": "Como pagar uma fatura",
+          "bodyChars": 3264,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-a-stripe-oferece-suporte-ao-faturamento-para-empresas",
+          "heading": "Como a Stripe oferece suporte ao faturamento para empresas",
+          "bodyChars": 1585,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-sao-cartoes-com-chip-emv-como-o-emv-funcion",
+      "title": "O que são cartões com chip EMV? Como o EMV funciona | StripePayments",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-emv-e-o-que-significa",
+          "heading": "O que é EMV e o que significa?",
+          "bodyChars": 1060,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-sao-cartoes-com-chip-emv",
+          "heading": "O que são cartões com chip EMV?",
+          "bodyChars": 1058,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-aceitar-pagamentos-emv-em-uma-empresa",
+          "heading": "Como aceitar pagamentos EMV em uma empresa",
+          "bodyChars": 3132,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-a-tecnologia-emv-funciona",
+          "heading": "Como a tecnologia EMV funciona?",
+          "bodyChars": 2546,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funcionam-maquinas-de-cartao-emv",
+          "heading": "Como funcionam máquinas de cartão EMV?",
+          "bodyChars": 2655,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "pagamentos-emv-por-aproximacao",
+          "heading": "Pagamentos EMV por aproximação",
+          "bodyChars": 2723,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "pagamentos-com-cartao-por-chip-emv-sao-seguros",
+          "heading": "Pagamentos com cartão por chip EMV são seguros?",
+          "bodyChars": 2646,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-usar-cartoes-com-chip-emv",
+          "heading": "Como usar cartões com chip EMV",
+          "bodyChars": 2483,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "cartao-de-credito-emv-vs-cartao-de-credito-com-tarja-magnetica",
+          "heading": "Cartão de crédito EMV vs. cartão de crédito com tarja magnética",
+          "bodyChars": 734,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-payments-pode-ajudar",
+          "heading": "Como o Stripe Payments pode ajudar",
+          "bodyChars": 1609,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-sao-cartoes-virtuais-para-empresas-stripeis",
+      "title": "O que são cartões virtuais para empresas? | StripeIssuing",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-um-cartao-virtual",
+          "heading": "O que é um cartão virtual?",
+          "bodyChars": 3367,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "para-que-servem-os-cartoes-virtuais",
+          "heading": "Para que servem os cartões virtuais?",
+          "bodyChars": 3473,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "os-cartoes-virtuais-sao-seguros",
+          "heading": "Os cartões virtuais são seguros?",
+          "bodyChars": 3318,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "vantagens-e-desvantagens-dos-cartoes-virtuais",
+          "heading": "Vantagens e desvantagens dos cartões virtuais",
+          "bodyChars": 3291,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "beneficios-dos-cartoes-virtuais",
+          "heading": "Benefícios dos cartões virtuais",
+          "bodyChars": 3547,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "desvantagens-dos-cartoes-virtuais",
+          "heading": "Desvantagens dos cartões virtuais",
+          "bodyChars": 3034,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-conseguir-um-cartao-virtual-para-sua-empresa",
+          "heading": "Como conseguir um cartão virtual para sua empresa",
+          "bodyChars": 3561,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-o-que-sao-pagamentos-tap-to-pay-e-como-aceita-los",
+      "title": "O que são pagamentos tap to pay e como aceitá-los | StripePayments",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "o-que-e-tap-to-pay",
+          "heading": "O que é tap to pay?",
+          "bodyChars": 1433,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funciona-o-tap-to-pay",
+          "heading": "Como funciona o tap to pay?",
+          "bodyChars": 1466,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tipos-de-pagamentos-por-aproximacao",
+          "heading": "Tipos de pagamentos por aproximação",
+          "bodyChars": 1276,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-tap-to-pay-e-seguro",
+          "heading": "O tap to pay é seguro?",
+          "bodyChars": 1272,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-aceitar-pagamentos-por-tap-to-pay-dos-clientes",
+          "heading": "Como aceitar pagamentos por tap to pay dos clientes",
+          "bodyChars": 963,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "beneficios-de-aceitar-o-tap-to-pay-como-forma-de-pagamento",
+          "heading": "Benefícios de aceitar o tap to pay como forma de pagamento",
+          "bodyChars": 1025,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "rapidez-e-conveniencia",
+          "heading": "Rapidez e conveniência",
+          "bodyChars": 1609,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "confiabilidade-e-durabilidade",
+          "heading": "Confiabilidade e durabilidade",
+          "bodyChars": 1863,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "alta-demanda-dos-consumidores",
+          "heading": "Alta demanda dos consumidores",
+          "bodyChars": 1850,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "melhoria-na-higiene-para-funcionarios-e-clientes",
+          "heading": "Melhoria na higiene para funcionários e clientes",
+          "bodyChars": 1527,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-oito-formas-de-reduzir-estornos-para-sua-empresa-",
+      "title": "Oito formas de reduzir estornos para sua empresa | StripeRadar",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-sao-estornos",
+          "heading": "O que são estornos?",
+          "bodyChars": 1360,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-acontecem-estornos",
+          "heading": "Por que acontecem estornos?",
+          "bodyChars": 1089,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-os-estornos-sao-ruins-para-os-negocios",
+          "heading": "Por que os estornos são ruins para os negócios",
+          "bodyChars": 1818,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "qual-a-quantidade-normal-de-estornos-para-uma-empresa",
+          "heading": "Qual a quantidade normal de estornos para uma empresa?",
+          "bodyChars": 1774,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "oito-formas-de-reduzir-o-numero-de-estornos",
+          "heading": "Oito formas de reduzir o número de estornos:",
+          "bodyChars": 1610,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "priorize-a-seguranca-em-pagamentos-online-e-presenciais",
+          "heading": "Priorize a segurança em pagamentos online e presenciais",
+          "bodyChars": 1499,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "politicas-claras-para-devolucao-e-reembolso",
+          "heading": "Políticas claras para devolução e reembolso",
+          "bodyChars": 1234,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "inventario-online-atualizado",
+          "heading": "Inventário online atualizado",
+          "bodyChars": 1021,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "descricoes-claras-dos-produtos",
+          "heading": "Descrições claras dos produtos.",
+          "bodyChars": 1658,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "esclarecer-os-prazos-de-envio",
+          "heading": "Esclarecer os prazos de envio.",
+          "bodyChars": 1641,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "ser-acessivel",
+          "heading": "Ser acessível",
+          "bodyChars": 2244,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "oferecer-testes-gratis-realmente-gratuitos",
+          "heading": "Oferecer testes grátis realmente gratuitos.",
+          "bodyChars": 2376,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "verificar-se-o-nome-da-sua-empresa-aparece-nos-extratos-do-cartao-de-credito",
+          "heading": "Verificar se o nome da sua empresa aparece nos extratos do cartão de crédito.",
+          "bodyChars": 1643,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-por-que-o-comercio-conversacional-esta-crescendo-",
+      "title": "Por que o comércio conversacional está crescendo no Japão | StripePayments",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-comercio-conversacional",
+          "heading": "O que é comércio conversacional?",
+          "bodyChars": 720,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "diferencas-em-relacao-aos-chatbots",
+          "heading": "Diferenças em relação aos chatbots",
+          "bodyChars": 623,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-o-mercado-de-comercio-conversacional-esta-chamando-atencao",
+          "heading": "Por que o mercado de comércio conversacional está chamando atenção",
+          "bodyChars": 827,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "a-transicao-de-chamadas-telefonicas-para-chats",
+          "heading": "A transição de chamadas telefônicas para chats",
+          "bodyChars": 1828,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "automacao-do-atendimento-ao-cliente-e-suporte-a-compra",
+          "heading": "Automação do atendimento ao cliente e suporte à compra",
+          "bodyChars": 1469,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-tamanho-do-mercado-de-comercio-conversacional",
+          "heading": "O tamanho do mercado de comércio conversacional",
+          "bodyChars": 640,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "japao",
+          "heading": "Japão",
+          "bodyChars": 980,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "global",
+          "heading": "Global",
+          "bodyChars": 902,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "as-vantagens-e-desvantagens-da-adocao-do-comercio-conversacional",
+          "heading": "As vantagens e desvantagens da adoção do comércio conversacional",
+          "bodyChars": 1090,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "vantagens",
+          "heading": "Vantagens",
+          "bodyChars": 519,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "desvantagens",
+          "heading": "Desvantagens",
+          "bodyChars": 519,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "principal-exemplo-do-comercio-conversacional",
+          "heading": "Principal exemplo do comércio conversacional",
+          "bodyChars": 786,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "rakuten-travel",
+          "heading": "Rakuten Travel",
+          "bodyChars": 1046,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-payments-pode-ajudar",
+          "heading": "Como o Stripe Payments pode ajudar",
+          "bodyChars": 1577,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-praticas-recomendadas-de-checkout-para-e-commerce",
+      "title": "Práticas recomendadas de checkout para e-commerce | StripeCheckout",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "criacao-de-uma-experiencia-de-checkout-sem-imprevistos",
+          "heading": "Criação de uma experiência de checkout sem imprevistos",
+          "bodyChars": 1858,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "dicas-para-otimizar-o-checkout",
+          "heading": "Dicas para otimizar o checkout",
+          "bodyChars": 1374,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "siga-as-praticas-recomendadas-de-ux-e-iu-do-site",
+          "heading": "Siga as práticas recomendadas de UX e IU do site",
+          "bodyChars": 1661,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "aceitacao-de-uma-grande-variedade-de-formas-de-pagamento",
+          "heading": "Aceitação de uma grande variedade de formas de pagamento",
+          "bodyChars": 2304,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "permissao-de-checkout-de-convidados",
+          "heading": "Permissão de checkout de convidados",
+          "bodyChars": 1503,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "priorizacao-do-checkout-em-dispositivos-moveis",
+          "heading": "Priorização do checkout em dispositivos móveis",
+          "bodyChars": 1698,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "oferta-de-checkout-em-um-clique",
+          "heading": "Oferta de checkout em um clique",
+          "bodyChars": 1818,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-quando-faturar-um-cliente-praticas-recomendadas-e",
+      "title": "Quando faturar um cliente: Práticas recomendadas e erros | StripeInvoicing",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-fatura",
+          "heading": "O que é uma fatura?",
+          "bodyChars": 1816,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "para-que-servem-as-faturas",
+          "heading": "Para que servem as faturas?",
+          "bodyChars": 1329,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "faturas-de-clientes-quando-voce-deve-envia-las",
+          "heading": "Faturas de clientes: quando você deve enviá-las?",
+          "bodyChars": 1872,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "praticas-recomendadas-e-erros-no-envio-de-faturas",
+          "heading": "Práticas recomendadas e erros no envio de faturas",
+          "bodyChars": 1362,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "praticas-recomendadas-para-faturamento",
+          "heading": "Práticas recomendadas para faturamento",
+          "bodyChars": 1066,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "erros-comuns-a-serem-evitados",
+          "heading": "Erros comuns a serem evitados",
+          "bodyChars": 1355,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-invoicing-pode-ajudar",
+          "heading": "Como o Stripe Invoicing pode ajudar",
+          "bodyChars": 1634,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-quando-voce-deve-buscar-financiamento-de-serie-a-",
+      "title": "Quando você deve buscar financiamento de Série A? | StripeAtlas",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "a-empresa-esta-com-tracao",
+          "heading": "A empresa está com tração",
+          "bodyChars": 1132,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "voce-tem-uma-rede-de-investidores-ativa",
+          "heading": "Você tem uma rede de investidores ativa",
+          "bodyChars": 1186,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "voce-tem-um-crescimento-significativo",
+          "heading": "Você tem um crescimento significativo",
+          "bodyChars": 837,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "seu-produto-demonstrou-se-adequado-ao-mercado",
+          "heading": "Seu produto demonstrou-se adequado ao mercado",
+          "bodyChars": 1370,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "sua-receita-esta-crescendo",
+          "heading": "Sua receita está crescendo",
+          "bodyChars": 965,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "voce-entende-sua-estrategia-de-crescimento",
+          "heading": "Você entende sua estratégia de crescimento",
+          "bodyChars": 1312,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-o-stripe-atlas-pode-ajudar",
+          "heading": "Como o Stripe Atlas pode ajudar",
+          "bodyChars": 928,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-se-inscrever-no-atlas",
+          "heading": "Como se inscrever no Atlas",
+          "bodyChars": 1181,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "aceitar-pagamentos-e-operar-financeiramente-antes-da-chegada-do-ein",
+          "heading": "Aceitar pagamentos e operar financeiramente antes da chegada do EIN",
+          "bodyChars": 1081,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "compra-de-acoes-de-fundador-sem-dinheiro-em-especie",
+          "heading": "Compra de ações de fundador sem dinheiro em espécie",
+          "bodyChars": 1060,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "envio-automatico-da-eleicao-fiscal-83-b",
+          "heading": "Envio automático da eleição fiscal 83(b)",
+          "bodyChars": 683,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "documentos-legais-empresariais-de-padrao-internacional",
+          "heading": "Documentos legais empresariais de padrão internacional",
+          "bodyChars": 1509,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "um-ano-gratuito-de-stripe-payments-alem-de-50-mil-dolares-em-creditos-e-desconto",
+          "heading": "Um ano gratuito de Stripe Payments, além de 50 mil dólares em créditos e descontos de parceiros",
+          "bodyChars": 1170,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-reconciliacao-contabil-o-que-e-e-como-fazer-strip",
+      "title": "Reconciliação contábil: o que é e como fazer | StripeRevenue Recognition",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-reconciliacao-em-contabilidade",
+          "heading": "O que é reconciliação em contabilidade?",
+          "bodyChars": 1275,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tipos-de-reconciliacao-contabil",
+          "heading": "Tipos de reconciliação contábil",
+          "bodyChars": 2257,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-a-reconciliacao-contabil-e-importante-para-as-empresas",
+          "heading": "Por que a reconciliação contábil é importante para as empresas",
+          "bodyChars": 4061,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "praticas-recomendadas-de-reconciliacao-contabil",
+          "heading": "Práticas recomendadas de reconciliação contábil",
+          "bodyChars": 2507,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "reconciliacao-contabil-com-a-stripe",
+          "heading": "Reconciliação contábil com a Stripe",
+          "bodyChars": 4430,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-reconciliacao-de-faturas-tudo-que-as-empresas-dev",
+      "title": "Reconciliação de faturas: tudo que as empresas devem saber | StripeInvoicing",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-reconciliacao-de-faturas",
+          "heading": "O que é reconciliação de faturas?",
+          "bodyChars": 1386,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-funciona-a-reconciliacao-de-faturas",
+          "heading": "Como funciona a reconciliação de faturas?",
+          "bodyChars": 1386,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tipos-de-reconciliacao-de-faturas",
+          "heading": "Tipos de reconciliação de faturas",
+          "bodyChars": 1270,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-a-reconciliacao-de-faturas-e-importante-para-as-empresas",
+          "heading": "Por que a reconciliação de faturas é importante para as empresas",
+          "bodyChars": 1678,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "praticas-recomendadas-para-reconciliacao-de-faturas",
+          "heading": "Práticas recomendadas para reconciliação de faturas",
+          "bodyChars": 1303,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "reconciliacao-de-faturas-com-a-stripe",
+          "heading": "Reconciliação de faturas com a Stripe",
+          "bodyChars": 1693,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-recursos-de-contabilidade-stripe",
+      "title": "Recursos de contabilidade | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Recursos de contabilidade | Stripe",
+          "bodyChars": 1370,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-recursos-de-faturamento-stripe",
+      "title": "Recursos de faturamento | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Recursos de faturamento | Stripe",
+          "bodyChars": 336,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-recursos-de-pagamento-stripe",
+      "title": "Recursos de pagamento | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Recursos de pagamento | Stripe",
+          "bodyChars": 1730,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-recursos-fiscais-stripe",
+      "title": "Recursos fiscais | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Recursos fiscais | Stripe",
+          "bodyChars": 2823,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-recursos-para-formacao-de-empresas-stripe",
+      "title": "Recursos para formação de empresas | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Recursos para formação de empresas | Stripe",
+          "bodyChars": 396,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-recursos-para-startups-stripe",
+      "title": "Recursos para startups | Stripe",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "conteudo-principal",
+          "heading": "Recursos para startups | Stripe",
+          "bodyChars": 1009,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-retencao-de-receita-liquida-nrr-para-empresas-de-",
+      "title": "Retenção de receita líquida (NRR) para empresas de SaaS | StripeStripe Sigma",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-retencao-de-receita-liquida",
+          "heading": "O que é retenção de receita líquida?",
+          "bodyChars": 1255,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-calcular-a-retencao-de-receita-liquida",
+          "heading": "Como calcular a retenção de receita líquida",
+          "bodyChars": 2014,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "retencao-de-receita-liquida-x-retencao-de-receita-bruta",
+          "heading": "Retenção de receita líquida x retenção de receita bruta",
+          "bodyChars": 1435,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "benchmarks-de-retencao-de-receita-liquida",
+          "heading": "Benchmarks de retenção de receita líquida",
+          "bodyChars": 1226,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "o-que-e-uma-boa-taxa-de-retencao-de-receita-liquida",
+          "heading": "O que é uma boa taxa de retenção de receita líquida?",
+          "bodyChars": 2866,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-a-retencao-de-receita-liquida-e-importante-para-empresas-de-saas",
+          "heading": "Por que a retenção de receita líquida é importante para empresas de SaaS",
+          "bodyChars": 1057,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "what-is-a-good-net-revenue-retention-rate",
+          "heading": "What is a good net revenue retention rate?",
+          "bodyChars": 1131,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "why-net-revenue-retention-is-important-for-saas-businesses",
+          "heading": "Why net revenue retention is important for SaaS businesses",
+          "bodyChars": 860,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "how-to-increase-net-revenue-retention",
+          "heading": "How to increase net revenue retention",
+          "bodyChars": 1129,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "revenue-retention-with-stripe-billing",
+          "heading": "Revenue retention with Stripe Billing",
+          "bodyChars": 2046,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-a-stripe-pode-ajudar",
+          "heading": "Como a Stripe pode ajudar",
+          "bodyChars": 2900,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-transacoes-sem-apresentacao-de-cartao-cnp-stripep",
+      "title": "Transações sem apresentação de cartão (CNP) | StripePayments",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-uma-transacao-cnp",
+          "heading": "O que é uma transação CNP?",
+          "bodyChars": 968,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-que-as-transacoes-cnp-apresentam-risco-de-fraude",
+          "heading": "Por que as transações CNP apresentam risco de fraude",
+          "bodyChars": 1482,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-aceitar-transacoes-cnp-com-seguranca",
+          "heading": "Como aceitar transações CNP com segurança:",
+          "bodyChars": 1370,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "online",
+          "heading": "Online",
+          "bodyChars": 2569,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "por-telefone",
+          "heading": "Por telefone",
+          "bodyChars": 2248,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "presencial-e-manualmente",
+          "heading": "Presencial e manualmente",
+          "bodyChars": 2538,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tarifas-e-custos-de-processamento-de-transacoes-cnp",
+          "heading": "Tarifas e custos de processamento de transações CNP",
+          "bodyChars": 716,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "how-stripe-payments-can-help",
+          "heading": "How Stripe Payments can help",
+          "bodyChars": 1089,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-treze-dicas-essenciais-para-fazer-apresentacoes-a",
+      "title": "Treze dicas essenciais para fazer apresentações a venture capitalists | StripeAtlas",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "1-explique-a-oportunidade-nos-primeiros-cinco-minutos",
+          "heading": "1. Explique a oportunidade nos primeiros cinco minutos",
+          "bodyChars": 1802,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "2-deixe-a-apresentacao-interativa",
+          "heading": "2. Deixe a apresentação interativa",
+          "bodyChars": 1185,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "3-evite-ler-a-apresentacao",
+          "heading": "3. Evite ler a apresentação",
+          "bodyChars": 1573,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "4-transforme-a-reuniao-em-uma-avaliacao-mutua",
+          "heading": "4. Transforme a reunião em uma avaliação mútua",
+          "bodyChars": 1302,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "5-exalte-a-sua-equipe",
+          "heading": "5. Exalte a sua equipe",
+          "bodyChars": 1391,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "6-tenha-uma-visao-de-futuro-grande-ousada-e-ambiciosa",
+          "heading": "6. Tenha uma visão de futuro grande, ousada e ambiciosa",
+          "bodyChars": 1142,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "7-seja-especifico-sobre-o-seu-mercado-em-potencial",
+          "heading": "7. Seja específico sobre o seu mercado em potencial",
+          "bodyChars": 1979,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "8-conheca-a-concorrencia-e-o-que-diferencia-voce",
+          "heading": "8. Conheça a concorrência e o que diferencia você",
+          "bodyChars": 895,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "9-admita-que-nao-sabe-tudo",
+          "heading": "9. Admita que não sabe tudo",
+          "bodyChars": 1521,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "10-pratique-pratique-muito",
+          "heading": "10. Pratique, pratique muito",
+          "bodyChars": 1415,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "11-fale-claramente-sobre-dinheiro",
+          "heading": "11. Fale claramente sobre dinheiro",
+          "bodyChars": 1361,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "12-seja-breve",
+          "heading": "12. Seja breve",
+          "bodyChars": 1442,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "13-tenha-outras-demandas-alem-de-dinheiro",
+          "heading": "13. Tenha outras demandas além de dinheiro",
+          "bodyChars": 1232,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "stripe-com-um-guia-sobre-o-nexo-do-imposto-sobre-vendas-stri",
+      "title": "Um guia sobre o nexo do imposto sobre vendas | StripeTax",
+      "category": "fundamentos",
+      "sections": [
+        {
+          "anchorId": "o-que-e-o-imposto-de-nexo",
+          "heading": "O que é o imposto de nexo?",
+          "bodyChars": 1077,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "tipos-de-nexo-do-imposto-sobre-vendas",
+          "heading": "Tipos de nexo do imposto sobre vendas",
+          "bodyChars": 1194,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "nexo-do-imposto-sobre-vendas",
+          "heading": "Nexo do imposto sobre vendas",
+          "bodyChars": 1419,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "criterios-para-estabelecer-o-nexo-do-imposto-sobre-vendas",
+          "heading": "Critérios para estabelecer o nexo do imposto sobre vendas",
+          "bodyChars": 1956,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "impacto-do-nexo-do-imposto-sobre-vendas-nas-empresas",
+          "heading": "Impacto do nexo do imposto sobre vendas nas empresas",
+          "bodyChars": 1676,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "etapas-que-as-empresas-podem-seguir-para-cumprir-as-leis-do-nexo-do-imposto-sobr",
+          "heading": "Etapas que as empresas podem seguir para cumprir as leis do nexo do imposto sobre vendas",
+          "bodyChars": 1973,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "como-a-stripe-pode-ajudar",
+          "heading": "Como a Stripe pode ajudar",
+          "bodyChars": 3146,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "chunkId": "tap-to-mobile-guidelines",
+      "title": "Diretrizes Tap to Mobile",
+      "category": "contactless",
+      "sections": [
+        {
+          "anchorId": "requisitos-dispositivo",
+          "heading": "Requisitos do dispositivo",
+          "bodyChars": 663,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "ux-pagamento",
+          "heading": "UX de pagamento",
+          "bodyChars": 703,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        },
+        {
+          "anchorId": "attestation",
+          "heading": "Attestation e integridade",
+          "bodyChars": 1012,
+          "englishRatio": 0,
+          "englishProse": false,
+          "status": "ok"
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

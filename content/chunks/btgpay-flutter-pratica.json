@@ -45,9 +45,9 @@
     "content\\raw\\pdfs\\TapToMobile-Guidelines-v1.1.json"
   ],
   "enrichedChars": 44349,
-  "synthesizedAt": "2026-06-22T16:14:40.547Z",
+  "synthesizedAt": "2026-06-22T16:26:40.774Z",
   "synthesisLocale": "pt-BR",
-  "verificationStatus": "pending",
+  "verificationStatus": "gaps",
   "synthesizedFrom": [
     "content/raw/pdfs/TapToMobile-Guidelines-v1.1.json"
   ]
