@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import Link from "next/link";
+import { HubLink } from "@/presentation/components/HubLink";
 import type { QuizLevel, QuizQuestion } from "@/domain/entities";
 import { drawQuizBatch, getSourceLink } from "@/application/quiz/DrawQuizBatch";
 import { LocalStorageProgressStore } from "@/infrastructure/LocalStorageProgressStore";
@@ -139,12 +139,12 @@ export function QuizRunner({ level, questions }: QuizRunnerProps) {
           >
             {selected === q.correctIndex ? "Correto!" : "Incorreto."} {q.explanation}
           </p>
-          <Link
+          <HubLink
             href={getSourceLink(q.sourceChunkId, q.anchorId)}
             className="font-mono text-xs tracking-widest underline underline-offset-4 inline-block"
           >
             VER NO MATERIAL FONTE
-          </Link>
+          </HubLink>
           <div>
             <button
               type="button"

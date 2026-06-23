@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { HubLink } from "@/presentation/components/HubLink";
 import type { QuizLevel } from "@/domain/entities";
 import { formatAccessLabel } from "@/application/dates/formatAccessLabel";
 import { LocalStorageProgressStore } from "@/infrastructure/LocalStorageProgressStore";
@@ -23,7 +23,7 @@ export function QuizLevelCard({ id, title, desc }: QuizLevelCardProps) {
   const cycle = deck?.cycle ?? 0;
 
   return (
-    <Link
+    <HubLink
       href={`/quiz/${id}/`}
       className="block"
       onClick={() => store.recordQuizView(id)}
@@ -54,6 +54,6 @@ export function QuizLevelCard({ id, title, desc }: QuizLevelCardProps) {
           10 perguntas →
         </span>
       </BrutalCard>
-    </Link>
+    </HubLink>
   );
 }

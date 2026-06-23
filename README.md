@@ -300,7 +300,17 @@ Test-Path out/index.html
 
 Deve retornar `True`.
 
-## Agentes Cursor
+### Troubleshooting: cliques não navegam (fica na home)
+
+Sintoma: a home carrega, mas links internos (TRILHAS, QUIZ, cards) não mudam de página.
+
+**Causa:** export estático + `next/link` intercepta o clique e espera payload RSC (`.txt`). Em CDN estática, requisições com header `RSC: 1` podem receber HTML em vez do payload — o router trava sem erro visível.
+
+**Correção no código:** o hub usa `HubLink` (`<a>` nativo) em vez de `next/link`, garantindo navegação por reload completo.
+
+**Correção no deploy:** o `vercel.json` da raiz inclui rewrites que mapeiam requisições RSC para `index.txt` (útil se voltar a usar client router).
+
+Após o fix, faça **Redeploy** na Vercel.
 
 No workspace freelancer, use o comando `/emv-hub` para orquestrar o pipeline de conteúdo e curadoria. Subagentes relacionados:
 

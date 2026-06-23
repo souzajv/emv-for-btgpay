@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { HubLink } from "@/presentation/components/HubLink";
 import { cn } from "@/presentation/lib/cn";
 
 const baseClass =
@@ -34,9 +34,9 @@ export function BrutalButton(props: BrutalButtonProps) {
 
   if ("href" in props && props.href) {
     return (
-      <Link href={props.href} className={className}>
+      <HubLink href={props.href} className={className}>
         {props.children}
-      </Link>
+      </HubLink>
     );
   }
 

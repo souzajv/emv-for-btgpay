@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { HubLink } from "@/presentation/components/HubLink";
 import type { TrackModule } from "@/domain/entities";
 import { formatAccessLabel } from "@/application/dates/formatAccessLabel";
 import {
@@ -49,7 +49,7 @@ export function TrackModuleCard({
   const primaryTitle = chunks[0]?.title ?? "Material";
 
   return (
-    <Link
+    <HubLink
       href={href}
       className="block group"
       aria-label={`Módulo ${index + 1}: ${module.title}. Ler ${primaryTitle}`}
@@ -98,6 +98,6 @@ export function TrackModuleCard({
           </p>
         )}
       </BrutalCard>
-    </Link>
+    </HubLink>
   );
 }

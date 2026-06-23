@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { HubLink } from "@/presentation/components/HubLink";
 
 const NAV = [
   { label: "TRILHAS", href: "/trilhas/" },
@@ -13,21 +13,21 @@ export function Navbar() {
         className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-2"
         aria-label="Principal"
       >
-        <Link href="/" className="flex items-center gap-2 group min-w-0">
+        <HubLink href="/" className="flex items-center gap-2 group min-w-0">
           <span className="font-mono font-semibold tracking-widest shrink-0">BTGPAY</span>
           <span className="hidden sm:inline font-mono text-xs text-muted truncate">
             Hub de estudo EMV
           </span>
-        </Link>
+        </HubLink>
         <div className="flex items-center gap-2 sm:gap-5 md:gap-7 shrink-0">
           {NAV.map((n) => (
-            <Link
+            <HubLink
               key={n.label}
               href={n.href}
               className="font-mono text-[10px] sm:text-xs tracking-widest text-muted hover:text-ink hover:underline underline-offset-4 transition-colors"
             >
               {n.label}
-            </Link>
+            </HubLink>
           ))}
         </div>
       </nav>

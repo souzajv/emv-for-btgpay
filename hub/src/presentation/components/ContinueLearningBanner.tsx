@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { HubLink } from "@/presentation/components/HubLink";
 import type { LearningTrack } from "@/domain/entities";
 import { formatAccessLabel } from "@/application/dates/formatAccessLabel";
 import {
@@ -93,7 +93,7 @@ export function TrackListContinueHint({ trackSlug, className }: TrackListContinu
   if (last?.kind !== "material" || last.trackSlug !== trackSlug) return null;
 
   return (
-    <Link
+    <HubLink
       href={`/trilhas/${trackSlug}/`}
       className={className}
     >
@@ -102,6 +102,6 @@ export function TrackListContinueHint({ trackSlug, className }: TrackListContinu
         variant="last-module"
         accessedAt={last.accessedAt}
       />
-    </Link>
+    </HubLink>
   );
 }

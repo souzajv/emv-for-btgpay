@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { HubLink } from "@/presentation/components/HubLink";
 import { useEffect, useState } from "react";
 import type { LearningTrack } from "@/domain/entities";
 import { formatAccessLabel } from "@/application/dates/formatAccessLabel";
@@ -46,7 +46,7 @@ export function TrackProgressCard({ track }: TrackProgressCardProps) {
   };
 
   return (
-    <Link
+    <HubLink
       href={`/trilhas/${track.slug}/`}
       className="block h-full"
       onClick={handleOpen}
@@ -90,6 +90,6 @@ export function TrackProgressCard({ track }: TrackProgressCardProps) {
           {track.modules.length} módulos
         </p>
       </BrutalCard>
-    </Link>
+    </HubLink>
   );
 }

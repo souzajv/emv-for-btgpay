@@ -2,5 +2,17 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "cd hub && npm install",
   "buildCommand": "cd hub && npm run build",
-  "outputDirectory": "hub/out"
+  "outputDirectory": "hub/out",
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [{ "type": "header", "key": "RSC", "value": "1" }],
+      "destination": "/index.txt"
+    },
+    {
+      "source": "/:path((?!_next/).*)/",
+      "has": [{ "type": "header", "key": "RSC", "value": "1" }],
+      "destination": "/:path/index.txt"
+    }
+  ]
 }
